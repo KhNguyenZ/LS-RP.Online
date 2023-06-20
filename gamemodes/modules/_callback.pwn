@@ -51,13 +51,13 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			{
 				if(isnull(inputtext))
 				{
-					new login_string[1280];
+					new login_string[128];
 					format(login_string, sizeof(login_string), "{ffffff}Chao mung {3366ff}%s{ffffff} tro lai voi {3366ff}LS-RP{ffffff}\nVui long nhap mat khau", player_get_name(playerid, 1));
 					ShowPlayerDialog(playerid, DLG_LOGIN,DIALOG_STYLE_INPUT, "Dang Nhap", login_string, ">>", "<<");
 				}
 				else if(!strcmp(account_get_password(player_get_name(playerid, false)), inputtext))
 				{
-					new queryzzz[1280], Cache:acc_cache;
+					new queryzzz[128], Cache:acc_cache;
 					mysql_format(Handle(), queryzzz, sizeof(queryzzz), "SELECT * FROM `accounts` WHERE `Username` = '%s'", player_get_name(playerid, false));
 					acc_cache = mysql_query(Handle(), queryzzz);
 					if(cache_num_rows())
@@ -65,12 +65,12 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 						cache_get_value_name_int(0,"id", Character[playerid][char_account_id]);
 					}
 					cache_delete(acc_cache);
-					HideLoginPTD(playerid)
+					HideLoginPTD(playerid);
 					character_Select(playerid);
 				}
 				else 
 				{
-					new login_string[1280];
+					new login_string[128];
 					format(login_string, sizeof(login_string), "{ffffff}Chao mung {3366ff}%s{ffffff} tro lai voi {3366ff}LS-RP{ffffff}\n{FF0000FF}Mat khau sai !{FFFFFF}", player_get_name(playerid, 1));
 					ShowPlayerDialog(playerid, DLG_LOGIN,DIALOG_STYLE_INPUT, "Dang Nhap", login_string, ">>", "<<");
 				}

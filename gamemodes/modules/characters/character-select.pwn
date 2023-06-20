@@ -1,6 +1,3 @@
-#include "./modules/ser-functions.pwn"
-#include ".\modules\characters\character.pwn"
-
 static character_Name_data[MAX_PLAYERS][3][24];
 stock character_Select(const playerid) 
 {

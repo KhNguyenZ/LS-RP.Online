@@ -58,7 +58,8 @@ new const HostNameChange[][]= {
 	{"Chuc ban trai nghiem may chu cua chung toi vui ve"},
 	{"OMPVN:Roleplay Dang cap nhap vai"}
 };
-callback:ChangeHostname(playerid)
+forward ChangeHostname(playerid);
+public ChangeHostname(playerid)
 {
 	new change[1280];
 	format(change, sizeof(change),"hostname \t%s",HostNameChange[random(sizeof(HostNameChange))]);

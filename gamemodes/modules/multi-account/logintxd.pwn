@@ -1,7 +1,5 @@
 #include <YSI_Coding\y_hooks>
 
-new PlayerText: LoginPTD[MAX_PLAYERS][9];
-
 hook OnPlayerConnect(playerid){
 	LoginPTD[playerid][0] = CreatePlayerTextDraw(playerid, 259.500, 187.500, "LD_SPAC:white");
 	PlayerTextDrawTextSize(playerid, LoginPTD[playerid][0], 120.000, 36.000);

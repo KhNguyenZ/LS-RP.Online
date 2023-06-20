@@ -41,7 +41,8 @@ stock ReloadDoor(doorid)
 	DoorInfo[doorid][door_pickup] = CreateDynamicPickup(DoorInfo[doorid][door_pickup], 1,DoorInfo[doorid][door_ExPos][0],DoorInfo[doorid][door_ExPos][1],DoorInfo[doorid][door_ExPos][2]-1, .worldid = DoorInfo[doorid][door_ExVW], .interiorid = DoorInfo[doorid][door_ExInterior]);
 	return 1;
 }
-callback:Doors_Load()
+forward Doors_Load();
+public Doors_Load()
 {
 	new door_counts;
 	cache_get_row_count(door_counts);
@@ -113,7 +114,8 @@ CMD:taodoor(playerid, params[])
 	mysql_tquery(Handle(),queryzzzzz, "OnAdminDoorCreate", "iisfff", playerid, iddoor,name, dPos[0], dPos[1], dPos[2]);
 	return 1;
 }
-callback:OnAdminDoorCreate(playerid, iddoor,name[], x,y,z)
+forward OnAdminDoorCreate(playerid, iddoor,name[], x,y,z);
+public OnAdminDoorCreate(playerid, iddoor,name[], x,y,z)
 {
 	strcat(DoorInfo[iddoor][door_name], name, 40);
 	DoorInfo[iddoor][door_id] = iddoor;

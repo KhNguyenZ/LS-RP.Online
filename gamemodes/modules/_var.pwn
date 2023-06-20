@@ -6,5 +6,4 @@ enum
 	dialog_charCreate,
 }
 
-new PlayerText:scm_PTD[MAX_PLAYERS];
-new HienThi[MAX_PLAYERS];
+new PlayerText:LoginPTD[MAX_PLAYERS][9];

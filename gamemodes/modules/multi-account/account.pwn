@@ -1,10 +1,3 @@
-// #include <UUID>
-
-#include "./modules/mysql.pwn"
-#include "./modules/ser-dialog_id.pwn"
-#include "./modules/ser-functions.pwn"
-#include "./modules/characters/character-select.pwn"
-
 const MAX_PASSWORD_LEN = 32;
 
 #include <YSI\y_hooks>

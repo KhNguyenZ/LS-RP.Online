@@ -8,6 +8,8 @@
 #undef MAX_PLAYERS
 #define MAX_PLAYERS 500
 
+#pragma warning disable 213
+
 #define  			MYSQL_HOST				"localhost"
 #define  			MYSQL_USER				"root"
 #define  			MYSQL_PASS				""
@@ -29,11 +31,23 @@ main()
         SendRconCommand("exit");
 	}
 }
-#include "./modules/multi-account/account.pwn"
+#include "./modules/mysql.pwn"
+#include "./modules/_var.pwn"
+#include "./modules/_defines.pwn"
+#include "./modules/_functions.pwn"
+#include "./modules/_callback.pwn"
+#include "./modules/_core.pwn"
+// login
+#include "./modules/multi-account/logintxd.pwn"
+// character
 #include "./modules/characters/character.pwn"
+#include "./modules/characters/character-select.pwn"
 #include "./modules/characters/character-admin.pwn"
-#include "./modules/Core.pwn"
+// core login
+#include "./modules/multi-account/account.pwn"
+// core server
 #include "./modules/server/radio.pwn"
+// dynamic
 #include "./modules/dynamic/doors.pwn"
 
 public OnGameModeExit()

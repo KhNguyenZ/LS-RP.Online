@@ -9,7 +9,6 @@ MySQL: Handle()
 	return MySQL:iDatabase;
 }
 
-#define  callback:%0(%1)  	forward %0(%1);   public %0(%1)
 hook OnGameModeInit() 
 {
 	iDatabase = mysql_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASS, MYSQL_DB);
@@ -25,7 +24,8 @@ hook OnGameModeInit()
 }
 
 
-callback:ReturnExitGamemode_()
+forward ReturnExitGamemode_();
+public ReturnExitGamemode_()
 {
 	SendRconCommand("exit");
 }
