@@ -50,6 +50,8 @@ main()
 // dynamic
 #include "./modules/dynamic/doors.pwn"
 
+//map
+#include "./modules/Maps/Taxi.pwn"
 public OnGameModeExit()
 {
 	mysql_close(Handle());

@@ -27,3 +27,4 @@ enum character_Info
 new Character[MAX_PLAYERS][character_Info];
 
 new PlayerSetupping[MAX_PLAYERS];
+new PlayerText:SpawnNewbiePTD[MAX_PLAYERS][7];
