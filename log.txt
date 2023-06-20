@@ -21051,3 +21051,1397 @@ Parsing unknown legacy option usearwork
 [2023-06-2023:39:10] [Info]  ===============================
 
 [2023-06-2023:39:10] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T01:51:09+0700] [Info] Loading plugin: crashdetect
+[2023-06-21T01:51:10+0700] [Info]   CrashDetect plugin 4.20
+[2023-06-21T01:51:10+0700] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[2023-06-21T01:51:10+0700] [Info] Loading plugin: mysql
+[2023-06-21T01:51:12+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T01:51:12+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T01:51:12+0700] [Info]  
+[2023-06-21T01:51:12+0700] [Info]  ==================
+[2023-06-21T01:51:12+0700] [Info]  
+[2023-06-21T01:51:12+0700] [Info]   Whirlpool loaded
+[2023-06-21T01:51:12+0700] [Info]  
+[2023-06-21T01:51:12+0700] [Info]  ==================
+[2023-06-21T01:51:12+0700] [Info]  
+[2023-06-21T01:51:12+0700] [Info] Loading plugin: sscanf
+[2023-06-21T01:51:12+0700] [Info] 
+
+[2023-06-21T01:51:12+0700] [Info]  ===============================
+
+[2023-06-21T01:51:12+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T01:51:12+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T01:51:12+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T01:51:12+0700] [Info]  ===============================
+
+[2023-06-21T01:51:12+0700] [Info] Loading plugin: streamer
+[2023-06-21T01:51:13+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T01:51:14+0700] [Info] AMX (53200424) loaded
+[2023-06-21T01:51:14+0700] [Info]  
+[2023-06-21T01:51:14+0700] [Info]  
+[2023-06-21T01:51:14+0700] [Info]  
+[2023-06-21T01:51:14+0700] [Info]  ======================================= 
+[2023-06-21T01:51:14+0700] [Info]  |                                     | 
+[2023-06-21T01:51:14+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T01:51:14+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T01:51:14+0700] [Info]  |                                     | 
+[2023-06-21T01:51:14+0700] [Info]  ======================================= 
+[2023-06-21T01:51:14+0700] [Info]  
+[2023-06-21T01:51:14+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T01:51:14+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T01:51:14+0700] [Info] [debug] #0 000037b4 in ?? () in main.amx
+[2023-06-21T01:51:14+0700] [Info] [debug] #1 000038b0 in ?? (53) in main.amx
+[2023-06-21T01:51:14+0700] [Info] [debug] #2 00005178 in ?? (35815120) in main.amx
+[2023-06-21T01:51:14+0700] [Info] [debug] #3 00005458 in ?? (35815120) in main.amx
+[2023-06-21T01:51:14+0700] [Info] [debug] #4 000057bc in ?? () in main.amx
+[2023-06-21T01:51:14+0700] [Info] [debug] #5 0000c1ac in ?? () in main.amx
+[2023-06-21T01:51:14+0700] [Info] [debug] #6 0000ae50 in public AMX_OnScriptInit () in main.amx
+[2023-06-21T01:51:14+0700] [Info] [debug] #7 00008e80 in public Debug_OnScriptInit () in main.amx
+[2023-06-21T01:51:14+0700] [Info] [debug] #8 00000e64 in public YVers_OnScriptInit () in main.amx
+[2023-06-21T01:51:14+0700] [Info] [debug] #9 0000064c in public ScriptInit_OnScriptInit () in main.amx
+[2023-06-21T01:51:14+0700] [Info] [debug] #10 00000324 in public OnGameModeInit () in main.amx
+[2023-06-21T01:51:16+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T01:51:17+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T01:51:17+0700] [Info] Loaded Door ID:0
+[2023-06-21T01:51:17+0700] [Info] Loaded Door ID:1
+[2023-06-21T01:51:17+0700] [Info] Loaded Door ID:2
+[2023-06-21T01:51:17+0700] [Info] Loaded Door ID:3
+[2023-06-21T01:51:17+0700] [Info] Loaded Door ID:4
+[2023-06-21T01:51:17+0700] [Info] Loaded Door ID:5
+[2023-06-21T01:51:17+0700] [Info] Loaded Door ID:6
+[2023-06-21T01:51:17+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T01:51:17+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T01:51:33+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T01:59:06+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T01:59:06+0700] [Info] 
+
+[2023-06-21T01:59:06+0700] [Info]  ===============================
+
+[2023-06-21T01:59:06+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T01:59:06+0700] [Info]  ===============================
+
+[2023-06-21T01:59:06+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T01:59:27+0700] [Info] Loading plugin: crashdetect
+[2023-06-21T01:59:27+0700] [Info]   CrashDetect plugin 4.20
+[2023-06-21T01:59:28+0700] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[2023-06-21T01:59:28+0700] [Info] Loading plugin: mysql
+[2023-06-21T01:59:28+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T01:59:28+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T01:59:28+0700] [Info]  
+[2023-06-21T01:59:28+0700] [Info]  ==================
+[2023-06-21T01:59:28+0700] [Info]  
+[2023-06-21T01:59:28+0700] [Info]   Whirlpool loaded
+[2023-06-21T01:59:28+0700] [Info]  
+[2023-06-21T01:59:28+0700] [Info]  ==================
+[2023-06-21T01:59:28+0700] [Info]  
+[2023-06-21T01:59:28+0700] [Info] Loading plugin: sscanf
+[2023-06-21T01:59:28+0700] [Info] 
+
+[2023-06-21T01:59:28+0700] [Info]  ===============================
+
+[2023-06-21T01:59:28+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T01:59:28+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T01:59:28+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T01:59:28+0700] [Info]  ===============================
+
+[2023-06-21T01:59:28+0700] [Info] Loading plugin: streamer
+[2023-06-21T01:59:28+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T01:59:28+0700] [Info] AMX (42993352) loaded
+[2023-06-21T01:59:28+0700] [Info]  
+[2023-06-21T01:59:28+0700] [Info]  
+[2023-06-21T01:59:28+0700] [Info]  
+[2023-06-21T01:59:28+0700] [Info]  ======================================= 
+[2023-06-21T01:59:28+0700] [Info]  |                                     | 
+[2023-06-21T01:59:28+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T01:59:28+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T01:59:28+0700] [Info]  |                                     | 
+[2023-06-21T01:59:28+0700] [Info]  ======================================= 
+[2023-06-21T01:59:28+0700] [Info]  
+[2023-06-21T01:59:28+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T01:59:28+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T01:59:28+0700] [Info] [debug] #0 000037b4 in ?? () in main.amx
+[2023-06-21T01:59:28+0700] [Info] [debug] #1 000038b0 in ?? (53) in main.amx
+[2023-06-21T01:59:28+0700] [Info] [debug] #2 00005178 in ?? (35819176) in main.amx
+[2023-06-21T01:59:28+0700] [Info] [debug] #3 00005458 in ?? (35819176) in main.amx
+[2023-06-21T01:59:28+0700] [Info] [debug] #4 000057bc in ?? () in main.amx
+[2023-06-21T01:59:28+0700] [Info] [debug] #5 0000c1ac in ?? () in main.amx
+[2023-06-21T01:59:28+0700] [Info] [debug] #6 0000ae50 in public AMX_OnScriptInit () in main.amx
+[2023-06-21T01:59:28+0700] [Info] [debug] #7 00008e80 in public Debug_OnScriptInit () in main.amx
+[2023-06-21T01:59:28+0700] [Info] [debug] #8 00000e64 in public YVers_OnScriptInit () in main.amx
+[2023-06-21T01:59:28+0700] [Info] [debug] #9 0000064c in public ScriptInit_OnScriptInit () in main.amx
+[2023-06-21T01:59:28+0700] [Info] [debug] #10 00000324 in public OnGameModeInit () in main.amx
+[2023-06-21T01:59:29+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T01:59:30+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T01:59:30+0700] [Info] Loaded Door ID:0
+[2023-06-21T01:59:30+0700] [Info] Loaded Door ID:1
+[2023-06-21T01:59:30+0700] [Info] Loaded Door ID:2
+[2023-06-21T01:59:31+0700] [Info] Loaded Door ID:3
+[2023-06-21T01:59:31+0700] [Info] Loaded Door ID:4
+[2023-06-21T01:59:31+0700] [Info] Loaded Door ID:5
+[2023-06-21T01:59:31+0700] [Info] Loaded Door ID:6
+[2023-06-21T01:59:31+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T01:59:31+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T01:59:45+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T02:01:24+0700] [Info] [connection] incoming connection: 127.0.0.1:62762 id: 0
+[2023-06-21T02:01:24+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T02:02:18+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T02:02:18+0700] [Info] 
+
+[2023-06-21T02:02:18+0700] [Info]  ===============================
+
+[2023-06-21T02:02:18+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T02:02:18+0700] [Info]  ===============================
+
+[2023-06-21T02:02:18+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T02:02:40+0700] [Info] Loading plugin: crashdetect
+[2023-06-21T02:02:40+0700] [Info]   CrashDetect plugin 4.20
+[2023-06-21T02:02:40+0700] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[2023-06-21T02:02:40+0700] [Info] Loading plugin: mysql
+[2023-06-21T02:02:40+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T02:02:40+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T02:02:40+0700] [Info]  
+[2023-06-21T02:02:40+0700] [Info]  ==================
+[2023-06-21T02:02:40+0700] [Info]  
+[2023-06-21T02:02:40+0700] [Info]   Whirlpool loaded
+[2023-06-21T02:02:40+0700] [Info]  
+[2023-06-21T02:02:40+0700] [Info]  ==================
+[2023-06-21T02:02:40+0700] [Info]  
+[2023-06-21T02:02:40+0700] [Info] Loading plugin: sscanf
+[2023-06-21T02:02:40+0700] [Info] 
+
+[2023-06-21T02:02:40+0700] [Info]  ===============================
+
+[2023-06-21T02:02:40+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T02:02:40+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T02:02:40+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T02:02:40+0700] [Info]  ===============================
+
+[2023-06-21T02:02:40+0700] [Info] Loading plugin: streamer
+[2023-06-21T02:02:40+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T02:02:41+0700] [Info] AMX (41698496) loaded
+[2023-06-21T02:02:41+0700] [Info]  
+[2023-06-21T02:02:41+0700] [Info]  
+[2023-06-21T02:02:41+0700] [Info]  
+[2023-06-21T02:02:41+0700] [Info]  ======================================= 
+[2023-06-21T02:02:41+0700] [Info]  |                                     | 
+[2023-06-21T02:02:41+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T02:02:41+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T02:02:41+0700] [Info]  |                                     | 
+[2023-06-21T02:02:41+0700] [Info]  ======================================= 
+[2023-06-21T02:02:41+0700] [Info]  
+[2023-06-21T02:02:41+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:02:41+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:02:41+0700] [Info] [debug] #0 000037b4 in ?? () in main.amx
+[2023-06-21T02:02:41+0700] [Info] [debug] #1 000038b0 in ?? (53) in main.amx
+[2023-06-21T02:02:41+0700] [Info] [debug] #2 00005178 in ?? (35819176) in main.amx
+[2023-06-21T02:02:41+0700] [Info] [debug] #3 00005458 in ?? (35819176) in main.amx
+[2023-06-21T02:02:41+0700] [Info] [debug] #4 000057bc in ?? () in main.amx
+[2023-06-21T02:02:41+0700] [Info] [debug] #5 0000c1ac in ?? () in main.amx
+[2023-06-21T02:02:41+0700] [Info] [debug] #6 0000ae50 in public AMX_OnScriptInit () in main.amx
+[2023-06-21T02:02:41+0700] [Info] [debug] #7 00008e80 in public Debug_OnScriptInit () in main.amx
+[2023-06-21T02:02:41+0700] [Info] [debug] #8 00000e64 in public YVers_OnScriptInit () in main.amx
+[2023-06-21T02:02:41+0700] [Info] [debug] #9 0000064c in public ScriptInit_OnScriptInit () in main.amx
+[2023-06-21T02:02:41+0700] [Info] [debug] #10 00000324 in public OnGameModeInit () in main.amx
+[2023-06-21T02:02:42+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T02:02:42+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T02:02:42+0700] [Info] Loaded Door ID:0
+[2023-06-21T02:02:42+0700] [Info] Loaded Door ID:1
+[2023-06-21T02:02:42+0700] [Info] Loaded Door ID:2
+[2023-06-21T02:02:42+0700] [Info] Loaded Door ID:3
+[2023-06-21T02:02:42+0700] [Info] Loaded Door ID:4
+[2023-06-21T02:02:42+0700] [Info] Loaded Door ID:5
+[2023-06-21T02:02:42+0700] [Info] Loaded Door ID:6
+[2023-06-21T02:02:42+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T02:02:42+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T02:02:46+0700] [Info] [connection] incoming connection: 127.0.0.1:55581 id: 0
+[2023-06-21T02:02:46+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T02:02:46+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T02:02:46+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T02:02:46+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:02:46+0700] [Info] [debug] #0 0003e9ec in ?? (0) in main.amx
+[2023-06-21T02:02:46+0700] [Info] [debug] #1 00042a6c in public OnAccountCheck (0) in main.amx
+[2023-06-21T02:02:57+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T02:03:05+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T02:03:05+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T02:03:05+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:03:05+0700] [Info] [debug] #0 0003eb54 in ?? (0) in main.amx
+[2023-06-21T02:03:05+0700] [Info] [debug] #1 0003b860 in public OnPlayerClickPlayerTextDraw (0, 8) in main.amx
+[2023-06-21T02:03:05+0700] [Error] Array index out of bounds
+[2023-06-21T02:03:48+0700] [Info] [part] Khoi_Nguyenz has left the server (0:1)
+[2023-06-21T02:05:15+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T02:05:15+0700] [Info] 
+
+[2023-06-21T02:05:15+0700] [Info]  ===============================
+
+[2023-06-21T02:05:15+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T02:05:15+0700] [Info]  ===============================
+
+[2023-06-21T02:05:15+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T02:05:25+0700] [Info] Loading plugin: crashdetect
+[2023-06-21T02:05:25+0700] [Info]   CrashDetect plugin 4.20
+[2023-06-21T02:05:25+0700] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[2023-06-21T02:05:25+0700] [Info] Loading plugin: mysql
+[2023-06-21T02:05:25+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T02:05:25+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T02:05:25+0700] [Info]  
+[2023-06-21T02:05:25+0700] [Info]  ==================
+[2023-06-21T02:05:25+0700] [Info]  
+[2023-06-21T02:05:25+0700] [Info]   Whirlpool loaded
+[2023-06-21T02:05:25+0700] [Info]  
+[2023-06-21T02:05:25+0700] [Info]  ==================
+[2023-06-21T02:05:25+0700] [Info]  
+[2023-06-21T02:05:25+0700] [Info] Loading plugin: sscanf
+[2023-06-21T02:05:25+0700] [Info] 
+
+[2023-06-21T02:05:25+0700] [Info]  ===============================
+
+[2023-06-21T02:05:25+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T02:05:25+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T02:05:25+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T02:05:25+0700] [Info]  ===============================
+
+[2023-06-21T02:05:25+0700] [Info] Loading plugin: streamer
+[2023-06-21T02:05:25+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T02:05:25+0700] [Info] AMX (45374232) loaded
+[2023-06-21T02:05:25+0700] [Info]  
+[2023-06-21T02:05:25+0700] [Info]  
+[2023-06-21T02:05:25+0700] [Info]  
+[2023-06-21T02:05:25+0700] [Info]  ======================================= 
+[2023-06-21T02:05:25+0700] [Info]  |                                     | 
+[2023-06-21T02:05:25+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T02:05:25+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T02:05:25+0700] [Info]  |                                     | 
+[2023-06-21T02:05:25+0700] [Info]  ======================================= 
+[2023-06-21T02:05:25+0700] [Info]  
+[2023-06-21T02:05:25+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:05:25+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:05:25+0700] [Info] [debug] #0 000037b4 in ?? () in main.amx
+[2023-06-21T02:05:25+0700] [Info] [debug] #1 000038b0 in ?? (53) in main.amx
+[2023-06-21T02:05:25+0700] [Info] [debug] #2 00005178 in ?? (35819176) in main.amx
+[2023-06-21T02:05:25+0700] [Info] [debug] #3 00005458 in ?? (35819176) in main.amx
+[2023-06-21T02:05:25+0700] [Info] [debug] #4 000057bc in ?? () in main.amx
+[2023-06-21T02:05:25+0700] [Info] [debug] #5 0000c1ac in ?? () in main.amx
+[2023-06-21T02:05:25+0700] [Info] [debug] #6 0000ae50 in public AMX_OnScriptInit () in main.amx
+[2023-06-21T02:05:25+0700] [Info] [debug] #7 00008e80 in public Debug_OnScriptInit () in main.amx
+[2023-06-21T02:05:25+0700] [Info] [debug] #8 00000e64 in public YVers_OnScriptInit () in main.amx
+[2023-06-21T02:05:25+0700] [Info] [debug] #9 0000064c in public ScriptInit_OnScriptInit () in main.amx
+[2023-06-21T02:05:25+0700] [Info] [debug] #10 00000324 in public OnGameModeInit () in main.amx
+[2023-06-21T02:05:26+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T02:05:26+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T02:05:26+0700] [Info] Loaded Door ID:0
+[2023-06-21T02:05:26+0700] [Info] Loaded Door ID:1
+[2023-06-21T02:05:26+0700] [Info] Loaded Door ID:2
+[2023-06-21T02:05:26+0700] [Info] Loaded Door ID:3
+[2023-06-21T02:05:26+0700] [Info] Loaded Door ID:4
+[2023-06-21T02:05:26+0700] [Info] Loaded Door ID:5
+[2023-06-21T02:05:26+0700] [Info] Loaded Door ID:6
+[2023-06-21T02:05:26+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T02:05:26+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T02:05:41+0700] [Info] [connection] incoming connection: 127.0.0.1:65206 id: 0
+[2023-06-21T02:05:41+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T02:05:41+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T02:05:41+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T02:05:41+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:05:41+0700] [Info] [debug] #0 0003e9ec in ?? (0) in main.amx
+[2023-06-21T02:05:41+0700] [Info] [debug] #1 00042a6c in public OnAccountCheck (0) in main.amx
+[2023-06-21T02:05:43+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T02:05:52+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:05:52+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:05:52+0700] [Info] [debug] #0 0003c2b8 in public CoreUpdate () in main.amx
+[2023-06-21T02:06:01+0700] [Info] [part] Khoi_Nguyenz has left the server (0:1)
+[2023-06-21T02:06:36+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T02:06:36+0700] [Info] 
+
+[2023-06-21T02:06:36+0700] [Info]  ===============================
+
+[2023-06-21T02:06:36+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T02:06:36+0700] [Info]  ===============================
+
+[2023-06-21T02:06:36+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T02:06:44+0700] [Info] Loading plugin: crashdetect
+[2023-06-21T02:06:44+0700] [Info]   CrashDetect plugin 4.20
+[2023-06-21T02:06:44+0700] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[2023-06-21T02:06:44+0700] [Info] Loading plugin: mysql
+[2023-06-21T02:06:44+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T02:06:44+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T02:06:44+0700] [Info]  
+[2023-06-21T02:06:44+0700] [Info]  ==================
+[2023-06-21T02:06:44+0700] [Info]  
+[2023-06-21T02:06:44+0700] [Info]   Whirlpool loaded
+[2023-06-21T02:06:44+0700] [Info]  
+[2023-06-21T02:06:44+0700] [Info]  ==================
+[2023-06-21T02:06:44+0700] [Info]  
+[2023-06-21T02:06:44+0700] [Info] Loading plugin: sscanf
+[2023-06-21T02:06:44+0700] [Info] 
+
+[2023-06-21T02:06:44+0700] [Info]  ===============================
+
+[2023-06-21T02:06:44+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T02:06:44+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T02:06:44+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T02:06:44+0700] [Info]  ===============================
+
+[2023-06-21T02:06:44+0700] [Info] Loading plugin: streamer
+[2023-06-21T02:06:44+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T02:06:44+0700] [Info] AMX (53325352) loaded
+[2023-06-21T02:06:44+0700] [Info]  
+[2023-06-21T02:06:44+0700] [Info]  
+[2023-06-21T02:06:44+0700] [Info]  
+[2023-06-21T02:06:44+0700] [Info]  ======================================= 
+[2023-06-21T02:06:44+0700] [Info]  |                                     | 
+[2023-06-21T02:06:44+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T02:06:44+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T02:06:44+0700] [Info]  |                                     | 
+[2023-06-21T02:06:44+0700] [Info]  ======================================= 
+[2023-06-21T02:06:44+0700] [Info]  
+[2023-06-21T02:06:44+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:06:44+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:06:44+0700] [Info] [debug] #0 000037b4 in ?? () in main.amx
+[2023-06-21T02:06:44+0700] [Info] [debug] #1 000038b0 in ?? (53) in main.amx
+[2023-06-21T02:06:44+0700] [Info] [debug] #2 00005178 in ?? (35819116) in main.amx
+[2023-06-21T02:06:44+0700] [Info] [debug] #3 00005458 in ?? (35819116) in main.amx
+[2023-06-21T02:06:44+0700] [Info] [debug] #4 000057bc in ?? () in main.amx
+[2023-06-21T02:06:44+0700] [Info] [debug] #5 0000c1ac in ?? () in main.amx
+[2023-06-21T02:06:44+0700] [Info] [debug] #6 0000ae50 in public AMX_OnScriptInit () in main.amx
+[2023-06-21T02:06:44+0700] [Info] [debug] #7 00008e80 in public Debug_OnScriptInit () in main.amx
+[2023-06-21T02:06:44+0700] [Info] [debug] #8 00000e64 in public YVers_OnScriptInit () in main.amx
+[2023-06-21T02:06:44+0700] [Info] [debug] #9 0000064c in public ScriptInit_OnScriptInit () in main.amx
+[2023-06-21T02:06:44+0700] [Info] [debug] #10 00000324 in public OnGameModeInit () in main.amx
+[2023-06-21T02:06:45+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T02:06:45+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T02:06:45+0700] [Info] Loaded Door ID:0
+[2023-06-21T02:06:45+0700] [Info] Loaded Door ID:1
+[2023-06-21T02:06:45+0700] [Info] Loaded Door ID:2
+[2023-06-21T02:06:46+0700] [Info] Loaded Door ID:3
+[2023-06-21T02:06:46+0700] [Info] Loaded Door ID:4
+[2023-06-21T02:06:46+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:06:46+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:06:46+0700] [Info] [debug] #0 00043874 in public Doors_Load () in main.amx
+[2023-06-21T02:06:46+0700] [Info] Loaded Door ID:5
+[2023-06-21T02:06:46+0700] [Info] Loaded Door ID:6
+[2023-06-21T02:06:46+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T02:06:46+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T02:07:01+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T02:07:05+0700] [Info] [connection] incoming connection: 127.0.0.1:51402 id: 0
+[2023-06-21T02:07:05+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T02:07:05+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T02:07:05+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T02:07:05+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:07:05+0700] [Info] [debug] #0 0003e9c8 in ?? (0) in main.amx
+[2023-06-21T02:07:05+0700] [Info] [debug] #1 00042a0c in public OnAccountCheck (0) in main.amx
+[2023-06-21T02:07:18+0700] [Info] [part] Khoi_Nguyenz has left the server (0:1)
+[2023-06-21T02:08:07+0700] [Info] [connection] incoming connection: 127.0.0.1:59128 id: 0
+[2023-06-21T02:08:07+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T02:08:07+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T02:08:07+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T02:08:07+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:08:07+0700] [Info] [debug] #0 0003e9c8 in ?? (0) in main.amx
+[2023-06-21T02:08:07+0700] [Info] [debug] #1 00042a0c in public OnAccountCheck (0) in main.amx
+[2023-06-21T02:08:16+0700] [Info] [part] Khoi_Nguyenz has left the server (0:1)
+[2023-06-21T02:09:54+0700] [Info] AMX (53325352) loaded
+[2023-06-21T02:09:54+0700] [Info]  
+[2023-06-21T02:09:54+0700] [Info]  
+[2023-06-21T02:09:54+0700] [Info]  
+[2023-06-21T02:09:54+0700] [Info]  ======================================= 
+[2023-06-21T02:09:54+0700] [Info]  |                                     | 
+[2023-06-21T02:09:54+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T02:09:54+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T02:09:54+0700] [Info]  |                                     | 
+[2023-06-21T02:09:54+0700] [Info]  ======================================= 
+[2023-06-21T02:09:54+0700] [Info]  
+[2023-06-21T02:09:54+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:09:55+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:09:55+0700] [Info] [debug] #0 00001264 in ?? (3272, 35819100, 12) in main.amx
+[2023-06-21T02:09:55+0700] [Info] [debug] #1 0000144c in ?? (3248) in main.amx
+[2023-06-21T02:09:55+0700] [Info] [debug] #2 000016ac in ?? () in main.amx
+[2023-06-21T02:09:55+0700] [Info] [debug] #3 000016f8 in ?? (14484) in main.amx
+[2023-06-21T02:09:55+0700] [Info] [debug] #4 00008634 in ?? (35822640) in main.amx
+[2023-06-21T02:09:55+0700] [Info] [debug] #5 0000c190 in ?? () in main.amx
+[2023-06-21T02:09:55+0700] [Info] [debug] #6 0000ae50 in public AMX_OnScriptInit () in main.amx
+[2023-06-21T02:09:55+0700] [Info] [debug] #7 00008e80 in public Debug_OnScriptInit () in main.amx
+[2023-06-21T02:09:55+0700] [Info] [debug] #8 00000e64 in public YVers_OnScriptInit () in main.amx
+[2023-06-21T02:09:55+0700] [Info] [debug] #9 0000064c in public ScriptInit_OnScriptInit () in main.amx
+[2023-06-21T02:09:55+0700] [Info] [debug] #10 00000324 in public OnGameModeInit () in main.amx
+[2023-06-21T02:09:56+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T02:09:56+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T02:09:56+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T02:09:56+0700] [Info] Loaded Door ID:0
+[2023-06-21T02:09:56+0700] [Info] Loaded Door ID:1
+[2023-06-21T02:09:56+0700] [Info] Loaded Door ID:2
+[2023-06-21T02:09:56+0700] [Info] Loaded Door ID:3
+[2023-06-21T02:09:56+0700] [Info] Loaded Door ID:4
+[2023-06-21T02:09:56+0700] [Info] Loaded Door ID:5
+[2023-06-21T02:09:56+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:09:56+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:09:56+0700] [Info] [debug] #0 00043360 in public Doors_Load () in main.amx
+[2023-06-21T02:09:56+0700] [Info] Loaded Door ID:6
+[2023-06-21T02:11:39+0700] [Info] [connection] incoming connection: 127.0.0.1:56164 id: 0
+[2023-06-21T02:11:39+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T02:11:39+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T02:11:39+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T02:11:39+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:11:39+0700] [Info] [debug] #0 0003e9f4 in ?? (0) in main.amx
+[2023-06-21T02:11:39+0700] [Info] [debug] #1 00042a0c in public OnAccountCheck (0) in main.amx
+[2023-06-21T02:11:56+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T02:11:56+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T02:11:56+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:11:56+0700] [Info] [debug] #0 0003eaf4 in ?? (0) in main.amx
+[2023-06-21T02:11:56+0700] [Info] [debug] #1 0003b858 in public OnPlayerClickPlayerTextDraw (0, 8) in main.amx
+[2023-06-21T02:11:56+0700] [Error] Array index out of bounds
+[2023-06-21T02:12:11+0700] [Info] Character Save: Khoi Nguyen | AccountID: 6
+[2023-06-21T02:12:11+0700] [Info] [part] Khoi_Nguyen has left the server (0:1)
+[2023-06-21T02:13:32+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:13:32+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:13:32+0700] [Info] [debug] #0 0003c280 in public CoreUpdate () in main.amx
+[2023-06-21T02:14:43+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:14:44+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:14:44+0700] [Info] [debug] #0 0003c290 in public CoreUpdate () in main.amx
+[2023-06-21T02:22:14+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:22:14+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:22:14+0700] [Info] [debug] #0 0003c3a4 in public CoreUpdate () in main.amx
+[2023-06-21T02:25:24+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:25:24+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:25:24+0700] [Info] [debug] #0 0003c3a4 in public CoreUpdate () in main.amx
+[2023-06-21T02:27:07+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:27:07+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:27:07+0700] [Info] [debug] #0 0003c2ac in public CoreUpdate () in main.amx
+[2023-06-21T02:28:06+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:28:06+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:28:06+0700] [Info] [debug] #0 0003c29c in public CoreUpdate () in main.amx
+[2023-06-21T02:49:02+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:49:02+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:49:02+0700] [Info] [debug] #0 0003c3a4 in public CoreUpdate () in main.amx
+[2023-06-21T02:49:57+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:49:57+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:49:57+0700] [Info] [debug] #0 0003c2ac in public CoreUpdate () in main.amx
+[2023-06-21T02:53:00+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:53:00+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:53:00+0700] [Info] [debug] #0 0003c29c in public CoreUpdate () in main.amx
+[2023-06-21T02:54:34+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:54:34+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:54:34+0700] [Info] [debug] #0 0003c280 in public CoreUpdate () in main.amx
+[2023-06-21T02:54:48+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:54:49+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:54:49+0700] [Info] [debug] #0 0003c3a4 in public CoreUpdate () in main.amx
+[2023-06-21T02:55:04+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:55:04+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:55:04+0700] [Info] [debug] #0 0003c280 in public CoreUpdate () in main.amx
+[2023-06-21T02:57:51+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:57:51+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:57:51+0700] [Info] [debug] #0 0003c2ac in public CoreUpdate () in main.amx
+[2023-06-21T02:57:58+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T02:57:59+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T02:57:59+0700] [Info] [debug] #0 0003c280 in public CoreUpdate () in main.amx
+[2023-06-21T03:00:28+0700] [Info] AMX (53281400) loaded
+[2023-06-21T03:00:28+0700] [Info]  
+[2023-06-21T03:00:28+0700] [Info]  
+[2023-06-21T03:00:28+0700] [Info]  
+[2023-06-21T03:00:28+0700] [Info]  ======================================= 
+[2023-06-21T03:00:28+0700] [Info]  |                                     | 
+[2023-06-21T03:00:28+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T03:00:28+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T03:00:28+0700] [Info]  |                                     | 
+[2023-06-21T03:00:28+0700] [Info]  ======================================= 
+[2023-06-21T03:00:28+0700] [Info]  
+[2023-06-21T03:00:28+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:00:28+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:00:28+0700] [Info] [debug] #0 00008aa0 in public Debug_OnScriptInit () in main.amx
+[2023-06-21T03:00:28+0700] [Info] [debug] #1 00000e64 in public YVers_OnScriptInit () in main.amx
+[2023-06-21T03:00:28+0700] [Info] [debug] #2 0000064c in public ScriptInit_OnScriptInit () in main.amx
+[2023-06-21T03:00:28+0700] [Info] [debug] #3 00000324 in public OnGameModeInit () in main.amx
+[2023-06-21T03:00:30+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T03:00:30+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T03:00:30+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T03:00:30+0700] [Info] Loaded Door ID:0
+[2023-06-21T03:00:30+0700] [Info] Loaded Door ID:1
+[2023-06-21T03:00:30+0700] [Info] Loaded Door ID:2
+[2023-06-21T03:00:30+0700] [Info] Loaded Door ID:3
+[2023-06-21T03:00:30+0700] [Info] Loaded Door ID:4
+[2023-06-21T03:00:30+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:00:30+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:00:30+0700] [Info] [debug] #0 00043058 in public Doors_Load () in main.amx
+[2023-06-21T03:00:30+0700] [Info] Loaded Door ID:5
+[2023-06-21T03:00:30+0700] [Info] Loaded Door ID:6
+[2023-06-21T03:01:15+0700] [Info] [connection] incoming connection: 127.0.0.1:53245 id: 0
+[2023-06-21T03:01:15+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T03:01:16+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:01:16+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:01:16+0700] [Info] [debug] #0 0003aa6c in ?? (0) in main.amx
+[2023-06-21T03:01:16+0700] [Info] [debug] #1 00042204 in ?? (0) in main.amx
+[2023-06-21T03:01:16+0700] [Info] [debug] #2 0000ea48 in public OnPlayerConnect (0) in main.amx
+[2023-06-21T03:01:16+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T03:01:16+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T03:01:16+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:01:16+0700] [Info] [debug] #0 0003e9f4 in ?? (0) in main.amx
+[2023-06-21T03:01:16+0700] [Info] [debug] #1 00042a0c in public OnAccountCheck (0) in main.amx
+[2023-06-21T03:01:30+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T03:01:30+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T03:01:30+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:01:30+0700] [Info] [debug] #0 0003eb18 in ?? (0) in main.amx
+[2023-06-21T03:01:30+0700] [Info] [debug] #1 0003b858 in public OnPlayerClickPlayerTextDraw (0, 8) in main.amx
+[2023-06-21T03:01:30+0700] [Error] Array index out of bounds
+[2023-06-21T03:03:59+0700] [Info] Character Save: Khoi Nguyen | AccountID: 6
+[2023-06-21T03:03:59+0700] [Info] [part] Khoi_Nguyen has left the server (0:1)
+[2023-06-21T03:07:30+0700] [Info] AMX (53281400) loaded
+[2023-06-21T03:07:30+0700] [Info]  
+[2023-06-21T03:07:30+0700] [Info]  
+[2023-06-21T03:07:30+0700] [Info]  
+[2023-06-21T03:07:30+0700] [Info]  ======================================= 
+[2023-06-21T03:07:30+0700] [Info]  |                                     | 
+[2023-06-21T03:07:30+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T03:07:30+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T03:07:30+0700] [Info]  |                                     | 
+[2023-06-21T03:07:30+0700] [Info]  ======================================= 
+[2023-06-21T03:07:30+0700] [Info]  
+[2023-06-21T03:07:30+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:07:30+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:07:30+0700] [Info] [debug] #0 00005c30 in ?? (35830736, 3) in main.amx
+[2023-06-21T03:07:30+0700] [Info] [debug] #1 000086c8 in ?? (35830736) in main.amx
+[2023-06-21T03:07:30+0700] [Info] [debug] #2 0000c190 in ?? () in main.amx
+[2023-06-21T03:07:30+0700] [Info] [debug] #3 0000ae50 in public AMX_OnScriptInit () in main.amx
+[2023-06-21T03:07:30+0700] [Info] [debug] #4 00008e80 in public Debug_OnScriptInit () in main.amx
+[2023-06-21T03:07:31+0700] [Info] [debug] #5 00000e64 in public YVers_OnScriptInit () in main.amx
+[2023-06-21T03:07:31+0700] [Info] [debug] #6 0000064c in public ScriptInit_OnScriptInit () in main.amx
+[2023-06-21T03:07:31+0700] [Info] [debug] #7 00000324 in public OnGameModeInit () in main.amx
+[2023-06-21T03:07:32+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T03:07:32+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T03:07:32+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T03:07:32+0700] [Info] Loaded Door ID:0
+[2023-06-21T03:07:32+0700] [Info] Loaded Door ID:1
+[2023-06-21T03:07:32+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:07:32+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:07:32+0700] [Info] [debug] #0 000436e4 in public Doors_Load () in main.amx
+[2023-06-21T03:07:32+0700] [Info] Loaded Door ID:2
+[2023-06-21T03:07:32+0700] [Info] Loaded Door ID:3
+[2023-06-21T03:07:32+0700] [Info] Loaded Door ID:4
+[2023-06-21T03:07:32+0700] [Info] Loaded Door ID:5
+[2023-06-21T03:07:32+0700] [Info] Loaded Door ID:6
+[2023-06-21T03:08:12+0700] [Info] [connection] incoming connection: 127.0.0.1:54938 id: 0
+[2023-06-21T03:08:12+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T03:08:12+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T03:08:12+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T03:08:12+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:08:12+0700] [Info] [debug] #0 0003ebb8 in ?? (0) in main.amx
+[2023-06-21T03:08:12+0700] [Info] [debug] #1 00042d48 in public OnAccountCheck (0) in main.amx
+[2023-06-21T03:08:24+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T03:08:24+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T03:08:24+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:08:24+0700] [Info] [debug] #0 0003ecdc in ?? (0) in main.amx
+[2023-06-21T03:08:24+0700] [Info] [debug] #1 0003ba1c in public OnPlayerClickPlayerTextDraw (0, 8) in main.amx
+[2023-06-21T03:08:24+0700] [Error] Array index out of bounds
+[2023-06-21T03:08:35+0700] [Warning] Vehicle created with respawn delay 0 which is undefined behaviour that might change in the future.
+[2023-06-21T03:13:47+0700] [Info] Could not find:
+
+	 gamemodes/main 
+While attempting to load a PAWN gamemode, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+            
+[2023-06-21T03:15:10+0700] [Info] Character Save: Khoi Nguyen | AccountID: 6
+[2023-06-21T03:15:11+0700] [Info] [debug] Server crashed due to an unknown error
+[2023-06-21T03:15:14+0700] [Info] [debug] Native backtrace:
+[2023-06-21T03:15:14+0700] [Info] [debug] #0 67db9f5b in ?? () in components\Pawn.dll
+[2023-06-21T03:15:14+0700] [Info] [debug] #1 67dba6bb in ?? () in components\Pawn.dll
+[2023-06-21T03:15:14+0700] [Info] [debug] #2 709f68d1 in ?? () in plugins\mysql.DLL
+[2023-06-21T03:15:14+0700] [Info] [debug] #3 70a135d4 in ?? () in plugins\mysql.DLL
+[2023-06-21T03:15:14+0700] [Info] [debug] #4 70a16688 in ?? () in plugins\mysql.DLL
+[2023-06-21T03:15:14+0700] [Info] [debug] #5 709fc52e in ?? () in plugins\mysql.DLL
+[2023-06-21T03:15:14+0700] [Info] [debug] #6 709fdc7f in ?? () in plugins\mysql.DLL
+[2023-06-21T03:15:14+0700] [Info] [debug] #7 709fe3d3 in ?? () in plugins\mysql.DLL
+[2023-06-21T03:15:14+0700] [Info] [debug] #8 67db5fd1 in ?? () in components\Pawn.dll
+[2023-06-21T03:15:14+0700] [Info] [debug] #9 00d8f70e in ?? () in omp-server.exe
+[2023-06-21T03:15:14+0700] [Info] [debug] #10 00d88cb6 in ?? () in omp-server.exe
+[2023-06-21T03:15:14+0700] [Info] [debug] #11 00faaa70 in ?? () in omp-server.exe
+[2023-06-21T03:15:14+0700] [Info] [debug] #12 765400c9 in ?? () in C:\WINDOWS\System32\KERNEL32.DLL
+[2023-06-21T03:15:14+0700] [Info] [debug] #13 777c7b4e in ?? () in C:\WINDOWS\SYSTEM32\ntdll.dll
+[2023-06-21T03:15:14+0700] [Info] [debug] #14 777c7b1e in ?? () in C:\WINDOWS\SYSTEM32\ntdll.dll
+[2023-06-21T03:15:14+0700] [Info] [debug] Registers:
+[2023-06-21T03:15:14+0700] [Info] [debug] EAX: 032d0278 EBX: 00000000 ECX: 0119f6fc EDX: 00000000
+[2023-06-21T03:15:14+0700] [Info] [debug] ESI: 00000098 EDI: 00000040 EBP: 0119f750 ESP: 0119f6ec
+[2023-06-21T03:15:14+0700] [Info] [debug] EIP: 67db9f5b EFLAGS: 00210246
+[2023-06-21T03:15:14+0700] [Info] [debug] Stack:
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+00000000: 00000098 67dba28c 032d0278 0119f6fc
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+00000020: 00000000 04396778 0119f724 75af3c68
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+00000040: 016fed30 00000040 0119f6fc 0119f8b8
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+00000060: 70a2a888 0119f790 67dba6bb 032d0278
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+00000080: 70a2a888 0119f7e4 6c5376d0 032d0278
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+000000a0: 03cfb714 0119f8c4 709f68d1 032d0278
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+000000c0: 04663484 0044ec00 777fe7a1 0119f7cc
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+000000e0: 00000132 ffffbfe5 00000080 032d0278
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+00000100: 0119f908 000000d1 03e66e60 70a2a880
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+00000120: 000000a8 06340000 0b624388 00000015
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+00000140: 00000008 01664c20 00000134 016602f8
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+00000160: 0000007f 00000015 00000000 043966d8
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+00000180: 01660270 00000015 01664c28 01664c27
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+000001a0: d55e18f4 fffffffe 0119f928 777a6eac
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+000001c0: 0119f9a4 01660000 a72ae23c 0119f928
+[2023-06-21T03:15:14+0700] [Info] [debug] ESP+000001e0: 0119f900 0119f908 032d0278 70a2a888
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+00000200: 0b620dc0 00000001 a72ae3cc 709fc4c0
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+00000220: 00000000 000000a0 03cfb848 016cd2c0
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+00000240: 70a25398 00000001 0119f95c 70a16688
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+00000260: a429a00f 00000099 0000009f 04663480
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+00000280: a72ae360 01664c00 00989680 032d1cf8
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+000002a0: 0119f9e4 70a23a30 00000001 0119f9c8
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+000002c0: 032d1cf8 a429a00f 00000000 0000000f
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+000002e0: 709fe3d3 a72ae308 03cfb84b 03cfb848
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+00000300: 00000000 0119fa58 67db5fd1 0119fa08
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+00000320: 0119fa20 4185787e 0000da11 0000da11
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+00000340: 031020c0 0119fa58 0119fa08 0119fd48
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+00000360: 016fcc70 98231afc 016fcc90 0119facc
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+00000380: 0000da11 00000012 0000da11 00065a8d
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+000003a0: 03102020 00000000 027f0000 0323adec
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+000003c0: 0119f998 0119fd48 00e3c250 0323ae00
+[2023-06-21T03:15:15+0700] [Info] [debug] ESP+000003e0: 0119fd60 00d88cb6 016fa0a8 0119fabc
+[2023-06-21T03:15:15+0700] [Info] [debug] Loaded modules:
+[2023-06-21T03:15:15+0700] [Info] [debug] 00d80000 - 0105b000 omp-server.exe
+[2023-06-21T03:15:15+0700] [Info] [debug] 77760000 - 77904000 ntdll.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 76520000 - 76610000 KERNEL32.DLL
+[2023-06-21T03:15:15+0700] [Info] [debug] 75600000 - 7583a000 KERNELBASE.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 76030000 - 76093000 WS2_32.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 766b0000 - 7676f000 RPCRT4.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 76cc0000 - 77276000 SHELL32.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 77280000 - 772fb000 msvcp_win.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 75ac0000 - 75be0000 ucrtbase.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 773e0000 - 7757c000 USER32.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 76280000 - 76298000 win32u.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 75c30000 - 75c54000 GDI32.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 759d0000 - 75ab5000 gdi32full.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 76130000 - 76230000 CRYPT32.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 75fb0000 - 7602c000 ADVAPI32.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 75de0000 - 75e9f000 msvcrt.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 77620000 - 77696000 sechost.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 75be0000 - 75bf9000 bcrypt.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 74c30000 - 74c58000 WINMM.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73da0000 - 73e0d000 MSVCP140.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 758e0000 - 759c3000 ole32.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 762a0000 - 76520000 combase.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 74ab0000 - 74ac5000 VCRUNTIME140.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 75c00000 - 75c25000 IMM32.DLL
+[2023-06-21T03:15:15+0700] [Info] [debug] 73d70000 - 73d92000 Actors.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73d50000 - 73d6c000 Checkpoints.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73d10000 - 73d2f000 Classes.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73cd0000 - 73d0b000 Console.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73c60000 - 73ccc000 CustomModels.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 67fe0000 - 680a7000 Databases.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73c10000 - 73c2d000 Dialogs.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73bf0000 - 73c0f000 Fixes.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73b70000 - 73b91000 GangZones.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73a50000 - 73a75000 LegacyConfig.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 67f30000 - 67fdd000 LegacyNetwork.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 739d0000 - 739f1000 Menus.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73990000 - 739c2000 Objects.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 67da0000 - 67f28000 Pawn.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 76230000 - 76275000 SHLWAPI.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73b50000 - 73b70000 Pickups.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73960000 - 73985000 TextDraws.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 736e0000 - 73704000 TextLabels.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73af0000 - 73b09000 Timers.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 660f0000 - 67d9c000 Unicode.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 736c0000 - 736dd000 Variables.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73690000 - 736bf000 Vehicles.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 71da0000 - 71df1000 crashdetect.DLL
+[2023-06-21T03:15:15+0700] [Info] [debug] 66070000 - 660e1000 MSVCP120.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 65f80000 - 6606e000 MSVCR120.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 755f0000 - 755ff000 kernel.appcore.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 709f0000 - 70a3e000 mysql.DLL
+[2023-06-21T03:15:15+0700] [Info] [debug] 73670000 - 7368a000 log-core.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 65eb0000 - 65f7d000 libmariadb.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 71940000 - 7194a000 Secur32.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 754e0000 - 75501000 SSPICLI.DLL
+[2023-06-21T03:15:15+0700] [Info] [debug] 754d0000 - 754da000 CRYPTBASE.DLL
+[2023-06-21T03:15:15+0700] [Info] [debug] 732e0000 - 732f1000 napinsp.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 72f90000 - 72fa6000 pnrpnsp.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73c30000 - 73c46000 NLAapi.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 74fd0000 - 75003000 IPHLPAPI.DLL
+[2023-06-21T03:15:15+0700] [Info] [debug] 74710000 - 74720000 wshbth.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 74e70000 - 74ec2000 mswsock.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 74de0000 - 74e70000 DNSAPI.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 75dd0000 - 75dd7000 NSI.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 73a40000 - 73a4e000 winrnr.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 74f70000 - 74f78000 rasadhlp.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 74aa0000 - 74aac000 whirlpool.DLL
+[2023-06-21T03:15:15+0700] [Info] [debug] 10000000 - 1000e000 sscanf.DLL
+[2023-06-21T03:15:15+0700] [Info] [debug] 6c4e0000 - 6c546000 streamer.DLL
+[2023-06-21T03:15:15+0700] [Info] [debug] 74d80000 - 74dd9000 fwpuclnt.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 75ea0000 - 75eff000 bcryptprimitives.dll
+[2023-06-21T03:15:15+0700] [Info] [debug] 74f60000 - 74f6e000 MSASN1.dll
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T03:15:34+0700] [Info] Loading plugin: crashdetect
+[2023-06-21T03:15:34+0700] [Info]   CrashDetect plugin 4.20
+[2023-06-21T03:15:34+0700] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[2023-06-21T03:15:34+0700] [Info] Loading plugin: mysql
+[2023-06-21T03:15:34+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T03:15:34+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T03:15:34+0700] [Info]  
+[2023-06-21T03:15:34+0700] [Info]  ==================
+[2023-06-21T03:15:34+0700] [Info]  
+[2023-06-21T03:15:34+0700] [Info]   Whirlpool loaded
+[2023-06-21T03:15:34+0700] [Info]  
+[2023-06-21T03:15:34+0700] [Info]  ==================
+[2023-06-21T03:15:34+0700] [Info]  
+[2023-06-21T03:15:34+0700] [Info] Loading plugin: sscanf
+[2023-06-21T03:15:34+0700] [Info] 
+
+[2023-06-21T03:15:34+0700] [Info]  ===============================
+
+[2023-06-21T03:15:34+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T03:15:34+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T03:15:34+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T03:15:34+0700] [Info]  ===============================
+
+[2023-06-21T03:15:34+0700] [Info] Loading plugin: streamer
+[2023-06-21T03:15:34+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T03:15:34+0700] [Info] AMX (54007096) loaded
+[2023-06-21T03:15:34+0700] [Info]  
+[2023-06-21T03:15:34+0700] [Info]  
+[2023-06-21T03:15:34+0700] [Info]  
+[2023-06-21T03:15:34+0700] [Info]  ======================================= 
+[2023-06-21T03:15:34+0700] [Info]  |                                     | 
+[2023-06-21T03:15:34+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T03:15:34+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T03:15:34+0700] [Info]  |                                     | 
+[2023-06-21T03:15:34+0700] [Info]  ======================================= 
+[2023-06-21T03:15:34+0700] [Info]  
+[2023-06-21T03:15:34+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:15:34+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:15:34+0700] [Info] [debug] #0 000037b4 in ?? () in main.amx
+[2023-06-21T03:15:34+0700] [Info] [debug] #1 000038b0 in ?? (53) in main.amx
+[2023-06-21T03:15:34+0700] [Info] [debug] #2 00005178 in ?? (35827212) in main.amx
+[2023-06-21T03:15:34+0700] [Info] [debug] #3 00005458 in ?? (35827212) in main.amx
+[2023-06-21T03:15:34+0700] [Info] [debug] #4 000057bc in ?? () in main.amx
+[2023-06-21T03:15:34+0700] [Info] [debug] #5 0000c1ac in ?? () in main.amx
+[2023-06-21T03:15:34+0700] [Info] [debug] #6 0000ae50 in public AMX_OnScriptInit () in main.amx
+[2023-06-21T03:15:34+0700] [Info] [debug] #7 00008e80 in public Debug_OnScriptInit () in main.amx
+[2023-06-21T03:15:34+0700] [Info] [debug] #8 00000e64 in public YVers_OnScriptInit () in main.amx
+[2023-06-21T03:15:34+0700] [Info] [debug] #9 0000064c in public ScriptInit_OnScriptInit () in main.amx
+[2023-06-21T03:15:34+0700] [Info] [debug] #10 00000324 in public OnGameModeInit () in main.amx
+[2023-06-21T03:15:36+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T03:15:36+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T03:15:36+0700] [Info] Loaded Door ID:0
+[2023-06-21T03:15:36+0700] [Info] Loaded Door ID:1
+[2023-06-21T03:15:36+0700] [Info] Loaded Door ID:2
+[2023-06-21T03:15:36+0700] [Info] Loaded Door ID:3
+[2023-06-21T03:15:36+0700] [Info] Loaded Door ID:4
+[2023-06-21T03:15:36+0700] [Info] Loaded Door ID:5
+[2023-06-21T03:15:36+0700] [Info] Loaded Door ID:6
+[2023-06-21T03:15:36+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T03:15:36+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T03:15:42+0700] [Info] [connection] incoming connection: 127.0.0.1:64942 id: 0
+[2023-06-21T03:15:42+0700] [Info] [join] Khoi_Nguyen has joined the server (0:127.0.0.1)
+[2023-06-21T03:15:42+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T03:15:42+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T03:15:43+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:15:43+0700] [Info] [debug] #0 0003ebb8 in ?? (0) in main.amx
+[2023-06-21T03:15:43+0700] [Info] [debug] #1 00042df4 in public OnAccountCheck (0) in main.amx
+[2023-06-21T03:15:51+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T03:16:24+0700] [Info] [part] Khoi_Nguyen has left the server (0:1)
+[2023-06-21T03:16:42+0700] [Info] [connection] incoming connection: 127.0.0.1:51083 id: 0
+[2023-06-21T03:16:42+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T03:16:42+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T03:16:42+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T03:16:42+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:16:42+0700] [Info] [debug] #0 0003ebb8 in ?? (0) in main.amx
+[2023-06-21T03:16:42+0700] [Info] [debug] #1 00042df4 in public OnAccountCheck (0) in main.amx
+[2023-06-21T03:16:49+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T03:16:49+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T03:16:49+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:16:49+0700] [Info] [debug] #0 0003ecdc in ?? (0) in main.amx
+[2023-06-21T03:16:49+0700] [Info] [debug] #1 0003ba1c in public OnPlayerClickPlayerTextDraw (0, 8) in main.amx
+[2023-06-21T03:16:49+0700] [Error] Array index out of bounds
+[2023-06-21T03:16:56+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:16:56+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:16:56+0700] [Info] [debug] #0 0003c444 in public CoreUpdate () in main.amx
+[2023-06-21T03:16:59+0700] [Warning] Vehicle created with respawn delay 0 which is undefined behaviour that might change in the future.
+[2023-06-21T03:17:46+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:17:46+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:17:46+0700] [Info] [debug] #0 0003c460 in public CoreUpdate () in main.amx
+[2023-06-21T03:17:54+0700] [Info] Character Save: Khoi Nguyen | AccountID: 6
+[2023-06-21T03:17:54+0700] [Info] [part] Khoi_Nguyen has left the server (0:1)
+[2023-06-21T03:24:18+0700] [Info] AMX (64491032) loaded
+[2023-06-21T03:24:18+0700] [Info]  
+[2023-06-21T03:24:18+0700] [Info]  
+[2023-06-21T03:24:18+0700] [Info]  
+[2023-06-21T03:24:18+0700] [Info]  ======================================= 
+[2023-06-21T03:24:18+0700] [Info]  |                                     | 
+[2023-06-21T03:24:18+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T03:24:18+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T03:24:18+0700] [Info]  |                                     | 
+[2023-06-21T03:24:18+0700] [Info]  ======================================= 
+[2023-06-21T03:24:18+0700] [Info]  
+[2023-06-21T03:24:18+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:24:18+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:24:18+0700] [Info] [debug] #0 00001328 in ?? (3248) in main.amx
+[2023-06-21T03:24:18+0700] [Info] [debug] #1 000017a4 in ?? () in main.amx
+[2023-06-21T03:24:18+0700] [Info] [debug] #2 000017f0 in ?? (14484) in main.amx
+[2023-06-21T03:24:18+0700] [Info] [debug] #3 0000872c in ?? (35824796) in main.amx
+[2023-06-21T03:24:18+0700] [Info] [debug] #4 0000c288 in ?? () in main.amx
+[2023-06-21T03:24:18+0700] [Info] [debug] #5 0000af48 in public AMX_OnScriptInit () in main.amx
+[2023-06-21T03:24:18+0700] [Info] [debug] #6 00008f78 in public Debug_OnScriptInit () in main.amx
+[2023-06-21T03:24:18+0700] [Info] [debug] #7 00000f5c in public YVers_OnScriptInit () in main.amx
+[2023-06-21T03:24:18+0700] [Info] [debug] #8 00000744 in public ScriptInit_OnScriptInit () in main.amx
+[2023-06-21T03:24:18+0700] [Info] [debug] #9 0000041c in public OnGameModeInit () in main.amx
+[2023-06-21T03:24:19+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T03:24:19+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T03:24:19+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T03:24:19+0700] [Info] Loaded Door ID:0
+[2023-06-21T03:24:19+0700] [Info] Loaded Door ID:1
+[2023-06-21T03:24:19+0700] [Info] Loaded Door ID:2
+[2023-06-21T03:24:19+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:24:19+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:24:19+0700] [Info] [debug] #0 000447c4 in public Doors_Load () in main.amx
+[2023-06-21T03:24:20+0700] [Info] Loaded Door ID:3
+[2023-06-21T03:24:20+0700] [Info] Loaded Door ID:4
+[2023-06-21T03:24:20+0700] [Info] Loaded Door ID:5
+[2023-06-21T03:24:20+0700] [Info] Loaded Door ID:6
+[2023-06-21T03:24:42+0700] [Info] [connection] incoming connection: 127.0.0.1:52321 id: 0
+[2023-06-21T03:24:42+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T03:24:42+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T03:24:42+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T03:24:42+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:24:42+0700] [Info] [debug] #0 0003eaec in ?? (0) in main.amx
+[2023-06-21T03:24:42+0700] [Info] [debug] #1 00043bc4 in public OnAccountCheck (0) in main.amx
+[2023-06-21T03:24:59+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T03:24:59+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T03:24:59+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:24:59+0700] [Info] [debug] #0 0003ec10 in ?? (0) in main.amx
+[2023-06-21T03:24:59+0700] [Info] [debug] #1 0003b950 in public OnPlayerClickPlayerTextDraw (0, 8) in main.amx
+[2023-06-21T03:24:59+0700] [Error] Array index out of bounds
+[2023-06-21T03:25:42+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:25:42+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:25:43+0700] [Info] [debug] #0 0003c3ac in public CoreUpdate () in main.amx
+[2023-06-21T03:27:53+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:27:53+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:27:53+0700] [Info] [debug] #0 0003c368 in public CoreUpdate () in main.amx
+[2023-06-21T03:30:24+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:30:24+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:30:24+0700] [Info] [debug] #0 0003c380 in public CoreUpdate () in main.amx
+[2023-06-21T03:34:20+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:35:09+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:35:10+0700] [Info] [debug] #0 0003c39c in public CoreUpdate () in main.amx
+[2023-06-21T03:35:31+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:35:34+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:35:34+0700] [Info] [debug] #0 0003c378 in public CoreUpdate () in main.amx
+[2023-06-21T03:36:06+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:36:20+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:36:24+0700] [Info] [debug] #0 0003c368 in public CoreUpdate () in main.amx
+[2023-06-21T03:36:24+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:36:25+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:36:25+0700] [Info] [debug] #0 0003c388 in public CoreUpdate () in main.amx
+[2023-06-21T03:36:32+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:36:49+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:36:49+0700] [Info] [debug] #0 0003c380 in public CoreUpdate () in main.amx
+[2023-06-21T03:38:11+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:38:28+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:38:28+0700] [Info] [debug] #0 0003c49c in public CoreUpdate () in main.amx
+[2023-06-21T03:38:50+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:38:58+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:38:58+0700] [Info] [debug] #0 0003c368 in public CoreUpdate () in main.amx
+[2023-06-21T03:41:17+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:42:16+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:42:21+0700] [Info] [debug] #0 0003c38c in public CoreUpdate () in main.amx
+[2023-06-21T03:42:22+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:42:30+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:42:30+0700] [Info] [debug] #0 0003c3ac in public CoreUpdate () in main.amx
+[2023-06-21T03:42:31+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:42:31+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:42:31+0700] [Info] [debug] #0 0003c3ac in public CoreUpdate () in main.amx
+[2023-06-21T03:42:32+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:42:32+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:42:32+0700] [Info] [debug] #0 0003c38c in public CoreUpdate () in main.amx
+[2023-06-21T03:42:48+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:43:13+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:43:14+0700] [Info] [debug] #0 0003c39c in public CoreUpdate () in main.amx
+[2023-06-21T03:44:39+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:45:23+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:45:23+0700] [Info] [debug] #0 0003c378 in public CoreUpdate () in main.amx
+[2023-06-21T03:45:30+0700] [Info] Character Save: Khoi Nguyen | AccountID: 6
+[2023-06-21T03:45:30+0700] [Info] [part] Khoi_Nguyen has left the server (0:1)
+[2023-06-21T03:46:59+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:47:16+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:47:26+0700] [Info] [debug] #0 0003c364 in public CoreUpdate () in main.amx
+[2023-06-21T03:59:32+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T03:59:32+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T03:59:32+0700] [Info] [debug] #0 0003c368 in public CoreUpdate () in main.amx
+[2023-06-21T04:01:07+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T04:01:07+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T04:01:07+0700] [Info] [debug] #0 0003c394 in public CoreUpdate () in main.amx
+[2023-06-21T04:06:52+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T04:06:52+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T04:06:52+0700] [Info] [debug] #0 0003c368 in public CoreUpdate () in main.amx
+[2023-06-21T04:07:07+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T04:07:07+0700] [Info] 
+
+[2023-06-21T04:07:07+0700] [Info]  ===============================
+
+[2023-06-21T04:07:07+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T04:07:07+0700] [Info]  ===============================
+
+[2023-06-21T04:07:07+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T04:48:42+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T04:48:43+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T04:48:43+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T04:48:43+0700] [Info] Loading plugin: crashdetect
+[2023-06-21T04:48:43+0700] [Info]   CrashDetect plugin 4.20
+[2023-06-21T04:48:43+0700] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[2023-06-21T04:48:43+0700] [Info] Loading plugin: mysql
+[2023-06-21T04:48:44+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T04:48:44+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T04:48:44+0700] [Info]  
+[2023-06-21T04:48:44+0700] [Info]  ==================
+[2023-06-21T04:48:44+0700] [Info]  
+[2023-06-21T04:48:44+0700] [Info]   Whirlpool loaded
+[2023-06-21T04:48:44+0700] [Info]  
+[2023-06-21T04:48:44+0700] [Info]  ==================
+[2023-06-21T04:48:44+0700] [Info]  
+[2023-06-21T04:48:44+0700] [Info] Loading plugin: sscanf
+[2023-06-21T04:48:44+0700] [Info] 
+
+[2023-06-21T04:48:44+0700] [Info]  ===============================
+
+[2023-06-21T04:48:44+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T04:48:44+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T04:48:44+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T04:48:44+0700] [Info]  ===============================
+
+[2023-06-21T04:48:44+0700] [Info] Loading plugin: streamer
+[2023-06-21T04:48:44+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T04:48:44+0700] [Info] AMX (23642776) loaded
+[2023-06-21T04:48:44+0700] [Info]  
+[2023-06-21T04:48:44+0700] [Info]  
+[2023-06-21T04:48:44+0700] [Info]  
+[2023-06-21T04:48:44+0700] [Info]  ======================================= 
+[2023-06-21T04:48:44+0700] [Info]  |                                     | 
+[2023-06-21T04:48:44+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T04:48:44+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T04:48:44+0700] [Info]  |                                     | 
+[2023-06-21T04:48:44+0700] [Info]  ======================================= 
+[2023-06-21T04:48:44+0700] [Info]  
+[2023-06-21T04:48:44+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T04:48:44+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T04:48:44+0700] [Info] [debug] #0 000038ac in ?? () in main.amx
+[2023-06-21T04:48:44+0700] [Info] [debug] #1 000039a8 in ?? (53) in main.amx
+[2023-06-21T04:48:44+0700] [Info] [debug] #2 00005270 in ?? (35819928) in main.amx
+[2023-06-21T04:48:44+0700] [Info] [debug] #3 00005550 in ?? (35819928) in main.amx
+[2023-06-21T04:48:44+0700] [Info] [debug] #4 000058b4 in ?? () in main.amx
+[2023-06-21T04:48:44+0700] [Info] [debug] #5 0000c2a4 in ?? () in main.amx
+[2023-06-21T04:48:44+0700] [Info] [debug] #6 0000af48 in public AMX_OnScriptInit () in main.amx
+[2023-06-21T04:48:44+0700] [Info] [debug] #7 00008f78 in public Debug_OnScriptInit () in main.amx
+[2023-06-21T04:48:44+0700] [Info] [debug] #8 00000f5c in public YVers_OnScriptInit () in main.amx
+[2023-06-21T04:48:44+0700] [Info] [debug] #9 00000744 in public ScriptInit_OnScriptInit () in main.amx
+[2023-06-21T04:48:44+0700] [Info] [debug] #10 0000041c in public OnGameModeInit () in main.amx
+[2023-06-21T04:48:56+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T04:48:56+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T04:48:56+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T04:48:56+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T04:48:59+0700] [Info] Loaded Door ID:0
+[2023-06-21T04:48:59+0700] [Info] Loaded Door ID:1
+[2023-06-21T04:48:59+0700] [Info] Loaded Door ID:2
+[2023-06-21T04:48:59+0700] [Info] Loaded Door ID:3
+[2023-06-21T04:48:59+0700] [Info] Loaded Door ID:4
+[2023-06-21T04:48:59+0700] [Info] Loaded Door ID:5
+[2023-06-21T04:48:59+0700] [Info] Loaded Door ID:6
+[2023-06-21T04:49:41+0700] [Info] [connection] incoming connection: 127.0.0.1:55565 id: 0
+[2023-06-21T04:49:41+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T04:49:42+0700] [Info] [debug] Long callback execution detected (hang or performance issue)
+[2023-06-21T04:49:42+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T04:49:42+0700] [Info] [debug] #0 0003ab28 in ?? (0) in main.amx
+[2023-06-21T04:49:42+0700] [Info] [debug] #1 00042a08 in ?? (0) in main.amx
+[2023-06-21T04:49:42+0700] [Info] [debug] #2 0000eb40 in public OnPlayerConnect (0) in main.amx
+[2023-06-21T04:49:43+0700] [Info] [debug] Run time error 4: "Array index out of bounds"
+[2023-06-21T04:49:43+0700] [Info] [debug]  Attempted to read/write array element at index 9 in array of size 9
+[2023-06-21T04:49:43+0700] [Info] [debug] AMX backtrace:
+[2023-06-21T04:49:43+0700] [Info] [debug] #0 0003eaec in ?? (0) in main.amx
+[2023-06-21T04:49:43+0700] [Info] [debug] #1 00043210 in public OnAccountCheck (0) in main.amx
+[2023-06-21T04:50:24+0700] [Info] [part] Khoi_Nguyenz has left the server (0:1)

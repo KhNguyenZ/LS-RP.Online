@@ -8,7 +8,7 @@
 #undef MAX_PLAYERS
 #define MAX_PLAYERS 500
 
-#pragma warning disable 213
+#pragma warning disable 213, 208
 
 #define  			MYSQL_HOST				"localhost"
 #define  			MYSQL_USER				"root"
@@ -40,9 +40,9 @@ main()
 // login
 #include "./modules/multi-account/logintxd.pwn"
 // character
-#include "./modules/characters/character.pwn"
-#include "./modules/characters/character-select.pwn"
-#include "./modules/characters/character-admin.pwn"
+#include "./modules/characters/Core/character.pwn"
+#include "./modules/characters/Core/character-select.pwn"
+#include "./modules/characters/Admin/character-admin.pwn"
 // core login
 #include "./modules/multi-account/account.pwn"
 // core server

@@ -36,7 +36,7 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				
 				if(len >= MAX_PASSWORD_LEN || inputtext[0] == EOS || len < 6) 
 				{
-					SendClientMessage(playerid, -1, "Do dai mat khau tu 6 den 32 ki tu");
+					HienTextdraw(playerid, "Do dai mat khau tu 6 den 32 ki tu", 10000);
 					connectForm_Show(playerid, dialog_Register);
 				}
 				else 
@@ -112,6 +112,6 @@ forward OnAccountRegister(const playerid);
 public OnAccountRegister(const playerid) 
 {
 	character_Select(playerid);
-	SendClientMessage(playerid, -1, "Dang ky tai khoan thanh cong.");
+	HienTextdraw(playerid, "Dang ky tai khoan thanh cong.", 5000);
 	return 1;
 }
