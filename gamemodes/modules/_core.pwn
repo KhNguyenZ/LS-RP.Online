@@ -3,11 +3,6 @@
 
 #define  			func:%0(%1)  				stock %0(%1)
 
-public OnPlayerText(playerid, text[])
-{
-	return 0;
-}
-
 
 func:SendRangeMessage(const playerid, Float:range, string[])
 {
@@ -32,27 +27,6 @@ func:SendRangeMessage(const playerid, Float:range, string[])
 	format(msg, sizeof(msg), "(chat) %s", player_get_name(playerid), string);
 	SetPlayerChatBubble(playerid, string, -1, range,10000);
 	return 0;
-}
-
-hook OnPlayerText(playerid, text[])
-{
-	if(player_Login(playerid))
-	{
-		SendRangeMessage(playerid, 10, text);
-		Log("log/chat.log", text);
-	}
-	else SendClientMessage(playerid, -1, "Ban vui long dang nhap");
-	return 1;
-}
-
-public OnPlayerCommandText(playerid, cmdtext[]) {
-	if(!player_Login(playerid))
-	{
-		SendClientMessage(playerid,0xFF0000FF, "Ban chua dang nhap");
-		Log("log/cmd.log", cmdtext);
-		return 0;
-	}
-	return 1;
 }
 
 // Anti Hack Money

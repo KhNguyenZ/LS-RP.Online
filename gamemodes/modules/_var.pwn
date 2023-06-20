@@ -5,3 +5,6 @@ enum
 	dialog_charSelect,
 	dialog_charCreate,
 }
+
+new PlayerText:scm_PTD[MAX_PLAYERS];
+new HienThi[MAX_PLAYERS];

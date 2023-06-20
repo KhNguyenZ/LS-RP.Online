@@ -33,30 +33,6 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 	new result = 0;
 	switch(dialogid) 
 	{
-		case dialog_Login: // Dang nhap
-		{
-			result = response ? 1 : -1;
-			if(response) 
-			{
-				if(!strcmp(account_get_password(player_get_name(playerid, false)), inputtext))
-				{
-					new queryzzz[1280], Cache:acc_cache;
-					mysql_format(Handle(), queryzzz, sizeof(queryzzz), "SELECT * FROM `accounts` WHERE `Username` = '%s'", player_get_name(playerid, false));
-					acc_cache = mysql_query(Handle(), queryzzz);
-					if(cache_num_rows())
-					{
-						cache_get_value_name_int(0,"id", Character[playerid][char_account_id]);
-					}
-					cache_delete(acc_cache);
-					character_Select(playerid);
-				}
-				else 
-				{
-					SendClientMessage(playerid, -1, "Sai mat khau.");
-					connectForm_Show(playerid, dialog_Login);
-				}
-			}
-		}
 		case dialog_Register: // Dang ky
 		{
 			result = response ? 1 : -1;
@@ -130,7 +106,7 @@ public OnAccountCheck(const playerid)
 {
 	if(cache_num_rows()) 
 	{
-		connectForm_Show(playerid, dialog_Login);
+		ShowLoginPTD(playerid);
 	}
 	else 
 	{
