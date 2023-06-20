@@ -1,0 +1,6 @@
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\mysql.pwn(23) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\mysql.pwn(7) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "Handle"
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ïðåäóïðåæäåíèé:1.

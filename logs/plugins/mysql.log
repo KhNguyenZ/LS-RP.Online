@@ -1,0 +1,646 @@
+[16/04/2023 11:50:00 SA] [WARNING] mysql_connect: no password specified
+[16/04/2023 11:53:02 SA] [ERROR] mysql_format: no value for specifier '%e' passed
+[16/04/2023 11:53:02 SA] [ERROR] error #1065 while executing query "": Query was empty
+[16/04/2023 12:37:46 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 12:38:12 CH] [ERROR] mysql_format: no value for specifier '%e' passed
+[16/04/2023 12:38:12 CH] [ERROR] error #1065 while executing query "": Query was empty
+[16/04/2023 12:41:06 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:41:06 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:41:06 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:41:06 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:41:31 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:41:31 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:41:31 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:41:31 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:44:47 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:44:47 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:44:47 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:44:47 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:45:20 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:45:20 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:45:20 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:45:20 CH] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'root'@'localhost' (using password: YES)'
+[16/04/2023 12:45:42 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 12:46:05 CH] [ERROR] mysql_format: no value for specifier '%e' passed
+[16/04/2023 12:46:05 CH] [ERROR] error #1065 while executing query "": Query was empty
+[16/04/2023 12:49:06 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 12:49:30 CH] [ERROR] mysql_format: no value for specifier '%e' passed
+[16/04/2023 12:49:30 CH] [ERROR] error #1065 while executing query "": Query was empty
+[16/04/2023 12:51:57 CH] [ERROR] error #1064 while executing query "SELECT * FROM `accounts` WHERE Username` = 'Khoi_Nguyenz'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '` = 'Khoi_Nguyenz'' at line 1
+[16/04/2023 12:55:41 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 12:56:25 CH] [ERROR] error #1064 while executing query "SELECT * FROM `accounts` WHERE Username` = 'Khoi_Nguyenz'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '` = 'Khoi_Nguyenz'' at line 1
+[16/04/2023 12:58:55 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 12:59:14 CH] [ERROR] error #1064 while executing query "SELECT * FROM `accounts` WHERE Username` = 'Khoi_Nguyenz'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '` = 'Khoi_Nguyenz'' at line 1
+[16/04/2023 1:04:22 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 1:04:53 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 1:04:53 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 1:04:53 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 1:04:53 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 1:04:53 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[16/04/2023 1:04:57 CH] [ERROR] error #1054 while executing query "UPDATE `players` SET PosX = '0.000000', PosY = '0.000000', PosZ = '-99.657501', PosR = '0.000000', Skin = 122 WHERE `unique_id` = '' LIMIT 1": Unknown column 'unique_id' in 'where clause'
+[16/04/2023 1:10:20 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 1:10:52 CH] [ERROR] mysql_format: no value for specifier '%e' passed
+[16/04/2023 1:10:52 CH] [ERROR] error #1065 while executing query "": Query was empty
+[16/04/2023 1:11:39 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 1:11:49 CH] [ERROR] mysql_format: no value for specifier '%e' passed
+[16/04/2023 1:11:49 CH] [ERROR] error #1065 while executing query "": Query was empty
+[16/04/2023 6:14:51 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 6:15:31 CH] [ERROR] error #1054 while executing query "UPDATE `accounts` SET `CharName-1` = 'Jey_Elephant' WHERE `Username` = 'Khoi_Nguyen'": Unknown column 'CharName-1' in 'field list'
+[16/04/2023 6:15:32 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:15:32 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:15:32 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:15:32 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:15:32 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[16/04/2023 6:15:38 CH] [ERROR] error #1054 while executing query "UPDATE `players` SET PosX = '0.000000', PosY = '0.000000', PosZ = '-125.040222', PosR = '0.000000', Skin = 122 WHERE `unique_id` = '' LIMIT 1": Unknown column 'unique_id' in 'where clause'
+[16/04/2023 6:25:15 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 6:30:03 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 6:30:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:30:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:30:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:30:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:30:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[16/04/2023 6:48:06 CH] [ERROR] error #1054 while executing query "UPDATE `players` SET PosX = '0.000000', PosY = '0.000000', PosZ = '0.000000', PosR = '0.000000', Skin = 122 WHERE `players` = '' LIMIT 1": Unknown column 'players' in 'where clause'
+[16/04/2023 6:48:54 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 6:49:16 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:49:16 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:49:16 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:49:16 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:49:16 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[16/04/2023 6:49:16 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[16/04/2023 6:49:16 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[16/04/2023 6:49:19 CH] [ERROR] error #1054 while executing query "UPDATE `players` SET PosX = '0.000000', PosY = '0.000000', PosZ = '0.000000', PosR = '0.000000', Skin = 122 WHERE `players` = '' LIMIT 1": Unknown column 'players' in 'where clause'
+[16/04/2023 6:51:35 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[16/04/2023 6:53:42 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1199.176025', PosY = '-1312.933105', PosZ = '13.398438', PosR = '176.656601', Skin = 143 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[16/04/2023 9:37:38 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 9:38:41 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[16/04/2023 9:38:47 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1192.780029', PosY = '-1292.680054', PosZ = '13.380000', PosR = '90.000000', Skin = 143 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[16/04/2023 9:49:03 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 9:49:53 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 9:50:55 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[16/04/2023 9:51:11 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1191.108521', PosY = '-1305.559692', PosZ = '13.390306', PosR = '206.957993', Skin = 74 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[16/04/2023 10:23:18 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 10:24:41 CH] [WARNING] mysql_connect: no password specified
+[16/04/2023 10:25:37 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[16/04/2023 10:25:41 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '0.000000', PosY = '0.000000', PosZ = '0.000000', PosR = '0.000000', Skin = 74 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[17/04/2023 12:20:27 CH] [WARNING] mysql_connect: no password specified
+[17/04/2023 12:22:08 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[17/04/2023 12:22:27 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '0.000000', PosY = '0.000000', PosZ = '0.000000', PosR = '0.000000', Skin = 74 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[17/04/2023 12:23:03 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[17/04/2023 12:24:07 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '0.000000', PosY = '0.000000', PosZ = '0.000000', PosR = '0.000000', Skin = 2 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[17/04/2023 12:25:36 CH] [WARNING] mysql_connect: no password specified
+[17/04/2023 12:26:33 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+                                                                                                                                                                                                                                                                                                                                                                             [20/04/2023 5:30:14 CH] [WARNING] mysql_connect: no password specified
+[20/04/2023 5:33:36 CH] [WARNING] mysql_connect: no password specified
+[20/04/2023 5:34:43 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[20/04/2023 5:34:43 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/04/2023 5:35:10 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1195.645630', PosY = '-1333.517090', PosZ = '13.541238', PosR = '171.801697', Health = '0.000000', Armor = '0.000000', TanSo = '1', Cash = '1000', AdminLevel = '7', Skin = 2 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[20/04/2023 5:36:59 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[20/04/2023 5:36:59 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/04/2023 6:06:31 CH] [WARNING] mysql_connect: no password specified
+[20/04/2023 6:07:13 CH] [WARNING] mysql_connect: no password specified
+[20/04/2023 6:08:10 CH] [WARNING] mysql_connect: no password specified
+[20/04/2023 6:10:19 CH] [WARNING] mysql_connect: no password specified
+[20/04/2023 6:12:08 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[20/04/2023 6:12:08 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/04/2023 6:14:56 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1203.907715', PosY = '-1331.497192', PosZ = '13.398438', PosR = '189.887939', Health = '0.000000', Armor = '0.000000', TanSo = '1', Cash = '1000', AdminLevel = '0', Skin = 2 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[22/04/2023 3:38:53 CH] [WARNING] mysql_connect: no password specified
+[22/04/2023 3:51:01 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[22/04/2023 3:51:01 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/04/2023 3:51:47 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1192.780029', PosY = '-1292.680054', PosZ = '13.380000', PosR = '90.000000', Health = '0.000000', Armor = '0.000000', TanSo = '1', Cash = '1000', AdminLevel = '0', Skin = 2 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[22/04/2023 4:24:53 CH] [WARNING] mysql_connect: no password specified
+[22/04/2023 4:25:43 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[22/04/2023 4:25:43 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/04/2023 4:41:13 CH] [WARNING] mysql_connect: no password specified
+[22/04/2023 4:41:35 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[22/04/2023 4:41:35 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/04/2023 4:57:20 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1192.780029', PosY = '-1292.680054', PosZ = '13.380871', PosR = '90.000000', Health = '0.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 144 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[22/04/2023 4:58:26 CH] [WARNING] mysql_connect: no password specified
+[22/04/2023 4:58:40 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[22/04/2023 4:58:40 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/04/2023 4:58:54 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1192.780029', PosY = '-1292.680054', PosZ = '13.380871', PosR = '90.000000', Health = '0.000000', Armor = '0.000000', TanSo = '1', Cash = '1000', AdminLevel = '0', Skin = 2 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[22/04/2023 5:00:02 CH] [WARNING] mysql_connect: no password specified
+[22/04/2023 5:00:24 CH] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[22/04/2023 5:00:24 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/04/2023 5:00:41 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1184.972778', PosY = '-1316.557617', PosZ = '13.571452', PosR = '179.154663', Health = '0.000000', Armor = '0.000000', TanSo = '1', Cash = '1000', AdminLevel = '0', Skin = 2 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[23/04/2023 11:37:31 SA] [WARNING] mysql_connect: no password specified
+[23/04/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: field 'Heath' not found
+[23/04/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[23/04/2023 11:43:01 SA] [WARNING] mysql_connect: no password specified
+[23/04/2023 11:43:28 SA] [ERROR] cache_get_value_name_float: field 'Armour' not found
+[23/04/2023 11:43:28 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[23/04/2023 11:43:36 SA] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1192.780029', PosY = '-1292.680054', PosZ = '13.380871', PosR = '90.000000', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 144 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[23/04/2023 11:44:12 SA] [ERROR] cache_get_value_name_float: field 'Armour' not found
+[23/04/2023 11:44:12 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[23/04/2023 11:44:56 SA] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1188.897827', PosY = '-1295.350586', PosZ = '13.552145', PosR = '16.405207', Health = '50.000000', Armor = '0.000000', TanSo = '1', Cash = '1000', AdminLevel = '0', Skin = 3 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[23/04/2023 11:54:36 SA] [WARNING] mysql_connect: no password specified
+[23/04/2023 11:55:08 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[23/04/2023 11:58:50 SA] [WARNING] mysql_connect: no password specified
+[23/04/2023 11:59:28 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[23/04/2023 2:00:39 CH] [WARNING] mysql_connect: no password specified
+[23/04/2023 2:00:39 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[23/04/2023 2:00:39 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[23/04/2023 2:00:39 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[23/04/2023 2:00:39 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[23/04/2023 2:00:39 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[23/04/2023 2:01:22 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[23/04/2023 2:02:37 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1193.052856', PosY = '-1293.045166', PosZ = '13.381138', PosR = '249.623352', Health = '50.000000', Armor = '50.000000', TanSo = '1', Cash = '1000', AdminLevel = '0', Skin = 3 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[23/04/2023 2:04:43 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/04/2023 12:57:39 CH] [WARNING] mysql_connect: no password specified
+[24/04/2023 12:57:40 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/04/2023 12:57:40 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/04/2023 12:57:40 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/04/2023 12:57:40 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/04/2023 12:57:40 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/04/2023 12:58:02 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/04/2023 12:59:00 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1196.623657', PosY = '-1296.456177', PosZ = '13.383636', PosR = '198.915649', Health = '50.000000', Armor = '50.000000', TanSo = '1', Cash = '1000', AdminLevel = '7', Skin = 3 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[28/04/2023 5:00:24 CH] [WARNING] mysql_connect: no password specified
+[28/04/2023 5:00:24 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 5:00:24 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 5:00:24 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 5:01:28 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 5:01:42 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1194.096680', PosY = '-1296.310181', PosZ = '13.383530', PosR = '10.101742', Health = '50.000000', Armor = '50.000000', TanSo = '1', Cash = '1000', AdminLevel = '0', Skin = 3 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[28/04/2023 5:33:12 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:20:42 CH] [WARNING] mysql_connect: no password specified
+[28/04/2023 6:20:42 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 6:20:42 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 6:20:42 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 6:21:47 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:24:21 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1200.258667', PosY = '-1289.619507', PosZ = '13.382813', PosR = '155.578232', Health = '50.000000', Armor = '50.000000', TanSo = '1', Cash = '1000', AdminLevel = '0', Skin = 3 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[28/04/2023 6:28:37 CH] [WARNING] mysql_connect: no password specified
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:28:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:29:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 6:29:48 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1196.884766', PosY = '-1294.505249', PosZ = '13.382208', PosR = '209.255692', Health = '50.000000', Armor = '50.000000', TanSo = '1', Cash = '1000', AdminLevel = '7', Skin = 3 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[28/04/2023 10:03:04 CH] [WARNING] mysql_connect: no password specified
+[28/04/2023 10:03:04 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:03:04 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:03:04 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:03:59 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [WARNING] mysql_connect: no password specified
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:07:55 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:08:33 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [WARNING] mysql_connect: no password specified
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:21:50 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:22:12 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [WARNING] mysql_connect: no password specified
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:11 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[28/04/2023 10:29:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 11:59:35 SA] [WARNING] mysql_connect: no password specified
+[30/04/2023 11:59:35 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 11:59:35 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 11:59:35 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:00:26 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:01:11 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1198.974365', PosY = '-1300.131348', PosZ = '13.386330', PosR = '198.620728', Health = '50.000000', Armor = '50.000000', TanSo = '1', Cash = '1000', AdminLevel = '7', Skin = 3 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[30/04/2023 12:01:24 CH] [WARNING] mysql_connect: no password specified
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:01:24 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:01:45 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:03:43 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1195.608887', PosY = '-1294.088257', PosZ = '13.381903', PosR = '62.426346', Health = '50.000000', Armor = '50.000000', TanSo = '1', Cash = '1000', AdminLevel = '7', Skin = 3 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[30/04/2023 12:31:07 CH] [WARNING] mysql_connect: no password specified
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:32:00 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:35 CH] [WARNING] mysql_connect: no password specified
+[30/04/2023 12:43:35 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:35 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:35 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:43:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 12:44:08 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [WARNING] mysql_connect: no password specified
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:29 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [WARNING] mysql_connect: no password specified
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:00:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[30/04/2023 1:02:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:01 CH] [WARNING] mysql_connect: no password specified
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [WARNING] mysql_connect: no password specified
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:21:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:23:36 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[20/06/2023 11:23:49 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1192.580200', PosY = '-1293.001221', PosZ = '13.381105', PosR = '186.048019', Health = '50.000000', Armor = '50.000000', TanSo = '1', Cash = '1000', AdminLevel = '0', Skin = 3 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1

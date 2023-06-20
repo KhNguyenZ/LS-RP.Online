@@ -1,0 +1,172 @@
+[04:35:38 PM] [ERROR] CMySQLConnection::Connect - (error #1698) Access denied for user 'root'@'localhost'
+[04:35:38 PM] [ERROR] CMySQLConnection::Connect - (error #1698) Access denied for user 'root'@'localhost'
+[04:35:38 PM] [ERROR] CMySQLConnection::Connect - (error #1698) Access denied for user 'root'@'localhost'
+[04:35:38 PM] [ERROR] CMySQLConnection::Connect - (error #1698) Access denied for user 'root'@'localhost'
+[04:35:38 PM] [WARNING] CMySQLConnection::Disconnect - no connection available
+[04:35:38 PM] [WARNING] CMySQLConnection::Disconnect - no connection available
+[04:35:38 PM] [WARNING] CMySQLConnection::Disconnect - no connection available
+[04:35:38 PM] [WARNING] CMySQLConnection::Disconnect - no connection available
+[04:38:58 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:38:58 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:38:58 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:38:58 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:38:58 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:38:58 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:38:58 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:38:58 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:38:58 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:48:55 PM] [WARNING] CMySQLConnection::Disconnect - no connection available
+[04:49:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:49:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:49:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:49:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:49:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:49:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:49:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:49:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:49:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:58:35 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("login_date")
+[04:58:35 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:58:35 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:58:35 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:58:35 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:58:35 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[04:58:35 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:58:35 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:58:35 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:58:35 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[04:58:35 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:58:35 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[04:58:35 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:58:35 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:58:35 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:58:35 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:59:28 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[04:59:28 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:59:28 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[04:59:28 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:59:28 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[04:59:28 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[04:59:28 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:01:37 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[05:01:37 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:01:37 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[05:01:37 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:01:37 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[05:01:37 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:01:37 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:03:13 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[05:03:13 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:03:13 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[05:03:13 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:03:13 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[05:03:13 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:03:13 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("login_date")
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:05:15 PM] [ERROR] CMySQLResult::GetRowDataByName() - invalid row index ('1')
+[05:05:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:10:25 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[05:10:25 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:10:25 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[05:10:25 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:10:25 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[05:10:25 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:10:25 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:10:25 PM] [ERROR] CMySQLResult::GetRowDataByName() - invalid row index ('1')
+[05:10:25 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:14:55 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("login_date")
+[05:14:55 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[05:14:55 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:14:55 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[05:14:55 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:14:55 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[05:14:55 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:14:55 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:16:11 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[05:16:11 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:16:11 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[05:16:11 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:16:11 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[05:16:11 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:16:11 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:16:30 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("login_date")
+[05:16:30 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[05:16:30 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:16:30 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[05:16:30 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:16:30 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[05:16:30 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:16:30 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:16:51 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("login_date")
+[05:16:51 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[05:16:51 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:16:51 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[05:16:51 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:16:51 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[05:16:51 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:16:51 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:17:07 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("login_date")
+[05:17:07 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[05:17:07 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:17:07 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[05:17:07 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:17:07 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[05:17:07 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:17:07 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:24:15 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[05:24:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:24:15 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[05:24:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:24:15 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[05:24:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[05:24:15 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:49:48 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("login_date")
+[09:49:48 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:49:48 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:49:48 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:49:48 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:49:48 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[09:49:48 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:49:48 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:49:48 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:49:48 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[09:49:48 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:49:48 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[09:49:48 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:49:48 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:49:48 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:49:48 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:54:29 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("daSay")
+[09:54:29 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:54:29 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("bandage")
+[09:54:29 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:54:29 PM] [WARNING] CMySQLResult::GetRowDataByName - field not found ("firstaid")
+[09:54:29 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:54:29 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:54:29 PM] [ERROR] CMySQLResult::GetRowDataByName() - invalid row index ('1')
+[09:54:29 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:54:30 PM] [ERROR] cache_get_field_content_int - invalid datatype
+[09:54:30 PM] [ERROR] cache_get_field_content_float - invalid datatype
+[09:54:30 PM] [ERROR] cache_get_field_content_float - invalid datatype
+[09:54:30 PM] [ERROR] cache_get_field_content_float - invalid datatype
+[09:54:30 PM] [ERROR] cache_get_field_content_float - invalid datatype
+[09:54:30 PM] [ERROR] cache_get_field_content_float - invalid datatype
+[09:54:30 PM] [ERROR] cache_get_field_content_float - invalid datatype
+[09:54:30 PM] [ERROR] cache_get_field_content_float - invalid datatype
+[09:54:30 PM] [ERROR] cache_get_field_content_float - invalid datatype
+[09:54:30 PM] [ERROR] cache_get_field_content_float - invalid datatype

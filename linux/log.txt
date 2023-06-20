@@ -1,0 +1,579 @@
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Variables.so
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Databases.so
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Unicode.so
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loading component Console.so
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component Objects.so
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Timers.so
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Classes.so
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Menus.so
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Fixes.so
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component Actors.so
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loaded 21 component(s) from /root/OMPVN/components
+Executing Server Config...
+[2023-01-2816:35:27] [Info] Loading plugin: mysql.so
+[2023-01-2816:35:27] [Info] Could not load plugin:
+libmysqlclient.so.18: cannot open shared object file: No such file or directory
+[2023-01-2816:35:27] [Info] Loading plugin: mysql_static.so
+[2023-01-2816:35:27] [Info]  >> plugin.mysql: R39-5 successfully loaded.
+[2023-01-2816:35:27] [Info] Loading plugin: whirlpool.so
+[2023-01-2816:35:27] [Info]  
+[2023-01-2816:35:27] [Info]  ==================
+[2023-01-2816:35:27] [Info]  
+[2023-01-2816:35:27] [Info]   Whirlpool loaded
+[2023-01-2816:35:27] [Info]  
+[2023-01-2816:35:27] [Info]  ==================
+[2023-01-2816:35:27] [Info]  
+[2023-01-2816:35:27] [Info] Loading plugin: sscanf.so
+[2023-01-2816:35:27] [Info] 
+
+[2023-01-2816:35:27] [Info]  ===============================
+
+[2023-01-2816:35:27] [Info]       sscanf plugin loaded.     
+
+[2023-01-2816:35:27] [Info]          Version:  2.8.3        
+
+[2023-01-2816:35:27] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-01-2816:35:27] [Info]  ===============================
+
+[2023-01-2816:35:27] [Info] Loading plugin: streamer.so
+[2023-01-2816:35:27] [Info] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[2023-01-2816:35:27] [Info]  
+[2023-01-2816:35:27] [Info]  
+[2023-01-2816:35:27] [Info]  
+[2023-01-2816:35:27] [Info]  ======================================= 
+[2023-01-2816:35:27] [Info]  |                                     | 
+[2023-01-2816:35:27] [Info]  |        YSI version 4.00.0001        | 
+[2023-01-2816:35:27] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-01-2816:35:27] [Info]  |                                     | 
+[2023-01-2816:35:27] [Info]  ======================================= 
+[2023-01-2816:35:27] [Info]  
+[2023-01-2816:35:38] [Info] >>>>>>>>>>>>>>>>>> KNCMS Loading <<<<<<<<<<<<<<<<<<
+[2023-01-2816:35:38] [Info] [KNCMS] Unable to establish a connection with the MySQL server...
+[2023-01-2816:35:38] [Info] Legacy Network started on port 7777
+[2023-01-2816:35:38] [Info] 
+
+[2023-01-2816:35:38] [Info]  ===============================
+
+[2023-01-2816:35:38] [Info]      sscanf plugin unloaded.    
+
+[2023-01-2816:35:38] [Info]  ===============================
+
+[2023-01-2816:35:38] [Info] 
+
+*** Streamer Plugin v2.9.5 by Incognito unloaded ***
+
+[2023-01-2816:35:38] [Info]  
+[2023-01-2816:35:38] [Info]  ====================
+[2023-01-2816:35:38] [Info]  
+[2023-01-2816:35:38] [Info]   Whirlpool unloaded
+[2023-01-2816:35:38] [Info]  
+[2023-01-2816:35:38] [Info]  ====================
+[2023-01-2816:35:38] [Info]  
+[2023-01-2816:35:38] [Info] plugin.mysql: Unloading plugin...
+[2023-01-2816:35:38] [Info] plugin.mysql: Plugin unloaded.
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Variables.so
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Databases.so
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Unicode.so
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loading component Console.so
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component Objects.so
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Timers.so
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Classes.so
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Menus.so
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Fixes.so
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component Actors.so
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loaded 21 component(s) from /root/OMPVN/components
+Executing Server Config...
+[2023-01-2816:38:43] [Info] Loading plugin: mysql.so
+[2023-01-2816:38:43] [Info] Could not load plugin:
+libmysqlclient.so.18: cannot open shared object file: No such file or directory
+[2023-01-2816:38:43] [Info] Loading plugin: mysql_static.so
+[2023-01-2816:38:43] [Info]  >> plugin.mysql: R39-5 successfully loaded.
+[2023-01-2816:38:43] [Info] Loading plugin: whirlpool.so
+[2023-01-2816:38:43] [Info]  
+[2023-01-2816:38:43] [Info]  ==================
+[2023-01-2816:38:43] [Info]  
+[2023-01-2816:38:43] [Info]   Whirlpool loaded
+[2023-01-2816:38:43] [Info]  
+[2023-01-2816:38:43] [Info]  ==================
+[2023-01-2816:38:43] [Info]  
+[2023-01-2816:38:43] [Info] Loading plugin: sscanf.so
+[2023-01-2816:38:43] [Info] 
+
+[2023-01-2816:38:43] [Info]  ===============================
+
+[2023-01-2816:38:43] [Info]       sscanf plugin loaded.     
+
+[2023-01-2816:38:43] [Info]          Version:  2.8.3        
+
+[2023-01-2816:38:43] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-01-2816:38:43] [Info]  ===============================
+
+[2023-01-2816:38:43] [Info] Loading plugin: streamer.so
+[2023-01-2816:38:43] [Info] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[2023-01-2816:38:43] [Info]  
+[2023-01-2816:38:43] [Info]  
+[2023-01-2816:38:43] [Info]  
+[2023-01-2816:38:43] [Info]  ======================================= 
+[2023-01-2816:38:43] [Info]  |                                     | 
+[2023-01-2816:38:43] [Info]  |        YSI version 4.00.0001        | 
+[2023-01-2816:38:43] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-01-2816:38:43] [Info]  |                                     | 
+[2023-01-2816:38:43] [Info]  ======================================= 
+[2023-01-2816:38:43] [Info]  
+[2023-01-2816:38:54] [Info] >>>>>>>>>>>>>>>>>> KNCMS Loading <<<<<<<<<<<<<<<<<<
+[2023-01-2816:38:56] [Info] [KNCMS] OMPVN Roleplay
+[2023-01-2816:38:56] [Info] 158 objects loaded.
+[2023-01-2816:38:56] [Info] Legacy Network started on port 7777
+[2023-01-2816:38:56] [Info] Failed to announce legacy network to open.mp list
+[2023-01-2816:38:57] [Info] [Script] 0 houses loaded.
+[2023-01-2816:38:58] [Info] [Script] 0 garages loaded.
+[2023-01-2816:38:58] [Info] [Script] 26 businesses loaded.
+[2023-01-2816:38:59] [Info] [Script] 0 entrances loaded.
+[2023-01-2816:38:59] [Info] [Script] 1 factions loaded.
+[2023-01-2816:38:59] [Info] [Script] 0 lands loaded.
+[2023-01-2816:39:00] [Info] [Script] 1 gangs loaded.
+[2023-01-2816:39:01] [Info] [Script] 1 points loaded.
+[2023-01-2816:39:01] [Info] [Script] 0 turfs loaded.
+[2023-01-2816:48:55] [Info] 
+
+[2023-01-2816:48:55] [Info]  ===============================
+
+[2023-01-2816:48:55] [Info]      sscanf plugin unloaded.    
+
+[2023-01-2816:48:55] [Info]  ===============================
+
+[2023-01-2816:48:55] [Info] 
+
+*** Streamer Plugin v2.9.5 by Incognito unloaded ***
+
+[2023-01-2816:48:55] [Info]  
+[2023-01-2816:48:55] [Info]  ====================
+[2023-01-2816:48:55] [Info]  
+[2023-01-2816:48:55] [Info]   Whirlpool unloaded
+[2023-01-2816:48:55] [Info]  
+[2023-01-2816:48:55] [Info]  ====================
+[2023-01-2816:48:55] [Info]  
+[2023-01-2816:48:55] [Info] plugin.mysql: Unloading plugin...
+[2023-01-2816:48:55] [Info] plugin.mysql: Plugin unloaded.
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Variables.so
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Databases.so
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Unicode.so
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loading component Console.so
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component Objects.so
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Timers.so
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Classes.so
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Menus.so
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Fixes.so
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component Actors.so
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loaded 21 component(s) from /root/OMPVN/components
+Executing Server Config...
+[2023-01-2816:49:02] [Info] Loading plugin: mysql.so
+[2023-01-2816:49:02] [Info] Could not load plugin:
+libmysqlclient.so.18: cannot open shared object file: No such file or directory
+[2023-01-2816:49:02] [Info] Loading plugin: mysql_static.so
+[2023-01-2816:49:02] [Info]  >> plugin.mysql: R39-5 successfully loaded.
+[2023-01-2816:49:02] [Info] Loading plugin: whirlpool.so
+[2023-01-2816:49:02] [Info]  
+[2023-01-2816:49:02] [Info]  ==================
+[2023-01-2816:49:02] [Info]  
+[2023-01-2816:49:02] [Info]   Whirlpool loaded
+[2023-01-2816:49:02] [Info]  
+[2023-01-2816:49:02] [Info]  ==================
+[2023-01-2816:49:02] [Info]  
+[2023-01-2816:49:02] [Info] Loading plugin: sscanf.so
+[2023-01-2816:49:02] [Info] 
+
+[2023-01-2816:49:02] [Info]  ===============================
+
+[2023-01-2816:49:02] [Info]       sscanf plugin loaded.     
+
+[2023-01-2816:49:02] [Info]          Version:  2.8.3        
+
+[2023-01-2816:49:02] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-01-2816:49:02] [Info]  ===============================
+
+[2023-01-2816:49:02] [Info] Loading plugin: streamer.so
+[2023-01-2816:49:02] [Info] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[2023-01-2816:49:03] [Info]  
+[2023-01-2816:49:03] [Info]  
+[2023-01-2816:49:03] [Info]  
+[2023-01-2816:49:03] [Info]  ======================================= 
+[2023-01-2816:49:03] [Info]  |                                     | 
+[2023-01-2816:49:03] [Info]  |        YSI version 4.00.0001        | 
+[2023-01-2816:49:03] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-01-2816:49:03] [Info]  |                                     | 
+[2023-01-2816:49:03] [Info]  ======================================= 
+[2023-01-2816:49:03] [Info]  
+[2023-01-2816:49:13] [Info] >>>>>>>>>>>>>>>>>> KNCMS Loading <<<<<<<<<<<<<<<<<<
+[2023-01-2816:49:13] [Info] [KNCMS] OMPVN Roleplay
+[2023-01-2816:49:13] [Info] 158 objects loaded.
+[2023-01-2816:49:13] [Info] Legacy Network started on port 7777
+[2023-01-2816:49:13] [Info] Failed to announce legacy network to open.mp list
+[2023-01-2816:49:14] [Info] [Script] 0 houses loaded.
+[2023-01-2816:49:15] [Info] [Script] 0 garages loaded.
+[2023-01-2816:49:15] [Info] [Script] 26 businesses loaded.
+[2023-01-2816:49:16] [Info] [Script] 0 entrances loaded.
+[2023-01-2816:49:17] [Info] [Script] 1 factions loaded.
+[2023-01-2816:49:17] [Info] [Script] 0 lands loaded.
+[2023-01-2816:49:17] [Info] [Script] 1 gangs loaded.
+[2023-01-2816:49:18] [Info] [Script] 1 points loaded.
+[2023-01-2816:49:18] [Info] [Script] 0 turfs loaded.
+[2023-01-2816:55:09] [Info] Log file reloaded.
+[2023-01-2816:58:22] [Info] [connection] incoming connection: 115.76.223.77:58269 id: 0
+[2023-01-2816:58:22] [Info] [join] dinhtuan_handsome has joined the server (0:115.76.223.77)
+[2023-01-2816:58:57] [Info] [KNCMS_CMD] dinhtuan handsome: /ad
+[2023-01-2816:59:02] [Info] [KNCMS_CMD] dinhtuan handsome: /ah
+[2023-01-2816:59:10] [Info] [part] dinhtuan_handsome has left the server (0:1)
+[2023-01-2816:59:23] [Info] [connection] incoming connection: 115.76.223.77:61700 id: 0
+[2023-01-2816:59:23] [Info] [join] dinhtuan_handsome has joined the server (0:115.76.223.77)
+[2023-01-2816:59:43] [Info] [death] dinhtuan_handsome died 255
+[2023-01-2816:59:47] [Info] [death] dinhtuan_handsome died 255
+[2023-01-2817:00:59] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms
+[2023-01-2817:01:06] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms 0 99999
+[2023-01-2817:01:10] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da dua dinhtuan handsome len vi tri S-Developer (8).
+[2023-01-2817:01:10] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms 0 8
+[2023-01-2817:01:15] [Info] [KNCMS_CMD] dinhtuan handsome: /hoisinh
+[2023-01-2817:01:17] [Info] [KNCMS_CMD] dinhtuan handsome: /hoisinh 0
+[2023-01-2817:01:20] [Info] [part] dinhtuan_handsome has left the server (0:1)
+[2023-01-2817:01:31] [Info] [connection] incoming connection: 115.76.223.77:54699 id: 0
+[2023-01-2817:01:31] [Info] [join] dinhtuan_handsome has joined the server (0:115.76.223.77)
+[2023-01-2817:02:03] [Info] [part] dinhtuan_handsome has left the server (0:1)
+[2023-01-2817:03:06] [Info] [connection] incoming connection: 115.76.223.77:63418 id: 0
+[2023-01-2817:03:06] [Info] [join] dinhtuan_handsome has joined the server (0:115.76.223.77)
+[2023-01-2817:03:40] [Info] [KNCMS] {FF0000}CanhBao Adm:{0099FF} dinhtuan handsome [0] da dang nhap lan dau vao OMPVN!
+[2023-01-2817:04:18] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms
+[2023-01-2817:04:20] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da dua dinhtuan handsome len vi tri S-Developer (8).
+[2023-01-2817:04:20] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms 0 8
+[2023-01-2817:04:44] [Info] [KNCMS_CMD] dinhtuan handsome: /timvieclam
+[2023-01-2817:04:49] [Info] [connection] incoming connection: 123.31.109.9:60026 id: 1
+[2023-01-2817:04:49] [Info] [join] Khoi_Nguyen has joined the server (1:123.31.109.9)
+[2023-01-2817:04:50] [Info] [KNCMS_CMD] dinhtuan handsome: /timvieclam
+[2023-01-2817:05:01] [Info] [KNCMS_CMD] dinhtuan handsome: /jetpack
+[2023-01-2817:05:03] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da nhan duoc mot jetpack boi dinhtuan handsome .
+[2023-01-2817:05:03] [Info] [KNCMS_CMD] dinhtuan handsome: /jetpack 0
+[2023-01-2817:05:18] [Info] [KNCMS_CMD] dinhtuan handsome: /ah
+[2023-01-2817:05:31] [Info] [KNCMS] AdmCanhBao: Khoi Nguyen[1] nghi van Hacking dich chuyen (khoang cach: 178.9).
+[2023-01-2817:05:34] [Info] [KNCMS_CMD] dinhtuan handsome: /xinviec
+[2023-01-2817:05:48] [Info] [KNCMS_CMD] dinhtuan handsome: /xinviec
+[2023-01-2817:05:51] [Info] [KNCMS_CMD] dinhtuan handsome: /chapnhan congviec
+[2023-01-2817:05:56] [Info] [KNCMS_CMD] dinhtuan handsome: /ah
+[2023-01-2817:06:03] [Info] [KNCMS_CMD] dinhtuan handsome: /laybanh
+[2023-01-2817:06:10] [Info] [KNCMS_CMD] dinhtuan handsome: /laybanh
+[2023-01-2817:06:15] [Info] [KNCMS_CMD] dinhtuan handsome: /laybanh
+[2023-01-2817:06:20] [Info] [KNCMS_CMD] dinhtuan handsome: /laybanh
+[2023-01-2817:06:22] [Info] [KNCMS_CMD] dinhtuan handsome: /laybanh
+[2023-01-2817:06:24] [Info] [part] Khoi_Nguyen has left the server (1:0)
+[2023-01-2817:07:01] [Info] [KNCMS_CMD] dinhtuan handsome: /muathucan
+[2023-01-2817:07:43] [Info] [KNCMS_CMD] dinhtuan handsome: /muathucan
+[2023-01-2817:07:47] [Info] [KNCMS_CMD] dinhtuan handsome: /muathucan
+[2023-01-2817:07:52] [Info] [KNCMS_CMD] dinhtuan handsome: /muathucan
+[2023-01-2817:07:56] [Info] [KNCMS_CMD] dinhtuan handsome: /muathucan
+[2023-01-2817:08:40] [Info] [KNCMS_CMD] dinhtuan handsome: /ah
+[2023-01-2817:08:55] [Info] [KNCMS_CMD] dinhtuan handsome: /delobj
+[2023-01-2817:08:57] [Info] [KNCMS_CMD] dinhtuan handsome: /delobj 1
+[2023-01-2817:09:07] [Info] [KNCMS_CMD] dinhtuan handsome: /rsxe
+[2023-01-2817:09:16] [Info] [KNCMS_CMD] dinhtuan handsome: /rsxe 1 1 1 
+[2023-01-2817:09:20] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da khoi dong lai vi tri phuong tien khong co nguoi su dung.
+[2023-01-2817:09:20] [Info] [KNCMS_CMD] dinhtuan handsome: /rsxe all
+[2023-01-2817:09:30] [Info] [KNCMS_CMD] dinhtuan handsome: /oban
+[2023-01-2817:09:36] [Info] [KNCMS_CMD] dinhtuan handsome: /givegun
+[2023-01-2817:09:39] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da duoc cho mot Desert Eagle boi dinhtuan handsome .
+[2023-01-2817:09:39] [Info] [KNCMS_CMD] dinhtuan handsome: /givegun 0 24
+[2023-01-2817:10:08] [Info] [KNCMS_CMD] dinhtuan handsome: /endchat
+[2023-01-2817:10:08] [Info] [connection] incoming connection: 123.31.109.9:56326 id: 1
+[2023-01-2817:10:08] [Info] [join] Khoi_Nguyen has joined the server (1:123.31.109.9)
+[2023-01-2817:10:22] [Info] [KNCMS_CMD] dinhtuan handsome: /startchat
+[2023-01-2817:10:28] [Info] [KNCMS_CMD] dinhtuan handsome: /endchat
+[2023-01-2817:10:32] [Info] [KNCMS_CMD] dinhtuan handsome: /ah
+[2023-01-2817:10:36] [Info] [KNCMS] {FF0000}CanhBao Adm:{0099FF} Khoi Nguyen [1] da dang nhap lan dau vao OMPVN!
+[2023-01-2817:10:47] [Info] [KNCMS_CMD] dinhtuan handsome: /ofine
+[2023-01-2817:10:49] [Info] [KNCMS_CMD] dinhtuan handsome: /fine
+[2023-01-2817:11:14] [Info] [KNCMS_CMD] dinhtuan handsome: /setname
+[2023-01-2817:11:22] [Info] [KNCMS_CMD] dinhtuan handsome: /fixplayerid
+[2023-01-2817:11:28] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da xoa toan bo Chatbox muc dich tranh deplay May Chu.
+[2023-01-2817:11:28] [Info] [KNCMS_CMD] dinhtuan handsome: /cc
+[2023-01-2817:11:30] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da xoa toan bo Chatbox muc dich tranh deplay May Chu.
+[2023-01-2817:11:30] [Info] [KNCMS_CMD] dinhtuan handsome: /cc
+[2023-01-2817:11:50] [Info] [KNCMS_CMD] dinhtuan handsome: /god
+[2023-01-2817:11:50] [Info] [chat] [Khoi_Nguyen]: cc
+[2023-01-2817:11:55] [Info] [KNCMS_CMD] dinhtuan handsome: /god
+[2023-01-2817:12:00] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Khoi Nguyen da dua Khoi Nguyen len vi tri S-Developer (8).
+[2023-01-2817:12:00] [Info] [KNCMS_CMD] Khoi Nguyen: /kncms 1 8
+[2023-01-2817:12:03] [Info] [KNCMS_CMD] dinhtuan handsome: /me nhin ve phia khoi nguyen va noi
+[2023-01-2817:12:04] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Khoi Nguyen da dua dinhtuan handsome len vi tri S-Developer (8).
+[2023-01-2817:12:04] [Info] [KNCMS_CMD] Khoi Nguyen: /kncms 0 8
+[2023-01-2817:12:07] [Info] [chat] [dinhtuan_handsome]: dit con me may
+[2023-01-2817:12:14] [Info] [KNCMS_CMD] Khoi Nguyen: /givegun 1 
+[2023-01-2817:12:17] [Info] [chat] [dinhtuan_handsome]: tao la cuop day
+[2023-01-2817:12:17] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Khoi Nguyen da duoc cho mot M4 boi Khoi Nguyen .
+[2023-01-2817:12:17] [Info] [KNCMS_CMD] Khoi Nguyen: /givegun 1 31
+[2023-01-2817:12:20] [Info] [chat] [dinhtuan_handsome]: dua tao tien nhanh
+[2023-01-2817:12:26] [Info] [chat] [Khoi_Nguyen]: cc
+[2023-01-2817:12:28] [Info] [chat] [Khoi_Nguyen]: im
+[2023-01-2817:12:41] [Info] [chat] [dinhtuan_handsome]: sao fire deo mat hp ?
+[2023-01-2817:12:51] [Info] [KNCMS_CMD] Khoi Nguyen: /setstat
+[2023-01-2817:12:53] [Info] [KNCMS_CMD] dinhtuan handsome: /setskin
+[2023-01-2817:12:55] [Info] [KNCMS_CMD] dinhtuan handsome: /setskin 0 2
+[2023-01-2817:12:56] [Info] [KNCMS_CMD] Khoi Nguyen: /setstat 1 level 5
+[2023-01-2817:13:08] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da xoa toan bo Chatbox muc dich tranh deplay May Chu.
+[2023-01-2817:13:08] [Info] [KNCMS_CMD] dinhtuan handsome: /cc
+[2023-01-2817:13:09] [Info] [KNCMS_CMD] Khoi Nguyen: /setstat 1 hours 5
+[2023-01-2817:13:09] [Info] [KNCMS_CMD] dinhtuan handsome: /ah
+[2023-01-2817:13:28] [Info] [KNCMS_CMD] Khoi Nguyen: /givepayday
+[2023-01-2817:13:31] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Khoi Nguyen da buoc a payday for Khoi Nguyen.
+[2023-01-2817:13:31] [Info] [KNCMS_CMD] Khoi Nguyen: /givepayday 1
+[2023-01-2817:13:32] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Khoi Nguyen da buoc a payday for Khoi Nguyen.
+[2023-01-2817:13:32] [Info] [KNCMS_CMD] Khoi Nguyen: /givepayday 1
+[2023-01-2817:13:33] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Khoi Nguyen da buoc a payday for Khoi Nguyen.
+[2023-01-2817:13:33] [Info] [KNCMS_CMD] Khoi Nguyen: /givepayday 1
+[2023-01-2817:13:34] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Khoi Nguyen da buoc a payday for Khoi Nguyen.
+[2023-01-2817:13:34] [Info] [KNCMS_CMD] Khoi Nguyen: /givepayday 1
+[2023-01-2817:13:35] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Khoi Nguyen da buoc a payday for Khoi Nguyen.
+[2023-01-2817:13:35] [Info] [KNCMS_CMD] Khoi Nguyen: /givepayday 1
+[2023-01-2817:13:35] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Khoi Nguyen da buoc a payday for Khoi Nguyen.
+[2023-01-2817:13:35] [Info] [KNCMS_CMD] Khoi Nguyen: /givepayday 1
+[2023-01-2817:13:36] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Khoi Nguyen da buoc a payday for Khoi Nguyen.
+[2023-01-2817:13:36] [Info] [KNCMS_CMD] Khoi Nguyen: /givepayday 1
+[2023-01-2817:13:40] [Info] [KNCMS_CMD] Khoi Nguyen: /forcepayday
+[2023-01-2817:14:24] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms
+[2023-01-2817:14:25] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da dua dinhtuan handsome len vi tri CTV (1).
+[2023-01-2817:14:25] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms 0 1
+[2023-01-2817:14:29] [Info] [KNCMS_CMD] dinhtuan handsome: /veh
+[2023-01-2817:14:32] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da dua dinhtuan handsome len vi tri S-CTV (2).
+[2023-01-2817:14:32] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms 0 2
+[2023-01-2817:14:34] [Info] [KNCMS_CMD] dinhtuan handsome: /veh
+[2023-01-2817:14:37] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da dua dinhtuan handsome len vi tri QTV (3).
+[2023-01-2817:14:37] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms 0 3
+[2023-01-2817:14:38] [Info] [KNCMS_CMD] dinhtuan handsome: /veh
+[2023-01-2817:14:43] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Quan tri vien dinhtuan handsome da bat dau lam viec.
+[2023-01-2817:14:43] [Info] [KNCMS_CMD] None: /aduty
+[2023-01-2817:14:51] [Info] [chat] [None]: aduty
+[2023-01-2817:14:53] [Info] [KNCMS_CMD] None: /aduty
+[2023-01-2817:14:55] [Info] [KNCMS] {FF0000}CanhBao Adm:{FFFF00} dinhtuan handsome da khong con lam nhiem vu Quan Tri Vien.
+[2023-01-2817:15:09] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms
+[2023-01-2817:15:12] [Info] [part] dinhtuan_handsome has left the server (0:1)
+[2023-01-2817:16:06] [Info] [connection] incoming connection: 115.76.223.77:62549 id: 0
+[2023-01-2817:16:06] [Info] [join] dinhtuan_handsome has joined the server (0:115.76.223.77)
+[2023-01-2817:16:11] [Info] [KNCMS] {FF0000}CanhBao Adm:{FFFF00} QTV dinhtuan handsome da dang nhap.
+[2023-01-2817:16:15] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms
+[2023-01-2817:16:19] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da dua dinhtuan handsome len vi tri S-QTV (4).
+[2023-01-2817:16:19] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms 0 4
+[2023-01-2817:16:22] [Info] [KNCMS_CMD] dinhtuan handsome: /veh
+[2023-01-2817:16:24] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Quan tri vien dinhtuan handsome da bat dau lam viec.
+[2023-01-2817:16:24] [Info] [KNCMS_CMD] None: /aduty
+[2023-01-2817:16:29] [Info] [KNCMS_CMD] None: /aduty
+[2023-01-2817:16:30] [Info] [KNCMS] {FF0000}CanhBao Adm:{FFFF00} dinhtuan handsome da khong con lam nhiem vu Quan Tri Vien.
+[2023-01-2817:16:36] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms
+[2023-01-2817:16:37] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da dua dinhtuan handsome len vi tri Game Master (5).
+[2023-01-2817:16:37] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms 0 5
+[2023-01-2817:16:40] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da dua dinhtuan handsome len vi tri S-Game (6).
+[2023-01-2817:16:40] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms 0 6
+[2023-01-2817:16:43] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da dua dinhtuan handsome len vi tri S-Developer (8).
+[2023-01-2817:16:43] [Info] [KNCMS_CMD] dinhtuan handsome: /kncms 0 8
+[2023-01-2817:16:44] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da xoa toan bo Chatbox muc dich tranh deplay May Chu.
+[2023-01-2817:16:44] [Info] [KNCMS_CMD] dinhtuan handsome: /cc
+[2023-01-2817:16:46] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Quan tri vien dinhtuan handsome da bat dau lam viec.
+[2023-01-2817:16:46] [Info] [KNCMS_CMD] None: /aduty
+[2023-01-2817:16:51] [Info] [KNCMS_CMD] None: /aduty
+[2023-01-2817:16:51] [Info] [KNCMS] {FF0000}CanhBao Adm:{FFFF00} dinhtuan handsome da khong con lam nhiem vu Quan Tri Vien.
+[2023-01-2817:16:55] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Quan tri vien dinhtuan handsome da bat dau lam viec.
+[2023-01-2817:16:55] [Info] [KNCMS_CMD] None: /aduty
+[2023-01-2817:16:57] [Info] [KNCMS_CMD] None: /goto
+[2023-01-2817:17:00] [Info] [KNCMS_CMD] None: /goto fort
+[2023-01-2817:17:06] [Info] [KNCMS_CMD] None: /aduty
+[2023-01-2817:17:07] [Info] [KNCMS] {FF0000}CanhBao Adm:{FFFF00} dinhtuan handsome da khong con lam nhiem vu Quan Tri Vien.
+[2023-01-2817:17:15] [Info] [KNCMS_CMD] dinhtuan handsome: /goto
+[2023-01-2817:17:16] [Info] [KNCMS_CMD] dinhtuan handsome: /goto
+[2023-01-2817:17:23] [Info] [KNCMS_CMD] dinhtuan handsome: /a lag du ta
+[2023-01-2817:17:24] [Info] [KNCMS_CMD] Khoi Nguyen: /ah
+[2023-01-2817:17:33] [Info] [KNCMS_CMD] dinhtuan handsome: /goto market
+[2023-01-2817:17:41] [Info] [KNCMS_CMD] dinhtuan handsome: /atm
+[2023-01-2817:17:56] [Info] [KNCMS_CMD] dinhtuan handsome: /atm
+[2023-01-2817:18:02] [Info] [KNCMS_CMD] Khoi Nguyen: /boombox
+[2023-01-2817:18:09] [Info] [KNCMS_CMD] dinhtuan handsome: /goto bank
+[2023-01-2817:18:26] [Info] [KNCMS_CMD] Khoi Nguyen: /setstat
+[2023-01-2817:18:31] [Info] [KNCMS_CMD] dinhtuan handsome: /timvieclam
+[2023-01-2817:18:43] [Warning] Vehicle created with respawn delay 0 which is undefined behaviour that might change in the future.
+[2023-01-2817:18:43] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da tao ra mot phuong tien Infernus.
+[2023-01-2817:18:43] [Info] [KNCMS_CMD] dinhtuan handsome: /veh 411 1 1
+[2023-01-2817:18:45] [Info] [KNCMS_CMD] dinhtuan handsome: /goto
+[2023-01-2817:19:04] [Info] [KNCMS_CMD] Khoi Nguyen: /setstat 1 boombox 1
+[2023-01-2817:19:08] [Info] [KNCMS_CMD] Khoi Nguyen: /boombox
+[2023-01-2817:19:12] [Info] [KNCMS_CMD] Khoi Nguyen: /boombox place
+[2023-01-2817:19:17] [Info] [KNCMS_CMD] Khoi Nguyen: /boombox pickup
+[2023-01-2817:19:20] [Info] [KNCMS_CMD] Khoi Nguyen: /boombox place
+[2023-01-2817:19:25] [Info] [KNCMS_CMD] Khoi Nguyen: /boombox place
+[2023-01-2817:19:29] [Info] [KNCMS_CMD] Khoi Nguyen: /boombox play
+[2023-01-2817:19:39] [Info] [KNCMS_CMD] dinhtuan handsome: /give
+[2023-01-2817:19:45] [Info] [KNCMS_CMD] Khoi Nguyen: /boombox place
+[2023-01-2817:19:49] [Info] [KNCMS_CMD] Khoi Nguyen: /boombox play
+[2023-01-2817:20:00] [Info] [KNCMS_CMD] Khoi Nguyen: /boombox play
+[2023-01-2817:20:21] [Info] [KNCMS_CMD] dinhtuan handsome: /xinviec
+[2023-01-2817:20:25] [Info] [KNCMS_CMD] dinhtuan handsome: /xinviec
+[2023-01-2817:20:29] [Info] [part] Khoi_Nguyen has left the server (1:0)
+[2023-01-2817:20:32] [Info] [KNCMS_CMD] dinhtuan handsome: /xinviec
+[2023-01-2817:20:39] [Info] [KNCMS_CMD] dinhtuan handsome: /fish
+[2023-01-2817:20:49] [Info] [KNCMS_CMD] dinhtuan handsome: /xinviec
+[2023-01-2817:20:50] [Info] [KNCMS_CMD] dinhtuan handsome: /goto
+[2023-01-2817:20:53] [Info] [KNCMS_CMD] dinhtuan handsome: /goto mall
+[2023-01-2817:20:58] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da tao ra mot phuong tien NRG-500.
+[2023-01-2817:20:58] [Info] [KNCMS_CMD] dinhtuan handsome: /veh 522 1 1
+[2023-01-2817:21:03] [Info] [KNCMS_CMD] dinhtuan handsome: /goto
+[2023-01-2817:21:08] [Info] [KNCMS_CMD] dinhtuan handsome: /goto vop 
+[2023-01-2817:21:11] [Info] [KNCMS_CMD] dinhtuan handsome: /goto vip
+[2023-01-2817:21:20] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da tao ra mot phuong tien NRG-500.
+[2023-01-2817:21:20] [Info] [KNCMS_CMD] dinhtuan handsome: /veh 522 1 1
+[2023-01-2817:21:42] [Info] [KNCMS_CMD] dinhtuan handsome: /mua
+[2023-01-2817:21:49] [Info] [KNCMS_CMD] dinhtuan handsome: /mask
+[2023-01-2817:21:51] [Info] [KNCMS_CMD] dinhtuan handsome: /mua
+[2023-01-2817:22:01] [Info] [KNCMS_CMD] dinhtuan handsome: /mua
+[2023-01-2817:22:04] [Info] [KNCMS_CMD] dinhtuan handsome: /mua
+[2023-01-2817:22:26] [Info] [KNCMS_CMD] dinhtuan handsome: /makeleader
+[2023-01-2817:23:10] [Info] [chat] [dinhtuan_handsome]: xinviec
+[2023-01-2817:23:11] [Info] [KNCMS_CMD] dinhtuan handsome: /xinviec
+[2023-01-2817:23:18] [Info] [KNCMS_CMD] dinhtuan handsome: /fish
+[2023-01-2817:23:34] [Info] [KNCMS_CMD] dinhtuan handsome: /xinviec
+[2023-01-2817:23:40] [Info] [KNCMS_CMD] dinhtuan handsome: /trogiup
+[2023-01-2817:23:44] [Info] [KNCMS_CMD] dinhtuan handsome: /ah
+[2023-01-2817:23:52] [Info] [part] dinhtuan_handsome has left the server (0:1)
+[2023-01-2817:24:09] [Info] [connection] incoming connection: 115.76.223.77:60532 id: 0
+[2023-01-2817:24:09] [Info] [join] dinhtuan_handsome has joined the server (0:115.76.223.77)
+[2023-01-2817:24:15] [Info] [KNCMS] {FF0000}CanhBao Adm:{FFFF00} S-Developer dinhtuan handsome da dang nhap.
+[2023-01-2817:24:28] [Info] [KNCMS_CMD] dinhtuan handsome: /xinviec
+[2023-01-2817:24:32] [Info] [KNCMS_CMD] dinhtuan handsome: /thongtin
+[2023-01-2817:24:48] [Info] [KNCMS_CMD] dinhtuan handsome: /ah
+[2023-01-2817:24:58] [Info] [KNCMS_CMD] dinhtuan handsome: /omakeadmin
+[2023-01-2817:25:08] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} dinhtuan handsome da xoa toan bo Chatbox muc dich tranh deplay May Chu.
+[2023-01-2817:25:08] [Info] [KNCMS_CMD] dinhtuan handsome: /cc
+[2023-01-2817:25:09] [Info] [part] dinhtuan_handsome has left the server (0:1)
+[2023-01-2821:49:29] [Info] [connection] incoming connection: 42.119.80.69:41857 id: 0
+[2023-01-2821:49:29] [Info] [join] Js_s has joined the server (0:42.119.80.69)
+[2023-01-2821:49:57] [Info] [KNCMS] AdmCanhBao: Js s[0] nghi van Hacking dich chuyen (khoang cach: 180.1).
+[2023-01-2821:50:40] [Info] [KNCMS] {FF0000}CanhBao Adm:{0099FF} Js s [0] da dang nhap lan dau vao OMPVN!
+[2023-01-2821:50:55] [Info] [KNCMS_CMD] Js s: /kncms makeao
+[2023-01-2821:51:02] [Info] [KNCMS_CMD] Js s: /kncms makeao 0 99999
+[2023-01-2821:51:26] [Info] [KNCMS_CMD] Js s: /ah
+[2023-01-2821:53:03] [Info] [KNCMS_CMD] Js s: /kncms makeao 0 9999
+[2023-01-2821:53:20] [Info] [KNCMS_CMD] Js s: /trogiup
+[2023-01-2821:54:14] [Info] [connection] incoming connection: 123.31.109.9:46487 id: 1
+[2023-01-2821:54:14] [Info] [join] Khoi_Nguyenz has joined the server (1:123.31.109.9)
+[2023-01-2821:54:21] [Info] [KNCMS_CMD] Js s: /robbiz
+[2023-01-2821:54:29] [Info] [KNCMS] {FF0000}CanhBao Adm:{FFFF00} S-Developer Khoi Nguyenz da dang nhap.
+[2023-01-2821:54:30] [Info] [KNCMS] AdmCanhBao: Khoi Nguyenz[1] has 1 pending flags. (/listflags 1)
+[2023-01-2821:54:34] [Info] [KNCMS_CMD] Js s: /atm
+[2023-01-2821:54:41] [Info] [KNCMS] {FF0000}CanhBao Adm:{99FF66} Khoi Nguyenz da bo nhiem Khoi Nguyenz la S-Developer (8).
+[2023-01-2821:54:41] [Info] [KNCMS_CMD] Khoi Nguyenz: /makeadmin 1 8
+[2023-01-2821:55:08] [Info] [part] Khoi_Nguyenz has left the server (1:0)
+[2023-01-2821:55:15] [Info] [KNCMS_CMD] Js s: /kncms makeao 0 9999
+[2023-01-2821:55:20] [Info] [part] Js_s has left the server (0:1)
