@@ -51,7 +51,8 @@ main()
 #include "./modules/dynamic/doors.pwn"
 
 //map
-#include "./modules/Maps/Taxi.pwn"
+#include "./modules/Maps/NewbieSpawn.pwn"
+#include "./modules/Maps/LSRPpark.pwn"
 public OnGameModeExit()
 {
 	mysql_close(Handle());
