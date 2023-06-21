@@ -1,5 +1,6 @@
 public OnPlayerConnect(playerid)
 {
+    CreateHienTextDraw(playerid);
 	SetPVarString(playerid, "Current_IC_@", player_get_name(playerid));
 	return 1;
 }
@@ -61,9 +62,9 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 		}
 		else 
 		{
-			new login_string[128];
-			format(login_string, sizeof(login_string), "{ffffff}Chao mung {3366ff}%s{ffffff} tro lai voi {3366ff}LS-RP{ffffff}\n{FF0000FF}Mat khau sai !{FFFFFF}", player_get_name(playerid, 1));
-			ShowPlayerDialog(playerid, DLG_LOGIN ,DIALOG_STYLE_INPUT, "Dang Nhap", login_string, ">>", "<<");
+            PlayerTextDrawSetString(playerid, LoginPTD[playerid][6], "Sai mat khau");
+            HienTextdraw(playerid, "~r~Ban da nhap sai mat khau, vui long nhap lai.", 5000);
+            ReloadPlayerTextDraw(playerid, LoginPTD[playerid][6]);
 		}
 	}
 }

@@ -27,7 +27,7 @@ func:Spawn_OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 {
 	if(IsOpenSpawnMenu(playerid))
 	{
-		if(playertextid == SpawnNewbiePTD[playerid][3]) // ALl Saint
+		if(playertextid == SpawnNewbiePTD[playerid][3]) // All Saint
 		{
 			InterpolateCameraLookAt(playerid, 1176.5789,-1323.8281,14.0283, 1176.5789,-1323.8281,14.0283, 5000);
 			InterpolateCameraPos(playerid, 1211.8411,-1402.7367,30.3213, 1217.2133,-1286.1810,23.1717, 5000, CAMERA_MOVE);

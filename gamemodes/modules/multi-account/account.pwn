@@ -65,8 +65,7 @@ connectForm_Show(const playerid, const _case)
 {
 	if(_case == dialog_Login) 
 	{
-		ShowPlayerDialog(playerid, dialog_Login, 3, "Dang nhap","{ffffff}Chao mung tro lai voi {3366ff}OMPVN{ffffff}\n\
-			Vui long nhap mat khau de tiep tuc.", "Dang nhap", "Thoat");
+		ShowPlayerDialog(playerid, dialog_Login, 3, "Nhap mat khau","{ffffff}Vui long nhap mat khau tai khoan cua ban.{ffffff}", "Xac nhan", "Huy bo");
 	}
 	else 
 	{
@@ -111,6 +110,7 @@ public OnAccountCheck(const playerid)
 forward OnAccountRegister(const playerid);
 public OnAccountRegister(const playerid) 
 {
+
 	character_Select(playerid);
 	HienTextdraw(playerid, "Dang ky tai khoan thanh cong.", 5000);
 	return 1;

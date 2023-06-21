@@ -37,6 +37,8 @@ main()
 #include "./modules/_functions.pwn"
 #include "./modules/_callback.pwn"
 #include "./modules/_core.pwn"
+#include "./modules/_textdraw.pwn"
+
 // login
 #include "./modules/multi-account/logintxd.pwn"
 // character
