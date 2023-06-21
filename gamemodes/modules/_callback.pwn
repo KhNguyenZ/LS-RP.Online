@@ -165,8 +165,14 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		}
 	}
 }
+public OnPlayerUpdate(playerid)
+{
+	UpdateTextTime(playerid);
+	return 1;
+}
 public OnPlayerSpawn(playerid)
 {
+	ShowPlayerTextTime(playerid);
 	SetPlayerSkin(playerid,Character[playerid][char_Skin]);
 	ResetPlayerWeapons(playerid);
 	GivePlayerMoney(playerid, Character[playerid][char_Cash]);
