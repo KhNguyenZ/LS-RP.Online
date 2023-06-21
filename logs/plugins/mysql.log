@@ -1883,3 +1883,114 @@
 [21/06/2023 6:34:44 CH] [WARNING] mysql_connect: no password specified
 [21/06/2023 6:35:33 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
 [21/06/2023 6:35:33 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:04:01 SA] [WARNING] mysql_connect: no password specified
+[22/06/2023 12:04:01 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:04:01 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:04:01 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:04:01 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:04:01 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:04:01 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:04:01 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:04:01 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:04:01 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:04:01 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:04:01 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:06:28 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:06:28 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:06:42 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:07:34 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:07:34 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:07:44 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:11:24 SA] [ERROR] error #1064 while executing query "UPDATE `doors` SET `InPosX` = '1781.288940', `InPosX` = '-1896.849121' , `InPosX` = '13.401010', `InInterior` = '0', `InVW` = '0 ,`ExPosX` = '1434.000000', `ExPosY` = '-1230.329956' , `ExPosZ` = '152.397995', `ExInterior` = '0', `ExVW` = '0 `OwnerID` = '0', `Locked` = '0', `Admin` = '0', `Group` = '0', `VIP` = '0'`PickupID` = '1' WHERE `id` = '0'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1434.000000', `ExPosY` = '-1230.329956' , `ExPosZ` = '152.397995', `ExInterio...' at line 1
+[22/06/2023 12:11:24 SA] [ERROR] cache_get_row_count: no active cache
+[22/06/2023 12:11:24 SA] [ERROR] cache_delete: invalid cache id '0'
+[22/06/2023 12:11:24 SA] [ERROR] error #1064 while executing query "UPDATE `doors` SET `InPosX` = '1781.288940', `InPosX` = '-1896.849121' , `InPosX` = '13.401010', `InInterior` = '0', `InVW` = '0 ,`ExPosX` = '1781.288940', `ExPosY` = '-1896.849121' , `ExPosZ` = '13.401010', `ExInterior` = '0', `ExVW` = '0 `OwnerID` = '0', `Locked` = '0', `Admin` = '0', `Group` = '0', `VIP` = '0'`PickupID` = '1' WHERE `id` = '0'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1781.288940', `ExPosY` = '-1896.849121' , `ExPosZ` = '13.401010', `ExInterior...' at line 1
+[22/06/2023 12:11:24 SA] [ERROR] cache_get_row_count: no active cache
+[22/06/2023 12:11:24 SA] [ERROR] cache_delete: invalid cache id '0'
+[22/06/2023 12:11:48 SA] [ERROR] error #1064 while executing query "UPDATE `doors` SET `InPosX` = '1783.396851', `InPosX` = '-1901.972412' , `InPosX` = '13.402555', `InInterior` = '0', `InVW` = '0 ,`ExPosX` = '1781.288940', `ExPosY` = '-1896.849121' , `ExPosZ` = '13.401010', `ExInterior` = '0', `ExVW` = '0 `OwnerID` = '0', `Locked` = '0', `Admin` = '0', `Group` = '0', `VIP` = '0'`PickupID` = '1' WHERE `id` = '0'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1781.288940', `ExPosY` = '-1896.849121' , `ExPosZ` = '13.401010', `ExInterior...' at line 1
+[22/06/2023 12:11:48 SA] [ERROR] cache_get_row_count: no active cache
+[22/06/2023 12:11:48 SA] [ERROR] cache_delete: invalid cache id '0'
+[22/06/2023 12:11:48 SA] [ERROR] error #1064 while executing query "UPDATE `doors` SET `InPosX` = '1783.396851', `InPosX` = '-1901.972412' , `InPosX` = '13.402555', `InInterior` = '0', `InVW` = '0 ,`ExPosX` = '1783.396851', `ExPosY` = '-1901.972412' , `ExPosZ` = '13.402555', `ExInterior` = '0', `ExVW` = '0 `OwnerID` = '0', `Locked` = '0', `Admin` = '0', `Group` = '0', `VIP` = '0'`PickupID` = '1' WHERE `id` = '0'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1783.396851', `ExPosY` = '-1901.972412' , `ExPosZ` = '13.402555', `ExInterior...' at line 1
+[22/06/2023 12:11:48 SA] [ERROR] cache_get_row_count: no active cache
+[22/06/2023 12:11:48 SA] [ERROR] cache_delete: invalid cache id '0'
+[22/06/2023 12:12:58 SA] [ERROR] error #1064 while executing query "UPDATE `doors` SET `InPosX` = '1782.789795', `InPosX` = '-1900.631470' , `InPosX` = '13.402110', `InInterior` = '0', `InVW` = '0 ,`ExPosX` = '1155434624.000000', `ExPosY` = '-991091136.000000' , `ExPosZ` = '1096181632.000000', `ExInterior` = '0', `ExVW` = '0 `OwnerID` = '0', `Locked` = '0', `Admin` = '0', `Group` = '0', `VIP` = '0'`PickupID` = '2' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1155434624.000000', `ExPosY` = '-991091136.000000' , `ExPosZ` = '1096181632.0...' at line 1
+[22/06/2023 12:12:58 SA] [ERROR] cache_get_row_count: no active cache
+[22/06/2023 12:12:58 SA] [ERROR] cache_delete: invalid cache id '0'
+[22/06/2023 12:12:58 SA] [ERROR] error #1064 while executing query "UPDATE `doors` SET `InPosX` = '1782.789795', `InPosX` = '-1900.631470' , `InPosX` = '13.402110', `InInterior` = '0', `InVW` = '0 ,`ExPosX` = '1782.789795', `ExPosY` = '-1900.631470' , `ExPosZ` = '13.402110', `ExInterior` = '0', `ExVW` = '0 `OwnerID` = '0', `Locked` = '0', `Admin` = '0', `Group` = '0', `VIP` = '0'`PickupID` = '2' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1782.789795', `ExPosY` = '-1900.631470' , `ExPosZ` = '13.402110', `ExInterior...' at line 1
+[22/06/2023 12:12:58 SA] [ERROR] cache_get_row_count: no active cache
+[22/06/2023 12:12:58 SA] [ERROR] cache_delete: invalid cache id '0'
+[22/06/2023 12:13:12 SA] [ERROR] error #1064 while executing query "UPDATE `doors` SET `InPosX` = '1789.896973', `InPosX` = '-1899.321533' , `InPosX` = '13.407316', `InInterior` = '0', `InVW` = '0 ,`ExPosX` = '1782.789795', `ExPosY` = '-1900.631470' , `ExPosZ` = '13.402110', `ExInterior` = '0', `ExVW` = '0 `OwnerID` = '0', `Locked` = '0', `Admin` = '0', `Group` = '0', `VIP` = '0'`PickupID` = '2' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1782.789795', `ExPosY` = '-1900.631470' , `ExPosZ` = '13.402110', `ExInterior...' at line 1
+[22/06/2023 12:13:12 SA] [ERROR] cache_get_row_count: no active cache
+[22/06/2023 12:13:12 SA] [ERROR] cache_delete: invalid cache id '0'
+[22/06/2023 12:13:12 SA] [ERROR] error #1064 while executing query "UPDATE `doors` SET `InPosX` = '1789.896973', `InPosX` = '-1899.321533' , `InPosX` = '13.407316', `InInterior` = '0', `InVW` = '0 ,`ExPosX` = '1789.896973', `ExPosY` = '-1899.321533' , `ExPosZ` = '13.407316', `ExInterior` = '0', `ExVW` = '0 `OwnerID` = '0', `Locked` = '0', `Admin` = '0', `Group` = '0', `VIP` = '0'`PickupID` = '2' WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1789.896973', `ExPosY` = '-1899.321533' , `ExPosZ` = '13.407316', `ExInterior...' at line 1
+[22/06/2023 12:13:12 SA] [ERROR] cache_get_row_count: no active cache
+[22/06/2023 12:13:12 SA] [ERROR] cache_delete: invalid cache id '0'
+[22/06/2023 12:18:56 SA] [WARNING] mysql_connect: no password specified
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:18:56 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:19:39 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:19:39 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:21:08 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:21:16 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:21:16 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:23:27 SA] [ERROR] error #1064 while executing query "UPDATE `doors` SET `InPosX` = '1790.242554', `InPosX` = '-1900.725464' , `InPosX` = '13.407570', `InInterior` = '0', `InVW` = '0 ,`ExPosX` = '1155517184.000000', `ExPosY` = '-991058176.000000' , `ExPosZ` = '1096189312.000000', `ExInterior` = '0', `ExVW` = '0 `OwnerID` = '0', `Locked` = '0', `Admin` = '0', `Group` = '0', `VIP` = '0'`PickupID` = '4' WHERE `id` = '3'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1155517184.000000', `ExPosY` = '-991058176.000000' , `ExPosZ` = '1096189312.0...' at line 1
+[22/06/2023 12:23:27 SA] [ERROR] cache_get_row_count: no active cache
+[22/06/2023 12:23:27 SA] [ERROR] cache_delete: invalid cache id '0'
+[22/06/2023 12:23:27 SA] [ERROR] error #1064 while executing query "UPDATE `doors` SET `InPosX` = '1790.242554', `InPosX` = '-1900.725464' , `InPosX` = '13.407570', `InInterior` = '0', `InVW` = '0 ,`ExPosX` = '1790.242554', `ExPosY` = '-1900.725464' , `ExPosZ` = '13.407570', `ExInterior` = '0', `ExVW` = '0 `OwnerID` = '0', `Locked` = '0', `Admin` = '0', `Group` = '0', `VIP` = '0'`PickupID` = '4' WHERE `id` = '3'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1790.242554', `ExPosY` = '-1900.725464' , `ExPosZ` = '13.407570', `ExInterior...' at line 1
+[22/06/2023 12:23:27 SA] [ERROR] cache_get_row_count: no active cache
+[22/06/2023 12:23:27 SA] [ERROR] cache_delete: invalid cache id '0'
+[22/06/2023 12:29:47 SA] [WARNING] mysql_connect: no password specified
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:29:47 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[22/06/2023 12:30:13 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:30:13 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:30:23 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[22/06/2023 12:31:50 SA] [ERROR] error #1064 while executing query "UPDATE `doors` SET `InPosX` = '1773.243286', `InPosX` = '-1919.240234' , `InPosX` = '13.574865', `InInterior` = '0', `InVW` = '0 ,`ExPosX` = '1790.000000', `ExPosY` = '-1901.219971' , `ExPosZ` = '13.407600', `ExInterior` = '-1', `ExVW` = '0 `OwnerID` = '0', `Locked` = '0', `Admin` = '0', `Group` = '0', `VIP` = '0'`PickupID` = '4' WHERE `id` = '3'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1790.000000', `ExPosY` = '-1901.219971' , `ExPosZ` = '13.407600', `ExInterior...' at line 1
+[22/06/2023 12:31:50 SA] [ERROR] cache_get_row_count: no active cache
+[22/06/2023 12:31:50 SA] [ERROR] cache_delete: invalid cache id '0'

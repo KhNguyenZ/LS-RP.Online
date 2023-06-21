@@ -22,6 +22,8 @@ hook OnPlayerDisconnect(playerid, reason)
 		mysql_format(Handle(), query, sizeof(query), "%s TanSo = '%d',", query, Character[playerid][char_tanso]);
 		mysql_format(Handle(), query, sizeof(query), "%s Cash = '%d',", query, Character[playerid][char_Cash]);
 		mysql_format(Handle(), query, sizeof(query), "%s AdminLevel = '%d',", query, Character[playerid][char_Admin]);
+		mysql_format(Handle(), query, sizeof(query), "%s Interior = '%d',", query, Character[playerid][char_Interior]);
+		mysql_format(Handle(), query, sizeof(query), "%s VW = '%d',", query, Character[playerid][char_VW]);
 		mysql_format(Handle(), query, sizeof(query), "%s Skin = %d WHERE `id` = '%d' LIMIT 1", query, Character[playerid][char_Skin], Character[playerid][char_player_id]);
 		if(mysql_tquery(Handle(), query))
 		{

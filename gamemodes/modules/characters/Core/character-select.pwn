@@ -83,6 +83,8 @@ public OnCharacterLoad(const playerid)
 	cache_get_value_name_int(0, "TanSo", Character[playerid][char_tanso]);
 	cache_get_value_name_int(0, "Cash", Character[playerid][char_Cash]);
 	cache_get_value_name_int(0, "AdminLevel", Character[playerid][char_Admin]);
+	cache_get_value_name_int(0, "Interior", Character[playerid][char_Interior]);
+	cache_get_value_name_int(0, "VW", Character[playerid][char_VW]);
 
 	// printf("ID Account's %s:%d", player_get_name(playerid), Character[playerid][char_player_id]);
     ShowPlayerSpawnMenu(playerid);

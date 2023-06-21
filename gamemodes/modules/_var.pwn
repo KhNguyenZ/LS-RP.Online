@@ -21,7 +21,9 @@ enum character_Info
 	char_Admin,
 	Float:char_health,
 	Float:char_armour,
-	char_tanso
+	char_tanso,
+	char_Interior,
+	char_VW
 }
 
 new Character[MAX_PLAYERS][character_Info];

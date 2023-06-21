@@ -42,6 +42,8 @@ main()
 #include "./modules/_core.pwn"
 #include "./modules/_textdraw.pwn"
 
+#include "./modules/server/ProgressLoad.pwn"
+
 // login
 #include "./modules/multi-account/logintxd.pwn"
 // character
@@ -57,7 +59,7 @@ main()
 // core server
 #include "./modules/server/radio.pwn"
 // dynamic
-#include "./modules/dynamic/doors.pwn"
+#include "./modules/dynamic/Doors/build.pwn"
 
 //map
 #include "./modules/Maps/NewbieSpawn.pwn"

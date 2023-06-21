@@ -1,0 +1,8 @@
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Doors\build.pwn(1) : ôàòàëüíàÿ îøèáêà 100: íåâîçìîæíî ïðî÷åñòü ôàéë: "./modules/dynamic/Doors/var.pwn"
+
+Êîìïèëÿöèÿ îñòàíîâëåíà.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Îøèáîê:1.
