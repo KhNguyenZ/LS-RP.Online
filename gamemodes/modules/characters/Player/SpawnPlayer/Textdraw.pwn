@@ -21,6 +21,7 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawBackgroundColor(playerid, SpawnLSRP[playerid][1], 255);
 	PlayerTextDrawFont(playerid, SpawnLSRP[playerid][1], 4);
 	PlayerTextDrawSetProportional(playerid, SpawnLSRP[playerid][1], 1);
+	PlayerTextDrawSetSelectable(playerid, SpawnLSRP[playerid][1], 1);
 
 	SpawnLSRP[playerid][2] = CreatePlayerTextDraw(playerid, 264.000, 211.000, "mdl-2002:vt-hientai");
 	PlayerTextDrawTextSize(playerid, SpawnLSRP[playerid][2], 109.000, 200.000);
@@ -31,7 +32,8 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawBackgroundColor(playerid, SpawnLSRP[playerid][2], 255);
 	PlayerTextDrawFont(playerid, SpawnLSRP[playerid][2], 4);
 	PlayerTextDrawSetProportional(playerid, SpawnLSRP[playerid][2], 1);
-
+	PlayerTextDrawSetSelectable(playerid, SpawnLSRP[playerid][2], 1);
+	
 	SpawnLSRP[playerid][3] = CreatePlayerTextDraw(playerid, 126.000, 211.000, "mdl-2002:vt-newbie");
 	PlayerTextDrawTextSize(playerid, SpawnLSRP[playerid][3], 109.000, 200.000);
 	PlayerTextDrawAlignment(playerid, SpawnLSRP[playerid][3], 1);
@@ -41,5 +43,6 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawBackgroundColor(playerid, SpawnLSRP[playerid][3], 255);
 	PlayerTextDrawFont(playerid, SpawnLSRP[playerid][3], 4);
 	PlayerTextDrawSetProportional(playerid, SpawnLSRP[playerid][3], 1);
+	PlayerTextDrawSetSelectable(playerid, SpawnLSRP[playerid][3], 1);
 	return 1;
 }

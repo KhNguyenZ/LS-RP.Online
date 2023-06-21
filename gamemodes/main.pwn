@@ -45,6 +45,9 @@ main()
 #include "./modules/characters/Core/character.pwn"
 #include "./modules/characters/Core/character-select.pwn"
 #include "./modules/characters/Admin/character-admin.pwn"
+#include "./modules/characters/Player/SpawnPlayer/callback.pwn"
+#include "./modules/characters/Player/SpawnPlayer/func.pwn"
+#include "./modules/characters/Player/SpawnPlayer/textdraw.pwn"
 // core login
 #include "./modules/multi-account/account.pwn"
 // core server

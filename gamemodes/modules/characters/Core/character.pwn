@@ -37,17 +37,15 @@ hook OnPlayerSpawn(playerid)
 {
 	if(PlayerSetupping[playerid] == 1) {
 		new sdm[1280];
-		mysql_format(Handle(), sdm, sizeof(sdm), "[{212c58}LS-RP{ffffff}]Chao mung ban den voi may chu, {0066ff}%s.", player_get_name(playerid));
+		mysql_format(Handle(), sdm, sizeof(sdm), "[{212c58}LS-RP{ffffff}] Chao mung ban den voi may chu, {0066ff}%s.", player_get_name(playerid));
 		SendClientMessage(playerid, -1, sdm);
-		HienTextdraw(playerid, sdm, 5000);
 		PlayerSetupping[playerid] = 0;
-		SetPlayerVirtualWorld(playerid, 0);
 	}
 	if(Character[playerid][char_Admin] > 0)
 	{
 		new msgzz[1280];
 		format(msgzz, sizeof(msgzz),"Xin Chao {0000EE}%s{FFFFFF}, ban la %s.", player_get_name(playerid), GetAdmin(playerid));
-		SendClientMessage(playerid, -1, msgzz);		
+		SendClientMessage(playerid, -1, msgzz);
 	}
 	return 1;
 }

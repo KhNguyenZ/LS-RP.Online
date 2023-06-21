@@ -1549,3 +1549,104 @@
 [6/21/2023 8:46:03 AM] [ERROR] cache_get_value_name_int: field 'InInterior' not found
 [6/21/2023 8:47:38 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
 [6/21/2023 8:53:23 AM] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1821.432983', PosY = '-1860.186890', PosZ = '13.414063', PosR = '79.569801', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 137 WHERE `players` = '	": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+[6/21/2023 9:12:20 AM] [WARNING] mysql_connect: no password specified
+[6/21/2023 9:12:20 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:12:20 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:12:20 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:12:20 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:12:20 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:12:20 AM] [ERROR] cache_get_value_name_int: field 'ExInterior' not found
+[6/21/2023 9:12:20 AM] [ERROR] cache_get_value_name_int: field 'InInterior' not found
+[6/21/2023 9:13:01 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:16:18 AM] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1755.143921', PosY = '-1895.301025', PosZ = '13.587015', PosR = '289.922607', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 137 WHERE `players` = '	": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+[6/21/2023 9:18:46 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:18:54 AM] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1187.896118', PosY = '-1289.842041', PosZ = '13.546875', PosR = '82.735321', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 137 WHERE `players` = '	": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+[6/21/2023 9:40:50 AM] [WARNING] mysql_connect: no password specified
+[6/21/2023 9:40:50 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:40:50 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:40:50 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:40:50 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:40:50 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:40:50 AM] [ERROR] cache_get_value_name_int: field 'ExInterior' not found
+[6/21/2023 9:40:50 AM] [ERROR] cache_get_value_name_int: field 'InInterior' not found
+[6/21/2023 9:41:15 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:41:46 AM] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1958.271362', PosY = '1329.855103', PosZ = '11.138799', PosR = '187.265884', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 137 WHERE `players` = '	": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+[6/21/2023 9:44:42 AM] [WARNING] mysql_connect: no password specified
+[6/21/2023 9:44:42 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:44:42 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:44:42 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:44:42 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:44:42 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:44:42 AM] [ERROR] cache_get_value_name_int: field 'ExInterior' not found
+[6/21/2023 9:44:42 AM] [ERROR] cache_get_value_name_int: field 'InInterior' not found
+[6/21/2023 9:45:10 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:46:30 AM] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1958.378296', PosY = '1343.157227', PosZ = '15.374607', PosR = '270.142487', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 137 WHERE `players` = '	": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+[6/21/2023 9:50:16 AM] [WARNING] mysql_connect: no password specified
+[6/21/2023 9:50:16 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:50:16 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:50:16 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:50:16 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:50:16 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:50:16 AM] [ERROR] cache_get_value_name_int: field 'ExInterior' not found
+[6/21/2023 9:50:16 AM] [ERROR] cache_get_value_name_int: field 'InInterior' not found
+[6/21/2023 9:50:56 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:51:00 AM] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '50.000000', PosY = '50.000000', PosZ = '50.000000', PosR = '0.000000', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 137 WHERE `players` = '	": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+[6/21/2023 9:52:53 AM] [WARNING] mysql_connect: no password specified
+[6/21/2023 9:52:53 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:52:53 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:52:53 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:52:53 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:52:53 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:52:53 AM] [ERROR] cache_get_value_name_int: field 'ExInterior' not found
+[6/21/2023 9:52:53 AM] [ERROR] cache_get_value_name_int: field 'InInterior' not found
+[6/21/2023 9:53:02 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:53:07 AM] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '50.000000', PosY = '50.000000', PosZ = '50.000000', PosR = '0.000000', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 137 WHERE `players` = '	": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+[6/21/2023 9:55:43 AM] [WARNING] mysql_connect: no password specified
+[6/21/2023 9:55:43 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:55:43 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:55:43 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:55:43 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:55:43 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:55:43 AM] [ERROR] cache_get_value_name_int: field 'ExInterior' not found
+[6/21/2023 9:55:43 AM] [ERROR] cache_get_value_name_int: field 'InInterior' not found
+[6/21/2023 9:55:56 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:58:35 AM] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '50.000000', PosY = '50.000000', PosZ = '50.000000', PosR = '0.000000', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 137 WHERE `players` = '	": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+[6/21/2023 9:58:56 AM] [WARNING] mysql_connect: no password specified
+[6/21/2023 9:58:56 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:58:56 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:58:56 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 9:58:56 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:58:56 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:58:56 AM] [ERROR] cache_get_value_name_int: field 'ExInterior' not found
+[6/21/2023 9:58:56 AM] [ERROR] cache_get_value_name_int: field 'InInterior' not found
+[6/21/2023 9:59:17 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 9:59:33 AM] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '-5696.212402', PosY = '-2174.757324', PosZ = '27320.029297', PosR = '0.000000', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 137 WHERE `players` = '	": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+[6/21/2023 10:01:42 AM] [WARNING] mysql_connect: no password specified
+[6/21/2023 10:01:42 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 10:01:42 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 10:01:42 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 10:01:42 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 10:01:42 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 10:01:42 AM] [ERROR] cache_get_value_name_int: field 'ExInterior' not found
+[6/21/2023 10:01:42 AM] [ERROR] cache_get_value_name_int: field 'InInterior' not found
+[6/21/2023 10:01:51 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 10:03:24 AM] [WARNING] mysql_connect: no password specified
+[6/21/2023 10:03:24 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 10:03:24 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 10:03:24 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 10:03:24 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 10:03:24 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 10:03:24 AM] [ERROR] cache_get_value_name_int: field 'ExInterior' not found
+[6/21/2023 10:03:24 AM] [ERROR] cache_get_value_name_int: field 'InInterior' not found
+[6/21/2023 10:03:33 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 10:03:41 AM] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '-346.819885', PosY = '806.324890', PosZ = '9812.711914', PosR = '269.149994', Health = '50.000000', Armor = '50.000000', TanSo = '1', Cash = '1000', AdminLevel = '0', Skin = 3 WHERE `players` = 'öÃ{": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''??{' at line 1
+[6/21/2023 10:04:10 AM] [WARNING] mysql_connect: no password specified
+[6/21/2023 10:04:10 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 10:04:10 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 10:04:10 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 10:04:10 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 10:04:10 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 10:04:10 AM] [ERROR] cache_get_value_name_int: field 'ExInterior' not found
+[6/21/2023 10:04:10 AM] [ERROR] cache_get_value_name_int: field 'InInterior' not found
+[6/21/2023 10:04:19 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 10:04:34 AM] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '50.000000', PosY = '50.000000', PosZ = '50.000000', PosR = '269.149994', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 137 WHERE `players` = '	": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1

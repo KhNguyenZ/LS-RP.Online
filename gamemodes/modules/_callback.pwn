@@ -29,9 +29,17 @@ public OnPlayerCommandText(playerid, cmdtext[]) {
 	}
 	return 1;
 }
+public OnPlayerRequestClass(playerid, classid)
+{
+    SetSpawnInfo(playerid, 0, 0, 1958.33, 1343.12, 15.36, 269.15, 0, 0, 0, 0, 0, 0);
+    SpawnPlayer(playerid);
+    TogglePlayerSpectating(playerid, true);
+    return 1;
+}
 
 public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 {
+    Spawn_OnPlayerClickPlayerTD(playerid, playertextid);
 	if(playertextid == LoginPTD[playerid][6])
 	{
 		new login_string[1280];

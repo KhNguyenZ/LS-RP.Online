@@ -1,11 +1,11 @@
 func:ShowPlayerSpawnMenu(playerid)
 {
 	SetPVarInt(playerid, "OpenSpawnMen_", 1);
-	SelectTextDraw(playerid, -1);
 	for(new spawn_loop = 0 ; spawn_loop < 4 ; spawn_loop++)
 	{
-		PlayerTextDrawShow(playerid, SpawnLSRP[playerid][i]);
+		PlayerTextDrawShow(playerid, SpawnLSRP[playerid][spawn_loop]);
 	}
+	SelectTextDraw(playerid, 0x0d142bFF);
 	return 1;
 }
 func:IsOpenSpawnMenu(playerid)
@@ -18,29 +18,45 @@ func:HidePlayerSpawnMenu(playerid)
 	CancelSelectTextDraw(playerid);
 	for(new spawn_loop = 0 ; spawn_loop < 4 ; spawn_loop++)
 	{
-		PlayerTextDrawHide(playerid, SpawnLSRP[playerid][i]);
+		PlayerTextDrawHide(playerid, SpawnLSRP[playerid][spawn_loop]);
 	}
 	return 1;
 }
 
-func:Spawn_OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
+func:Spawn_OnPlayerClickPlayerTD(playerid, PlayerText:playertextid)
 {
 	if(IsOpenSpawnMenu(playerid))
 	{
-		if(playertextid == SpawnNewbiePTD[playerid][3]) // All Saint
+		if(playertextid == SpawnNewbiePTD[playerid][1]) // Home
 		{
-			InterpolateCameraLookAt(playerid, 1176.5789,-1323.8281,14.0283, 1176.5789,-1323.8281,14.0283, 5000);
-			InterpolateCameraPos(playerid, 1211.8411,-1402.7367,30.3213, 1217.2133,-1286.1810,23.1717, 5000, CAMERA_MOVE);
+			HienTextdraw(playerid, "Tinh nang dang doc update, vui long chon vi tri khac.", 5000);
 		}
-		if(playertextid == SpawnNewbiePTD[playerid][2]) // Newbie Spawn
+		if(playertextid == SpawnNewbiePTD[playerid][2]) // Hien tai
 		{
-			InterpolateCameraLookAt(playerid, 1806.4276,-1895.5110,13.4045,1806.4276,-1895.5110,13.4045, 5000);
-			InterpolateCameraPos(playerid, 1770.4893,-1944.8906,15.8041,1793.2292,-1883.8568,18.5620, 5000, CAMERA_MOVE);
+			SetSpawnInfo(playerid, 0, Character[playerid][char_Skin], Character[playerid][char_last_Pos][0], Character[playerid][char_last_Pos][1],Character[playerid][char_last_Pos][2],Character[playerid][char_last_Pos][3],0, 0,0, 0,0, 0);
+			FadeInPlayerScreen(playerid);
+			SetTimerEx("PlayerJoinGameReal", 1000, false, "i", playerid);
 		}
-		if(playertextid == SpawnNewbiePTD[playerid][4]) // Newbie Spawn
+		if(playertextid == SpawnNewbiePTD[playerid][3]) // Newbie Spawn
 		{
-			InterpolateCameraLookAt(playerid, 1131.3690,-1489.8728,22.7690,1131.3690,-1489.8728,22.7690, 5000);
-			InterpolateCameraPos(playerid, 1770.4893,-1944.8906,15.8041,1793.2292,-1883.8568,18.5620, 5000, CAMERA_MOVE);
+			SetSpawnInfo(playerid, 0, Character[playerid][char_Skin], 1754.7391,-1895.4344,13.5870,0,0, 0,0, 0,0, 0);
+			FadeInPlayerScreen(playerid);
+	  		SetTimerEx("PlayerJoinGameReal", 1000, false, "i", playerid);
 		}
+		HidePlayerSpawnMenu(playerid);
+		SetPlayerSkin(playerid,Character[playerid][char_Skin]);
+		ResetPlayerWeapons(playerid);
+		GivePlayerMoney(playerid, Character[playerid][char_Cash]);
+		SetPlayerHealth(playerid, Character[playerid][char_health]);
+		SetPlayerArmour(playerid, Character[playerid][char_armour]);
+		PlayerSetupping[playerid] = 1;
 	}
+}
+
+forward PlayerJoinGameReal(playerid);
+public PlayerJoinGameReal(playerid)
+{
+    SpawnPlayer(playerid);
+	FadeOutPlayerScreen(playerid);
+    return 1;
 }

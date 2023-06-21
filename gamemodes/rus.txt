@@ -1,4 +1,2 @@
-./modules/_var.pwn(28) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "SpawnLSRP"
-./modules/_var.pwn(30) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "SpawnNewbiePTD"
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 
