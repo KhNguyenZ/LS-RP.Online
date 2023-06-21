@@ -286,3 +286,64 @@ v0.3.DL-R1, (C)2005-2018 SA-MP Team
 [16:51:53]  |                                     | 
 [16:51:53]  ======================================= 
 [16:51:53]  
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[05:14:39] weburl = "www.sa-mp.com"  (string)
+[05:14:39] password = ""  (string)
+[05:14:39] filterscripts = ""  (string)
+[05:14:39] 
+[05:14:39] Server Plugins
+[05:14:39] --------------
+[05:14:39]  Loading plugin: mysql
+[05:14:39]  >> plugin.mysql: R41-4 successfully loaded.
+[05:14:39]   Loaded.
+[05:14:39]  Loading plugin: whirlpool
+[05:14:39]  
+[05:14:39]  ==================
+[05:14:39]  
+[05:14:39]   Whirlpool loaded
+[05:14:39]  
+[05:14:39]  ==================
+[05:14:39]  
+[05:14:39]   Loaded.
+[05:14:39]  Loading plugin: sscanf
+[05:14:39] 
+
+[05:14:39]  ===============================
+
+[05:14:39]       sscanf plugin loaded.     
+
+[05:14:39]          Version:  2.8.3        
+
+[05:14:39]   (c) 2018 Alex "Y_Less" Cole  
+
+[05:14:39]  ===============================
+
+[05:14:39]   Loaded.
+[05:14:39]  Loading plugin: streamer
+[05:14:39] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[05:14:39]   Loaded.
+[05:14:39]  Loaded 4 plugins.
+
+[05:14:39] [artwork:crc] object.dff CRC = 0xDCFCC14C
+[05:14:39] [artwork:crc] logo.txd CRC = 0xE9684C78
+[05:14:39] [artwork:crc] object.dff CRC = 0xDCFCC14C
+[05:14:39] [artwork:crc] joinspawn.txd CRC = 0x39E48CC2
+[05:14:39] [artwork:crc] newbiespawn.dff CRC = 0x2499225A
+[05:14:39] [artwork:crc] newbiespawn.txd CRC = 0x5624ADB2
+[05:14:39] [artwork:crc] congvien.dff CRC = 0x94D2954
+[05:14:39] [artwork:crc] congvien.txd CRC = 0xECDCE39F
+[05:14:39] [artwork:crc] honuoc.dff CRC = 0xFBE95451
+[05:14:39] [artwork:crc] honuoc.txd CRC = 0xC8354AE8
+[05:14:39] I couldn't load any gamemode scripts. Please verify your server.cfg
+[05:14:39] It needs a gamemode0 line at the very least.
