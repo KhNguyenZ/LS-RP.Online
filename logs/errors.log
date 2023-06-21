@@ -1,9 +1,9 @@
-[6/21/2023 10:04:10 AM] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
-[6/21/2023 10:04:10 AM] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
-[6/21/2023 10:04:10 AM] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
-[6/21/2023 10:04:10 AM] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
-[6/21/2023 10:04:10 AM] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
-[6/21/2023 10:04:10 AM] [plugins/mysql] cache_get_value_name_int: field 'ExInterior' not found
-[6/21/2023 10:04:10 AM] [plugins/mysql] cache_get_value_name_int: field 'InInterior' not found
-[6/21/2023 10:04:19 AM] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
-[6/21/2023 10:04:34 AM] [plugins/mysql] error #1064 while executing query "UPDATE `players` SET PosX = '50.000000', PosY = '50.000000', PosZ = '50.000000', PosR = '269.149994', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 137 WHERE `players` = '	": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+[6/21/2023 10:08:23 AM] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 10:08:23 AM] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 10:08:23 AM] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[6/21/2023 10:08:23 AM] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 10:08:23 AM] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 10:08:23 AM] [plugins/mysql] cache_get_value_name_int: field 'ExInterior' not found
+[6/21/2023 10:08:23 AM] [plugins/mysql] cache_get_value_name_int: field 'InInterior' not found
+[6/21/2023 10:08:43 AM] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[6/21/2023 10:08:57 AM] [plugins/mysql] error #1064 while executing query "UPDATE `players` SET PosX = '50.000000', PosY = '50.000000', PosZ = '50.000000', PosR = '269.149994', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 137 WHERE `players` = '	": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
