@@ -13,7 +13,7 @@
 #define  			MYSQL_HOST				"localhost"
 #define  			MYSQL_USER				"root"
 #define  			MYSQL_PASS				""
-#define  			MYSQL_DB				"newbase"
+#define  			MYSQL_DB				"lsrp"
 
 main()
 {
@@ -37,6 +37,7 @@ main()
 #include "./modules/_functions.pwn"
 #include "./modules/_callback.pwn"
 #include "./modules/_core.pwn"
+#include "./modules/_textdraw.pwn"
 // login
 #include "./modules/multi-account/logintxd.pwn"
 // character
