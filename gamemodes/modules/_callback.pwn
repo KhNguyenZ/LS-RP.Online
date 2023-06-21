@@ -1,5 +1,7 @@
 public OnPlayerConnect(playerid)
 {
+    CreateFadeEffectTextDraw(playerid);
+    CreateHienTextDraw(playerid);
 	SetPVarString(playerid, "Current_IC_@", player_get_name(playerid));
 	return 1;
 }
@@ -27,9 +29,46 @@ public OnPlayerCommandText(playerid, cmdtext[]) {
 	}
 	return 1;
 }
+// public OnPlayerRequestClass(playerid, classid)
+// {
+//     TogglePlayerSpectating(playerid, true);
+//     return 1;
+// }
 
 public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 {
+	// if(IsOpenSpawnMenu(playerid))
+	// {
+	if(playertextid == SpawnLSRP[playerid][1]) // Home
+	{
+		HienTextdraw(playerid, "Tinh nang dang doc update, vui long chon vi tri khac.", 5000);
+	}
+	if(playertextid == SpawnLSRP[playerid][2]) // Hien tai
+	{
+		SetSpawnInfo(playerid, 0, Character[playerid][char_Skin], Character[playerid][char_last_Pos][0], Character[playerid][char_last_Pos][1],Character[playerid][char_last_Pos][2],Character[playerid][char_last_Pos][3],0, 0,0, 0,0, 0);
+		FadeOutPlayerScreen(playerid);
+		SetTimerEx("PlayerJoinGameReal", 1000, false, "i", playerid);
+		HidePlayerSpawnMenu(playerid);
+		SetPlayerSkin(playerid,Character[playerid][char_Skin]);
+		ResetPlayerWeapons(playerid);
+		GivePlayerMoney(playerid, Character[playerid][char_Cash]);
+		SetPlayerHealth(playerid, Character[playerid][char_health]);
+		SetPlayerArmour(playerid, Character[playerid][char_armour]);
+		PlayerSetupping[playerid] = 0;
+	}
+	if(playertextid == SpawnLSRP[playerid][3]) // Newbie Spawn
+	{
+		SetSpawnInfo(playerid, 0, Character[playerid][char_Skin], 1754.7391,-1895.4344,13.5870,0,0, 0,0, 0,0, 0);
+		FadeOutPlayerScreen(playerid);
+  		SetTimerEx("PlayerJoinGameReal", 1000, false, "i", playerid);
+		HidePlayerSpawnMenu(playerid);
+		SetPlayerSkin(playerid,Character[playerid][char_Skin]);
+		ResetPlayerWeapons(playerid);
+		GivePlayerMoney(playerid, Character[playerid][char_Cash]);
+		SetPlayerHealth(playerid, Character[playerid][char_health]);
+		SetPlayerArmour(playerid, Character[playerid][char_armour]);
+		PlayerSetupping[playerid] = 0;
+	}
 	if(playertextid == LoginPTD[playerid][6])
 	{
 		new login_string[1280];
@@ -61,9 +100,9 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 		}
 		else 
 		{
-			new login_string[128];
-			format(login_string, sizeof(login_string), "{ffffff}Chao mung {3366ff}%s{ffffff} tro lai voi {3366ff}LS-RP{ffffff}\n{FF0000FF}Mat khau sai !{FFFFFF}", player_get_name(playerid, 1));
-			ShowPlayerDialog(playerid, DLG_LOGIN ,DIALOG_STYLE_INPUT, "Dang Nhap", login_string, ">>", "<<");
+            PlayerTextDrawSetString(playerid, LoginPTD[playerid][6], "Sai mat khau");
+            HienTextdraw(playerid, "~r~Ban da nhap sai mat khau, vui long nhap lai.", 5000);
+            ReloadPlayerTextDraw(playerid, LoginPTD[playerid][6]);
 		}
 	}
 }

@@ -1,4 +1,10 @@
 AddSimpleModel(-1,19379, -2001, "object.dff", "logo.txd");
+AddSimpleModel(-1,19379, -2002, "object.dff", "joinspawn.txd");
+
+
+
+
+
 AddSimpleModel(-1,19379, -5000, "newbiespawn.dff", "newbiespawn.txd");
 AddSimpleModel(-1,19379, -5001, "congvien.dff", "congvien.txd");
 AddSimpleModel(-1,19379, -5002, "honuoc.dff", "honuoc.txd");

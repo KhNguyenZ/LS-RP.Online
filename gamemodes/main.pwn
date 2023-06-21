@@ -38,12 +38,16 @@ main()
 #include "./modules/_callback.pwn"
 #include "./modules/_core.pwn"
 #include "./modules/_textdraw.pwn"
+
 // login
 #include "./modules/multi-account/logintxd.pwn"
 // character
 #include "./modules/characters/Core/character.pwn"
 #include "./modules/characters/Core/character-select.pwn"
 #include "./modules/characters/Admin/character-admin.pwn"
+#include "./modules/characters/Player/SpawnPlayer/callback.pwn"
+#include "./modules/characters/Player/SpawnPlayer/func.pwn"
+#include "./modules/characters/Player/SpawnPlayer/textdraw.pwn"
 // core login
 #include "./modules/multi-account/account.pwn"
 // core server

@@ -88,7 +88,7 @@ func:ReloadPlayerTextDraw(playerid, PlayerText:reload_ptd)
 	return 1;
 }
 
-stock HienTextdraw(playerid, string[], time)
+func:HienTextdraw(playerid, string[], time)
 {
     PlayerTextDrawSetString(playerid, scm_PTD[playerid], " ");
     PlayerTextDrawHide(playerid, scm_PTD[playerid]);
@@ -111,5 +111,87 @@ public XoaTextDraw(playerid)
     //PlayerTextDrawDestroy(playerid, scm_PTD[playerid]);
     HienThi[playerid] = 0;
     //SCM(playerid, COLOR_WHITE, "Textdraw da duoc xoa bo.");
+    return 1;
+}
+func:FadeInPlayerScreen(playerid)
+{
+	SetPVarInt(playerid, "phatfadein", 255);
+	PlayerTextDrawColor(playerid, FadeEffect[playerid][0], GetPVarInt(playerid, "phatfadein"));
+ 	PlayerTextDrawShow(playerid, FadeEffect[playerid][0]);
+	SetTimerEx("fadein1", 25, false, "i", playerid);
+}
+
+forward fadein1(playerid);
+public fadein1(playerid)
+{
+	if(GetPVarInt(playerid, "phatfadein") > 0)
+	{
+	    new fadeplus = GetPVarInt(playerid, "phatfadein");
+		SetPVarInt(playerid, "phatfadein", fadeplus-=15);
+		SetTimerEx("fadein2", 25, false, "i", playerid);
+		PlayerTextDrawColor(playerid, FadeEffect[playerid][0], GetPVarInt(playerid, "phatfadein"));
+	 	PlayerTextDrawShow(playerid, FadeEffect[playerid][0]);
+	}
+	return 1;
+}
+
+forward fadein2(playerid);
+public fadein2(playerid)
+{
+	if(GetPVarInt(playerid, "phatfadein") > 0)
+	{
+	    new fadeplus = GetPVarInt(playerid, "phatfadein");
+		SetPVarInt(playerid, "phatfadein", fadeplus-=15);
+		SetTimerEx("fadein1", 25, false, "i", playerid);
+		PlayerTextDrawColor(playerid, FadeEffect[playerid][0], GetPVarInt(playerid, "phatfadein"));
+	 	PlayerTextDrawShow(playerid, FadeEffect[playerid][0]);
+	}
+	return 1;
+}
+
+
+
+
+
+func:FadeOutPlayerScreen(playerid)
+{
+	SetPVarInt(playerid, "phatfade", 0);
+	PlayerTextDrawColor(playerid, FadeEffect[playerid][0], GetPVarInt(playerid, "phatfade"));
+ 	PlayerTextDrawShow(playerid, FadeEffect[playerid][0]);
+	SetTimerEx("fadeout1", 25, false, "i", playerid);
+}
+
+forward fadeout1(playerid);
+public fadeout1(playerid)
+{
+	if(GetPVarInt(playerid, "phatfade") < 255)
+	{
+	    new fadeplus = GetPVarInt(playerid, "phatfade");
+		SetPVarInt(playerid, "phatfade", fadeplus+=15);
+		SetTimerEx("fadeout2", 25, false, "i", playerid);
+		PlayerTextDrawColor(playerid, FadeEffect[playerid][0], GetPVarInt(playerid, "phatfade"));
+	 	PlayerTextDrawShow(playerid, FadeEffect[playerid][0]);
+	}
+	return 1;
+}
+forward fadeout2(playerid);
+public fadeout2(playerid)
+{
+	if(GetPVarInt(playerid, "phatfade") < 255)
+	{
+	    new fadeplus = GetPVarInt(playerid, "phatfade");
+		SetPVarInt(playerid, "phatfade", fadeplus+=15);
+		SetTimerEx("fadeout1", 25, false, "i", playerid);
+		PlayerTextDrawColor(playerid, FadeEffect[playerid][0], GetPVarInt(playerid, "phatfade"));
+	 	PlayerTextDrawShow(playerid, FadeEffect[playerid][0]);
+	}
+	return 1;
+}
+
+forward PlayerJoinGameReal(playerid);
+public PlayerJoinGameReal(playerid)
+{
+    SpawnPlayer(playerid);
+	FadeInPlayerScreen(playerid);
     return 1;
 }

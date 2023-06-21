@@ -22755,6 +22755,100 @@ Loading component Classes.dll
 Loading component Console.dll
 	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
 Loading component CustomModels.dll
+<<<<<<< HEAD
+=======
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+>>>>>>> e86c78f118a367e12f2fc9b62c83636718b246ea
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+<<<<<<< HEAD
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T07:27:39+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T07:27:39+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T07:27:40+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T07:27:40+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T07:27:40+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T07:27:40+0700] [Info] Loading plugin: mysql
+[2023-06-21T07:27:40+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T07:27:40+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T07:27:40+0700] [Info]  
+[2023-06-21T07:27:40+0700] [Info]  ==================
+[2023-06-21T07:27:40+0700] [Info]  
+[2023-06-21T07:27:40+0700] [Info]   Whirlpool loaded
+[2023-06-21T07:27:40+0700] [Info]  
+[2023-06-21T07:27:40+0700] [Info]  ==================
+[2023-06-21T07:27:40+0700] [Info]  
+[2023-06-21T07:27:40+0700] [Info] Loading plugin: sscanf
+[2023-06-21T07:27:40+0700] [Info] 
+
+[2023-06-21T07:27:40+0700] [Info]  ===============================
+
+[2023-06-21T07:27:40+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T07:27:40+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T07:27:40+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T07:27:40+0700] [Info]  ===============================
+
+[2023-06-21T07:27:40+0700] [Info] Loading plugin: streamer
+[2023-06-21T07:27:40+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T07:27:40+0700] [Info] AMX (59503576) loaded
+[2023-06-21T07:27:40+0700] [Info]  
+[2023-06-21T07:27:40+0700] [Info]  
+[2023-06-21T07:27:40+0700] [Info]  
+[2023-06-21T07:27:40+0700] [Info]  ======================================= 
+[2023-06-21T07:27:40+0700] [Info]  |                                     | 
+[2023-06-21T07:27:40+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T07:27:40+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T07:27:40+0700] [Info]  |                                     | 
+[2023-06-21T07:27:40+0700] [Info]  ======================================= 
+[2023-06-21T07:27:40+0700] [Info]  
 Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
 Loading component Actors.dll
 	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
@@ -22798,6 +22892,80 @@ Loading component Variables.dll
 	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
 Loading component Vehicles.dll
 	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T08:06:48+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T08:06:48+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T08:06:49+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T08:06:49+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T08:06:49+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T08:06:49+0700] [Info] Loading plugin: mysql
+[2023-06-21T08:06:49+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T08:06:49+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T08:06:49+0700] [Info]  
+[2023-06-21T08:06:49+0700] [Info]  ==================
+[2023-06-21T08:06:49+0700] [Info]  
+[2023-06-21T08:06:49+0700] [Info]   Whirlpool loaded
+[2023-06-21T08:06:49+0700] [Info]  
+[2023-06-21T08:06:49+0700] [Info]  ==================
+[2023-06-21T08:06:49+0700] [Info]  
+[2023-06-21T08:06:49+0700] [Info] Loading plugin: sscanf
+[2023-06-21T08:06:49+0700] [Info] 
+
+[2023-06-21T08:06:49+0700] [Info]  ===============================
+
+[2023-06-21T08:06:49+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T08:06:49+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T08:06:49+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T08:06:49+0700] [Info]  ===============================
+
+[2023-06-21T08:06:49+0700] [Info] Loading plugin: streamer
+[2023-06-21T08:06:49+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T08:06:49+0700] [Info] AMX (64603488) loaded
+[2023-06-21T08:06:49+0700] [Info]  
+[2023-06-21T08:06:49+0700] [Info]  
+[2023-06-21T08:06:49+0700] [Info]  
+[2023-06-21T08:06:49+0700] [Info]  ======================================= 
+[2023-06-21T08:06:49+0700] [Info]  |                                     | 
+[2023-06-21T08:06:49+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T08:06:49+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T08:06:49+0700] [Info]  |                                     | 
+[2023-06-21T08:06:49+0700] [Info]  ======================================= 
+[2023-06-21T08:06:49+0700] [Info]  
+[2023-06-21T08:06:49+0700] [Info] > Ket noi de du lieu that bai.
+[2023-06-21T08:06:49+0700] [Info] >>> This Server Will Shutdown After 5 Second
+[2023-06-21T08:06:49+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T08:06:49+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:06:49+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:06:54+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T08:06:54+0700] [Info] 
+
+[2023-06-21T08:06:54+0700] [Info]  ===============================
+
+[2023-06-21T08:06:54+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T08:06:54+0700] [Info]  ===============================
+
+[2023-06-21T08:06:54+0700] [Info] plugin.mysql: Unloading plugin...
+[2023-06-21T08:06:54+0700] [Info] plugin.mysql: Plugin unloaded.
+[2023-06-21T08:06:54+0700] [Info]  
+[2023-06-21T08:06:54+0700] [Info]  ====================
+[2023-06-21T08:06:54+0700] [Info]  
+[2023-06-21T08:06:54+0700] [Info]   Whirlpool unloaded
+[2023-06-21T08:06:54+0700] [Info]  
+[2023-06-21T08:06:54+0700] [Info]  ====================
+[2023-06-21T08:06:54+0700] [Info]  
+=======
 Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
 Executing Server Config...
 Parsing unknown legacy option usearwork
@@ -22872,6 +23040,7 @@ Parsing unknown legacy option usearwork
 [2023-06-21T09:40:29+0700] [Info]  
 [2023-06-21T09:40:29+0700] [Info]  ====================
 [2023-06-21T09:40:29+0700] [Info]  
+>>>>>>> e86c78f118a367e12f2fc9b62c83636718b246ea
 Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
 Loading component Actors.dll
 	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
@@ -22915,6 +23084,73 @@ Loading component Variables.dll
 	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
 Loading component Vehicles.dll
 	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+<<<<<<< HEAD
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T08:09:01+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T08:09:01+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T08:09:02+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T08:09:02+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T08:09:02+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T08:09:02+0700] [Info] Loading plugin: mysql
+[2023-06-21T08:09:02+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T08:09:02+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T08:09:02+0700] [Info]  
+[2023-06-21T08:09:02+0700] [Info]  ==================
+[2023-06-21T08:09:02+0700] [Info]  
+[2023-06-21T08:09:02+0700] [Info]   Whirlpool loaded
+[2023-06-21T08:09:02+0700] [Info]  
+[2023-06-21T08:09:02+0700] [Info]  ==================
+[2023-06-21T08:09:02+0700] [Info]  
+[2023-06-21T08:09:02+0700] [Info] Loading plugin: sscanf
+[2023-06-21T08:09:02+0700] [Info] 
+
+[2023-06-21T08:09:02+0700] [Info]  ===============================
+
+[2023-06-21T08:09:02+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T08:09:02+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T08:09:02+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T08:09:02+0700] [Info]  ===============================
+
+[2023-06-21T08:09:02+0700] [Info] Loading plugin: streamer
+[2023-06-21T08:09:02+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T08:09:02+0700] [Info] AMX (53713168) loaded
+[2023-06-21T08:09:02+0700] [Info]  
+[2023-06-21T08:09:02+0700] [Info]  
+[2023-06-21T08:09:02+0700] [Info]  
+[2023-06-21T08:09:02+0700] [Info]  ======================================= 
+[2023-06-21T08:09:02+0700] [Info]  |                                     | 
+[2023-06-21T08:09:02+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T08:09:02+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T08:09:02+0700] [Info]  |                                     | 
+[2023-06-21T08:09:02+0700] [Info]  ======================================= 
+[2023-06-21T08:09:02+0700] [Info]  
+[2023-06-21T08:09:02+0700] [Info] > Ket noi de du lieu that bai.
+[2023-06-21T08:09:02+0700] [Info] >>> This Server Will Shutdown After 5 Second
+[2023-06-21T08:09:02+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T08:09:02+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:09:02+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:09:05+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T08:09:05+0700] [Info] 
+
+[2023-06-21T08:09:05+0700] [Info]  ===============================
+
+[2023-06-21T08:09:05+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T08:09:05+0700] [Info]  ===============================
+
+[2023-06-21T08:09:05+0700] [Info] plugin.mysql: Unloading plugin...
+=======
 Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
 Executing Server Config...
 Parsing unknown legacy option usearwork
@@ -22989,6 +23225,7 @@ Parsing unknown legacy option usearwork
 [2023-06-21T09:57:50+0700] [Info]  
 [2023-06-21T09:57:50+0700] [Info]  ====================
 [2023-06-21T09:57:50+0700] [Info]  
+>>>>>>> e86c78f118a367e12f2fc9b62c83636718b246ea
 Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
 Loading component Actors.dll
 	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
@@ -23032,6 +23269,2274 @@ Loading component Variables.dll
 	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
 Loading component Vehicles.dll
 	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+<<<<<<< HEAD
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T08:10:42+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T08:10:42+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T08:10:42+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T08:10:42+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T08:10:42+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T08:10:42+0700] [Info] Loading plugin: mysql
+[2023-06-21T08:10:42+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T08:10:42+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T08:10:42+0700] [Info]  
+[2023-06-21T08:10:42+0700] [Info]  ==================
+[2023-06-21T08:10:42+0700] [Info]  
+[2023-06-21T08:10:42+0700] [Info]   Whirlpool loaded
+[2023-06-21T08:10:42+0700] [Info]  
+[2023-06-21T08:10:42+0700] [Info]  ==================
+[2023-06-21T08:10:42+0700] [Info]  
+[2023-06-21T08:10:42+0700] [Info] Loading plugin: sscanf
+[2023-06-21T08:10:42+0700] [Info] 
+
+[2023-06-21T08:10:42+0700] [Info]  ===============================
+
+[2023-06-21T08:10:42+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T08:10:42+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T08:10:42+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T08:10:42+0700] [Info]  ===============================
+
+[2023-06-21T08:10:42+0700] [Info] Loading plugin: streamer
+[2023-06-21T08:10:42+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T08:10:42+0700] [Info] AMX (10777984) loaded
+[2023-06-21T08:10:42+0700] [Info]  
+[2023-06-21T08:10:42+0700] [Info]  
+[2023-06-21T08:10:42+0700] [Info]  
+[2023-06-21T08:10:42+0700] [Info]  ======================================= 
+[2023-06-21T08:10:42+0700] [Info]  |                                     | 
+[2023-06-21T08:10:42+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T08:10:42+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T08:10:42+0700] [Info]  |                                     | 
+[2023-06-21T08:10:42+0700] [Info]  ======================================= 
+[2023-06-21T08:10:42+0700] [Info]  
+[2023-06-21T08:10:42+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T08:10:42+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T08:10:42+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T08:10:42+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T08:10:42+0700] [Info] Loaded Door ID:0
+[2023-06-21T08:10:42+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:10:42+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:11:04+0700] [Info] [connection] incoming connection: 127.0.0.1:57966 id: 0
+[2023-06-21T08:11:04+0700] [Info] [join] CZXczx has joined the server (0:127.0.0.1)
+[2023-06-21T08:11:37+0700] [Info] [part] CZXczx has left the server (0:2)
+[2023-06-21T08:11:45+0700] [Info] [connection] incoming connection: 127.0.0.1:51727 id: 0
+[2023-06-21T08:11:45+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T08:12:04+0700] [Info] [death] Stanley_ died 255
+[2023-06-21T08:12:18+0700] [Info] [death] Stanley_ died 54
+[2023-06-21T08:12:39+0700] [Info] [death] Stanley_ died 54
+[2023-06-21T08:12:41+0700] [Info] Character Save: Stanley  | AccountID: 6
+[2023-06-21T08:12:41+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T08:13:40+0700] [Info] [connection] incoming connection: 127.0.0.1:51095 id: 0
+[2023-06-21T08:13:40+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T08:17:46+0700] [Info] [part] phatbentre has left the server (0:1)
+[2023-06-21T08:24:23+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T08:24:23+0700] [Info] 
+
+[2023-06-21T08:24:23+0700] [Info]  ===============================
+
+[2023-06-21T08:24:23+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T08:24:23+0700] [Info]  ===============================
+
+[2023-06-21T08:24:23+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T08:34:10+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T08:34:10+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T08:34:10+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T08:34:10+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T08:34:10+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T08:34:10+0700] [Info] Loading plugin: mysql
+[2023-06-21T08:34:10+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T08:34:10+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T08:34:10+0700] [Info]  
+[2023-06-21T08:34:10+0700] [Info]  ==================
+[2023-06-21T08:34:10+0700] [Info]  
+[2023-06-21T08:34:10+0700] [Info]   Whirlpool loaded
+[2023-06-21T08:34:10+0700] [Info]  
+[2023-06-21T08:34:10+0700] [Info]  ==================
+[2023-06-21T08:34:10+0700] [Info]  
+[2023-06-21T08:34:10+0700] [Info] Loading plugin: sscanf
+[2023-06-21T08:34:10+0700] [Info] 
+
+[2023-06-21T08:34:10+0700] [Info]  ===============================
+
+[2023-06-21T08:34:10+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T08:34:10+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T08:34:10+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T08:34:10+0700] [Info]  ===============================
+
+[2023-06-21T08:34:10+0700] [Info] Loading plugin: streamer
+[2023-06-21T08:34:10+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T08:34:10+0700] [Info] Could not find:
+
+	 gamemodes\main.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[2023-06-21T08:34:10+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T08:34:11+0700] [Info] [connection] incoming connection: 127.0.0.1:53614 id: 0
+[2023-06-21T08:34:11+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T08:34:15+0700] [Info] [part] phatbentre has left the server (0:1)
+[2023-06-21T08:34:19+0700] [Info] [connection] incoming connection: 127.0.0.1:63591 id: 0
+[2023-06-21T08:34:19+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T08:34:34+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T08:34:34+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T08:34:35+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T08:34:35+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T08:34:35+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T08:34:35+0700] [Info] Loading plugin: mysql
+[2023-06-21T08:34:35+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T08:34:35+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T08:34:35+0700] [Info]  
+[2023-06-21T08:34:35+0700] [Info]  ==================
+[2023-06-21T08:34:35+0700] [Info]  
+[2023-06-21T08:34:35+0700] [Info]   Whirlpool loaded
+[2023-06-21T08:34:35+0700] [Info]  
+[2023-06-21T08:34:35+0700] [Info]  ==================
+[2023-06-21T08:34:35+0700] [Info]  
+[2023-06-21T08:34:35+0700] [Info] Loading plugin: sscanf
+[2023-06-21T08:34:35+0700] [Info] 
+
+[2023-06-21T08:34:35+0700] [Info]  ===============================
+
+[2023-06-21T08:34:35+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T08:34:35+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T08:34:35+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T08:34:35+0700] [Info]  ===============================
+
+[2023-06-21T08:34:35+0700] [Info] Loading plugin: streamer
+[2023-06-21T08:34:35+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T08:34:35+0700] [Info] AMX (69430616) loaded
+[2023-06-21T08:34:35+0700] [Info]  
+[2023-06-21T08:34:35+0700] [Info]  
+[2023-06-21T08:34:35+0700] [Info]  
+[2023-06-21T08:34:35+0700] [Info]  ======================================= 
+[2023-06-21T08:34:35+0700] [Info]  |                                     | 
+[2023-06-21T08:34:35+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T08:34:35+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T08:34:35+0700] [Info]  |                                     | 
+[2023-06-21T08:34:35+0700] [Info]  ======================================= 
+[2023-06-21T08:34:35+0700] [Info]  
+[2023-06-21T08:34:35+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T08:34:35+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T08:34:35+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T08:34:35+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T08:34:35+0700] [Info] Loaded Door ID:0
+[2023-06-21T08:34:35+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:34:35+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:34:42+0700] [Info] [connection] incoming connection: 127.0.0.1:61884 id: 0
+[2023-06-21T08:34:42+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T08:34:50+0700] [Error] Array index out of bounds
+[2023-06-21T08:34:55+0700] [Info] [part] phatbentre has left the server (0:1)
+[2023-06-21T08:35:00+0700] [Info] [connection] incoming connection: 127.0.0.1:52938 id: 0
+[2023-06-21T08:35:00+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T08:37:36+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T08:37:36+0700] [Info] 
+
+[2023-06-21T08:37:36+0700] [Info]  ===============================
+
+[2023-06-21T08:37:36+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T08:37:36+0700] [Info]  ===============================
+
+[2023-06-21T08:37:36+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T08:38:30+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T08:38:30+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T08:38:30+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T08:38:30+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T08:38:30+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T08:38:30+0700] [Info] Loading plugin: mysql
+[2023-06-21T08:38:30+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T08:38:30+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T08:38:30+0700] [Info]  
+[2023-06-21T08:38:30+0700] [Info]  ==================
+[2023-06-21T08:38:30+0700] [Info]  
+[2023-06-21T08:38:30+0700] [Info]   Whirlpool loaded
+[2023-06-21T08:38:30+0700] [Info]  
+[2023-06-21T08:38:30+0700] [Info]  ==================
+[2023-06-21T08:38:30+0700] [Info]  
+[2023-06-21T08:38:30+0700] [Info] Loading plugin: sscanf
+[2023-06-21T08:38:30+0700] [Info] 
+
+[2023-06-21T08:38:30+0700] [Info]  ===============================
+
+[2023-06-21T08:38:30+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T08:38:30+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T08:38:30+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T08:38:30+0700] [Info]  ===============================
+
+[2023-06-21T08:38:30+0700] [Info] Loading plugin: streamer
+[2023-06-21T08:38:30+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T08:38:31+0700] [Info] AMX (65697904) loaded
+[2023-06-21T08:38:31+0700] [Info]  
+[2023-06-21T08:38:31+0700] [Info]  
+[2023-06-21T08:38:31+0700] [Info]  
+[2023-06-21T08:38:31+0700] [Info]  ======================================= 
+[2023-06-21T08:38:31+0700] [Info]  |                                     | 
+[2023-06-21T08:38:31+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T08:38:31+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T08:38:31+0700] [Info]  |                                     | 
+[2023-06-21T08:38:31+0700] [Info]  ======================================= 
+[2023-06-21T08:38:31+0700] [Info]  
+[2023-06-21T08:38:31+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T08:38:31+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T08:38:31+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T08:38:31+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T08:38:31+0700] [Info] Loaded Door ID:0
+[2023-06-21T08:38:31+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:38:31+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:38:32+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T08:38:32+0700] [Info] [connection] incoming connection: 127.0.0.1:55045 id: 0
+[2023-06-21T08:38:32+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T08:38:38+0700] [Error] Array index out of bounds
+[2023-06-21T08:38:40+0700] [Info] [part] phatbentre has left the server (0:1)
+[2023-06-21T08:38:44+0700] [Info] [connection] incoming connection: 127.0.0.1:51814 id: 0
+[2023-06-21T08:38:44+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T08:38:50+0700] [Error] Array index out of bounds
+[2023-06-21T08:38:54+0700] [Error] Array index out of bounds
+[2023-06-21T08:38:55+0700] [Error] Array index out of bounds
+[2023-06-21T08:38:56+0700] [Error] Array index out of bounds
+[2023-06-21T08:38:58+0700] [Error] Array index out of bounds
+[2023-06-21T08:39:04+0700] [Error] Array index out of bounds
+[2023-06-21T08:39:27+0700] [Error] Array index out of bounds
+[2023-06-21T08:39:27+0700] [Error] Array index out of bounds
+[2023-06-21T08:39:27+0700] [Error] Array index out of bounds
+[2023-06-21T08:40:19+0700] [Error] Array index out of bounds
+[2023-06-21T08:40:19+0700] [Error] Array index out of bounds
+[2023-06-21T08:40:19+0700] [Error] Array index out of bounds
+[2023-06-21T08:40:20+0700] [Error] Array index out of bounds
+[2023-06-21T08:40:20+0700] [Error] Array index out of bounds
+[2023-06-21T08:40:44+0700] [Error] Array index out of bounds
+[2023-06-21T08:40:45+0700] [Info] [part] phatbentre has left the server (0:1)
+[2023-06-21T08:40:46+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T08:40:46+0700] [Info] 
+
+[2023-06-21T08:40:46+0700] [Info]  ===============================
+
+[2023-06-21T08:40:46+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T08:40:46+0700] [Info]  ===============================
+
+[2023-06-21T08:40:46+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T08:41:01+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T08:41:01+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T08:41:01+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T08:41:01+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T08:41:01+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T08:41:01+0700] [Info] Loading plugin: mysql
+[2023-06-21T08:41:01+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T08:41:01+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T08:41:01+0700] [Info]  
+[2023-06-21T08:41:01+0700] [Info]  ==================
+[2023-06-21T08:41:01+0700] [Info]  
+[2023-06-21T08:41:01+0700] [Info]   Whirlpool loaded
+[2023-06-21T08:41:01+0700] [Info]  
+[2023-06-21T08:41:01+0700] [Info]  ==================
+[2023-06-21T08:41:01+0700] [Info]  
+[2023-06-21T08:41:01+0700] [Info] Loading plugin: sscanf
+[2023-06-21T08:41:01+0700] [Info] 
+
+[2023-06-21T08:41:01+0700] [Info]  ===============================
+
+[2023-06-21T08:41:01+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T08:41:01+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T08:41:01+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T08:41:01+0700] [Info]  ===============================
+
+[2023-06-21T08:41:01+0700] [Info] Loading plugin: streamer
+[2023-06-21T08:41:01+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T08:41:01+0700] [Info] AMX (61758496) loaded
+[2023-06-21T08:41:01+0700] [Info]  
+[2023-06-21T08:41:01+0700] [Info]  
+[2023-06-21T08:41:01+0700] [Info]  
+[2023-06-21T08:41:01+0700] [Info]  ======================================= 
+[2023-06-21T08:41:01+0700] [Info]  |                                     | 
+[2023-06-21T08:41:01+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T08:41:01+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T08:41:01+0700] [Info]  |                                     | 
+[2023-06-21T08:41:01+0700] [Info]  ======================================= 
+[2023-06-21T08:41:01+0700] [Info]  
+[2023-06-21T08:41:01+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T08:41:01+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T08:41:01+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T08:41:01+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T08:41:01+0700] [Info] Loaded Door ID:0
+[2023-06-21T08:41:01+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:41:01+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:41:03+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T08:41:10+0700] [Info] [connection] incoming connection: 127.0.0.1:54137 id: 0
+[2023-06-21T08:41:10+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T08:45:54+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T08:45:54+0700] [Info] 
+
+[2023-06-21T08:45:54+0700] [Info]  ===============================
+
+[2023-06-21T08:45:54+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T08:45:54+0700] [Info]  ===============================
+
+[2023-06-21T08:45:54+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T08:46:02+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T08:46:02+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T08:46:03+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T08:46:03+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T08:46:03+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T08:46:03+0700] [Info] Loading plugin: mysql
+[2023-06-21T08:46:03+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T08:46:03+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T08:46:03+0700] [Info]  
+[2023-06-21T08:46:03+0700] [Info]  ==================
+[2023-06-21T08:46:03+0700] [Info]  
+[2023-06-21T08:46:03+0700] [Info]   Whirlpool loaded
+[2023-06-21T08:46:03+0700] [Info]  
+[2023-06-21T08:46:03+0700] [Info]  ==================
+[2023-06-21T08:46:03+0700] [Info]  
+[2023-06-21T08:46:03+0700] [Info] Loading plugin: sscanf
+[2023-06-21T08:46:03+0700] [Info] 
+
+[2023-06-21T08:46:03+0700] [Info]  ===============================
+
+[2023-06-21T08:46:03+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T08:46:03+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T08:46:03+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T08:46:03+0700] [Info]  ===============================
+
+[2023-06-21T08:46:03+0700] [Info] Loading plugin: streamer
+[2023-06-21T08:46:03+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T08:46:03+0700] [Info] AMX (55219032) loaded
+[2023-06-21T08:46:03+0700] [Info]  
+[2023-06-21T08:46:03+0700] [Info]  
+[2023-06-21T08:46:03+0700] [Info]  
+[2023-06-21T08:46:03+0700] [Info]  ======================================= 
+[2023-06-21T08:46:03+0700] [Info]  |                                     | 
+[2023-06-21T08:46:03+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T08:46:03+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T08:46:03+0700] [Info]  |                                     | 
+[2023-06-21T08:46:03+0700] [Info]  ======================================= 
+[2023-06-21T08:46:03+0700] [Info]  
+[2023-06-21T08:46:03+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T08:46:03+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T08:46:03+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T08:46:03+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T08:46:03+0700] [Info] Loaded Door ID:0
+[2023-06-21T08:46:03+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:46:03+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T08:46:04+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T08:46:14+0700] [Info] [connection] incoming connection: 127.0.0.1:52968 id: 0
+[2023-06-21T08:46:14+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T08:46:21+0700] [Error] Array index out of bounds
+[2023-06-21T08:46:25+0700] [Info] [part] phatbentre has left the server (0:1)
+[2023-06-21T08:46:30+0700] [Info] [connection] incoming connection: 127.0.0.1:53618 id: 0
+[2023-06-21T08:46:30+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T08:46:47+0700] [Error] Array index out of bounds
+[2023-06-21T08:46:56+0700] [Info] [part] phatbentre has left the server (0:1)
+[2023-06-21T08:47:25+0700] [Info] [connection] incoming connection: 127.0.0.1:49367 id: 0
+[2023-06-21T08:47:25+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T08:47:37+0700] [Error] Array index out of bounds
+[2023-06-21T08:53:23+0700] [Info] Character Save: Stanley  | AccountID: 9
+[2023-06-21T08:53:23+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T08:54:20+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T08:54:20+0700] [Info] 
+
+[2023-06-21T08:54:20+0700] [Info]  ===============================
+
+[2023-06-21T08:54:20+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T08:54:20+0700] [Info]  ===============================
+
+[2023-06-21T08:54:20+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T09:12:19+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T09:12:19+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T09:12:19+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T09:12:19+0700] [Info] Loading plugin: mysql
+[2023-06-21T09:12:19+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T09:12:19+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T09:12:19+0700] [Info]  
+[2023-06-21T09:12:19+0700] [Info]  ==================
+[2023-06-21T09:12:19+0700] [Info]  
+[2023-06-21T09:12:19+0700] [Info]   Whirlpool loaded
+[2023-06-21T09:12:19+0700] [Info]  
+[2023-06-21T09:12:19+0700] [Info]  ==================
+[2023-06-21T09:12:19+0700] [Info]  
+[2023-06-21T09:12:19+0700] [Info] Loading plugin: sscanf
+[2023-06-21T09:12:19+0700] [Info] 
+
+[2023-06-21T09:12:19+0700] [Info]  ===============================
+
+[2023-06-21T09:12:19+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T09:12:19+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T09:12:19+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T09:12:19+0700] [Info]  ===============================
+
+[2023-06-21T09:12:19+0700] [Info] Loading plugin: streamer
+[2023-06-21T09:12:19+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T09:12:19+0700] [Info] AMX (53790800) loaded
+[2023-06-21T09:12:19+0700] [Info]  
+[2023-06-21T09:12:19+0700] [Info]  
+[2023-06-21T09:12:19+0700] [Info]  
+[2023-06-21T09:12:19+0700] [Info]  ======================================= 
+[2023-06-21T09:12:19+0700] [Info]  |                                     | 
+[2023-06-21T09:12:19+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T09:12:19+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T09:12:19+0700] [Info]  |                                     | 
+[2023-06-21T09:12:19+0700] [Info]  ======================================= 
+[2023-06-21T09:12:19+0700] [Info]  
+[2023-06-21T09:12:20+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T09:12:20+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T09:12:20+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T09:12:20+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T09:12:20+0700] [Info] Loaded Door ID:0
+[2023-06-21T09:12:20+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:12:20+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:12:21+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T09:12:41+0700] [Info] [connection] incoming connection: 127.0.0.1:50271 id: 0
+[2023-06-21T09:12:41+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T09:13:00+0700] [Error] Array index out of bounds
+[2023-06-21T09:16:18+0700] [Info] Character Save: Stanley  | AccountID: 9
+[2023-06-21T09:16:18+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T09:18:38+0700] [Info] [connection] incoming connection: 127.0.0.1:61103 id: 0
+[2023-06-21T09:18:38+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T09:18:43+0700] [Error] Array index out of bounds
+[2023-06-21T09:18:54+0700] [Info] Character Save: Stanley  | AccountID: 9
+[2023-06-21T09:18:54+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T09:40:41+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T09:40:41+0700] [Info] 
+
+[2023-06-21T09:40:41+0700] [Info]  ===============================
+
+[2023-06-21T09:40:41+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T09:40:41+0700] [Info]  ===============================
+
+[2023-06-21T09:40:41+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T09:40:49+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T09:40:49+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T09:40:50+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T09:40:50+0700] [Info] Loading plugin: mysql
+[2023-06-21T09:40:50+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T09:40:50+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T09:40:50+0700] [Info]  
+[2023-06-21T09:40:50+0700] [Info]  ==================
+[2023-06-21T09:40:50+0700] [Info]  
+[2023-06-21T09:40:50+0700] [Info]   Whirlpool loaded
+[2023-06-21T09:40:50+0700] [Info]  
+[2023-06-21T09:40:50+0700] [Info]  ==================
+[2023-06-21T09:40:50+0700] [Info]  
+[2023-06-21T09:40:50+0700] [Info] Loading plugin: sscanf
+[2023-06-21T09:40:50+0700] [Info] 
+
+[2023-06-21T09:40:50+0700] [Info]  ===============================
+
+[2023-06-21T09:40:50+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T09:40:50+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T09:40:50+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T09:40:50+0700] [Info]  ===============================
+
+[2023-06-21T09:40:50+0700] [Info] Loading plugin: streamer
+[2023-06-21T09:40:50+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T09:40:50+0700] [Info] AMX (53458592) loaded
+[2023-06-21T09:40:50+0700] [Info]  
+[2023-06-21T09:40:50+0700] [Info]  
+[2023-06-21T09:40:50+0700] [Info]  
+[2023-06-21T09:40:50+0700] [Info]  ======================================= 
+[2023-06-21T09:40:50+0700] [Info]  |                                     | 
+[2023-06-21T09:40:50+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T09:40:50+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T09:40:50+0700] [Info]  |                                     | 
+[2023-06-21T09:40:50+0700] [Info]  ======================================= 
+[2023-06-21T09:40:50+0700] [Info]  
+[2023-06-21T09:40:50+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T09:40:50+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T09:40:50+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T09:40:50+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T09:40:50+0700] [Info] Loaded Door ID:0
+[2023-06-21T09:40:50+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:40:50+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:40:54+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T09:41:09+0700] [Info] [connection] incoming connection: 127.0.0.1:53931 id: 0
+[2023-06-21T09:41:09+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T09:41:14+0700] [Error] Array index out of bounds
+[2023-06-21T09:41:46+0700] [Info] Character Save: Stanley  | AccountID: 9
+[2023-06-21T09:41:46+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T09:44:02+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T09:44:02+0700] [Info] 
+
+[2023-06-21T09:44:02+0700] [Info]  ===============================
+
+[2023-06-21T09:44:02+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T09:44:02+0700] [Info]  ===============================
+
+[2023-06-21T09:44:02+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T09:44:41+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T09:44:41+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T09:44:42+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T09:44:42+0700] [Info] Loading plugin: mysql
+[2023-06-21T09:44:42+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T09:44:42+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T09:44:42+0700] [Info]  
+[2023-06-21T09:44:42+0700] [Info]  ==================
+[2023-06-21T09:44:42+0700] [Info]  
+[2023-06-21T09:44:42+0700] [Info]   Whirlpool loaded
+[2023-06-21T09:44:42+0700] [Info]  
+[2023-06-21T09:44:42+0700] [Info]  ==================
+[2023-06-21T09:44:42+0700] [Info]  
+[2023-06-21T09:44:42+0700] [Info] Loading plugin: sscanf
+[2023-06-21T09:44:42+0700] [Info] 
+
+[2023-06-21T09:44:42+0700] [Info]  ===============================
+
+[2023-06-21T09:44:42+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T09:44:42+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T09:44:42+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T09:44:42+0700] [Info]  ===============================
+
+[2023-06-21T09:44:42+0700] [Info] Loading plugin: streamer
+[2023-06-21T09:44:42+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T09:44:42+0700] [Info] AMX (61526976) loaded
+[2023-06-21T09:44:42+0700] [Info]  
+[2023-06-21T09:44:42+0700] [Info]  
+[2023-06-21T09:44:42+0700] [Info]  
+[2023-06-21T09:44:42+0700] [Info]  ======================================= 
+[2023-06-21T09:44:42+0700] [Info]  |                                     | 
+[2023-06-21T09:44:42+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T09:44:42+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T09:44:42+0700] [Info]  |                                     | 
+[2023-06-21T09:44:42+0700] [Info]  ======================================= 
+[2023-06-21T09:44:42+0700] [Info]  
+[2023-06-21T09:44:42+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T09:44:42+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T09:44:42+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T09:44:42+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T09:44:42+0700] [Info] Loaded Door ID:0
+[2023-06-21T09:44:42+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:44:42+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:44:43+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T09:44:45+0700] [Info] [connection] incoming connection: 127.0.0.1:50352 id: 0
+[2023-06-21T09:44:45+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T09:45:08+0700] [Error] Array index out of bounds
+[2023-06-21T09:46:30+0700] [Info] Character Save: Stanley  | AccountID: 9
+[2023-06-21T09:46:30+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T09:50:09+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T09:50:09+0700] [Info] 
+
+[2023-06-21T09:50:09+0700] [Info]  ===============================
+
+[2023-06-21T09:50:09+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T09:50:09+0700] [Info]  ===============================
+
+[2023-06-21T09:50:09+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T09:50:15+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T09:50:15+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T09:50:16+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T09:50:16+0700] [Info] Loading plugin: mysql
+[2023-06-21T09:50:16+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T09:50:16+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T09:50:16+0700] [Info]  
+[2023-06-21T09:50:16+0700] [Info]  ==================
+[2023-06-21T09:50:16+0700] [Info]  
+[2023-06-21T09:50:16+0700] [Info]   Whirlpool loaded
+[2023-06-21T09:50:16+0700] [Info]  
+[2023-06-21T09:50:16+0700] [Info]  ==================
+[2023-06-21T09:50:16+0700] [Info]  
+[2023-06-21T09:50:16+0700] [Info] Loading plugin: sscanf
+[2023-06-21T09:50:16+0700] [Info] 
+
+[2023-06-21T09:50:16+0700] [Info]  ===============================
+
+[2023-06-21T09:50:16+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T09:50:16+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T09:50:16+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T09:50:16+0700] [Info]  ===============================
+
+[2023-06-21T09:50:16+0700] [Info] Loading plugin: streamer
+[2023-06-21T09:50:16+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T09:50:16+0700] [Info] AMX (63001600) loaded
+[2023-06-21T09:50:16+0700] [Info]  
+[2023-06-21T09:50:16+0700] [Info]  
+[2023-06-21T09:50:16+0700] [Info]  
+[2023-06-21T09:50:16+0700] [Info]  ======================================= 
+[2023-06-21T09:50:16+0700] [Info]  |                                     | 
+[2023-06-21T09:50:16+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T09:50:16+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T09:50:16+0700] [Info]  |                                     | 
+[2023-06-21T09:50:16+0700] [Info]  ======================================= 
+[2023-06-21T09:50:16+0700] [Info]  
+[2023-06-21T09:50:16+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T09:50:16+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T09:50:16+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T09:50:16+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T09:50:16+0700] [Info] Loaded Door ID:0
+[2023-06-21T09:50:16+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:50:16+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:50:18+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T09:50:43+0700] [Info] [connection] incoming connection: 127.0.0.1:64058 id: 0
+[2023-06-21T09:50:43+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T09:50:55+0700] [Error] Array index out of bounds
+[2023-06-21T09:51:00+0700] [Info] Character Save: Stanley  | AccountID: 9
+[2023-06-21T09:51:00+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T09:52:11+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T09:52:11+0700] [Info] 
+
+[2023-06-21T09:52:11+0700] [Info]  ===============================
+
+[2023-06-21T09:52:11+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T09:52:11+0700] [Info]  ===============================
+
+[2023-06-21T09:52:11+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T09:52:53+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T09:52:53+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T09:52:53+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T09:52:53+0700] [Info] Loading plugin: mysql
+[2023-06-21T09:52:53+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T09:52:53+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T09:52:53+0700] [Info]  
+[2023-06-21T09:52:53+0700] [Info]  ==================
+[2023-06-21T09:52:53+0700] [Info]  
+[2023-06-21T09:52:53+0700] [Info]   Whirlpool loaded
+[2023-06-21T09:52:53+0700] [Info]  
+[2023-06-21T09:52:53+0700] [Info]  ==================
+[2023-06-21T09:52:53+0700] [Info]  
+[2023-06-21T09:52:53+0700] [Info] Loading plugin: sscanf
+[2023-06-21T09:52:53+0700] [Info] 
+
+[2023-06-21T09:52:53+0700] [Info]  ===============================
+
+[2023-06-21T09:52:53+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T09:52:53+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T09:52:53+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T09:52:53+0700] [Info]  ===============================
+
+[2023-06-21T09:52:53+0700] [Info] Loading plugin: streamer
+[2023-06-21T09:52:53+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T09:52:53+0700] [Info] AMX (60165328) loaded
+[2023-06-21T09:52:53+0700] [Info]  
+[2023-06-21T09:52:53+0700] [Info]  
+[2023-06-21T09:52:53+0700] [Info]  
+[2023-06-21T09:52:53+0700] [Info]  ======================================= 
+[2023-06-21T09:52:53+0700] [Info]  |                                     | 
+[2023-06-21T09:52:53+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T09:52:53+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T09:52:53+0700] [Info]  |                                     | 
+[2023-06-21T09:52:53+0700] [Info]  ======================================= 
+[2023-06-21T09:52:53+0700] [Info]  
+[2023-06-21T09:52:53+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T09:52:53+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T09:52:53+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T09:52:53+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T09:52:53+0700] [Info] Loaded Door ID:0
+[2023-06-21T09:52:53+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:52:53+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:52:55+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T09:52:56+0700] [Info] [connection] incoming connection: 127.0.0.1:54686 id: 0
+[2023-06-21T09:52:56+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T09:53:01+0700] [Error] Array index out of bounds
+[2023-06-21T09:53:07+0700] [Info] Character Save: Stanley  | AccountID: 9
+[2023-06-21T09:53:07+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T09:55:34+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T09:55:34+0700] [Info] 
+
+[2023-06-21T09:55:34+0700] [Info]  ===============================
+
+[2023-06-21T09:55:34+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T09:55:34+0700] [Info]  ===============================
+
+[2023-06-21T09:55:34+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T09:55:42+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T09:55:42+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T09:55:42+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T09:55:42+0700] [Info] Loading plugin: mysql
+[2023-06-21T09:55:42+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T09:55:42+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T09:55:42+0700] [Info]  
+[2023-06-21T09:55:42+0700] [Info]  ==================
+[2023-06-21T09:55:42+0700] [Info]  
+[2023-06-21T09:55:42+0700] [Info]   Whirlpool loaded
+[2023-06-21T09:55:42+0700] [Info]  
+[2023-06-21T09:55:42+0700] [Info]  ==================
+[2023-06-21T09:55:42+0700] [Info]  
+[2023-06-21T09:55:42+0700] [Info] Loading plugin: sscanf
+[2023-06-21T09:55:42+0700] [Info] 
+
+[2023-06-21T09:55:42+0700] [Info]  ===============================
+
+[2023-06-21T09:55:42+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T09:55:42+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T09:55:42+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T09:55:42+0700] [Info]  ===============================
+
+[2023-06-21T09:55:42+0700] [Info] Loading plugin: streamer
+[2023-06-21T09:55:42+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T09:55:42+0700] [Info] AMX (42535248) loaded
+[2023-06-21T09:55:42+0700] [Info]  
+[2023-06-21T09:55:42+0700] [Info]  
+[2023-06-21T09:55:42+0700] [Info]  
+[2023-06-21T09:55:42+0700] [Info]  ======================================= 
+[2023-06-21T09:55:42+0700] [Info]  |                                     | 
+[2023-06-21T09:55:42+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T09:55:42+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T09:55:42+0700] [Info]  |                                     | 
+[2023-06-21T09:55:42+0700] [Info]  ======================================= 
+[2023-06-21T09:55:42+0700] [Info]  
+[2023-06-21T09:55:43+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T09:55:43+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T09:55:43+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T09:55:43+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T09:55:43+0700] [Info] Loaded Door ID:0
+[2023-06-21T09:55:43+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:55:43+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:55:44+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T09:55:50+0700] [Info] [connection] incoming connection: 127.0.0.1:50592 id: 0
+[2023-06-21T09:55:50+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T09:55:55+0700] [Error] Array index out of bounds
+[2023-06-21T09:58:35+0700] [Info] Character Save: Stanley  | AccountID: 9
+[2023-06-21T09:58:35+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T09:58:38+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T09:58:38+0700] [Info] 
+
+[2023-06-21T09:58:38+0700] [Info]  ===============================
+
+[2023-06-21T09:58:38+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T09:58:38+0700] [Info]  ===============================
+
+[2023-06-21T09:58:38+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T09:58:56+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T09:58:56+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T09:58:56+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T09:58:56+0700] [Info] Loading plugin: mysql
+[2023-06-21T09:58:56+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T09:58:56+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T09:58:56+0700] [Info]  
+[2023-06-21T09:58:56+0700] [Info]  ==================
+[2023-06-21T09:58:56+0700] [Info]  
+[2023-06-21T09:58:56+0700] [Info]   Whirlpool loaded
+[2023-06-21T09:58:56+0700] [Info]  
+[2023-06-21T09:58:56+0700] [Info]  ==================
+[2023-06-21T09:58:56+0700] [Info]  
+[2023-06-21T09:58:56+0700] [Info] Loading plugin: sscanf
+[2023-06-21T09:58:56+0700] [Info] 
+
+[2023-06-21T09:58:56+0700] [Info]  ===============================
+
+[2023-06-21T09:58:56+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T09:58:56+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T09:58:56+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T09:58:56+0700] [Info]  ===============================
+
+[2023-06-21T09:58:56+0700] [Info] Loading plugin: streamer
+[2023-06-21T09:58:56+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T09:58:56+0700] [Info] AMX (67385560) loaded
+[2023-06-21T09:58:56+0700] [Info]  
+[2023-06-21T09:58:56+0700] [Info]  
+[2023-06-21T09:58:56+0700] [Info]  
+[2023-06-21T09:58:56+0700] [Info]  ======================================= 
+[2023-06-21T09:58:56+0700] [Info]  |                                     | 
+[2023-06-21T09:58:56+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T09:58:56+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T09:58:56+0700] [Info]  |                                     | 
+[2023-06-21T09:58:56+0700] [Info]  ======================================= 
+[2023-06-21T09:58:56+0700] [Info]  
+[2023-06-21T09:58:56+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T09:58:56+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T09:58:56+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T09:58:56+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T09:58:56+0700] [Info] Loaded Door ID:0
+[2023-06-21T09:58:56+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:58:56+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:58:58+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T09:59:06+0700] [Info] [connection] incoming connection: 127.0.0.1:63342 id: 0
+[2023-06-21T09:59:06+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T09:59:12+0700] [Error] Array index out of bounds
+[2023-06-21T09:59:33+0700] [Info] Character Save: Stanley  | AccountID: 9
+[2023-06-21T09:59:33+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T10:01:35+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T10:01:35+0700] [Info] 
+
+[2023-06-21T10:01:35+0700] [Info]  ===============================
+
+[2023-06-21T10:01:35+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T10:01:35+0700] [Info]  ===============================
+
+[2023-06-21T10:01:35+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T10:01:42+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T10:01:42+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T10:01:42+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T10:01:42+0700] [Info] Loading plugin: mysql
+[2023-06-21T10:01:42+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T10:01:42+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T10:01:42+0700] [Info]  
+[2023-06-21T10:01:42+0700] [Info]  ==================
+[2023-06-21T10:01:42+0700] [Info]  
+[2023-06-21T10:01:42+0700] [Info]   Whirlpool loaded
+[2023-06-21T10:01:42+0700] [Info]  
+[2023-06-21T10:01:42+0700] [Info]  ==================
+[2023-06-21T10:01:42+0700] [Info]  
+[2023-06-21T10:01:42+0700] [Info] Loading plugin: sscanf
+[2023-06-21T10:01:42+0700] [Info] 
+
+[2023-06-21T10:01:42+0700] [Info]  ===============================
+
+[2023-06-21T10:01:42+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T10:01:42+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T10:01:42+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T10:01:42+0700] [Info]  ===============================
+
+[2023-06-21T10:01:42+0700] [Info] Loading plugin: streamer
+[2023-06-21T10:01:42+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T10:01:42+0700] [Info] AMX (42428728) loaded
+[2023-06-21T10:01:42+0700] [Info]  
+[2023-06-21T10:01:42+0700] [Info]  
+[2023-06-21T10:01:42+0700] [Info]  
+[2023-06-21T10:01:42+0700] [Info]  ======================================= 
+[2023-06-21T10:01:42+0700] [Info]  |                                     | 
+[2023-06-21T10:01:42+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T10:01:42+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T10:01:42+0700] [Info]  |                                     | 
+[2023-06-21T10:01:42+0700] [Info]  ======================================= 
+[2023-06-21T10:01:42+0700] [Info]  
+[2023-06-21T10:01:42+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T10:01:42+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T10:01:42+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T10:01:42+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T10:01:42+0700] [Info] Loaded Door ID:0
+[2023-06-21T10:01:42+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:01:42+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:01:44+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T10:01:45+0700] [Info] [connection] incoming connection: 127.0.0.1:63395 id: 0
+[2023-06-21T10:01:45+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T10:01:50+0700] [Error] Array index out of bounds
+[2023-06-21T10:02:03+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T10:02:03+0700] [Info] 
+
+[2023-06-21T10:02:03+0700] [Info]  ===============================
+
+[2023-06-21T10:02:03+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T10:02:03+0700] [Info]  ===============================
+
+[2023-06-21T10:02:03+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T10:03:23+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T10:03:23+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T10:03:23+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T10:03:23+0700] [Info] Loading plugin: mysql
+[2023-06-21T10:03:23+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T10:03:23+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T10:03:23+0700] [Info]  
+[2023-06-21T10:03:23+0700] [Info]  ==================
+[2023-06-21T10:03:23+0700] [Info]  
+[2023-06-21T10:03:23+0700] [Info]   Whirlpool loaded
+[2023-06-21T10:03:23+0700] [Info]  
+[2023-06-21T10:03:23+0700] [Info]  ==================
+[2023-06-21T10:03:23+0700] [Info]  
+[2023-06-21T10:03:23+0700] [Info] Loading plugin: sscanf
+[2023-06-21T10:03:23+0700] [Info] 
+
+[2023-06-21T10:03:23+0700] [Info]  ===============================
+
+[2023-06-21T10:03:23+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T10:03:23+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T10:03:23+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T10:03:23+0700] [Info]  ===============================
+
+[2023-06-21T10:03:23+0700] [Info] Loading plugin: streamer
+[2023-06-21T10:03:23+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T10:03:23+0700] [Info] AMX (62300016) loaded
+[2023-06-21T10:03:23+0700] [Info]  
+[2023-06-21T10:03:23+0700] [Info]  
+[2023-06-21T10:03:23+0700] [Info]  
+[2023-06-21T10:03:23+0700] [Info]  ======================================= 
+[2023-06-21T10:03:23+0700] [Info]  |                                     | 
+[2023-06-21T10:03:23+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T10:03:23+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T10:03:23+0700] [Info]  |                                     | 
+[2023-06-21T10:03:23+0700] [Info]  ======================================= 
+[2023-06-21T10:03:23+0700] [Info]  
+[2023-06-21T10:03:24+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T10:03:24+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T10:03:24+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T10:03:24+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T10:03:24+0700] [Info] Loaded Door ID:0
+[2023-06-21T10:03:24+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:03:24+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:03:25+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T10:03:25+0700] [Info] [connection] incoming connection: 127.0.0.1:63903 id: 0
+[2023-06-21T10:03:25+0700] [Info] [join] Stanley_ has joined the server (0:127.0.0.1)
+[2023-06-21T10:03:41+0700] [Info] Character Save: Phata Z | AccountID: 6
+[2023-06-21T10:03:41+0700] [Info] [part] Phata_Z has left the server (0:1)
+[2023-06-21T10:03:44+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T10:03:44+0700] [Info] 
+
+[2023-06-21T10:03:44+0700] [Info]  ===============================
+
+[2023-06-21T10:03:44+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T10:03:44+0700] [Info]  ===============================
+
+[2023-06-21T10:03:44+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T10:04:10+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T10:04:10+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T10:04:10+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T10:04:10+0700] [Info] Loading plugin: mysql
+[2023-06-21T10:04:10+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T10:04:10+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T10:04:10+0700] [Info]  
+[2023-06-21T10:04:10+0700] [Info]  ==================
+[2023-06-21T10:04:10+0700] [Info]  
+[2023-06-21T10:04:10+0700] [Info]   Whirlpool loaded
+[2023-06-21T10:04:10+0700] [Info]  
+[2023-06-21T10:04:10+0700] [Info]  ==================
+[2023-06-21T10:04:10+0700] [Info]  
+[2023-06-21T10:04:10+0700] [Info] Loading plugin: sscanf
+[2023-06-21T10:04:10+0700] [Info] 
+
+[2023-06-21T10:04:10+0700] [Info]  ===============================
+
+[2023-06-21T10:04:10+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T10:04:10+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T10:04:10+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T10:04:10+0700] [Info]  ===============================
+
+[2023-06-21T10:04:10+0700] [Info] Loading plugin: streamer
+[2023-06-21T10:04:10+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T10:04:10+0700] [Info] AMX (61264152) loaded
+[2023-06-21T10:04:10+0700] [Info]  
+[2023-06-21T10:04:10+0700] [Info]  
+[2023-06-21T10:04:10+0700] [Info]  
+[2023-06-21T10:04:10+0700] [Info]  ======================================= 
+[2023-06-21T10:04:10+0700] [Info]  |                                     | 
+[2023-06-21T10:04:10+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T10:04:10+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T10:04:10+0700] [Info]  |                                     | 
+[2023-06-21T10:04:10+0700] [Info]  ======================================= 
+[2023-06-21T10:04:10+0700] [Info]  
+[2023-06-21T10:04:10+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T10:04:10+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T10:04:10+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T10:04:10+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T10:04:10+0700] [Info] Loaded Door ID:0
+[2023-06-21T10:04:10+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:04:10+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:04:12+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T10:04:13+0700] [Info] [connection] incoming connection: 127.0.0.1:58121 id: 0
+[2023-06-21T10:04:13+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T10:04:18+0700] [Error] Array index out of bounds
+[2023-06-21T10:04:34+0700] [Info] Character Save: Stanley  | AccountID: 9
+[2023-06-21T10:04:34+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T10:07:38+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T10:07:38+0700] [Info] 
+
+[2023-06-21T10:07:38+0700] [Info]  ===============================
+
+[2023-06-21T10:07:38+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T10:07:38+0700] [Info]  ===============================
+
+[2023-06-21T10:07:38+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T10:08:22+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T10:08:22+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T10:08:22+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T10:08:22+0700] [Info] Loading plugin: mysql
+[2023-06-21T10:08:22+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T10:08:22+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T10:08:22+0700] [Info]  
+[2023-06-21T10:08:22+0700] [Info]  ==================
+[2023-06-21T10:08:22+0700] [Info]  
+[2023-06-21T10:08:22+0700] [Info]   Whirlpool loaded
+[2023-06-21T10:08:22+0700] [Info]  
+[2023-06-21T10:08:22+0700] [Info]  ==================
+[2023-06-21T10:08:22+0700] [Info]  
+[2023-06-21T10:08:22+0700] [Info] Loading plugin: sscanf
+[2023-06-21T10:08:22+0700] [Info] 
+
+[2023-06-21T10:08:22+0700] [Info]  ===============================
+
+[2023-06-21T10:08:22+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T10:08:22+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T10:08:22+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T10:08:22+0700] [Info]  ===============================
+
+[2023-06-21T10:08:22+0700] [Info] Loading plugin: streamer
+[2023-06-21T10:08:22+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T10:08:22+0700] [Info] AMX (65031752) loaded
+[2023-06-21T10:08:22+0700] [Info]  
+[2023-06-21T10:08:22+0700] [Info]  
+[2023-06-21T10:08:22+0700] [Info]  
+[2023-06-21T10:08:22+0700] [Info]  ======================================= 
+[2023-06-21T10:08:22+0700] [Info]  |                                     | 
+[2023-06-21T10:08:22+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T10:08:22+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T10:08:22+0700] [Info]  |                                     | 
+[2023-06-21T10:08:22+0700] [Info]  ======================================= 
+[2023-06-21T10:08:22+0700] [Info]  
+[2023-06-21T10:08:23+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T10:08:23+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T10:08:23+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T10:08:23+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T10:08:23+0700] [Info] Loaded Door ID:0
+[2023-06-21T10:08:23+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:08:23+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:08:24+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T10:08:37+0700] [Info] [connection] incoming connection: 127.0.0.1:51450 id: 0
+[2023-06-21T10:08:37+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T10:08:42+0700] [Error] Array index out of bounds
+[2023-06-21T10:08:57+0700] [Info] Character Save: Stanley  | AccountID: 9
+[2023-06-21T10:08:57+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T10:23:45+0700] [Info] [connection] incoming connection: 127.0.0.1:61620 id: 0
+[2023-06-21T10:23:45+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T10:23:55+0700] [Error] Array index out of bounds
+[2023-06-21T10:24:40+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T10:24:40+0700] [Info] 
+
+[2023-06-21T10:24:40+0700] [Info]  ===============================
+
+[2023-06-21T10:24:40+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T10:24:40+0700] [Info]  ===============================
+
+[2023-06-21T10:24:40+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T10:24:46+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T10:24:46+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T10:24:47+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T10:24:47+0700] [Info] Loading plugin: mysql
+[2023-06-21T10:24:47+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T10:24:47+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T10:24:47+0700] [Info]  
+[2023-06-21T10:24:47+0700] [Info]  ==================
+[2023-06-21T10:24:47+0700] [Info]  
+[2023-06-21T10:24:47+0700] [Info]   Whirlpool loaded
+[2023-06-21T10:24:47+0700] [Info]  
+[2023-06-21T10:24:47+0700] [Info]  ==================
+[2023-06-21T10:24:47+0700] [Info]  
+[2023-06-21T10:24:47+0700] [Info] Loading plugin: sscanf
+[2023-06-21T10:24:47+0700] [Info] 
+
+[2023-06-21T10:24:47+0700] [Info]  ===============================
+
+[2023-06-21T10:24:47+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T10:24:47+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T10:24:47+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T10:24:47+0700] [Info]  ===============================
+
+[2023-06-21T10:24:47+0700] [Info] Loading plugin: streamer
+[2023-06-21T10:24:47+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T10:24:47+0700] [Info] AMX (43799400) loaded
+[2023-06-21T10:24:47+0700] [Info]  
+[2023-06-21T10:24:47+0700] [Info]  
+[2023-06-21T10:24:47+0700] [Info]  
+[2023-06-21T10:24:47+0700] [Info]  ======================================= 
+[2023-06-21T10:24:47+0700] [Info]  |                                     | 
+[2023-06-21T10:24:47+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T10:24:47+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T10:24:47+0700] [Info]  |                                     | 
+[2023-06-21T10:24:47+0700] [Info]  ======================================= 
+[2023-06-21T10:24:47+0700] [Info]  
+[2023-06-21T10:24:47+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T10:24:47+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T10:24:47+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T10:24:47+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T10:24:47+0700] [Info] Loaded Door ID:0
+[2023-06-21T10:24:47+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:24:47+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:24:48+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T10:25:02+0700] [Info] [connection] incoming connection: 127.0.0.1:57162 id: 0
+[2023-06-21T10:25:02+0700] [Info] [join] Stanley_ has joined the server (0:127.0.0.1)
+[2023-06-21T10:25:08+0700] [Error] Array index out of bounds
+[2023-06-21T10:25:18+0700] [Info] Character Save: Phata Z | AccountID: 10
+[2023-06-21T10:25:18+0700] [Info] [part] Phata_Z has left the server (0:1)
+[2023-06-21T10:29:18+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T10:29:18+0700] [Info] 
+
+[2023-06-21T10:29:18+0700] [Info]  ===============================
+
+[2023-06-21T10:29:18+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T10:29:18+0700] [Info]  ===============================
+
+[2023-06-21T10:29:18+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T10:29:24+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T10:29:24+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T10:29:25+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T10:29:25+0700] [Info] Loading plugin: mysql
+[2023-06-21T10:29:25+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T10:29:25+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T10:29:25+0700] [Info]  
+[2023-06-21T10:29:25+0700] [Info]  ==================
+[2023-06-21T10:29:25+0700] [Info]  
+[2023-06-21T10:29:25+0700] [Info]   Whirlpool loaded
+[2023-06-21T10:29:25+0700] [Info]  
+[2023-06-21T10:29:25+0700] [Info]  ==================
+[2023-06-21T10:29:25+0700] [Info]  
+[2023-06-21T10:29:25+0700] [Info] Loading plugin: sscanf
+[2023-06-21T10:29:25+0700] [Info] 
+
+[2023-06-21T10:29:25+0700] [Info]  ===============================
+
+[2023-06-21T10:29:25+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T10:29:25+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T10:29:25+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T10:29:25+0700] [Info]  ===============================
+
+[2023-06-21T10:29:25+0700] [Info] Loading plugin: streamer
+[2023-06-21T10:29:25+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T10:29:25+0700] [Info] AMX (64137584) loaded
+[2023-06-21T10:29:25+0700] [Info]  
+[2023-06-21T10:29:25+0700] [Info]  
+[2023-06-21T10:29:25+0700] [Info]  
+[2023-06-21T10:29:25+0700] [Info]  ======================================= 
+[2023-06-21T10:29:25+0700] [Info]  |                                     | 
+[2023-06-21T10:29:25+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T10:29:25+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T10:29:25+0700] [Info]  |                                     | 
+[2023-06-21T10:29:25+0700] [Info]  ======================================= 
+[2023-06-21T10:29:25+0700] [Info]  
+[2023-06-21T10:29:25+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T10:29:25+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T10:29:25+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T10:29:25+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T10:29:25+0700] [Info] Loaded Door ID:0
+[2023-06-21T10:29:25+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:29:25+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:29:26+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T10:29:29+0700] [Info] [connection] incoming connection: 127.0.0.1:52353 id: 0
+[2023-06-21T10:29:29+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T10:29:41+0700] [Error] Array index out of bounds
+[2023-06-21T10:30:04+0700] [Info] Character Save: Stanley  | AccountID: 9
+[2023-06-21T10:30:04+0700] [Info] [part] Stanley_ has left the server (0:1)
+[2023-06-21T10:34:22+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T10:34:22+0700] [Info] 
+
+[2023-06-21T10:34:22+0700] [Info]  ===============================
+
+[2023-06-21T10:34:22+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T10:34:22+0700] [Info]  ===============================
+
+[2023-06-21T10:34:22+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T10:34:27+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T10:34:27+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T10:34:27+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T10:34:27+0700] [Info] Loading plugin: mysql
+[2023-06-21T10:34:27+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T10:34:27+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T10:34:27+0700] [Info]  
+[2023-06-21T10:34:27+0700] [Info]  ==================
+[2023-06-21T10:34:27+0700] [Info]  
+[2023-06-21T10:34:27+0700] [Info]   Whirlpool loaded
+[2023-06-21T10:34:27+0700] [Info]  
+[2023-06-21T10:34:27+0700] [Info]  ==================
+[2023-06-21T10:34:27+0700] [Info]  
+[2023-06-21T10:34:27+0700] [Info] Loading plugin: sscanf
+[2023-06-21T10:34:27+0700] [Info] 
+
+[2023-06-21T10:34:27+0700] [Info]  ===============================
+
+[2023-06-21T10:34:27+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T10:34:27+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T10:34:27+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T10:34:27+0700] [Info]  ===============================
+
+[2023-06-21T10:34:27+0700] [Info] Loading plugin: streamer
+[2023-06-21T10:34:27+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T10:34:27+0700] [Info] AMX (65656904) loaded
+[2023-06-21T10:34:27+0700] [Info]  
+[2023-06-21T10:34:27+0700] [Info]  
+[2023-06-21T10:34:27+0700] [Info]  
+[2023-06-21T10:34:27+0700] [Info]  ======================================= 
+[2023-06-21T10:34:27+0700] [Info]  |                                     | 
+[2023-06-21T10:34:27+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T10:34:27+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T10:34:27+0700] [Info]  |                                     | 
+[2023-06-21T10:34:27+0700] [Info]  ======================================= 
+[2023-06-21T10:34:27+0700] [Info]  
+[2023-06-21T10:34:28+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T10:34:28+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T10:34:28+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T10:34:28+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T10:34:28+0700] [Info] Loaded Door ID:0
+[2023-06-21T10:34:28+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:34:28+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:34:29+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T10:34:32+0700] [Info] [connection] incoming connection: 127.0.0.1:55717 id: 0
+[2023-06-21T10:34:32+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
+[2023-06-21T10:34:39+0700] [Error] Array index out of bounds
+[2023-06-21T10:37:55+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T10:37:55+0700] [Info] 
+
+[2023-06-21T10:37:55+0700] [Info]  ===============================
+
+[2023-06-21T10:37:55+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T10:37:55+0700] [Info]  ===============================
+
+[2023-06-21T10:37:55+0700] [Info] plugin.mysql: Unloading plugin...
+=======
 Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
 Executing Server Config...
 Parsing unknown legacy option usearwork
@@ -23125,3 +25630,818 @@ Parsing unknown legacy option usearwork
 [2023-06-21T10:07:07+0700] [Error] Array index out of bounds
 [2023-06-21T10:07:47+0700] [Info] Character Save: Khoi Nguyen | AccountID: 6
 [2023-06-21T10:07:47+0700] [Info] [part] Khoi_Nguyen has left the server (0:1)
+>>>>>>> e86c78f118a367e12f2fc9b62c83636718b246ea
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T11:04:15+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T11:04:15+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T11:04:16+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T11:04:17+0700] [Info] Loading plugin: mysql
+[2023-06-21T11:04:19+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T11:04:19+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T11:04:19+0700] [Info]  
+[2023-06-21T11:04:19+0700] [Info]  ==================
+[2023-06-21T11:04:19+0700] [Info]  
+[2023-06-21T11:04:19+0700] [Info]   Whirlpool loaded
+[2023-06-21T11:04:19+0700] [Info]  
+[2023-06-21T11:04:19+0700] [Info]  ==================
+[2023-06-21T11:04:19+0700] [Info]  
+[2023-06-21T11:04:19+0700] [Info] Loading plugin: sscanf
+[2023-06-21T11:04:19+0700] [Info] 
+
+[2023-06-21T11:04:19+0700] [Info]  ===============================
+
+[2023-06-21T11:04:19+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T11:04:19+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T11:04:19+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T11:04:19+0700] [Info]  ===============================
+
+[2023-06-21T11:04:19+0700] [Info] Loading plugin: streamer
+[2023-06-21T11:04:19+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T11:04:20+0700] [Info] AMX (18190304) loaded
+[2023-06-21T11:04:20+0700] [Info]  
+[2023-06-21T11:04:20+0700] [Info]  
+[2023-06-21T11:04:20+0700] [Info]  
+[2023-06-21T11:04:20+0700] [Info]  ======================================= 
+[2023-06-21T11:04:20+0700] [Info]  |                                     | 
+[2023-06-21T11:04:20+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T11:04:20+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T11:04:20+0700] [Info]  |                                     | 
+[2023-06-21T11:04:20+0700] [Info]  ======================================= 
+[2023-06-21T11:04:20+0700] [Info]  
+[2023-06-21T11:04:22+0700] [Info] > Ket noi de du lieu that bai.
+[2023-06-21T11:04:22+0700] [Info] >>> This Server Will Shutdown After 5 Second
+[2023-06-21T11:04:22+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T11:04:22+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:04:22+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:04:27+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T11:04:27+0700] [Info] 
+
+[2023-06-21T11:04:27+0700] [Info]  ===============================
+
+[2023-06-21T11:04:27+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T11:04:27+0700] [Info]  ===============================
+
+[2023-06-21T11:04:27+0700] [Info] plugin.mysql: Unloading plugin...
+[2023-06-21T11:04:27+0700] [Info] plugin.mysql: Plugin unloaded.
+[2023-06-21T11:04:27+0700] [Info]  
+[2023-06-21T11:04:27+0700] [Info]  ====================
+[2023-06-21T11:04:27+0700] [Info]  
+[2023-06-21T11:04:27+0700] [Info]   Whirlpool unloaded
+[2023-06-21T11:04:27+0700] [Info]  
+[2023-06-21T11:04:27+0700] [Info]  ====================
+[2023-06-21T11:04:27+0700] [Info]  
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T11:04:47+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T11:04:47+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T11:04:48+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T11:04:48+0700] [Info] Loading plugin: mysql
+[2023-06-21T11:04:48+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T11:04:48+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T11:04:48+0700] [Info]  
+[2023-06-21T11:04:48+0700] [Info]  ==================
+[2023-06-21T11:04:48+0700] [Info]  
+[2023-06-21T11:04:48+0700] [Info]   Whirlpool loaded
+[2023-06-21T11:04:48+0700] [Info]  
+[2023-06-21T11:04:48+0700] [Info]  ==================
+[2023-06-21T11:04:48+0700] [Info]  
+[2023-06-21T11:04:48+0700] [Info] Loading plugin: sscanf
+[2023-06-21T11:04:48+0700] [Info] 
+
+[2023-06-21T11:04:48+0700] [Info]  ===============================
+
+[2023-06-21T11:04:49+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T11:04:49+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T11:04:49+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T11:04:49+0700] [Info]  ===============================
+
+[2023-06-21T11:04:49+0700] [Info] Loading plugin: streamer
+[2023-06-21T11:04:49+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T11:04:49+0700] [Info] AMX (61509392) loaded
+[2023-06-21T11:04:49+0700] [Info]  
+[2023-06-21T11:04:49+0700] [Info]  
+[2023-06-21T11:04:49+0700] [Info]  
+[2023-06-21T11:04:49+0700] [Info]  ======================================= 
+[2023-06-21T11:04:49+0700] [Info]  |                                     | 
+[2023-06-21T11:04:49+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T11:04:49+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T11:04:49+0700] [Info]  |                                     | 
+[2023-06-21T11:04:50+0700] [Info]  ======================================= 
+[2023-06-21T11:04:50+0700] [Info]  
+[2023-06-21T11:04:52+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T11:04:52+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T11:04:52+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T11:04:52+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T11:04:53+0700] [Info] Loaded Door ID:0
+[2023-06-21T11:04:53+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:04:53+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:05:08+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T11:05:38+0700] [Info] [connection] incoming connection: 127.0.0.1:59003 id: 0
+[2023-06-21T11:05:38+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T11:06:39+0700] [Error] Array index out of bounds
+[2023-06-21T11:07:50+0700] [Info] Character Save: Khoi Nguyen | AccountID: 6
+[2023-06-21T11:07:51+0700] [Info] [part] Khoi_Nguyen has left the server (0:1)
+[2023-06-21T11:08:21+0700] [Info] [connection] incoming connection: 127.0.0.1:59670 id: 0
+[2023-06-21T11:08:22+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T11:08:30+0700] [Error] Array index out of bounds
+[2023-06-21T11:10:40+0700] [Info] Character Save: Khoi Nguyen | AccountID: 6
+[2023-06-21T11:10:43+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T11:10:45+0700] [Error] [artwork:error] Model -2001 is already in use
+[2023-06-21T11:10:45+0700] [Error] [artwork:error] Model -2002 is already in use
+[2023-06-21T11:10:45+0700] [Error] [artwork:error] Model -5000 is already in use
+[2023-06-21T11:10:46+0700] [Error] [artwork:error] Model -5001 is already in use
+[2023-06-21T11:10:46+0700] [Error] [artwork:error] Model -5002 is already in use
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+Loading component LegacyNetwork.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+Loading component Pickups.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component Objects.dll
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+Executing Server Config...
+Parsing unknown legacy option usearwork
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+[2023-06-21T11:11:35+0700] [Info] [artwork:info] Loading artconfig.txt
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+[2023-06-21T11:11:35+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T11:11:37+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T11:11:38+0700] [Info] Loading plugin: mysql
+[2023-06-21T11:11:39+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T11:11:39+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T11:11:39+0700] [Info]  
+[2023-06-21T11:11:39+0700] [Info]  ==================
+[2023-06-21T11:11:39+0700] [Info]  
+[2023-06-21T11:11:39+0700] [Info]   Whirlpool loaded
+[2023-06-21T11:11:39+0700] [Info]  
+[2023-06-21T11:11:39+0700] [Info]  ==================
+[2023-06-21T11:11:39+0700] [Info]  
+[2023-06-21T11:11:39+0700] [Info] Loading plugin: sscanf
+[2023-06-21T11:11:39+0700] [Info] 
+
+[2023-06-21T11:11:39+0700] [Info]  ===============================
+
+[2023-06-21T11:11:39+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T11:11:39+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T11:11:39+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T11:11:39+0700] [Info]  ===============================
+
+[2023-06-21T11:11:39+0700] [Info] Loading plugin: streamer
+[2023-06-21T11:11:39+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T11:11:40+0700] [Info] AMX (66227960) loaded
+[2023-06-21T11:11:40+0700] [Info]  
+[2023-06-21T11:11:40+0700] [Info]  
+[2023-06-21T11:11:40+0700] [Info]  
+[2023-06-21T11:11:40+0700] [Info]  ======================================= 
+[2023-06-21T11:11:40+0700] [Info]  |                                     | 
+[2023-06-21T11:11:40+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T11:11:40+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T11:11:40+0700] [Info]  |                                     | 
+[2023-06-21T11:11:40+0700] [Info]  ======================================= 
+[2023-06-21T11:11:40+0700] [Info]  
+[2023-06-21T11:11:45+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T11:11:45+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T11:11:45+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T11:11:45+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T11:11:45+0700] [Info] Loaded Door ID:0
+[2023-06-21T11:11:45+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:11:45+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:11:59+0700] [Info] [connection] incoming connection: 127.0.0.1:65193 id: 0
+[2023-06-21T11:11:59+0700] [Info] [join] Khoi_Nguyen has joined the server (0:127.0.0.1)
+[2023-06-21T11:12:04+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T11:13:31+0700] [Info] Character Save: Phat Ngu | AccountID: 6
+[2023-06-21T11:13:31+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T11:13:32+0700] [Error] [artwork:error] Model -2001 is already in use
+[2023-06-21T11:13:32+0700] [Error] [artwork:error] Model -2002 is already in use
+[2023-06-21T11:13:32+0700] [Error] [artwork:error] Model -5000 is already in use
+[2023-06-21T11:13:33+0700] [Error] [artwork:error] Model -5001 is already in use
+[2023-06-21T11:13:33+0700] [Error] [artwork:error] Model -5002 is already in use
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T11:13:52+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T11:13:52+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T11:13:52+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T11:13:53+0700] [Info] Loading plugin: mysql
+[2023-06-21T11:13:53+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T11:13:54+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T11:13:54+0700] [Info]  
+[2023-06-21T11:13:54+0700] [Info]  ==================
+[2023-06-21T11:13:54+0700] [Info]  
+[2023-06-21T11:13:54+0700] [Info]   Whirlpool loaded
+[2023-06-21T11:13:54+0700] [Info]  
+[2023-06-21T11:13:54+0700] [Info]  ==================
+[2023-06-21T11:13:55+0700] [Info]  
+[2023-06-21T11:13:55+0700] [Info] Loading plugin: sscanf
+[2023-06-21T11:13:55+0700] [Info] 
+
+[2023-06-21T11:13:55+0700] [Info]  ===============================
+
+[2023-06-21T11:13:55+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T11:13:55+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T11:13:55+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T11:13:55+0700] [Info]  ===============================
+
+[2023-06-21T11:13:55+0700] [Info] Loading plugin: streamer
+[2023-06-21T11:13:56+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T11:13:56+0700] [Info] AMX (58598376) loaded
+[2023-06-21T11:13:57+0700] [Info]  
+[2023-06-21T11:13:57+0700] [Info]  
+[2023-06-21T11:13:57+0700] [Info]  
+[2023-06-21T11:13:57+0700] [Info]  ======================================= 
+[2023-06-21T11:13:57+0700] [Info]  |                                     | 
+[2023-06-21T11:13:57+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T11:13:57+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T11:13:57+0700] [Info]  |                                     | 
+[2023-06-21T11:13:57+0700] [Info]  ======================================= 
+[2023-06-21T11:13:57+0700] [Info]  
+[2023-06-21T11:14:02+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T11:14:02+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T11:14:02+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T11:14:02+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T11:14:02+0700] [Info] Loaded Door ID:0
+[2023-06-21T11:14:02+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:14:02+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:14:06+0700] [Info] [connection] incoming connection: 127.0.0.1:52085 id: 0
+[2023-06-21T11:14:06+0700] [Info] [join] Phat_Ngu has joined the server (0:127.0.0.1)
+[2023-06-21T11:14:18+0700] [Info] [part] Phat_Ngu has left the server (0:1)
+[2023-06-21T11:14:19+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T11:14:55+0700] [Info] [connection] incoming connection: 127.0.0.1:63646 id: 0
+[2023-06-21T11:14:55+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T11:15:03+0700] [Error] Array index out of bounds
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T11:17:01+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T11:17:01+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T11:17:01+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T11:17:02+0700] [Info] Loading plugin: mysql
+[2023-06-21T11:17:02+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T11:17:02+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T11:17:02+0700] [Info]  
+[2023-06-21T11:17:03+0700] [Info]  ==================
+[2023-06-21T11:17:03+0700] [Info]  
+[2023-06-21T11:17:03+0700] [Info]   Whirlpool loaded
+[2023-06-21T11:17:03+0700] [Info]  
+[2023-06-21T11:17:03+0700] [Info]  ==================
+[2023-06-21T11:17:03+0700] [Info]  
+[2023-06-21T11:17:03+0700] [Info] Loading plugin: sscanf
+[2023-06-21T11:17:04+0700] [Info] 
+
+[2023-06-21T11:17:04+0700] [Info]  ===============================
+
+[2023-06-21T11:17:04+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T11:17:04+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T11:17:04+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T11:17:05+0700] [Info]  ===============================
+
+[2023-06-21T11:17:05+0700] [Info] Loading plugin: streamer
+[2023-06-21T11:17:05+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T11:17:05+0700] [Info] AMX (45934632) loaded
+[2023-06-21T11:17:05+0700] [Info]  
+[2023-06-21T11:17:06+0700] [Info]  
+[2023-06-21T11:17:06+0700] [Info]  
+[2023-06-21T11:17:06+0700] [Info]  ======================================= 
+[2023-06-21T11:17:06+0700] [Info]  |                                     | 
+[2023-06-21T11:17:06+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T11:17:06+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T11:17:06+0700] [Info]  |                                     | 
+[2023-06-21T11:17:06+0700] [Info]  ======================================= 
+[2023-06-21T11:17:06+0700] [Info]  
+[2023-06-21T11:17:09+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T11:17:09+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T11:17:09+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T11:17:10+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T11:17:10+0700] [Info] Loaded Door ID:0
+[2023-06-21T11:17:10+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:17:10+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:17:11+0700] [Info] [connection] incoming connection: 127.0.0.1:56398 id: 0
+[2023-06-21T11:17:12+0700] [Info] [join] Khoi_Nguyen has joined the server (0:127.0.0.1)
+[2023-06-21T11:17:26+0700] [Error] Array index out of bounds
+[2023-06-21T11:17:26+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T11:18:53+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T11:18:55+0700] [Info] 
+
+[2023-06-21T11:18:55+0700] [Info]  ===============================
+
+[2023-06-21T11:18:55+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T11:18:55+0700] [Info]  ===============================
+
+[2023-06-21T11:18:55+0700] [Info] plugin.mysql: Unloading plugin...
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T11:19:13+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T11:19:13+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T11:19:14+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T11:19:16+0700] [Info] Loading plugin: mysql
+[2023-06-21T11:19:16+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T11:19:17+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T11:19:17+0700] [Info]  
+[2023-06-21T11:19:17+0700] [Info]  ==================
+[2023-06-21T11:19:17+0700] [Info]  
+[2023-06-21T11:19:17+0700] [Info]   Whirlpool loaded
+[2023-06-21T11:19:17+0700] [Info]  
+[2023-06-21T11:19:17+0700] [Info]  ==================
+[2023-06-21T11:19:17+0700] [Info]  
+[2023-06-21T11:19:17+0700] [Info] Loading plugin: sscanf
+[2023-06-21T11:19:17+0700] [Info] 
+
+[2023-06-21T11:19:17+0700] [Info]  ===============================
+
+[2023-06-21T11:19:18+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T11:19:18+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T11:19:18+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T11:19:18+0700] [Info]  ===============================
+
+[2023-06-21T11:19:23+0700] [Info] Loading plugin: streamer
+[2023-06-21T11:19:38+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T11:19:47+0700] [Info] AMX (43178464) loaded
+[2023-06-21T11:19:47+0700] [Info]  
+[2023-06-21T11:19:47+0700] [Info]  
+[2023-06-21T11:19:47+0700] [Info]  
+[2023-06-21T11:19:47+0700] [Info]  ======================================= 
+[2023-06-21T11:19:47+0700] [Info]  |                                     | 
+[2023-06-21T11:19:47+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T11:19:47+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T11:19:47+0700] [Info]  |                                     | 
+[2023-06-21T11:19:48+0700] [Info]  ======================================= 
+[2023-06-21T11:19:48+0700] [Info]  
+[2023-06-21T11:19:51+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T11:19:51+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T11:19:51+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T11:19:51+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T11:19:51+0700] [Info] Loaded Door ID:0
+[2023-06-21T11:19:51+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:19:51+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:19:55+0700] [Info] [connection] incoming connection: 127.0.0.1:62039 id: 0
+[2023-06-21T11:20:09+0700] [Info] [join] Phat_Ngu has joined the server (0:127.0.0.1)
+[2023-06-21T11:20:12+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T11:20:19+0700] [Info] [part] Phat_Ngu has left the server (0:0)
+[2023-06-21T11:20:40+0700] [Info] [connection] incoming connection: 127.0.0.1:64000 id: 0
+[2023-06-21T11:20:40+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T11:20:47+0700] [Error] Array index out of bounds
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.0.1.2409) with UID 44a111350d611dde
+Loading component Fixes.dll
+	Successfully loaded component Fixes (1.0.1.2409) with UID b5c615eff0329ff7
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.0.1.2409) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.0.1.2409) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.0.1.2409) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.0.1.2409) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.0.1.2409) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.0.1.2409) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.0.1.2409) with UID cf304faa363dd971
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.0.1.2409) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.0.1.2409) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.0.1.2409) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.0.1.2409) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T11:23:47+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T11:23:47+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T11:23:47+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T11:23:48+0700] [Info] Loading plugin: mysql
+[2023-06-21T11:23:48+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T11:23:48+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T11:23:48+0700] [Info]  
+[2023-06-21T11:23:48+0700] [Info]  ==================
+[2023-06-21T11:23:48+0700] [Info]  
+[2023-06-21T11:23:48+0700] [Info]   Whirlpool loaded
+[2023-06-21T11:23:48+0700] [Info]  
+[2023-06-21T11:23:48+0700] [Info]  ==================
+[2023-06-21T11:23:48+0700] [Info]  
+[2023-06-21T11:23:49+0700] [Info] Loading plugin: sscanf
+[2023-06-21T11:23:49+0700] [Info] 
+
+[2023-06-21T11:23:49+0700] [Info]  ===============================
+
+[2023-06-21T11:23:49+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T11:23:49+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T11:23:49+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T11:23:49+0700] [Info]  ===============================
+
+[2023-06-21T11:23:49+0700] [Info] Loading plugin: streamer
+[2023-06-21T11:23:49+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T11:23:49+0700] [Info] AMX (16674344) loaded
+[2023-06-21T11:23:49+0700] [Info]  
+[2023-06-21T11:23:50+0700] [Info]  
+[2023-06-21T11:23:50+0700] [Info]  
+[2023-06-21T11:23:50+0700] [Info]  ======================================= 
+[2023-06-21T11:23:50+0700] [Info]  |                                     | 
+[2023-06-21T11:23:50+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T11:23:50+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T11:23:50+0700] [Info]  |                                     | 
+[2023-06-21T11:23:50+0700] [Info]  ======================================= 
+[2023-06-21T11:23:50+0700] [Info]  
+[2023-06-21T11:23:51+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T11:23:51+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T11:23:51+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T11:23:52+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T11:23:52+0700] [Info] Loaded Door ID:0
+[2023-06-21T11:23:52+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:23:52+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T11:23:53+0700] [Info] [connection] incoming connection: 127.0.0.1:63395 id: 0
+[2023-06-21T11:23:54+0700] [Info] [join] Khoi_Nguyen has joined the server (0:127.0.0.1)
+[2023-06-21T11:24:02+0700] [Error] Array index out of bounds
+[2023-06-21T11:24:07+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T11:24:40+0700] [Info] Character Save: Phat Ngu | AccountID: 9
+[2023-06-21T11:24:40+0700] [Info] [part] Phat_Ngu has left the server (0:1)

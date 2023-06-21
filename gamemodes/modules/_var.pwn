@@ -25,6 +25,7 @@ enum character_Info
 }
 
 new Character[MAX_PLAYERS][character_Info];
-
+new PlayerText: SpawnLSRP[MAX_PLAYERS][4];
 new PlayerSetupping[MAX_PLAYERS];
 new PlayerText:SpawnNewbiePTD[MAX_PLAYERS][7];
+new PlayerText: FadeEffect[MAX_PLAYERS][1];

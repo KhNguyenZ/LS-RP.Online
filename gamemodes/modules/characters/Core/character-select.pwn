@@ -19,7 +19,7 @@ forward character_List(const playerid);
 public character_List(const playerid)
 {
 	PlayerSetupping[playerid] = 1;
-	HienTextdraw(playerid, "Moi ban chon nhan vat", 5000);
+	HienTextdraw(playerid, "Xin vui long chon nhan vat.", 5000);
 	new 
 		string[150] = EOS;
 
@@ -55,15 +55,7 @@ public OnCharacterLoad(const playerid)
 	cache_get_value_name_int(0, "AdminLevel", Character[playerid][char_Admin]);
 
 	// printf("ID Account's %s:%d", player_get_name(playerid), Character[playerid][char_player_id]);
-
-	SetSpawnInfo(playerid, 0, Character[playerid][char_Skin], Character[playerid][char_last_Pos][0], Character[playerid][char_last_Pos][1],Character[playerid][char_last_Pos][2],Character[playerid][char_last_Pos][3],0, 0,0, 0,0, 0);
-	SpawnPlayer(playerid);
-	SetPlayerSkin(playerid,Character[playerid][char_Skin]);
-	ResetPlayerWeapons(playerid);
-	GivePlayerMoney(playerid, Character[playerid][char_Cash]);
-	SetPlayerHealth(playerid, Character[playerid][char_health]);
-	SetPlayerArmour(playerid, Character[playerid][char_armour]);
-
+    ShowPlayerSpawnMenu(playerid);
 }
 
 forward OnCharacterCreate(const playerid);
@@ -78,16 +70,8 @@ public OnCharacterCreate(const playerid)
 	new query[240];
 	format(query, sizeof(query), "SELECT * FROM `players` WHERE `AccID` = '%s'", Character[playerid][char_account_id]);
 	mysql_tquery(Handle(), query, "OnCharacterLoad", "i", playerid);
-
-	SetSpawnInfo(playerid, 0, Character[playerid][char_Skin], 1192.78, -1292.68, 13.38, 90, 0,0, 0, 0, 0, 0);
-	SpawnPlayer(playerid);
-	SetPlayerSkin(playerid,Character[playerid][char_Skin]);
-	ResetPlayerWeapons(playerid);
-	GivePlayerMoney(playerid, Character[playerid][char_Cash]);
-	SetPlayerHealth(playerid, Character[playerid][char_health]);
-	SetPlayerArmour(playerid, Character[playerid][char_armour]);
-
 	PlayerSetupping[playerid] = 1;
+	ShowPlayerSpawnMenu(playerid);
 	return 1;
 }
 
