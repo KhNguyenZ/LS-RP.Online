@@ -1,2 +1,6 @@
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\main.pwn(41) : îøèáêà 010: íåâåðíàÿ ôóíêöèÿ èëè îáúÿâëåíèå
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\main.pwn(43) : îøèáêà 010: íåâåðíàÿ ôóíêöèÿ èëè îáúÿâëåíèå
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 
+
+Îøèáîê:2.

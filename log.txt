@@ -22755,6 +22755,19 @@ Loading component Classes.dll
 Loading component Console.dll
 	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
 Loading component CustomModels.dll
+<<<<<<< HEAD
+=======
+Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
+Loading component Actors.dll
+	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.0.1.2409) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.0.1.2409) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.0.1.2409) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+>>>>>>> e86c78f118a367e12f2fc9b62c83636718b246ea
 	Successfully loaded component CustomModels (1.0.1.2409) with UID 15e3cb1e7c77ffff
 Loading component Databases.dll
 	Successfully loaded component Databases (1.0.1.2409) with UID 80092e7eb5821a96
@@ -22788,6 +22801,7 @@ Loading component Variables.dll
 	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
 Loading component Vehicles.dll
 	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+<<<<<<< HEAD
 Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
 Executing Server Config...
 Parsing unknown legacy option usearwork
@@ -22951,6 +22965,82 @@ Parsing unknown legacy option usearwork
 [2023-06-21T08:06:54+0700] [Info]  
 [2023-06-21T08:06:54+0700] [Info]  ====================
 [2023-06-21T08:06:54+0700] [Info]  
+=======
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T09:40:07+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T09:40:07+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T09:40:08+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T09:40:10+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T09:40:10+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T09:40:11+0700] [Info] Loading plugin: mysql
+[2023-06-21T09:40:15+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T09:40:15+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T09:40:16+0700] [Info]  
+[2023-06-21T09:40:16+0700] [Info]  ==================
+[2023-06-21T09:40:16+0700] [Info]  
+[2023-06-21T09:40:16+0700] [Info]   Whirlpool loaded
+[2023-06-21T09:40:16+0700] [Info]  
+[2023-06-21T09:40:16+0700] [Info]  ==================
+[2023-06-21T09:40:16+0700] [Info]  
+[2023-06-21T09:40:16+0700] [Info] Loading plugin: sscanf
+[2023-06-21T09:40:16+0700] [Info] 
+
+[2023-06-21T09:40:16+0700] [Info]  ===============================
+
+[2023-06-21T09:40:16+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T09:40:16+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T09:40:16+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T09:40:16+0700] [Info]  ===============================
+
+[2023-06-21T09:40:16+0700] [Info] Loading plugin: streamer
+[2023-06-21T09:40:19+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T09:40:20+0700] [Info] AMX (42879080) loaded
+[2023-06-21T09:40:20+0700] [Info]  
+[2023-06-21T09:40:20+0700] [Info]  
+[2023-06-21T09:40:20+0700] [Info]  
+[2023-06-21T09:40:20+0700] [Info]  ======================================= 
+[2023-06-21T09:40:20+0700] [Info]  |                                     | 
+[2023-06-21T09:40:20+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T09:40:20+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T09:40:21+0700] [Info]  |                                     | 
+[2023-06-21T09:40:21+0700] [Info]  ======================================= 
+[2023-06-21T09:40:21+0700] [Info]  
+[2023-06-21T09:40:24+0700] [Info] > Ket noi de du lieu that bai.
+[2023-06-21T09:40:24+0700] [Info] >>> This Server Will Shutdown After 5 Second
+[2023-06-21T09:40:24+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T09:40:25+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:40:25+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:40:27+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T09:40:29+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T09:40:29+0700] [Info] 
+
+[2023-06-21T09:40:29+0700] [Info]  ===============================
+
+[2023-06-21T09:40:29+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T09:40:29+0700] [Info]  ===============================
+
+[2023-06-21T09:40:29+0700] [Info] plugin.mysql: Unloading plugin...
+[2023-06-21T09:40:29+0700] [Info] plugin.mysql: Plugin unloaded.
+[2023-06-21T09:40:29+0700] [Info]  
+[2023-06-21T09:40:29+0700] [Info]  ====================
+[2023-06-21T09:40:29+0700] [Info]  
+[2023-06-21T09:40:29+0700] [Info]   Whirlpool unloaded
+[2023-06-21T09:40:29+0700] [Info]  
+[2023-06-21T09:40:29+0700] [Info]  ====================
+[2023-06-21T09:40:29+0700] [Info]  
+>>>>>>> e86c78f118a367e12f2fc9b62c83636718b246ea
 Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
 Loading component Actors.dll
 	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
@@ -22994,6 +23084,7 @@ Loading component Variables.dll
 	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
 Loading component Vehicles.dll
 	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+<<<<<<< HEAD
 Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
 Executing Server Config...
 Parsing unknown legacy option usearwork
@@ -23059,6 +23150,82 @@ Parsing unknown legacy option usearwork
 [2023-06-21T08:09:05+0700] [Info]  ===============================
 
 [2023-06-21T08:09:05+0700] [Info] plugin.mysql: Unloading plugin...
+=======
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T09:57:40+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T09:57:40+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T09:57:40+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T09:57:40+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T09:57:40+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T09:57:40+0700] [Info] Loading plugin: mysql
+[2023-06-21T09:57:40+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T09:57:40+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T09:57:40+0700] [Info]  
+[2023-06-21T09:57:40+0700] [Info]  ==================
+[2023-06-21T09:57:40+0700] [Info]  
+[2023-06-21T09:57:40+0700] [Info]   Whirlpool loaded
+[2023-06-21T09:57:40+0700] [Info]  
+[2023-06-21T09:57:40+0700] [Info]  ==================
+[2023-06-21T09:57:40+0700] [Info]  
+[2023-06-21T09:57:40+0700] [Info] Loading plugin: sscanf
+[2023-06-21T09:57:40+0700] [Info] 
+
+[2023-06-21T09:57:41+0700] [Info]  ===============================
+
+[2023-06-21T09:57:41+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T09:57:41+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T09:57:41+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T09:57:41+0700] [Info]  ===============================
+
+[2023-06-21T09:57:41+0700] [Info] Loading plugin: streamer
+[2023-06-21T09:57:41+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T09:57:41+0700] [Info] AMX (48029016) loaded
+[2023-06-21T09:57:41+0700] [Info]  
+[2023-06-21T09:57:41+0700] [Info]  
+[2023-06-21T09:57:41+0700] [Info]  
+[2023-06-21T09:57:41+0700] [Info]  ======================================= 
+[2023-06-21T09:57:41+0700] [Info]  |                                     | 
+[2023-06-21T09:57:41+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T09:57:41+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T09:57:41+0700] [Info]  |                                     | 
+[2023-06-21T09:57:41+0700] [Info]  ======================================= 
+[2023-06-21T09:57:41+0700] [Info]  
+[2023-06-21T09:57:42+0700] [Info] > Ket noi de du lieu that bai.
+[2023-06-21T09:57:42+0700] [Info] >>> This Server Will Shutdown After 5 Second
+[2023-06-21T09:57:42+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T09:57:42+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:57:42+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:57:43+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T09:57:50+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-21T09:57:50+0700] [Info] 
+
+[2023-06-21T09:57:50+0700] [Info]  ===============================
+
+[2023-06-21T09:57:50+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-21T09:57:50+0700] [Info]  ===============================
+
+[2023-06-21T09:57:50+0700] [Info] plugin.mysql: Unloading plugin...
+[2023-06-21T09:57:50+0700] [Info] plugin.mysql: Plugin unloaded.
+[2023-06-21T09:57:50+0700] [Info]  
+[2023-06-21T09:57:50+0700] [Info]  ====================
+[2023-06-21T09:57:50+0700] [Info]  
+[2023-06-21T09:57:50+0700] [Info]   Whirlpool unloaded
+[2023-06-21T09:57:50+0700] [Info]  
+[2023-06-21T09:57:50+0700] [Info]  ====================
+[2023-06-21T09:57:50+0700] [Info]  
+>>>>>>> e86c78f118a367e12f2fc9b62c83636718b246ea
 Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
 Loading component Actors.dll
 	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
@@ -23102,6 +23269,7 @@ Loading component Variables.dll
 	Successfully loaded component Variables (1.0.1.2409) with UID 75e121848bc01fa2
 Loading component Vehicles.dll
 	Successfully loaded component Vehicles (1.0.1.2409) with UID 3f1f62ee9e22ab19
+<<<<<<< HEAD
 Loaded 21 component(s) from C:\Users\Administrator\Desktop\LS-RP.Online\components
 Executing Server Config...
 Parsing unknown legacy option usearwork
@@ -25368,3 +25536,98 @@ Parsing unknown legacy option usearwork
 [2023-06-21T10:37:55+0700] [Info]  ===============================
 
 [2023-06-21T10:37:55+0700] [Info] plugin.mysql: Unloading plugin...
+=======
+Loaded 21 component(s) from C:\Users\KhNguyenz\Desktop\base-ompvn\components
+Executing Server Config...
+Parsing unknown legacy option usearwork
+[2023-06-21T09:58:20+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T09:58:20+0700] [Warning] No bind address provided. Attempting to start webserver on 127.0.0.1:7777
+[2023-06-21T09:58:20+0700] [Info] Web server is running on http://127.0.0.1:7777/
+[2023-06-21T09:58:20+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T09:58:20+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T09:58:20+0700] [Info] Loading plugin: mysql
+[2023-06-21T09:58:20+0700] [Info]  >> plugin.mysql: R41-4 successfully loaded.
+[2023-06-21T09:58:20+0700] [Info] Loading plugin: whirlpool
+[2023-06-21T09:58:20+0700] [Info]  
+[2023-06-21T09:58:20+0700] [Info]  ==================
+[2023-06-21T09:58:20+0700] [Info]  
+[2023-06-21T09:58:20+0700] [Info]   Whirlpool loaded
+[2023-06-21T09:58:20+0700] [Info]  
+[2023-06-21T09:58:20+0700] [Info]  ==================
+[2023-06-21T09:58:20+0700] [Info]  
+[2023-06-21T09:58:20+0700] [Info] Loading plugin: sscanf
+[2023-06-21T09:58:20+0700] [Info] 
+
+[2023-06-21T09:58:20+0700] [Info]  ===============================
+
+[2023-06-21T09:58:20+0700] [Info]       sscanf plugin loaded.     
+
+[2023-06-21T09:58:20+0700] [Info]          Version:  2.8.3        
+
+[2023-06-21T09:58:20+0700] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[2023-06-21T09:58:20+0700] [Info]  ===============================
+
+[2023-06-21T09:58:20+0700] [Info] Loading plugin: streamer
+[2023-06-21T09:58:20+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[2023-06-21T09:58:20+0700] [Info] AMX (52555552) loaded
+[2023-06-21T09:58:20+0700] [Info]  
+[2023-06-21T09:58:20+0700] [Info]  
+[2023-06-21T09:58:20+0700] [Info]  
+[2023-06-21T09:58:20+0700] [Info]  ======================================= 
+[2023-06-21T09:58:20+0700] [Info]  |                                     | 
+[2023-06-21T09:58:21+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T09:58:21+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T09:58:21+0700] [Info]  |                                     | 
+[2023-06-21T09:58:21+0700] [Info]  ======================================= 
+[2023-06-21T09:58:21+0700] [Info]  
+[2023-06-21T09:58:22+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T09:58:22+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T09:58:22+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T09:58:22+0700] [Info] Legacy Network started on port 7777
+[2023-06-21T09:58:22+0700] [Info] Loaded Door ID:0
+[2023-06-21T09:58:22+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:58:22+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T09:58:23+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-21T09:59:40+0700] [Info] [connection] incoming connection: 127.0.0.1:51002 id: 0
+[2023-06-21T09:59:40+0700] [Info] [join] Khoi_Nguyen has joined the server (0:127.0.0.1)
+[2023-06-21T09:59:55+0700] [Error] Array index out of bounds
+[2023-06-21T09:59:58+0700] [Info] [death] Jey_PGB died 255
+[2023-06-21T10:00:07+0700] [Info] Character Save: Jey PGB | AccountID: 0
+[2023-06-21T10:00:07+0700] [Info] [part] Jey_PGB has left the server (0:1)
+[2023-06-21T10:00:46+0700] [Info] [connection] incoming connection: 127.0.0.1:63386 id: 0
+[2023-06-21T10:00:46+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T10:00:54+0700] [Error] Array index out of bounds
+[2023-06-21T10:02:15+0700] [Info] Character Save: Khoi Nguyen | AccountID: 6
+[2023-06-21T10:02:15+0700] [Info] [part] Khoi_Nguyen has left the server (0:1)
+[2023-06-21T10:06:00+0700] [Info] [artwork:info] Loading artconfig.txt
+[2023-06-21T10:06:00+0700] [Error] [artwork:error] Model -2001 is already in use
+[2023-06-21T10:06:00+0700] [Error] [artwork:error] Model -5000 is already in use
+[2023-06-21T10:06:00+0700] [Error] [artwork:error] Cannot add custom model. congvien.dff doesn't exist
+[2023-06-21T10:06:00+0700] [Error] [artwork:error] Cannot add custom model. honuoc.dff doesn't exist
+[2023-06-21T10:06:12+0700] [Info] AMX (52555552) loaded
+[2023-06-21T10:06:12+0700] [Info]  
+[2023-06-21T10:06:12+0700] [Info]  
+[2023-06-21T10:06:12+0700] [Info]  
+[2023-06-21T10:06:12+0700] [Info]  ======================================= 
+[2023-06-21T10:06:12+0700] [Info]  |                                     | 
+[2023-06-21T10:06:12+0700] [Info]  |        YSI version 4.00.0001        | 
+[2023-06-21T10:06:12+0700] [Info]  |        By Alex "Y_Less" Cole        | 
+[2023-06-21T10:06:12+0700] [Info]  |                                     | 
+[2023-06-21T10:06:12+0700] [Info]  ======================================= 
+[2023-06-21T10:06:12+0700] [Info]  
+[2023-06-21T10:06:13+0700] [Info] > Ket noi den du lieu thanh cong.
+[2023-06-21T10:06:13+0700] [Info] [KNCMS][Log-[gnoust-map] Map Newbie spawn da load thanh cong]:Map
+[2023-06-21T10:06:13+0700] [Info] [KNCMS][Log-[gnoust-map] Map LSRP park da load thanh cong]:Map
+[2023-06-21T10:06:13+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:06:13+0700] [Error] SetTimer(Ex): There was a problem in calling Malloc_SolidifyTimer: (sleep mode)
+[2023-06-21T10:06:13+0700] [Info] Loaded Door ID:0
+[2023-06-21T10:07:00+0700] [Info] [connection] incoming connection: 127.0.0.1:61193 id: 0
+[2023-06-21T10:07:00+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-21T10:07:07+0700] [Error] Array index out of bounds
+[2023-06-21T10:07:47+0700] [Info] Character Save: Khoi Nguyen | AccountID: 6
+[2023-06-21T10:07:47+0700] [Info] [part] Khoi_Nguyen has left the server (0:1)
+>>>>>>> e86c78f118a367e12f2fc9b62c83636718b246ea
