@@ -32209,3 +32209,17 @@ Parsing unknown legacy option usearwork
 [2023-06-22T04:59:03+0700] [Info] [connection] incoming connection: 127.0.0.1:50522 id: 0
 [2023-06-22T04:59:03+0700] [Info] [join] Phata_Z has joined the server (0:127.0.0.1)
 [2023-06-22T04:59:03+0700] [Info] Failed to announce legacy network to open.mp list
+[2023-06-22T05:08:33+0700] [Info] [death] Stanley_T died 54
+[2023-06-22T05:12:31+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-22T05:12:31+0700] [Info] 
+
+[2023-06-22T05:12:31+0700] [Info]  ===============================
+
+[2023-06-22T05:12:31+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-22T05:12:31+0700] [Info]  ===============================
+
+[2023-06-22T05:12:31+0700] [Info] plugin.mysql: Unloading plugin...

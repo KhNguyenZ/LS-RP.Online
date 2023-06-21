@@ -1,3 +1,8 @@
+./modules/characters/Admin/character-admin.pwn(22) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "F24C3D"
+./modules/characters/Admin/character-admin.pwn(22) : ïðåäóïðåæäåíèå 215: âûðàæåíèå íå èìååò ýôôåêòà
+./modules/characters/Admin/character-admin.pwn(23) : ïðåäóïðåæäåíèå 209: ôóíêöèÿ "GetAdmin" äîëæíà âîçâðàùàòü çíà÷åíèå
 ./modules/_var.pwn(32) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "SpawnNewbiePTD"
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 
+
+Îøèáîê:1.
