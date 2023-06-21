@@ -1,5 +1,5 @@
 #include <a_samp>
-#include <YSI_Coding\y_hooks>
+
 
 #define  			func:%0(%1)  				stock %0(%1)
 
@@ -47,10 +47,11 @@ task CoreUpdate[1000]()
 }
 
 
-hook OnGameModeInit()
+public OnGameModeInit()
 {
 	SetTimer("ChangeHostname", 1000, 1);
 }
+
 new const HostNameChange[][]= {
 	{"May chu hard roleplay"},
 	{"Su dung nen tang OMPVN"},

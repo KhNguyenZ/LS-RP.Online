@@ -1,6 +1,6 @@
 const MAX_PASSWORD_LEN = 32;
 
-#include <YSI\y_hooks>
+#include <YSI_Coding\y_hooks>
 hook OnGameModeInit()
 {
 	return 1;

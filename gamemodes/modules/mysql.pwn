@@ -1,5 +1,5 @@
 #include <a_mysql>
-#include <YSI_Coding\y_hooks>
+#include <YSI\y_hooks>
 
 static 
 	MySQL:iDatabase;

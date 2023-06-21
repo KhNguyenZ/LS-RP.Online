@@ -148,3 +148,9 @@ public Float:SetPlayerToFacePos(playerid, Float:X, Float:Y)
 
  	return ang;
 }
+
+CMD:reloga(playerid, params[])
+{
+	ShowLoginPTD(playerid);
+	return 1;
+}

@@ -1801,3 +1801,85 @@
 [21/06/2023 11:23:52 SA] [ERROR] cache_get_value_name_int: field 'InInterior' not found
 [21/06/2023 11:24:03 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
 [21/06/2023 11:24:40 SA] [ERROR] error #1054 while executing query "UPDATE `players` SET PosX = '1789.351074', PosY = '-1900.016846', PosZ = '13.406917', PosR = '219.686783', Health = '100.000000', Armor = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Skin = 199 WHERE `id` = '9' LIMIT 1": Unknown column 'PosR' in 'field list'
+[21/06/2023 3:12:03 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 3:12:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[21/06/2023 3:12:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[21/06/2023 3:12:03 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[21/06/2023 3:12:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 3:12:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 3:12:03 CH] [ERROR] cache_get_value_name_int: field 'ExInterior' not found
+[21/06/2023 3:12:03 CH] [ERROR] cache_get_value_name_int: field 'InInterior' not found
+[21/06/2023 3:12:51 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 3:13:02 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 3:17:53 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 3:17:53 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[21/06/2023 3:17:53 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[21/06/2023 3:17:53 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[21/06/2023 3:17:53 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 3:17:53 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 3:17:53 CH] [ERROR] cache_get_value_name_int: field 'ExInterior' not found
+[21/06/2023 3:17:53 CH] [ERROR] cache_get_value_name_int: field 'InInterior' not found
+[21/06/2023 3:18:30 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 3:27:49 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 3:28:18 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 3:33:14 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 3:33:25 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 3:36:36 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 3:37:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 3:39:11 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 3:39:53 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 4:08:56 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 4:11:24 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 4:16:07 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 4:16:23 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[06/21/23 16:19:26] [WARNING] mysql_connect: no password specified
+[06/21/23 16:19:37] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 4:47:37 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 4:48:52 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 4:51:28 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 4:55:39 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 4:57:12 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 4:57:39 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 4:58:50 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 5:00:21 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 5:18:12 CH] [ERROR] mysql_tquery: invalid connection handle '0'
+[21/06/2023 5:18:12 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 5:19:03 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 5:20:07 CH] [ERROR] mysql_tquery: invalid connection handle '0'
+[21/06/2023 5:20:07 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 5:20:27 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 5:24:59 CH] [ERROR] mysql_tquery: invalid connection handle '0'
+[21/06/2023 5:24:59 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 5:25:43 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 5:27:11 CH] [ERROR] mysql_tquery: invalid connection handle '0'
+[21/06/2023 5:27:12 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 5:27:34 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 5:28:58 CH] [ERROR] mysql_tquery: invalid connection handle '0'
+[21/06/2023 5:28:59 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 5:29:17 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 5:30:20 CH] [ERROR] mysql_tquery: invalid connection handle '0'
+[21/06/2023 5:30:20 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 5:30:41 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 5:38:16 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 5:40:34 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 5:47:22 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 5:48:01 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:02:14 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 6:02:44 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:06:28 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 6:07:19 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:08:22 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:08:22 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:11:48 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 6:13:14 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 6:13:35 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:13:35 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:20:19 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:20:19 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:25:29 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 6:25:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:25:54 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:26:09 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:34:44 CH] [WARNING] mysql_connect: no password specified
+[21/06/2023 6:35:33 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[21/06/2023 6:35:33 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number

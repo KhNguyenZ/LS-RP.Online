@@ -29,3 +29,15 @@ new PlayerText: SpawnLSRP[MAX_PLAYERS][4];
 new PlayerSetupping[MAX_PLAYERS];
 new PlayerText:SpawnNewbiePTD[MAX_PLAYERS][7];
 new PlayerText: FadeEffect[MAX_PLAYERS][1];
+new PlayerText: SelectCharPTD[MAX_PLAYERS][7];
+enum Char_Select_E {
+	cs_skin,
+	cs_lastlogin[24],
+	cs_gender,
+	cs_level
+}
+new CharSelectInfo[MAX_PLAYERS][Char_Select_E][3];
+
+new PlayerText:InfoCharPTD[MAX_PLAYERS][8];
+
+new character_Name_data[MAX_PLAYERS][3][24];

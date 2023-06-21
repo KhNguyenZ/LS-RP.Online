@@ -1,6 +1,29 @@
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\mysql.pwn(23) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\mysql.pwn(7) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "Handle"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(8) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(9) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(10) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(27) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(28) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(29) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(30) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(31) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(32) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(39) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(41) : îøèáêà 001: îæèäàëñÿ òîêåí ";", íî íàéäåí "new"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(42) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(41) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "CharSelectInfo"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(27) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "Character"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(31) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "FadeEffect"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(10) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "HienThi"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(41) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "InfoCharPTD"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(8) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "LoginPTD"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(29) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "PlayerSetupping"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(32) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "SelectCharPTD"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(28) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "SpawnLSRP"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(30) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "SpawnNewbiePTD"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(42) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "character_Name_data"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(9) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "scm_PTD"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_var.pwn(9) -- (42) : îøèáêà 013: îòñóòñòâóåò òî÷êà âõîäà (íåò public-ôóíêöèé)
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 
 
-Ïðåäóïðåæäåíèé:1.
+Îøèáîê:13.

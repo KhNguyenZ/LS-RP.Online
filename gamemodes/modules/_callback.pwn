@@ -3,6 +3,7 @@ public OnPlayerConnect(playerid)
     CreateFadeEffectTextDraw(playerid);
     CreateHienTextDraw(playerid);
 	SetPVarString(playerid, "Current_IC_@", player_get_name(playerid));
+	TogglePlayerSpectating(playerid, 0);
 	return 1;
 }
 
@@ -37,6 +38,38 @@ public OnPlayerCommandText(playerid, cmdtext[]) {
 
 public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 {
+	for(new char_click = 4 ; char_click < 7; char_click++)
+	{
+		if(playertextid == SelectCharPTD[playerid][char_click])
+		{
+			if(IsLoadChar(playerid, char_click-4))
+			{
+				SetPVarInt(playerid,"CharSelected_", char_click-4);
+				
+				HideCharacterSelect(playerid);
+				CreateActorSelect(playerid,char_click-4, CharSelectInfo[playerid][cs_skin][char_click-4]);
+				ShowInfoCharacter(playerid, char_click-4);
+			}
+			else
+			{
+				HideCharacterSelect(playerid);
+				SetPVarInt(playerid, "CharSelect_",char_click-4);
+				ShowPlayerDialog(playerid, dialog_charCreate, DIALOG_STYLE_INPUT, "Tao nhan vat.", "Nhap ten nhan vat ban muon tao.", "Tao", "Tro lai");				
+			}
+		}
+	}
+	if(playertextid == InfoCharPTD[playerid][7])
+	{
+		new Char_Selected = GetPVarInt(playerid,"CharSelected_");
+		HideInfoCharacter(playerid);
+
+		SetPlayerName(playerid, character_Name_data[playerid][Char_Selected]);
+				
+		new query[240];
+		format(query, sizeof(query), "SELECT * FROM `players` WHERE `PlayerName` = '%s'", player_get_name(playerid, false));
+		mysql_tquery(Handle(), query, "OnCharacterLoad", "i", playerid);
+		SetPVarInt(playerid,"CharSelected_", 1);
+	}
 	// if(IsOpenSpawnMenu(playerid))
 	// {
 	if(playertextid == SpawnLSRP[playerid][1]) // Home
@@ -49,11 +82,6 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 		FadeOutPlayerScreen(playerid);
 		SetTimerEx("PlayerJoinGameReal", 1000, false, "i", playerid);
 		HidePlayerSpawnMenu(playerid);
-		SetPlayerSkin(playerid,Character[playerid][char_Skin]);
-		ResetPlayerWeapons(playerid);
-		GivePlayerMoney(playerid, Character[playerid][char_Cash]);
-		SetPlayerHealth(playerid, Character[playerid][char_health]);
-		SetPlayerArmour(playerid, Character[playerid][char_armour]);
 		PlayerSetupping[playerid] = 0;
 	}
 	if(playertextid == SpawnLSRP[playerid][3]) // Newbie Spawn
@@ -62,11 +90,6 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 		FadeOutPlayerScreen(playerid);
   		SetTimerEx("PlayerJoinGameReal", 1000, false, "i", playerid);
 		HidePlayerSpawnMenu(playerid);
-		SetPlayerSkin(playerid,Character[playerid][char_Skin]);
-		ResetPlayerWeapons(playerid);
-		GivePlayerMoney(playerid, Character[playerid][char_Cash]);
-		SetPlayerHealth(playerid, Character[playerid][char_health]);
-		SetPlayerArmour(playerid, Character[playerid][char_armour]);
 		PlayerSetupping[playerid] = 0;
 	}
 	if(playertextid == LoginPTD[playerid][6])
@@ -141,4 +164,13 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			}
 		}
 	}
+}
+public OnPlayerSpawn(playerid)
+{
+	SetPlayerSkin(playerid,Character[playerid][char_Skin]);
+	ResetPlayerWeapons(playerid);
+	GivePlayerMoney(playerid, Character[playerid][char_Cash]);
+	SetPlayerHealth(playerid, Character[playerid][char_health]);
+	SetPlayerArmour(playerid, Character[playerid][char_armour]);
+	return 1;
 }
