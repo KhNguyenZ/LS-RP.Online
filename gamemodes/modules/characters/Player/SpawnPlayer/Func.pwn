@@ -5,7 +5,7 @@ func:ShowPlayerSpawnMenu(playerid)
 	{
 		PlayerTextDrawShow(playerid, SpawnLSRP[playerid][spawn_loop]);
 	}
-	SelectTextDraw(playerid, 0x0d142bFF);
+	SelectTextDraw(playerid, 0x0d142bAA);
 	return 1;
 }
 func:IsOpenSpawnMenu(playerid)
