@@ -2,9 +2,9 @@ func:ShowPlayerSpawnMenu(playerid)
 {
 	SetPVarInt(playerid, "OpenSpawnMen_", 1);
 	SelectTextDraw(playerid, -1);
-	for(new spawn_loop = 0 ; spawn_loop < 5 ; spawn_loop++)
+	for(new spawn_loop = 0 ; spawn_loop < 4 ; spawn_loop++)
 	{
-		PlayerTextDrawShow(playerid, SpawnNewbiePTD[playerid][i]);
+		PlayerTextDrawShow(playerid, SpawnLSRP[playerid][i]);
 	}
 	return 1;
 }
@@ -16,9 +16,9 @@ func:HidePlayerSpawnMenu(playerid)
 {
 	SetPVarInt(playerid, "OpenSpawnMen_", 0);
 	CancelSelectTextDraw(playerid);
-	for(new spawn_loop = 0 ; spawn_loop < 7 ; spawn_loop++)
+	for(new spawn_loop = 0 ; spawn_loop < 4 ; spawn_loop++)
 	{
-		PlayerTextDrawHide(playerid, SpawnNewbiePTD[playerid][i]);
+		PlayerTextDrawHide(playerid, SpawnLSRP[playerid][i]);
 	}
 	return 1;
 }

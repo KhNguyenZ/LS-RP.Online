@@ -1,5 +1,6 @@
 public OnPlayerConnect(playerid)
 {
+    CreateFadeEffectTextDraw(playerid);
     CreateHienTextDraw(playerid);
 	SetPVarString(playerid, "Current_IC_@", player_get_name(playerid));
 	return 1;
