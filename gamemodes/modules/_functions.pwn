@@ -88,7 +88,7 @@ func:ReloadPlayerTextDraw(playerid, PlayerText:reload_ptd)
 	return 1;
 }
 
-func:HienTextdraw(playerid, string[], time)
+func:HienTextdraw(playerid, string[], time = 2000)
 {
     PlayerTextDrawSetString(playerid, scm_PTD[playerid], " ");
     PlayerTextDrawHide(playerid, scm_PTD[playerid]);

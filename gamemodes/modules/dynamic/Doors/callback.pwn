@@ -11,7 +11,7 @@ hook OnGameModeInit(){
 forward Doors_Load();
 public Doors_Load()
 {
-	new door_counts;
+	new door_counts, count;
 	cache_get_row_count(door_counts);
 
 	for(new i = 0 ; i < door_counts; i++)
@@ -35,12 +35,12 @@ public Doors_Load()
 		cache_get_value_name_int(i, "ExInterior", DoorInfo[i][door_ExInterior]);
 		cache_get_value_name_int(i, "InInterior", DoorInfo[i][door_InInterior]);
 
-		DoorInfo[i][door_label] = CreateDynamic3DTextLabel(DoorInfo[i][door_name], -1,DoorInfo[i][door_ExPos][0],DoorInfo[i][door_ExPos][1],DoorInfo[i][door_ExPos][2],5, .worldid = DoorInfo[i][door_ExVW], .interiorid = DoorInfo[i][door_ExInterior]);
+		ReloadDoor(i);
 
-		DoorInfo[i][door_pickup] = CreateDynamicPickup(DoorInfo[i][door_pickup], 1,DoorInfo[i][door_ExPos][0],DoorInfo[i][door_ExPos][1],DoorInfo[i][door_ExPos][2]-1, .worldid = DoorInfo[i][door_ExVW], .interiorid = DoorInfo[i][door_ExInterior]);
-
-		printf("Loaded Door ID:%d", DoorInfo[i][door_id]);
+		count++;
 	}
+	printf("Da load thanh cong %d Door", count);
+	return 1;
 }
 forward OnAdminDoorCreate(playerid, iddoor,name[], x,y,z,pickup);
 public OnAdminDoorCreate(playerid, iddoor,name[], x,y,z,pickup)
@@ -56,14 +56,14 @@ public OnAdminDoorCreate(playerid, iddoor,name[], x,y,z,pickup)
 
 	printf("ID:%d | Name: %s | X:%f Y:%f Z:%f | VW: %d | Inter:%d | PickupID: %d", iddoor, DoorInfo[iddoor][door_name], DoorInfo[iddoor][door_ExPos][0],DoorInfo[iddoor][door_ExPos][1],DoorInfo[iddoor][door_ExPos][2], DoorInfo[iddoor][door_ExVW],DoorInfo[iddoor][door_ExInterior],DoorInfo[iddoor][door_pickup]);
 
-	DoorInfo[iddoor][door_label] = CreateDynamic3DTextLabel(DoorInfo[iddoor][door_name], -1,DoorInfo[iddoor][door_ExPos][0],DoorInfo[iddoor][door_ExPos][1],DoorInfo[iddoor][door_ExPos][2]+0.5,100, .worldid = DoorInfo[iddoor][door_ExVW], .interiorid = DoorInfo[iddoor][door_ExInterior]);
-	DoorInfo[iddoor][door_pickup] =  CreateDynamicPickup(pickup, 1,DoorInfo[iddoor][door_ExPos][0],DoorInfo[iddoor][door_ExPos][1],DoorInfo[iddoor][door_ExPos][2]-0.5, .worldid = DoorInfo[iddoor][door_ExVW], .interiorid = DoorInfo[iddoor][door_ExInterior]);
+	ReloadDoor(iddoor);
 
 	return 1;
 
 }
 public OnLoadingFinish(playerid,loadingid) {
 	switch(loadingid) {
+		case 3: HienTextdraw(playerid, "Test xong", 2);
 		case 1:
 		{
 			new door_id_load = GetPVarInt(playerid, "DoorLoading_");

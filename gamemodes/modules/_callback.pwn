@@ -172,5 +172,7 @@ public OnPlayerSpawn(playerid)
 	GivePlayerMoney(playerid, Character[playerid][char_Cash]);
 	SetPlayerHealth(playerid, Character[playerid][char_health]);
 	SetPlayerArmour(playerid, Character[playerid][char_armour]);
+	SetPlayerVirtualWorld(playerid, Character[playerid][char_VW]);
+	SetPlayerInterior(playerid, Character[playerid][char_Interior]);
 	return 1;
 }

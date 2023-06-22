@@ -8,6 +8,8 @@
 #include <ZCMD>
 #include <sscanf2>
 #include <YSI\y_ini>
+#include <notify>
+
 #undef MAX_PLAYERS
 #define MAX_PLAYERS 500
 #pragma disablerecursion
@@ -59,6 +61,8 @@ main()
 // core server
 #include "./modules/server/radio.pwn"
 // dynamic
+#include "./modules/dynamic/func_dynamic.pwn"
+
 #include "./modules/dynamic/Doors/build.pwn"
 
 //map

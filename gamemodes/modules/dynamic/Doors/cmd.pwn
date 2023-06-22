@@ -51,6 +51,7 @@ CMD:dedit(playerid, params[])
 			DoorInfo[doorid][door_InInterior] = GetPlayerInterior(playerid);
 			SaveDynamicDoor(doorid);
 			ReloadDoor(doorid);
+			HienTextdraw(playerid, "Cap nhat toa do Interior thanh cong");
 		}
 		if(!strcmp(option, "exterior", true))
 		{
@@ -60,6 +61,7 @@ CMD:dedit(playerid, params[])
 			DoorInfo[doorid][door_ExInterior] = GetPlayerInterior(playerid);
 			SaveDynamicDoor(doorid);
 			ReloadDoor(doorid);
+			HienTextdraw(playerid, "Cap nhat toa do Exterior thanh cong");
 		}
 	}
 	else SendClientMessage(playerid, -1, "Ban khong co quyen su dung lenh nay");

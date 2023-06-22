@@ -2,9 +2,9 @@ func:SaveDynamicDoor(doorid)
 {
 	new door_query[1280];
 	mysql_format(Handle(), door_query, sizeof(door_query),"UPDATE `doors` SET \
-	`InPosX` = '%f', `InPosX` = '%f' , `InPosX` = '%f', `InInterior` = '%d', `InVW` = '%d ,\
-	`ExPosX` = '%f', `ExPosY` = '%f' , `ExPosZ` = '%f', `ExInterior` = '%d', `ExVW` = '%d \
-	`OwnerID` = '%d', `Locked` = '%d', `Admin` = '%d', `Group` = '%d', `VIP` = '%d'\
+	`InPosX` = '%f', `InPosY` = '%f' , `InPosZ` = '%f', `InInterior` = '%d', `InVW` = '%d' ,\
+	`ExPosX` = '%f', `ExPosY` = '%f' , `ExPosZ` = '%f', `ExInterior` = '%d', `ExVW` = '%d' ,\
+	`OwnerID` = '%d', `Locked` = '%d', `Admin` = '%d', `Group` = '%d', `VIP` = '%d',\
 	`PickupID` = '%d' \
 	WHERE `id` = '%d'",
 	DoorInfo[doorid][door_InPos][0],
@@ -69,10 +69,14 @@ func:EnterDoor(playerid)
 				{
 					HienTextdraw(playerid, "Ban khong du quyen han de vao door nay !", 5000);
 				}
-				LoaderStarting(playerid, 1, "LOADING DYNAMIC", 1);
-				SetPVarInt(playerid, "DoorLoading_", i);
-				SetPVarInt(playerid, "LoadingDynamic_", 1);
-				TogglePlayerControllable(playerid, 0);
+
+				SetPlayerVirtualWorld(playerid, DoorInfo[i][door_InVW]);
+				SetPlayerInterior(playerid, DoorInfo[i][door_InInterior]);
+
+				Character[playerid][char_Interior] = DoorInfo[i][door_InInterior];
+				Character[playerid][char_VW] = DoorInfo[i][door_InVW];
+				NoticeTexture(playerid);
+				SetPlayerPos(playerid, DoorInfo[i][door_InPos][0], DoorInfo[i][door_InPos][1], DoorInfo[i][door_InPos][2]);
 			}
 		}
 	}
@@ -98,10 +102,18 @@ func:ExitDoor(playerid)
 				{
 					HienTextdraw(playerid, "Ban khong du quyen han de vao door nay !", 5000);
 				}
-				LoaderStarting(playerid, 2, "LOADING", 1);
-				SetPVarInt(playerid, "OutDoorLoading_", i);
-				SetPVarInt(playerid, "LoadingOutDynamic_", 1);
-				TogglePlayerControllable(playerid, 0);
+
+				printf("X: %f , Y: %f, Z: %f | Exit",DoorInfo[i][door_ExPos][0], DoorInfo[i][door_ExPos][1], DoorInfo[i][door_ExPos][2]);
+
+				SetPlayerVirtualWorld(playerid, DoorInfo[i][door_ExVW]);
+				SetPlayerInterior(playerid, DoorInfo[i][door_ExInterior]);
+
+				Character[playerid][char_Interior] = DoorInfo[i][door_ExInterior];
+				Character[playerid][char_VW] = DoorInfo[i][door_ExVW];
+				DeletePVar(playerid, "OutDoorLoading_");
+				TogglePlayerControllable(playerid, 1);
+				NoticeTexture(playerid);
+				SetPlayerPos(playerid, DoorInfo[i][door_ExPos][0], DoorInfo[i][door_ExPos][1], DoorInfo[i][door_ExPos][2]);
 			}
 		}
 	}
@@ -111,12 +123,12 @@ func:ExitDoor(playerid)
 
 stock ReloadDoor(doorid)
 {
-	DestroyDynamic3DTextLabel(DoorInfo[doorid][door_label]);
-	DestroyDynamicPickup(DoorInfo[doorid][door_pickup]);
-	
-	DoorInfo[doorid][door_label] = CreateDynamic3DTextLabel(DoorInfo[doorid][door_name], -1,DoorInfo[doorid][door_ExPos][0],DoorInfo[doorid][door_ExPos][1],DoorInfo[doorid][door_ExPos][2],5, .worldid = DoorInfo[doorid][door_ExVW], .interiorid = DoorInfo[doorid][door_ExInterior]);
 
-	DoorInfo[doorid][door_pickup] = CreateDynamicPickup(DoorInfo[doorid][door_pickup], 1,DoorInfo[doorid][door_ExPos][0],DoorInfo[doorid][door_ExPos][1],DoorInfo[doorid][door_ExPos][2]-1, .worldid = DoorInfo[doorid][door_ExVW], .interiorid = DoorInfo[doorid][door_ExInterior]);
+	if(IsValidDynamic3DTextLabel(DoorInfo[doorid][door_label])) DestroyDynamic3DTextLabel(DoorInfo[doorid][door_label]);
+	if(IsValidDynamicPickup(DoorInfo[doorid][char_Pickup])) DestroyDynamicPickup(DoorInfo[doorid][char_Pickup]);
+	
+	DoorInfo[doorid][door_label] = CreateDynamic3DTextLabel(DoorInfo[doorid][door_name], -1,DoorInfo[doorid][door_ExPos][0],DoorInfo[doorid][door_ExPos][1],DoorInfo[doorid][door_ExPos][2]+0.5,100, .worldid = DoorInfo[doorid][door_ExVW], .interiorid = DoorInfo[doorid][door_ExInterior]);
+	DoorInfo[doorid][char_Pickup] = CreateDynamicPickup(DoorInfo[doorid][door_pickup], 23, DoorInfo[doorid][door_ExPos][0],DoorInfo[doorid][door_ExPos][1],DoorInfo[doorid][door_ExPos][2]-0.3, .worldid = DoorInfo[doorid][door_ExVW], .interiorid = DoorInfo[doorid][door_ExInterior]);
 	return 1;
 }
 

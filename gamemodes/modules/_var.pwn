@@ -23,13 +23,14 @@ enum character_Info
 	Float:char_armour,
 	char_tanso,
 	char_Interior,
-	char_VW
+	char_VW,
+	char_Pickup
 }
 
 new Character[MAX_PLAYERS][character_Info];
 new PlayerText: SpawnLSRP[MAX_PLAYERS][4];
 new PlayerSetupping[MAX_PLAYERS];
-new PlayerText:SpawnNewbiePTD[MAX_PLAYERS][7];
+// new PlayerText:SpawnNewbiePTD[MAX_PLAYERS][7];
 new PlayerText: FadeEffect[MAX_PLAYERS][1];
 new PlayerText: SelectCharPTD[MAX_PLAYERS][7];
 enum Char_Select_E {
