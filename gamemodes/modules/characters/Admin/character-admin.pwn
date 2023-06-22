@@ -154,3 +154,15 @@ CMD:reloga(playerid, params[])
 	ShowLoginPTD(playerid);
 	return 1;
 }
+
+CMD:gotoco(playerid, params[])
+{
+
+	new Float: pos[3], int;
+	if(sscanf(params, "fffd", pos[0], pos[1], pos[2], int)) return SendClientMessage(playerid, -1, "SU DUNG: /gotoco [x coordinate] [y coordinate] [z coordinate] [interior]");
+
+	HienTextdraw(playerid,"Ban da duoc dich chuyen den vi tri yeu cau.", 2000);
+	SetPlayerPos(playerid, pos[0], pos[1], pos[2]);
+	SetPlayerInterior(playerid, int);
+	return 1;
+}
