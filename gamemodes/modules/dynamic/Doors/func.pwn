@@ -125,10 +125,10 @@ stock ReloadDoor(doorid)
 {
 
 	if(IsValidDynamic3DTextLabel(DoorInfo[doorid][door_label])) DestroyDynamic3DTextLabel(DoorInfo[doorid][door_label]);
-	if(IsValidDynamicPickup(DoorInfo[doorid][char_Pickup])) DestroyDynamicPickup(DoorInfo[doorid][char_Pickup]);
+	if(IsValidDynamicPickup(DoorInfo[doorid][door_pickupz])) DestroyDynamicPickup(DoorInfo[doorid][door_pickupz]);
 	
 	DoorInfo[doorid][door_label] = CreateDynamic3DTextLabel(DoorInfo[doorid][door_name], -1,DoorInfo[doorid][door_ExPos][0],DoorInfo[doorid][door_ExPos][1],DoorInfo[doorid][door_ExPos][2]+0.5,100, .worldid = DoorInfo[doorid][door_ExVW], .interiorid = DoorInfo[doorid][door_ExInterior]);
-	DoorInfo[doorid][char_Pickup] = CreateDynamicPickup(DoorInfo[doorid][door_pickup], 23, DoorInfo[doorid][door_ExPos][0],DoorInfo[doorid][door_ExPos][1],DoorInfo[doorid][door_ExPos][2]-0.3, .worldid = DoorInfo[doorid][door_ExVW], .interiorid = DoorInfo[doorid][door_ExInterior]);
+	DoorInfo[doorid][door_pickupz] = CreateDynamicPickup(DoorInfo[doorid][door_pickup], 23, DoorInfo[doorid][door_ExPos][0],DoorInfo[doorid][door_ExPos][1],DoorInfo[doorid][door_ExPos][2]-0.3, .worldid = DoorInfo[doorid][door_ExVW], .interiorid = DoorInfo[doorid][door_ExInterior]);
 	return 1;
 }
 

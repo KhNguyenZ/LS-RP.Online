@@ -16,6 +16,7 @@ enum door_e
 	door_ExVW,
 	door_InVW,
 	door_ExInterior,
-	door_InInterior
+	door_InInterior,
+	door_pickupz
 }
 new DoorInfo[MAX_DYNAMIC_DOORS][door_e];

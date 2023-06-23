@@ -50,6 +50,7 @@ main()
 #include "./modules/multi-account/logintxd.pwn"
 // character
 #include "./modules/characters/Core/character.pwn"
+// #include "./modules/characters/Core/Register/build.pwn"
 #include "./modules/characters/Core/character-select.pwn"
 #include "./modules/characters/Core/character-select-textdraw.pwn"
 #include "./modules/characters/Admin/character-admin.pwn"
@@ -61,7 +62,7 @@ main()
 #include "./modules/characters/Player/ServerTextAndTime/textdraw.pwn"
 #include "./modules/characters/Player/ServerTextAndTime/func.pwn"
 
-// core login
+// core loginShowPlayerSpawnMenu(playerid);
 #include "./modules/multi-account/account.pwn"
 // core server
 #include "./modules/server/radio.pwn"

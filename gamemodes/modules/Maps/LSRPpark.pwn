@@ -103,6 +103,6 @@ hook OnGameModeInit()
  	CreateDynamicObject(708, 1475.883422, -1673.059082, 13.040994, 0.000000, 0.000000, 0.000000, -1, -1, -1, 2000.00, 2000.00);
  	CreateDynamicObject(708, 1442.725463, -1707.092407, 11.796193, 0.000000, 0.000000, 0.000000, -1, -1, -1, 2000.00, 2000.00);
  	CreateDynamicObject(618, 1442.323608, -1694.400146, 13.309936, 0.000000, 0.000000, 0.000000, -1, -1, -1, 2000.00, 2000.00);
-	LogConsole("Map", "[gnoust-map] Map LSRP park da load thanh cong");
+	LogConsole("Map LSRP park da load thanh cong","Map");
 	return 1;
 }

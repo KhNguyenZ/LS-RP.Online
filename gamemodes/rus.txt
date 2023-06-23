@@ -1,2 +1,5 @@
+./modules/_var.pwn(53) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "CharSkinSelect"
+./modules/_var.pwn(10) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "MainRegisterPTD"
+./modules/_var.pwn(9) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "RegisterPTD"
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 

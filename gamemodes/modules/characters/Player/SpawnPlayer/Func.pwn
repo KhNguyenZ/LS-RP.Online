@@ -21,6 +21,10 @@ func:HidePlayerSpawnMenu(playerid)
 	{
 		PlayerTextDrawHide(playerid, SpawnLSRP[playerid][spawn_loop]);
 	}
+	if(GetPVarInt(playerid, "SetupRegister_") == 1)
+	{
+		DeletePVar(playerid, "SetupRegister_");
+	}
 	return 1;
 }
 

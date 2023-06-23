@@ -8,6 +8,11 @@ public OnPlayerConnect(playerid)
 }
 
 
+hook OnPlayerText(playerid, text[])
+{
+	return 0;
+}
+
 public OnPlayerText(playerid, text[])
 {
 	if(player_Login(playerid))
@@ -17,9 +22,8 @@ public OnPlayerText(playerid, text[])
 		return 1;
 	}
 	else SendClientMessage(playerid, -1, "Ban vui long dang nhap");
-	return 0;
+	return 1;
 }
-
 
 public OnPlayerCommandText(playerid, cmdtext[]) {
 	if(!player_Login(playerid))
@@ -37,7 +41,7 @@ public OnPlayerCommandText(playerid, cmdtext[]) {
 // }
 
 public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
-{
+{	
 	for(new char_click = 4 ; char_click < 7; char_click++)
 	{
 		if(playertextid == SelectCharPTD[playerid][char_click])
@@ -96,7 +100,7 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 	{
 		new login_string[1280];
 		format(login_string, sizeof(login_string), "{ffffff}Chao mung {3366ff}%s{ffffff} tro lai voi {3366ff}LS-RP{ffffff}", player_get_name(playerid, 1));
-		ShowPlayerDialog(playerid, DLG_LOGIN,DIALOG_STYLE_INPUT, "Dang Nhap", login_string, ">>", "<<");
+		ShowPlayerDialog(playerid, DLG_LOGIN,DIALOG_STYLE_PASSWORD, "Dang Nhap", login_string, ">>", "<<");
 	}
 	if(playertextid == LoginPTD[playerid][8])
 	{

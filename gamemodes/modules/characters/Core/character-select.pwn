@@ -86,8 +86,10 @@ public OnCharacterLoad(const playerid)
 	cache_get_value_name_int(0, "Interior", Character[playerid][char_Interior]);
 	cache_get_value_name_int(0, "VW", Character[playerid][char_VW]);
 
-	// printf("ID Account's %s:%d", player_get_name(playerid), Character[playerid][char_player_id]);
-    ShowPlayerSpawnMenu(playerid);
+	if(GetPVarInt(playerid, "SetupRegister_") == 0)
+    {
+    	ShowPlayerSpawnMenu(playerid);
+    }
     return 1;
 }
 
@@ -104,7 +106,12 @@ public OnCharacterCreate(const playerid)
 	format(query, sizeof(query), "SELECT * FROM `players` WHERE `AccID` = '%s'", Character[playerid][char_account_id]);
 	mysql_tquery(Handle(), query, "OnCharacterLoad", "i", playerid);
 	PlayerSetupping[playerid] = 1;
+	// ShowPlayerMenuRegister(playerid);
 	ShowPlayerSpawnMenu(playerid);
+
+	new reg_log[1280];
+	format(reg_log, sizeof(reg_log), "Nguoi choi %s vua dang ky tai khoan", player_get_name(playerid, true));
+	LogConsole(reg_log, "Register");
 	return 1;
 }
 

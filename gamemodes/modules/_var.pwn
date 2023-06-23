@@ -6,6 +6,8 @@ enum
 	dialog_charCreate,
 }
 new PlayerText:LoginPTD[MAX_PLAYERS][10];
+new PlayerText:RegisterPTD[MAX_PLAYERS][13];
+new PlayerText:MainRegisterPTD[MAX_PLAYERS][10];
 new PlayerText:scm_PTD[MAX_PLAYERS];
 new HienThi[MAX_PLAYERS];
 
@@ -24,7 +26,10 @@ enum character_Info
 	char_tanso,
 	char_Interior,
 	char_VW,
-	char_Pickup
+	char_Age,
+	char_Note[1280],
+	char_Nation,
+	char_GioiTinh,
 }
 
 new Character[MAX_PLAYERS][character_Info];
@@ -44,3 +49,5 @@ new CharSelectInfo[MAX_PLAYERS][Char_Select_E][3];
 new PlayerText:InfoCharPTD[MAX_PLAYERS][8];
 
 new character_Name_data[MAX_PLAYERS][3][24];
+
+new CharSkinSelect[MAX_PLAYERS] = 1;
