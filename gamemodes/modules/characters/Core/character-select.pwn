@@ -102,12 +102,9 @@ public OnCharacterCreate(const playerid)
 	mysql_format(Handle(), sdm, sizeof(sdm), "Name: %s", player_get_name(playerid));
 	SendClientMessage(playerid, -1, sdm);
 	
-	new query[240];
-	format(query, sizeof(query), "SELECT * FROM `players` WHERE `AccID` = '%s'", Character[playerid][char_account_id]);
-	mysql_tquery(Handle(), query, "OnCharacterLoad", "i", playerid);
 	PlayerSetupping[playerid] = 1;
-	// ShowPlayerMenuRegister(playerid);
-	ShowPlayerSpawnMenu(playerid);
+	ShowPlayerMenuRegister(playerid);
+	// ShowPlayerSpawnMenu(playerid);
 
 	new reg_log[1280];
 	format(reg_log, sizeof(reg_log), "Nguoi choi %s vua dang ky tai khoan", player_get_name(playerid, true));
@@ -188,7 +185,7 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				else
 				{
 					SetPlayerName(playerid, inputtext);
-					mysql_format(Handle(), _query, 200, "INSERT INTO `players` (`AccID`, `PlayerName`, `Skin`) VALUES ('%d', '%s', %d)", strval(Character[playerid][char_account_id]), inputtext, random(299) + 1);
+					mysql_format(Handle(), _query, 200, "INSERT INTO `players` (`AccID`, `PlayerName`) VALUES ('%d', '%s')", strval(Character[playerid][char_account_id]), inputtext);
 					mysql_tquery(Handle(), _query, "OnCharacterCreate", "i", playerid);
 				}
 				cache_delete(iCache);

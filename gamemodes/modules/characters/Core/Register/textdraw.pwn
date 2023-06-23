@@ -110,26 +110,21 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawFont(playerid, MainRegisterPTD[playerid][9], 4);
 	PlayerTextDrawSetProportional(playerid, MainRegisterPTD[playerid][9], 1);
 
-	RegisterPTD[playerid][0] = CreatePlayerTextDraw(playerid, 73.000, 160.000, "_");
-	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][0], 0.200, 16.799);
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][0], 183.000, 15.000);
+	RegisterPTD[playerid][0] = CreatePlayerTextDraw(playerid, 101.000, 133.000, "mdl-2003:bg_menu");
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][0], 145.000, 216.000);
 	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][0], 1);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][0], -1);
-	PlayerTextDrawUseBox(playerid, RegisterPTD[playerid][0], 1);
-	PlayerTextDrawBoxColor(playerid, RegisterPTD[playerid][0], 150);
-	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][0], 1);
-	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][0], 1);
-	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][0], 150);
-	PlayerTextDrawFont(playerid, RegisterPTD[playerid][0], 1);
+	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][0], 0);
+	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][0], 0);
+	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][0], 255);
+	PlayerTextDrawFont(playerid, RegisterPTD[playerid][0], 4);
 	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][0], 1);
 
-	RegisterPTD[playerid][1] = CreatePlayerTextDraw(playerid, 128.000, 170.000, "TUOI");
-	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][1], 0.300, 1.500);
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][1], 0.000, 102.000);
+	RegisterPTD[playerid][1] = CreatePlayerTextDraw(playerid, 172.000, 151.000, "NGAY SINH");
+	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][1], 0.270, 1.500);
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][1], 10.000, 58.000);
 	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][1], 2);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][1], -1);
-	PlayerTextDrawUseBox(playerid, RegisterPTD[playerid][1], 1);
-	PlayerTextDrawBoxColor(playerid, RegisterPTD[playerid][1], 556554495);
 	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][1], 1);
 	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][1], 0);
 	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][1], 150);
@@ -137,13 +132,11 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][1], 1);
 	PlayerTextDrawSetSelectable(playerid, RegisterPTD[playerid][1], 1);
 
-	RegisterPTD[playerid][2] = CreatePlayerTextDraw(playerid, 128.000, 194.000, "GIOI TINH");
-	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][2], 0.300, 1.500);
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][2], 0.000, 102.000);
+	RegisterPTD[playerid][2] = CreatePlayerTextDraw(playerid, 172.000, 182.000, "GIOI TINH");
+	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][2], 0.270, 1.500);
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][2], 10.000, 50.000);
 	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][2], 2);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][2], -1);
-	PlayerTextDrawUseBox(playerid, RegisterPTD[playerid][2], 1);
-	PlayerTextDrawBoxColor(playerid, RegisterPTD[playerid][2], 556554495);
 	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][2], 1);
 	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][2], 0);
 	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][2], 150);
@@ -151,13 +144,11 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][2], 1);
 	PlayerTextDrawSetSelectable(playerid, RegisterPTD[playerid][2], 1);
 
-	RegisterPTD[playerid][3] = CreatePlayerTextDraw(playerid, 128.000, 218.000, "QUOC TICH");
-	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][3], 0.300, 1.500);
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][3], 0.000, 102.000);
+	RegisterPTD[playerid][3] = CreatePlayerTextDraw(playerid, 172.000, 212.000, "QUOC TICH");
+	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][3], 0.270, 1.500);
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][3], 10.000, 50.000);
 	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][3], 2);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][3], -1);
-	PlayerTextDrawUseBox(playerid, RegisterPTD[playerid][3], 1);
-	PlayerTextDrawBoxColor(playerid, RegisterPTD[playerid][3], 556554495);
 	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][3], 1);
 	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][3], 0);
 	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][3], 150);
@@ -165,13 +156,11 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][3], 1);
 	PlayerTextDrawSetSelectable(playerid, RegisterPTD[playerid][3], 1);
 
-	RegisterPTD[playerid][4] = CreatePlayerTextDraw(playerid, 128.000, 242.000, "SKIN");
-	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][4], 0.300, 1.500);
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][4], 0.000, 102.000);
+	RegisterPTD[playerid][4] = CreatePlayerTextDraw(playerid, 172.000, 242.000, "SKIN");
+	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][4], 0.270, 1.500);
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][4], 10.000, 50.000);
 	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][4], 2);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][4], -1);
-	PlayerTextDrawUseBox(playerid, RegisterPTD[playerid][4], 1);
-	PlayerTextDrawBoxColor(playerid, RegisterPTD[playerid][4], 556554495);
 	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][4], 1);
 	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][4], 0);
 	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][4], 150);
@@ -179,13 +168,11 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][4], 1);
 	PlayerTextDrawSetSelectable(playerid, RegisterPTD[playerid][4], 1);
 
-	RegisterPTD[playerid][5] = CreatePlayerTextDraw(playerid, 128.000, 266.000, "MO TA");
-	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][5], 0.300, 1.500);
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][5], 0.000, 102.000);
+	RegisterPTD[playerid][5] = CreatePlayerTextDraw(playerid, 172.000, 273.000, "MO TA");
+	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][5], 0.270, 1.500);
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][5], 10.000, 50.000);
 	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][5], 2);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][5], -1);
-	PlayerTextDrawUseBox(playerid, RegisterPTD[playerid][5], 1);
-	PlayerTextDrawBoxColor(playerid, RegisterPTD[playerid][5], 556554495);
 	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][5], 1);
 	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][5], 0);
 	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][5], 150);
@@ -193,21 +180,20 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][5], 1);
 	PlayerTextDrawSetSelectable(playerid, RegisterPTD[playerid][5], 1);
 
-	RegisterPTD[playerid][6] = CreatePlayerTextDraw(playerid, 250.000, 83.000, "_");
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][6], 221.000, 266.000);
-	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][6], 1);
+	RegisterPTD[playerid][6] = CreatePlayerTextDraw(playerid, 172.000, 304.000, "HOAN TAT");
+	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][6], 0.270, 1.500);
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][6], 10.000, 50.000);
+	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][6], 2);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][6], -1);
-	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][6], 0);
+	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][6], 1);
 	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][6], 0);
-	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][6], 0);
-	PlayerTextDrawFont(playerid, RegisterPTD[playerid][6], 5);
-	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][6], 0);
-	PlayerTextDrawSetPreviewModel(playerid, RegisterPTD[playerid][6], 1);
-	PlayerTextDrawSetPreviewRot(playerid, RegisterPTD[playerid][6], 0.000, 0.000, 0.000, 1.000);
-	PlayerTextDrawSetPreviewVehCol(playerid, RegisterPTD[playerid][6], 0, 0);
+	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][6], 150);
+	PlayerTextDrawFont(playerid, RegisterPTD[playerid][6], 1);
+	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][6], 1);
+	PlayerTextDrawSetSelectable(playerid, RegisterPTD[playerid][6], 1);
 
-	RegisterPTD[playerid][7] = CreatePlayerTextDraw(playerid, 313.000, 331.000, "LD_BEAT:left");
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][7], 20.000, 22.000);
+	RegisterPTD[playerid][7] = CreatePlayerTextDraw(playerid, 288.000, 130.000, "mdl-2003:bg_skin");
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][7], 148.000, 221.000);
 	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][7], 1);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][7], -1);
 	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][7], 0);
@@ -215,53 +201,47 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][7], 255);
 	PlayerTextDrawFont(playerid, RegisterPTD[playerid][7], 4);
 	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][7], 1);
-	PlayerTextDrawSetSelectable(playerid, RegisterPTD[playerid][7], 1);
 
-	RegisterPTD[playerid][8] = CreatePlayerTextDraw(playerid, 395.000, 331.000, "LD_BEAT:right");
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][8], 20.000, 22.000);
+	RegisterPTD[playerid][8] = CreatePlayerTextDraw(playerid, 276.000, 136.000, "_");
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][8], 165.000, 162.000);
 	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][8], 1);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][8], -1);
 	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][8], 0);
 	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][8], 0);
-	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][8], 255);
-	PlayerTextDrawFont(playerid, RegisterPTD[playerid][8], 4);
-	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][8], 1);
-	PlayerTextDrawSetSelectable(playerid, RegisterPTD[playerid][8], 1);
+	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][8], 0);
+	PlayerTextDrawFont(playerid, RegisterPTD[playerid][8], 5);
+	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][8], 0);
+	PlayerTextDrawSetPreviewModel(playerid, RegisterPTD[playerid][8], 1);
+	PlayerTextDrawSetPreviewRot(playerid, RegisterPTD[playerid][8], 0.000, 0.000, 0.000, 1.000);
+	PlayerTextDrawSetPreviewVehCol(playerid, RegisterPTD[playerid][8], 0, 0);
 
-	RegisterPTD[playerid][9] = CreatePlayerTextDraw(playerid, 364.000, 334.000, "1");
-	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][9], 0.300, 1.500);
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][9], 150.000, 54.000);
-	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][9], 2);
+	RegisterPTD[playerid][9] = CreatePlayerTextDraw(playerid, 304.000, 276.000, "LD_BEAT:left");
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][9], 20.000, 19.000);
+	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][9], 1);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][9], -1);
-	PlayerTextDrawUseBox(playerid, RegisterPTD[playerid][9], 1);
-	PlayerTextDrawBoxColor(playerid, RegisterPTD[playerid][9], 556554495);
-	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][9], 1);
+	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][9], 0);
 	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][9], 0);
-	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][9], 150);
-	PlayerTextDrawFont(playerid, RegisterPTD[playerid][9], 1);
+	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][9], 255);
+	PlayerTextDrawFont(playerid, RegisterPTD[playerid][9], 4);
 	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][9], 1);
+	PlayerTextDrawSetSelectable(playerid, RegisterPTD[playerid][9], 1);
 
-	RegisterPTD[playerid][10] = CreatePlayerTextDraw(playerid, 364.000, 365.000, "CHON SKIN NHANH");
-	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][10], 0.300, 1.500);
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][10], 150.000, 106.000);
-	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][10], 2);
+	RegisterPTD[playerid][10] = CreatePlayerTextDraw(playerid, 398.000, 275.000, "LD_BEAT:right");
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][10], 20.000, 22.000);
+	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][10], 1);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][10], -1);
-	PlayerTextDrawUseBox(playerid, RegisterPTD[playerid][10], 1);
-	PlayerTextDrawBoxColor(playerid, RegisterPTD[playerid][10], 556554495);
-	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][10], 1);
+	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][10], 0);
 	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][10], 0);
-	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][10], 150);
-	PlayerTextDrawFont(playerid, RegisterPTD[playerid][10], 1);
+	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][10], 255);
+	PlayerTextDrawFont(playerid, RegisterPTD[playerid][10], 4);
 	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][10], 1);
 	PlayerTextDrawSetSelectable(playerid, RegisterPTD[playerid][10], 1);
 
-	RegisterPTD[playerid][11] = CreatePlayerTextDraw(playerid, 128.000, 290.000, "HOAN TAT");
-	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][11], 0.300, 1.500);
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][11], 0.000, 102.000);
+	RegisterPTD[playerid][11] = CreatePlayerTextDraw(playerid, 359.000, 301.000, "CHON SKIN NHANH");
+	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][11], 0.210, 1.099);
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][11], 10.000, 81.000);
 	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][11], 2);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][11], -1);
-	PlayerTextDrawUseBox(playerid, RegisterPTD[playerid][11], 1);
-	PlayerTextDrawBoxColor(playerid, RegisterPTD[playerid][11], 556554495);
 	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][11], 1);
 	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][11], 0);
 	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][11], 150);
@@ -269,13 +249,11 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawSetProportional(playerid, RegisterPTD[playerid][11], 1);
 	PlayerTextDrawSetSelectable(playerid, RegisterPTD[playerid][11], 1);
 
-	RegisterPTD[playerid][12] = CreatePlayerTextDraw(playerid, 417.000, 305.000, "XONG");
-	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][12], 0.300, 1.500);
-	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][12], 150.000, 40.000);
+	RegisterPTD[playerid][12] = CreatePlayerTextDraw(playerid, 359.000, 318.000, "XONG");
+	PlayerTextDrawLetterSize(playerid, RegisterPTD[playerid][12], 0.270, 1.500);
+	PlayerTextDrawTextSize(playerid, RegisterPTD[playerid][12], 10.000, 50.000);
 	PlayerTextDrawAlignment(playerid, RegisterPTD[playerid][12], 2);
 	PlayerTextDrawColor(playerid, RegisterPTD[playerid][12], -1);
-	PlayerTextDrawUseBox(playerid, RegisterPTD[playerid][12], 1);
-	PlayerTextDrawBoxColor(playerid, RegisterPTD[playerid][12], 556554495);
 	PlayerTextDrawSetShadow(playerid, RegisterPTD[playerid][12], 1);
 	PlayerTextDrawSetOutline(playerid, RegisterPTD[playerid][12], 0);
 	PlayerTextDrawBackgroundColor(playerid, RegisterPTD[playerid][12], 150);
@@ -284,5 +262,3 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawSetSelectable(playerid, RegisterPTD[playerid][12], 1);
 	return 1;
 }
-
-

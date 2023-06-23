@@ -1,8 +1,15 @@
 Register_ClickTextDraw(playerid, PlayerText:playertextid)
 {
-	if(playertextid == RegisterPTD[playerid][1]) // tuoi
+	if(playertextid == RegisterPTD[playerid][1]) // ngay sinh
 	{
-		ShowPlayerDialog(playerid, DLG_AGE, DIALOG_STYLE_INPUT, "Cai dat ( Tuoi )","Ban bao nhiu tuoi", ">>", "<<");
+		new reg_day[1280], fm_reg[1280];
+		for(new i = 1 ; i < 31 ; i++)
+		{
+			format(fm_reg, sizeof(fm_reg), "%d\n", i);
+			strcat(reg_day, fm_reg);
+		}
+		strcat(reg_day, "31");
+		ShowPlayerDialog(playerid, DLG_REG_DAY, DIALOG_STYLE_LIST, "Cai dat ngay sinh", reg_day, ">>", "<<");
 	}
 	if(playertextid == RegisterPTD[playerid][2]) // gioi tinh
 	{
@@ -14,7 +21,7 @@ Register_ClickTextDraw(playerid, PlayerText:playertextid)
 	}
 	if(playertextid == RegisterPTD[playerid][4]) // skin
 	{
-		ShowPlayerMenuRegister(playerid);
+		ShowPlayerMenuSkin(playerid);
 		SetPVarInt(playerid, "SelectSkin_", 1);
 	}
 	if(playertextid == MainRegisterPTD[playerid][6])
@@ -23,34 +30,37 @@ Register_ClickTextDraw(playerid, PlayerText:playertextid)
 		format(login_string, sizeof(login_string), "{ffffff}Chao mung {3366ff}%s{ffffff} den voi {3366ff}LS-RP{ffffff}", player_get_name(playerid, 1));
 		ShowPlayerDialog(playerid, DLG_REGISTER,DIALOG_STYLE_PASSWORD, "Dang ky", login_string, ">>", "<<");
 	}
-	if(playertextid == RegisterPTD[playerid][7]) // lui 
+	if(playertextid == RegisterPTD[playerid][9]) // lui 
 	{
 		if(CharSkinSelect[playerid] > 1)
 		{
 			CharSkinSelect[playerid]-=1;
-			PlayerTextDrawSetPreviewModel(playerid, RegisterPTD[playerid][6], CharSkinSelect[playerid]);
-			PlayerTextDrawSetString(playerid, RegisterPTD[playerid][9], CharSkinSelect[playerid]);
-			ReloadPlayerTextDraw(playerid, RegisterPTD[playerid][6]);
-			ReloadPlayerTextDraw(playerid, RegisterPTD[playerid][9]);
+			PlayerTextDrawSetPreviewModel(playerid, RegisterPTD[playerid][8], CharSkinSelect[playerid]);
+			ReloadPlayerTextDraw(playerid, RegisterPTD[playerid][8]);
 		}
 		else{
 			SendClientMessage(playerid, -1, "Ban khong the thuc hien thao tac");
 			HienTextdraw(playerid, "Ban khong the thuc hien thao tac", 3000);
 		}
 	}
-	if(playertextid == RegisterPTD[playerid][8]) // toi 
+	if(playertextid == RegisterPTD[playerid][10]) // toi 
 	{
 		if(CharSkinSelect[playerid] < 300)
 		{
 			CharSkinSelect[playerid]+=1;
-			PlayerTextDrawSetPreviewModel(playerid, RegisterPTD[playerid][6], CharSkinSelect[playerid]);
-			PlayerTextDrawSetString(playerid, RegisterPTD[playerid][9], CharSkinSelect[playerid]);
-			ReloadPlayerTextDraw(playerid, RegisterPTD[playerid][6]);
-			ReloadPlayerTextDraw(playerid, RegisterPTD[playerid][9]);
+			PlayerTextDrawSetPreviewModel(playerid, RegisterPTD[playerid][8], CharSkinSelect[playerid]);
+			ReloadPlayerTextDraw(playerid, RegisterPTD[playerid][8]);
 		}
 		else{
 			SendClientMessage(playerid, -1, "Ban khong the thuc hien thao tac");
 			HienTextdraw(playerid, "Ban khong the thuc hien thao tac", 3000);
+		}
+	}
+	if(playertextid == RegisterPTD[playerid][11])
+	{
+		if(GetPVarInt(playerid, "SelectSkin_")==1)
+		{
+			ShowPlayerDialog(playerid, DLG_SKIN, DIALOG_STYLE_INPUT, "Cai dat skin","Nhap id skin ban muon chon:", ">>", "<<");
 		}
 	}
 	if(playertextid == RegisterPTD[playerid][12])
@@ -60,7 +70,7 @@ Register_ClickTextDraw(playerid, PlayerText:playertextid)
 			Character[playerid][char_Skin] = CharSkinSelect[playerid];
 			SendClientMessage(playerid, -1, "[!] Cai dat thanh cong");
 			HienTextdraw(playerid, "~g~Cai dat skin thanh cong", 3000);
-			for(new skin_loop = 6; skin_loop < 12; skin_loop++){
+			for(new skin_loop = 7; skin_loop < 13; skin_loop++){
 				PlayerTextDrawHide(playerid, RegisterPTD[playerid][skin_loop]);
 			}
 			DeletePVar(playerid, "SelectSkin_");
@@ -101,20 +111,24 @@ Register_ClickTextDraw(playerid, PlayerText:playertextid)
 		cache_delete(acc_cache);
 		HidePlayerMainRegister(playerid);
 	}
-	if(playertextid == RegisterPTD[playerid][11])
+	if(playertextid == RegisterPTD[playerid][6])
 	{
 		if(isnull(Character[playerid][char_Note])) SendClientMessage(playerid, -1, "[!] Ban chua cai dat mo ta nhan vat");
-		if(Character[playerid][char_Age] > 1) SendClientMessage(playerid, -1, "[!] Ban chua cai dat tuoi");
+		if(Character[playerid][char_Birthday][0] <= 0 || Character[playerid][char_Birthday][1] <= 0 || Character[playerid][char_Birthday][2] <= 0) SendClientMessage(playerid, -1, "[!] Ban chua cai dat tuoi");
 		if(Character[playerid][char_GioiTinh]!=1 && Character[playerid][char_GioiTinh]!=2 && Character[playerid][char_GioiTinh]!=3) SendClientMessage(playerid, -1, "[!] Ban chua cai dat gioi tinh");
 		if(Character[playerid][char_Nation] != 1) SendClientMessage(playerid, -1, "[!] Ban chua cai dat quoc tich");
 		if(Character[playerid][char_Skin] == 0) SendClientMessage(playerid, -1, "[!] Ban chua cai dat skin");
 		new query_reg[1280];
 		mysql_format(Handle(), query_reg, sizeof(query_reg), "UPDATE `players` SET \
-			`Tuoi` = '%d', \
+			`BirthDay` = '%d', \
+			`BirthMonth` = '%d', \
+			`BirthYear` = '%d', \
 			`Gender` = '%d', \
 			`QuocTich` = '%d',\
 			`Skin` = '%d', `Note` = '%s' WHERE `id` = '%d'",
-			Character[playerid][char_Age],
+			Character[playerid][char_Birthday][0],
+			Character[playerid][char_Birthday][1],
+			Character[playerid][char_Birthday][2],
 			Character[playerid][char_GioiTinh],
 			Character[playerid][char_Nation],
 			Character[playerid][char_Skin],
@@ -124,16 +138,66 @@ Register_ClickTextDraw(playerid, PlayerText:playertextid)
 	}
 	return 1;
 }
-forward OnPlayerUpdateInfo(playerid);
-public OnPlayerUpdateInfo(playerid)
-{
-	ShowPlayerSpawnMenu(playerid);
-	return 1;
-}
+
 hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
 	switch(dialogid)
 	{
+		case DLG_REG_DAY:
+		{
+			if(response){
+				Character[playerid][char_Birthday][0] = listitem+1;
+				new reg_day[1280], fm_reg[1280];
+				for(new i = 1 ; i < 12 ; i++)
+				{
+					format(fm_reg, sizeof(fm_reg), "%d\n", i);
+					strcat(reg_day, fm_reg);
+				}
+				strcat(reg_day, "12");
+				ShowPlayerDialog(playerid, DLG_REG_MONTH, DIALOG_STYLE_LIST, "Cai dat thang sinh", reg_day, ">>", "<<");
+
+			}
+			else Kick(playerid);
+		}
+		case DLG_REG_MONTH:
+		{
+			if(response)
+			{
+				Character[playerid][char_Birthday][1] = listitem+1;
+				new reg_day[1280], fm_reg[1280];
+				for(new i = 2010 ; i > 1980 ; i--)
+				{
+					format(fm_reg, sizeof(fm_reg), "%d\n", i);
+					strcat(reg_day, fm_reg);
+				}
+				strcat(reg_day, "1980");
+				ShowPlayerDialog(playerid, DLG_REG_YEAR, DIALOG_STYLE_LIST, "Cai dat nam sinh", reg_day, ">>", "<<");
+			}
+			else Kick(playerid);
+		}
+		case DLG_REG_YEAR:
+		{
+			if(response)
+			{
+				Character[playerid][char_Birthday][2] = 2010-listitem;
+				SendClientMessage(playerid, -1, "[!] Cai dat ngay sinh nhan vat thanh cong");
+				HienTextdraw(playerid, "~g~Cai dat ngay sinh nhan vat thanh cong", 3000);
+			}
+			else Kick(playerid);
+		}
+		case DLG_SKIN:
+		{
+			if(response){
+
+				PlayerTextDrawSetPreviewModel(playerid, RegisterPTD[playerid][8], strval(inputtext));
+				ReloadPlayerTextDraw(playerid, RegisterPTD[playerid][8]);
+
+				Character[playerid][char_Skin] = strval(inputtext);
+				SendClientMessage(playerid, -1, "[!] Cai dat skin nhan vat thanh cong");
+				HienTextdraw(playerid, "~g~Cai dat skin nhan vat thanh cong", 3000);
+			}
+			else Kick(playerid);
+		}
 		case DLG_NOTE:
 		{
 			if(response)
@@ -159,20 +223,6 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			}
 			else Kick(playerid);
 		}
-		case DLG_AGE:
-		{
-			if(response)
-			{
-				if(isnull(inputtext)) HienTextdraw(playerid, "Ban vui long nhap tuoi", 3000);
-				else {
-					Character[playerid][char_Age] = strval(inputtext);
-					SendClientMessage(playerid, -1, "[!] Cai dat tuoi thanh cong");
-					HienTextdraw(playerid, "~g~Cai dat tuoi thanh cong", 3000);
-				}
-			}
-			else Kick(playerid);
-			
-		}
 		case DLG_GIOITINH:
 		{
 			if(response)
@@ -181,19 +231,19 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				{
 					case 0: {
 						Character[playerid][char_GioiTinh] = 1;
-						SendClientMessage(playerid, -1, "~g~Ok, vay ban la nam");
+						SendClientMessage(playerid, -1, "Ok, vay ban la nam");
 						HienTextdraw(playerid, "~g~Ok, vay ban la nam", 3000);
 					}
 					case 1:
 					{
 						Character[playerid][char_GioiTinh] = 2;
-						SendClientMessage(playerid, -1, "~g~Ok, vay ban la nu");
+						SendClientMessage(playerid, -1, "Ok, vay ban la nu");
 						HienTextdraw(playerid, "~g~Ok, vay ban la nu", 3000);
 					}
 					case 2:
 					{
 						Character[playerid][char_GioiTinh] = 3;
-						SendClientMessage(playerid, -1, "~g~Ok, vay ban la LGBT");
+						SendClientMessage(playerid, -1, "Ok, vay ban la LGBT");
 						HienTextdraw(playerid, "~g~Ok, vay ban la LGBT", 3000);
 					}
 				}

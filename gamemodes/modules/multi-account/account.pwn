@@ -102,7 +102,8 @@ public OnAccountCheck(const playerid)
 	}
 	else 
 	{
-		connectForm_Show(playerid, dialog_Register);
+		// connectForm_Show(playerid, dialog_Register);
+		ShowPlayerMainRegister(playerid);
 	}
 	return 1;
 }

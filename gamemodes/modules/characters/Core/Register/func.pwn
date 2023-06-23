@@ -23,14 +23,12 @@ func:ShowPlayerMenuRegister(playerid)
 {
 	SetPVarInt(playerid, "SetupRegister_", 1);
 	SelectTextDraw(playerid, -1);
-	for(new reg_loop = 0 ; reg_loop < 6; reg_loop++)
+	for(new reg_loop = 0 ; reg_loop < 7; reg_loop++)
 	{
 		PlayerTextDrawShow(playerid, RegisterPTD[playerid][reg_loop]);
 	}
-	PlayerTextDrawShow(playerid, RegisterPTD[playerid][11]);
 	return 1;
 }
-
 func:HidePlayerMenuRegister(playerid)
 {
 	CancelSelectTextDraw(playerid);
@@ -39,4 +37,18 @@ func:HidePlayerMenuRegister(playerid)
 		PlayerTextDrawHide(playerid, RegisterPTD[playerid][reg_loop]);
 	}
 	return 1;
+}
+func:ShowPlayerMenuSkin(playerid)
+{
+	for(new reg_loop = 7 ; reg_loop < 13; reg_loop++)
+	{
+		PlayerTextDrawShow(playerid, RegisterPTD[playerid][reg_loop]);
+	}
+}
+func:HidePlayerMenuSkin(playerid)
+{
+	for(new reg_loop = 7 ; reg_loop < 13; reg_loop++)
+	{
+		PlayerTextDrawHide(playerid, RegisterPTD[playerid][reg_loop]);
+	}
 }

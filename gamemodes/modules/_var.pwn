@@ -26,7 +26,7 @@ enum character_Info
 	char_tanso,
 	char_Interior,
 	char_VW,
-	char_Age,
+	char_Birthday[3],
 	char_Note[1280],
 	char_Nation,
 	char_GioiTinh,
