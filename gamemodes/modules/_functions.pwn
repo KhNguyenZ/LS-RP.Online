@@ -1,5 +1,4 @@
 
-
 func:player_Login(const playerid)
 {
 	if(IsPlayerConnected(playerid) && Character[playerid][char_Login])
@@ -7,6 +6,11 @@ func:player_Login(const playerid)
 		return 1;
 	}
 	return 0;
+}
+func:RandomEx(min, max)
+{
+    new a = random(max - min) + min;
+    return a;
 }
 
 func:player_get_name(const playerid, bool:fix_ = true) 
@@ -194,4 +198,83 @@ public PlayerJoinGameReal(playerid)
     SpawnPlayer(playerid);
 	FadeInPlayerScreen(playerid);
     return 1;
+}
+
+stock SetPlayerJoinCamera(playerid)
+{
+	new randcamera = RandomEx(1,10);
+	switch(randcamera)
+	{
+		case 1: // Benh Vien SF
+		{
+			SetPlayerVirtualWorld(playerid, 0);
+			SetPlayerInterior(playerid, 0);
+   			InterpolateCameraPos(playerid, -2715.813720, 570.016723, 19.158573, -1975.540527, 562.937927, 59.830295, 25000);
+			InterpolateCameraLookAt(playerid, -2710.986328, 571.276306, 18.826786, -1979.797729, 562.035217, 57.368297, 18000);
+		}
+		case 2: // City Hall To Pizza
+		{
+			SetPlayerVirtualWorld(playerid, 0);
+			SetPlayerInterior(playerid, 0);
+			InterpolateCameraPos(playerid, -1881.850585, 971.852905, 73.548904, -1795.089477, 1394.321411, 30.082445, 20000);
+			InterpolateCameraLookAt(playerid, -1884.813354, 968.006713, 72.353561, -1791.281372, 1391.242309, 29.073791, 15000);
+		}
+		case 3: // Nga Tu TRucker
+		{
+			SetPlayerVirtualWorld(playerid, 0);
+			SetPlayerInterior(playerid, 0);
+			InterpolateCameraPos(playerid, -1661.901367, -14.027463, 6.758706, -1708.980102, 300.460449, 35.345272, 20000);
+			InterpolateCameraLookAt(playerid, -1659.607055, -9.603525, 7.164509, -1713.582275, 300.629577, 33.398178, 15000);
+		}
+		case 4: // Pizza To Bank
+		{
+			SetPlayerVirtualWorld(playerid, 0);
+			SetPlayerInterior(playerid, 0);
+			InterpolateCameraPos(playerid, -1801.528442, 1412.879150, 22.452032, -1472.461914, 950.851196, 47.155590, 20000);
+			InterpolateCameraLookAt(playerid, -1798.010986, 1409.372802, 21.875198, -1476.977294, 949.634399, 45.386184, 15000);
+		}
+		case 5: // Trucker
+		{
+			SetPlayerVirtualWorld(playerid, 0);
+			SetPlayerInterior(playerid, 0);
+			InterpolateCameraPos(playerid, -1475.032836, 215.806381, 10.032812, -1664.807373, -13.957154, 7.945104, 18000);
+			InterpolateCameraLookAt(playerid, -1478.902832, 212.640792, 10.083591, -1663.551879, -9.119169, 8.077901, 14000);
+		}
+		case 6: // LS to Trucker
+		{
+			SetPlayerVirtualWorld(playerid, 0);
+			SetPlayerInterior(playerid, 0);
+			InterpolateCameraPos(playerid, -1720.617309, -744.309631, 36.529880, -1752.041137, 162.737533, 29.611810, 30000);
+			InterpolateCameraLookAt(playerid, -1722.161010, -739.557922, 36.334617, -1749.607788, 158.639328, 28.100660, 20000);
+		}
+		case 7: // SFPD to FDSA
+		{
+			SetPlayerVirtualWorld(playerid, 0);
+			SetPlayerInterior(playerid, 0);
+			InterpolateCameraPos(playerid, -1369.111816, 731.161376, 13.104322, -2578.446533, 734.975219, 133.224731, 40000);
+			InterpolateCameraLookAt(playerid, -1374.109252, 731.302001, 13.182446, -2578.433349, 731.508544, 129.621658, 20000);
+		}
+		case 8: // |----------allsaints----------|
+		{
+			SetPlayerVirtualWorld(playerid, 0);
+			SetPlayerInterior(playerid, 0);
+			InterpolateCameraPos(playerid, 546.749267, -1408.705200, 20.525941, 1250.746582, -1393.686767, 19.419189, 30000);
+			InterpolateCameraLookAt(playerid, 551.736450, -1408.684814, 20.169057, 1247.091064, -1390.297119, 19.035037, 15000);
+		}
+		case 9: // |----------grovestrees----------|
+		{
+			SetPlayerVirtualWorld(playerid, 0);
+			SetPlayerInterior(playerid, 0);
+			InterpolateCameraPos(playerid, 2550.974121, -1664.531738, 16.615615, 2186.334716, -1653.106933, 14.849622, 30000);
+			InterpolateCameraLookAt(playerid, 2545.977050, -1664.520996, 16.447679, 2188.319091, -1657.573486, 15.904144, 15000);
+		}
+		case 10: // 	|----------traingrove----------|
+		{
+			SetPlayerVirtualWorld(playerid, 0);
+			SetPlayerInterior(playerid, 0);
+			InterpolateCameraPos(playerid, 2287.160888, -918.219055, 25.588674, 2277.710693, -1746.899169, 43.992710, 30000);
+			InterpolateCameraLookAt(playerid, 2287.145996, -923.217895, 25.694135, 2282.406005, -1746.867797, 42.274547, 15000);
+		}
+	}
+	return 1;
 }

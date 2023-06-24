@@ -1,3 +1,0 @@
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\main.pwn(1) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "Register_ClickTextDraw"
-Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
-

@@ -235,6 +235,8 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 		SetTimerEx("PlayerJoinGameReal", 1000, false, "i", playerid);
 		HidePlayerSpawnMenu(playerid);
 		PlayerSetupping[playerid] = 0;
+
+		OnPlayerLoad(playerid);
 	}
 	if(playertextid == SpawnLSRP[playerid][3]) // Newbie Spawn
 	{
@@ -243,6 +245,7 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
   		SetTimerEx("PlayerJoinGameReal", 1000, false, "i", playerid);
 		HidePlayerSpawnMenu(playerid);
 		PlayerSetupping[playerid] = 0;
+		OnPlayerLoad(playerid);
 	}
 	if(playertextid == LoginPTD[playerid][6])
 	{
@@ -272,6 +275,8 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 			cache_delete(acc_cache);
 			character_Select(playerid);
 			HideLoginPTD(playerid);
+
+			Character[playerid][char_Login] = true;
 		}
 		else 
 		{
@@ -332,5 +337,34 @@ public OnPlayerSpawn(playerid)
 	SetPlayerArmour(playerid, Character[playerid][char_armour]);
 	SetPlayerVirtualWorld(playerid, Character[playerid][char_VW]);
 	SetPlayerInterior(playerid, Character[playerid][char_Interior]);
+	return 1;
+}
+forward OnPlayerLoad(playerid);
+public OnPlayerLoad(playerid)
+{
+	new sdm[1280];
+	mysql_format(Handle(), sdm, sizeof(sdm), "[{212c58}LS-RP{ffffff}] Chao mung ban den voi may chu, {0066ff}%s.", player_get_name(playerid));
+	SendClientMessage(playerid, -1, sdm);
+	PlayerSetupping[playerid] = 0;
+	if(Character[playerid][char_Admin] > 0)
+	{
+		new msgzz[1280];
+		format(msgzz, sizeof(msgzz),"Xin Chao {0000EE}%s{FFFFFF}, ban la %s.", player_get_name(playerid), GetAdmin(playerid));
+		SendClientMessage(playerid, -1, msgzz);
+	}
+	return 1;
+}
+
+
+public OnPlayerRequestClass(playerid, classid)
+{
+	if(!Character[playerid][char_Login])
+	{
+		TogglePlayerSpectating(playerid, 1);
+		SetPlayerJoinCamera(playerid);
+	}
+	else{
+		TogglePlayerSpectating(playerid, 0);
+	}
 	return 1;
 }

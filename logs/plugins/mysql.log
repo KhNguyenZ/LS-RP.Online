@@ -2640,3 +2640,53 @@
 [24/06/2023 1:21:05 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
 [24/06/2023 1:21:05 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
 [24/06/2023 1:21:05 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:12:15 SA] [WARNING] mysql_connect: no password specified
+[24/06/2023 11:12:16 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:12:16 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:12:16 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:12:16 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:12:16 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:12:16 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:13:39 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:22:04 SA] [WARNING] mysql_connect: no password specified
+[24/06/2023 11:22:04 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:22:04 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:22:04 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:22:04 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:22:04 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:22:04 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:22:34 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:25:11 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:26:49 SA] [WARNING] mysql_connect: no password specified
+[24/06/2023 11:26:50 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:26:50 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:26:50 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:26:50 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:26:50 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:26:50 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:27:06 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:32:45 SA] [WARNING] mysql_connect: no password specified
+[24/06/2023 11:32:45 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:32:45 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:32:45 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:32:45 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:32:45 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:32:45 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:33:05 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:34:48 SA] [WARNING] mysql_connect: no password specified
+[24/06/2023 11:34:48 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:34:48 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:34:48 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:34:48 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:34:48 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:34:48 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:35:18 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:52:59 SA] [WARNING] mysql_connect: no password specified
+[24/06/2023 11:52:59 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:52:59 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:52:59 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:52:59 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:52:59 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:52:59 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 11:53:24 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 11:55:34 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
