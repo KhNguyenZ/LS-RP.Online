@@ -342,6 +342,8 @@ public OnPlayerSpawn(playerid)
 forward OnPlayerLoad(playerid);
 public OnPlayerLoad(playerid)
 {
+	TogglePlayerSpectating(playerid, 0);
+	
 	new sdm[1280];
 	mysql_format(Handle(), sdm, sizeof(sdm), "[{212c58}LS-RP{ffffff}] Chao mung ban den voi may chu, {0066ff}%s.", player_get_name(playerid));
 	SendClientMessage(playerid, -1, sdm);
@@ -354,17 +356,23 @@ public OnPlayerLoad(playerid)
 	}
 	return 1;
 }
-
+forward ForceSpawn(playerid);
+public ForceSpawn(playerid)
+{
+	SendClientMessage(playerid, -1, "Hi");
+	SpawnPlayer(playerid);
+}
 
 public OnPlayerRequestClass(playerid, classid)
 {
-	if(!Character[playerid][char_Login])
+	if(Character[playerid][char_Login] == true){
+		TogglePlayerSpectating(playerid, 0);
+		SetTimerEx("ForceSpawn", 1000,0, "i", playerid);
+	}
+	if(Character[playerid][char_Login] == false)
 	{
 		TogglePlayerSpectating(playerid, 1);
 		SetPlayerJoinCamera(playerid);
-	}
-	else{
-		TogglePlayerSpectating(playerid, 0);
 	}
 	return 1;
 }

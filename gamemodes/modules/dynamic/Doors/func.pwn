@@ -5,7 +5,7 @@ func:SaveDynamicDoor(doorid)
 	`InPosX` = '%f', `InPosY` = '%f' , `InPosZ` = '%f', `InInterior` = '%d', `InVW` = '%d' ,\
 	`ExPosX` = '%f', `ExPosY` = '%f' , `ExPosZ` = '%f', `ExInterior` = '%d', `ExVW` = '%d' ,\
 	`OwnerID` = '%d', `Locked` = '%d', `Admin` = '%d', `Group` = '%d', `VIP` = '%d',\
-	`PickupID` = '%d' \
+	`PickupID` = '%d', `Name` = '%s' \
 	WHERE `id` = '%d'",
 	DoorInfo[doorid][door_InPos][0],
 	DoorInfo[doorid][door_InPos][1],
@@ -25,6 +25,8 @@ func:SaveDynamicDoor(doorid)
 	DoorInfo[doorid][door_group],
 	DoorInfo[doorid][door_vip],
 	DoorInfo[doorid][door_pickup],
+	DoorInfo[doorid][door_pickup],
+	DoorInfo[doorid][door_name],
 	doorid );
 
 	new iCache:update_expos;

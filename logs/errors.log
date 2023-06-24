@@ -1,8 +1,7 @@
-[24/06/2023 11:52:59 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
-[24/06/2023 11:52:59 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
-[24/06/2023 11:52:59 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
-[24/06/2023 11:52:59 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
-[24/06/2023 11:52:59 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
-[24/06/2023 11:52:59 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
-[24/06/2023 11:53:24 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
-[24/06/2023 11:55:34 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 12:38:34 CH] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 12:38:34 CH] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 12:38:34 CH] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 12:38:34 CH] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 12:38:34 CH] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 12:38:34 CH] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 12:39:15 CH] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number

@@ -50,6 +50,9 @@ task CoreUpdate[1000]()
 public OnGameModeInit()
 {
 	SetTimer("ChangeHostname", 1000, 1);
+
+	AddPlayerClass(0, 1958.33, 1343.12, 15.36, 269.15, 0, 0, 0, 0, 0, 0);
+	AddPlayerClass(0, 1958.3783, 1343.1572, 15.3746, 269.1425, 0, 0, 0, 0, 0, 0);
 }
 
 new const HostNameChange[][]= {

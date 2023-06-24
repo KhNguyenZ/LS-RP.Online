@@ -30,18 +30,63 @@ CMD:taodoor(playerid, params[])
 	return 1;
 }
 
-
+CMD:dname(playerid, params[])
+{
+	new DoorID, DoorName[128] = EOS;
+	if(CheckAdmin(playerid, 4))
+	{
+		if(sscanf(params, "is[64]()", DoorID, DoorName))
+		{
+			SendClientMessage(playerid, -1, "SU DUNG: /dname [door id] [Name]");
+		}
+		if(DoorID > MAX_DYNAMIC_DOORS) SendClientMessage(playerid,-1, "[x] Invaild ID Door !");
+		strcat((DoorInfo[DoorID][door_name] = 0,DoorInfo[DoorID][door_name]), DoorName, 128);
+		SaveDynamicDoor(DoorID);
+		ReloadDoor(DoorID);
+		HienTextdraw(playerid, "Cap nhat ~y~Ten~w~ thanh cong");
+	}
+	return 1;
+}
 CMD:dedit(playerid, params[])
 {
-	new doorid, option[14], param[64];
+	new doorid, option[14], param[64], amount;
 	if(CheckAdmin(playerid, 4))
 	{
 		if(sscanf(params, "is[14]S()[64]", doorid, option, param))
 		{
-		    SendClientMessage(playerid, -1, "Su dung: /dedit [door id] [option]");
-		    SendClientMessage(playerid, -1, "Tuy chon co san: Exterior, Interior, Name, World, VW, Locked, AdminLevel");
+		    SendClientMessage(playerid, -1, "Su dung: /dedit [door id] [option] [amount]");
+		    SendClientMessage(playerid, -1, "Tuy chon co san: Exterior, Interior,Locked, AdminLevel");
 		    SendClientMessage(playerid, -1, "Tuy chon co san: VIP , Group ");
 		    return 1;
+		}
+		if(!strcmp(option, "vip", true))
+		{
+			DoorInfo[doorid][door_vip] = amount;
+			SaveDynamicDoor(doorid);
+			ReloadDoor(doorid);
+			HienTextdraw(playerid, "Cap nhat ~y~VIP~w~ thanh cong");
+		}
+		if(!strcmp(option, "Group", true))
+		{
+			DoorInfo[doorid][door_group] = amount;
+			SaveDynamicDoor(doorid);
+			ReloadDoor(doorid);
+			HienTextdraw(playerid, "Cap nhat ~y~Group~w~ thanh cong");
+		}
+		if(!strcmp(option, "locked", true))
+		{
+			if(DoorInfo[doorid][door_lock] == 0) DoorInfo[doorid][door_lock] = 1;
+			else DoorInfo[doorid][door_lock] = 1;
+			SaveDynamicDoor(doorid);
+			ReloadDoor(doorid);
+			HienTextdraw(playerid, "Cap nhat ~y~Lock~w~ thanh cong");
+		}
+		if(!strcmp(option, "AdminLevel", true))
+		{
+			DoorInfo[doorid][door_admin] = amount;
+			SaveDynamicDoor(doorid);
+			ReloadDoor(doorid);
+			HienTextdraw(playerid, "Cap nhat ~y~AdminLevel~w~ thanh cong");
 		}
 		if(!strcmp(option, "interior", true))
 		{
@@ -51,7 +96,7 @@ CMD:dedit(playerid, params[])
 			DoorInfo[doorid][door_InInterior] = GetPlayerInterior(playerid);
 			SaveDynamicDoor(doorid);
 			ReloadDoor(doorid);
-			HienTextdraw(playerid, "Cap nhat toa do Interior thanh cong");
+			HienTextdraw(playerid, "Cap nhat ~y~toa do Interior~w~ thanh cong");
 		}
 		if(!strcmp(option, "exterior", true))
 		{
@@ -61,7 +106,7 @@ CMD:dedit(playerid, params[])
 			DoorInfo[doorid][door_ExInterior] = GetPlayerInterior(playerid);
 			SaveDynamicDoor(doorid);
 			ReloadDoor(doorid);
-			HienTextdraw(playerid, "Cap nhat toa do Exterior thanh cong");
+			HienTextdraw(playerid, "Cap nhat ~y~toa do Exterior~w~ thanh cong");
 		}
 	}
 	else SendClientMessage(playerid, -1, "Ban khong co quyen su dung lenh nay");

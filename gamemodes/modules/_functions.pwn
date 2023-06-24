@@ -195,7 +195,6 @@ public fadeout2(playerid)
 forward PlayerJoinGameReal(playerid);
 public PlayerJoinGameReal(playerid)
 {
-    SpawnPlayer(playerid);
 	FadeInPlayerScreen(playerid);
     return 1;
 }
