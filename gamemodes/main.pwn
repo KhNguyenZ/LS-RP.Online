@@ -71,6 +71,11 @@ main()
 
 #include "./modules/dynamic/Doors/build.pwn"
 
+#include "./modules/dynamic/Biz/var.pwn"
+#include "./modules/dynamic/Biz/func.pwn"
+#include "./modules/dynamic/Biz/callback.pwn"
+#include "./modules/dynamic/Biz/cmd.pwn"
+
 //map
 #include "./modules/Maps/NewbieSpawn.pwn"
 #include "./modules/Maps/LSRPpark.pwn"

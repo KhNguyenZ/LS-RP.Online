@@ -1,0 +1,19 @@
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Biz\callback.pwn(1) : îøèáêà 010: íåâåðíàÿ ôóíêöèÿ èëè îáúÿâëåíèå
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Biz\callback.pwn(2) : îøèáêà 010: íåâåðíàÿ ôóíêöèÿ èëè îáúÿâëåíèå
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Biz\callback.pwn(6) : îøèáêà 029: íåïðàâèëüíîå âûðàæåíèå, ïðèíÿò íîëü
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Biz\callback.pwn(6) : ïðåäóïðåæäåíèå 215: âûðàæåíèå íå èìååò ýôôåêòà
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Biz\callback.pwn(6) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "Handle"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Biz\callback.pwn(6) -- (7) : îøèáêà 010: íåâåðíàÿ ôóíêöèÿ èëè îáúÿâëåíèå
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Biz\callback.pwn(14) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "cache_get_row_count"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Biz\callback.pwn(17) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "cache_get_value_name_int"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Biz\callback.pwn(17) : ïðåäóïðåæäåíèå 215: âûðàæåíèå íå èìååò ýôôåêòà
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Biz\callback.pwn(17) : îøèáêà 001: îæèäàëñÿ òîêåí ";", íî íàéäåí "]"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Biz\callback.pwn(17) : îøèáêà 029: íåïðàâèëüíîå âûðàæåíèå, ïðèíÿò íîëü
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Biz\callback.pwn(17) : ôàòàëüíàÿ îøèáêà 107: ñëèøêîì ìíîãî îøèáîê íà îäíîé ñòðîêå
+
+Êîìïèëÿöèÿ îñòàíîâëåíà.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Îøèáîê:9.

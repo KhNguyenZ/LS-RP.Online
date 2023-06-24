@@ -277,3 +277,26 @@ stock SetPlayerJoinCamera(playerid)
 	}
 	return 1;
 }
+
+func:UpdateInteger(table[], field[], value)
+{
+	new query_build[1280];
+	mysql_format(Handle(), query_build, sizeof(query_build), "UPDATE `%s` SET `%s` = '%d'", table, field, strval(value));
+	mysql_query(Handle(), query_build, false);
+	return 1;
+}
+
+func:UpdateString(table[], field[], value[])
+{
+	new query_build[1280];
+	mysql_format(Handle(), query_build, sizeof(query_build), "UPDATE `%s` SET `%s` = '%s'", table, field, value);
+	mysql_query(Handle(), query_build, false);
+	return 1;
+}
+func:UpdateFloat(table[], field[], Float:value)
+{
+	new query_build[1280];
+	mysql_format(Handle(), query_build, sizeof(query_build), "UPDATE `%s` SET `%s` = '%f'", table, field, value);
+	mysql_query(Handle(), query_build, false);
+	return 1;
+}

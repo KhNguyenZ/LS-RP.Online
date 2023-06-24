@@ -37,7 +37,7 @@ public character_List(const playerid)
 			SetTimerEx("ShowCharSelect_", 2000, 0, "i", playerid);
 		}
 		// ShowCharacterSelect(playerid);
-		// ShowPlayerDialog(playerid, dialog_charSelect, 2, "Chon nhan vat.", string, "Chon", "Huy");
+		//ShowPlayerDialog(playerid, dialog_charSelect, 2, "Chon nhan vat.", string, "Chon", "Huy"); // code zin dialog
 	}
 	return 1;
 }

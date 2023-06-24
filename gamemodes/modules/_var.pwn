@@ -51,3 +51,4 @@ new PlayerText:InfoCharPTD[MAX_PLAYERS][8];
 new character_Name_data[MAX_PLAYERS][3][24];
 
 new CharSkinSelect[MAX_PLAYERS] = 1;
+
