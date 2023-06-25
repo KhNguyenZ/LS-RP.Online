@@ -21,7 +21,28 @@ enum character_Info
 	char_Admin,
 	Float:char_health,
 	Float:char_armour,
+<<<<<<< Updated upstream
 	char_tanso
+=======
+	char_tanso,
+	char_Interior,
+	char_VW,
+	char_Birthday[3],
+	char_Note[1280],
+	char_Nation,
+	char_GioiTinh,
+	
+	char_Phone,
+	char_DanhBa,
+	char_Dice,
+	char_Fuel,
+	char_DayThung,
+	char_XiGa,
+	char_Nuoc,
+	char_BinhSon,
+	char_Radio,
+	char_Mask
+>>>>>>> Stashed changes
 }
 
 new Character[MAX_PLAYERS][character_Info];

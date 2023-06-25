@@ -145,3 +145,83 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		}
 	}
 }
+<<<<<<< Updated upstream
+=======
+public OnPlayerUpdate(playerid)
+{
+	UpdateTextTime(playerid);
+	return 1;
+}
+public OnPlayerSpawn(playerid)
+{
+	ShowPlayerTextTime(playerid);
+	SetPlayerSkin(playerid,Character[playerid][char_Skin]);
+	ResetPlayerWeapons(playerid);
+	GivePlayerMoney(playerid, Character[playerid][char_Cash]);
+	SetPlayerHealth(playerid, Character[playerid][char_health]);
+	SetPlayerArmour(playerid, Character[playerid][char_armour]);
+	SetPlayerVirtualWorld(playerid, Character[playerid][char_VW]);
+	SetPlayerInterior(playerid, Character[playerid][char_Interior]);
+	return 1;
+}
+forward OnPlayerLoad(playerid);
+public OnPlayerLoad(playerid)
+{
+	TogglePlayerSpectating(playerid, 0);
+	
+	new sdm[1280];
+	mysql_format(Handle(), sdm, sizeof(sdm), "[{212c58}LS-RP{ffffff}] Chao mung ban den voi may chu, {0066ff}%s.", player_get_name(playerid));
+	SendClientMessage(playerid, -1, sdm);
+	PlayerSetupping[playerid] = 0;
+	if(Character[playerid][char_Admin] > 0)
+	{
+		new msgzz[1280];
+		format(msgzz, sizeof(msgzz),"Xin Chao {0000EE}%s{FFFFFF}, ban la %s.", player_get_name(playerid), GetAdmin(playerid));
+		SendClientMessage(playerid, -1, msgzz);
+	}
+
+	if(isnull(Character[playerid][char_Note])){
+		SendClientMessage(playerid, -1, "[!] Ban chua cai dat mo ta nhan vat");
+		ShowPlayerMenuRegister(playerid);
+	}
+
+	if(Character[playerid][char_Birthday][0] <= 0 || Character[playerid][char_Birthday][1] <= 0 || Character[playerid][char_Birthday][2] <= 0) {
+		SendClientMessage(playerid, -1, "[!] Ban chua cai dat tuoi");
+		ShowPlayerMenuRegister(playerid);
+	}
+	if(Character[playerid][char_GioiTinh]!=1 && Character[playerid][char_GioiTinh]!=2 && Character[playerid][char_GioiTinh]!=3) {
+		SendClientMessage(playerid, -1, "[!] Ban chua cai dat gioi tinh");
+		ShowPlayerMenuRegister(playerid);
+	}
+	if(Character[playerid][char_Nation] != 1) {
+		SendClientMessage(playerid, -1, "[!] Ban chua cai dat quoc tich");
+		ShowPlayerMenuRegister(playerid);
+	}
+	if(Character[playerid][char_Skin] == 0) {
+		SendClientMessage(playerid, -1, "[!] Ban chua cai dat skin");
+		ShowPlayerMenuRegister(playerid);
+	}
+
+	return 1;
+}
+forward ForceSpawn(playerid);
+public ForceSpawn(playerid)
+{
+	SendClientMessage(playerid, -1, "Hi");
+	SpawnPlayer(playerid);
+}
+
+public OnPlayerRequestClass(playerid, classid)
+{
+	if(Character[playerid][char_Login] == true){
+		TogglePlayerSpectating(playerid, 0);
+		SetTimerEx("ForceSpawn", 1000,0, "i", playerid);
+	}
+	if(Character[playerid][char_Login] == false)
+	{
+		TogglePlayerSpectating(playerid, 1);
+		SetPlayerJoinCamera(playerid);
+	}
+	return 1;
+}
+>>>>>>> Stashed changes
