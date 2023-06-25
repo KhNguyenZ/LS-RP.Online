@@ -11,3 +11,4 @@
 #define 		DLG_REG_MONTH 		17
 #define 		DLG_REG_YEAR 		18
 #define 		DLG_SKIN	 		19
+#define    		DLG_DeleteItem		20

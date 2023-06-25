@@ -55540,3 +55540,18 @@ Parsing unknown legacy option usearwork
 [2023-06-26T02:08:55+0700] [Info] [connection] incoming connection: 127.0.0.1:60436 id: 0
 [2023-06-26T02:08:55+0700] [Info] [join] thphat has joined the server (0:127.0.0.1)
 [2023-06-26T02:09:24+0700] [Error] Array index out of bounds
+[2023-06-26T02:22:10+0700] [Info] Character Save: Phat Se | AccountID: 34
+[2023-06-26T02:22:10+0700] [Info] [part] Phat_Se has left the server (0:1)
+[2023-06-26T02:22:12+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-26T02:22:12+0700] [Info] 
+
+[2023-06-26T02:22:12+0700] [Info]  ===============================
+
+[2023-06-26T02:22:12+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-26T02:22:12+0700] [Info]  ===============================
+
+[2023-06-26T02:22:12+0700] [Info] plugin.mysql: Unloading plugin...

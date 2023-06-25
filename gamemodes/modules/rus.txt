@@ -1,30 +1,46 @@
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(1) : ïðåäóïðåæäåíèå 235: public-ôóíêöèÿ íóæäàåòñÿ â îïåðåæàþùåì îáúÿâëåíèè (èäåíòèôèêàòîð "OnPlayerConnect")
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(3) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "CreateFadeEffectTextDraw"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(4) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "CreateHienTextDraw"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(5) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(5) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "SetPVarString"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(6) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "TogglePlayerSpectating"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(11) : îøèáêà 010: íåâåðíàÿ ôóíêöèÿ èëè îáúÿâëåíèå
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(13) : îøèáêà 010: íåâåðíàÿ ôóíêöèÿ èëè îáúÿâëåíèå
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(16) : ïðåäóïðåæäåíèå 235: public-ôóíêöèÿ íóæäàåòñÿ â îïåðåæàþùåì îáúÿâëåíèè (èäåíòèôèêàòîð "OnPlayerText")
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(18) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "player_Login"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(20) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "SendRangeMessage"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(21) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "Log"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(24) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "SendClientMessage"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(28) : ïðåäóïðåæäåíèå 235: public-ôóíêöèÿ íóæäàåòñÿ â îïåðåæàþùåì îáúÿâëåíèè (èäåíòèôèêàòîð "OnPlayerCommandText")
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(29) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "player_Login"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(31) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "SendClientMessage"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(32) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "Log"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(43) : ïðåäóïðåæäåíèå 235: public-ôóíêöèÿ íóæäàåòñÿ â îïåðåæàþùåì îáúÿâëåíèè (èäåíòèôèêàòîð "OnPlayerClickPlayerTextDraw")
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(45) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "RegisterPTD"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(45) : ïðåäóïðåæäåíèå 215: âûðàæåíèå íå èìååò ýôôåêòà
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(45) : îøèáêà 001: îæèäàëñÿ òîêåí ";", íî íàéäåí "]"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(45) : îøèáêà 029: íåïðàâèëüíîå âûðàæåíèå, ïðèíÿò íîëü
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\_callback.pwn(45) : ôàòàëüíàÿ îøèáêà 107: ñëèøêîì ìíîãî îøèáîê íà îäíîé ñòðîêå
-
-Êîìïèëÿöèÿ îñòàíîâëåíà.
-
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(10) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(11) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(12) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(13) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(14) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(37) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(38) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(39) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(41) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(42) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(49) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(51) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(53) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(55) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(56) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(74) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(75) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(89) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(49) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "CharSelectInfo"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(55) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "CharSkinSelect"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(37) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "Character"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(41) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "FadeEffect"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(14) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "HienThi"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(51) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "InfoCharPTD"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(57) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "InvHSlotPTD"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(59) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "InvISlotPTD"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(75) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "InvMaxWeight"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(56) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "InvPTD"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(58) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "InvSlotPTD"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(75) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "InvWeight"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(10) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "LoginPTD"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(12) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "MainRegisterPTD"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(89) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "PlayerSelectSlot"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(39) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "PlayerSetupping"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(11) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "RegisterPTD"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(42) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "SelectCharPTD"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(38) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "SpawnLSRP"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(53) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "character_Name_data"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(88) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "iItem_info"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(74) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "pInventory"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(13) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "scm_PTD"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\_var.pwn(13) -- (89) : îøèáêà 013: îòñóòñòâóåò òî÷êà âõîäà (íåò public-ôóíêöèé)
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 
 
-Îøèáîê:17.
+Îøèáîê:19.

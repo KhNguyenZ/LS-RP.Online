@@ -1,6 +1,11 @@
-./modules/_core.pwn(51) : îøèáêà 021: èäåíòèôèêàòîð "SSCANF_OnGameModeInit" óæå îáúÿâëåí
-./modules/dynamic/Biz/callback.pwn(13) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "count"
+./modules/_callback.pwn(137) : îøèáêà 001: îæèäàëñÿ òîêåí ")", íî íàéäåí ";"
+./modules/_callback.pwn(137) : îøèáêà 036: ïóñòîå äåéñòâèå
+./modules/_callback.pwn(137) : îøèáêà 029: íåïðàâèëüíîå âûðàæåíèå, ïðèíÿò íîëü
+./modules/_callback.pwn(137) : ôàòàëüíàÿ îøèáêà 107: ñëèøêîì ìíîãî îøèáîê íà îäíîé ñòðîêå
+
+Êîìïèëÿöèÿ îñòàíîâëåíà.
+
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 
 
-Îøèáîê:1.
+Îøèáîê:4.
