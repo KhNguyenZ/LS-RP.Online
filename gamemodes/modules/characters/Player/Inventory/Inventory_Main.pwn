@@ -22,7 +22,7 @@ enum enum_pInventory
 }
 new pInventory[MAX_PLAYERS][enum_pInventory];
 new iItem_info[][Inv_Item] = {
-	{0, 0,"mdl-2004:","Trong", "N/A"},
+	{0, 0,"","Trong", "N/A"},
 	{1, 0.8,"mdl-2004:item_9mm","Glock", "Sung ngan, su dung dan Pistol,su dung vu khi va sau do su dung hop dan."},
 	{2, 1.0,"mdl-2004:item_9mm","Tec-9", "Sung tieu lien nho, su dung dan SMG, su dung vu khi va sau do su dung hop dan."},
 	{3, 1.1,"mdl-2004:item_9mm","Uzi", "Sung tieu lien nho, su dung dan SMG, su dung vu khi va sau do su dung hop dan."},
