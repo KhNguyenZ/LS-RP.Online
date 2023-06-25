@@ -58,7 +58,7 @@ func:EnterDoor(playerid)
 	{
 		for(new i = 0; i < MAX_DYNAMIC_DOORS; i++)
 		{
-			if(IsPlayerInRangeOfPoint(playerid, 2.0, DoorInfo[i][door_ExPos][0], DoorInfo[i][door_ExPos][1], DoorInfo[i][door_ExPos][2]))
+			if(IsPlayerInRangeOfPoint(playerid, 1.0, DoorInfo[i][door_ExPos][0], DoorInfo[i][door_ExPos][1], DoorInfo[i][door_ExPos][2]))
 			{
 				if(DoorInfo[i][door_ownerid] != Character[playerid][char_account_id])
 				{
@@ -67,7 +67,7 @@ func:EnterDoor(playerid)
 						HienTextdraw(playerid, "Door nay da bi khoa boi nguoi so huu no !", 5000);
 					}
 				}
-				else if(DoorInfo[i][door_admin] > Character[playerid][char_Admin])
+				if(DoorInfo[i][door_admin] > Character[playerid][char_Admin])
 				{
 					HienTextdraw(playerid, "Ban khong du quyen han de vao door nay !", 5000);
 				}
@@ -79,6 +79,24 @@ func:EnterDoor(playerid)
 				Character[playerid][char_VW] = DoorInfo[i][door_InVW];
 				NoticeTexture(playerid);
 				SetPlayerPos(playerid, DoorInfo[i][door_InPos][0], DoorInfo[i][door_InPos][1], DoorInfo[i][door_InPos][2]);
+			}
+			if(IsPlayerInRangeOfPoint(playerid, 1.0, BizInfo[i][biz_ExPos][0], BizInfo[i][biz_ExPos][1], BizInfo[i][biz_ExPos][2]))
+			{
+				if(strcmp(player_get_name(playerid, false), BizInfo[i][biz_OwnerName]))
+				{
+					if(BizInfo[i][biz_Locked] != 0)
+					{
+						HienTextdraw(playerid, "Cua hang nay da bi khoa boi nguoi so huu no !", 5000);
+					}
+
+					SetPlayerVirtualWorld(playerid, BizInfo[i][biz_InVW]);
+					SetPlayerInterior(playerid, BizInfo[i][biz_InInterior]);
+
+					Character[playerid][char_Interior] = BizInfo[i][biz_InInterior];
+					Character[playerid][char_VW] = BizInfo[i][biz_InVW];
+					NoticeTexture(playerid);
+					SetPlayerPos(playerid, BizInfo[i][biz_InPos][0], BizInfo[i][biz_InPos][1], BizInfo[i][biz_InPos][2]);
+				}
 			}
 		}
 	}
@@ -122,14 +140,33 @@ func:ExitDoor(playerid)
 	else HienTextdraw(playerid, "Ban khong the thuc hien thao tac ngay luc nay", 3000);
 	return 1;
 }
+func:GetDoorStatus(doorid)
+{
+	new status[128];
+	switch(DoorInfo[doorid][door_lock])
+	{
+		case 0: status = "{03fc07}Mo cua{FFFFFF}";
+		default: status ="{fc1403}Dong cua{FFFFFF}";
 
+	}
+	return status;
+}
 stock ReloadDoor(doorid)
 {
 
 	if(IsValidDynamic3DTextLabel(DoorInfo[doorid][door_label])) DestroyDynamic3DTextLabel(DoorInfo[doorid][door_label]);
 	if(IsValidDynamicPickup(DoorInfo[doorid][door_pickupz])) DestroyDynamicPickup(DoorInfo[doorid][door_pickupz]);
-	
-	DoorInfo[doorid][door_label] = CreateDynamic3DTextLabel(DoorInfo[doorid][door_name], -1,DoorInfo[doorid][door_ExPos][0],DoorInfo[doorid][door_ExPos][1],DoorInfo[doorid][door_ExPos][2]+0.5,100, .worldid = DoorInfo[doorid][door_ExVW], .interiorid = DoorInfo[doorid][door_ExInterior]);
+
+	new Text_Reload[1280];
+	format(Text_Reload, sizeof(Text_Reload), 
+	"{212C58}%s{FFFFFF}\n\
+	Trang thai:%s \n\
+	ID: %d", 
+	DoorInfo[doorid][door_name],
+	GetDoorStatus(doorid),
+	DoorInfo[doorid][door_id]);
+
+	DoorInfo[doorid][door_label] = CreateDynamic3DTextLabel(Text_Reload, -1,DoorInfo[doorid][door_ExPos][0],DoorInfo[doorid][door_ExPos][1],DoorInfo[doorid][door_ExPos][2]+0.5,100, .worldid = DoorInfo[doorid][door_ExVW], .interiorid = DoorInfo[doorid][door_ExInterior]);
 	DoorInfo[doorid][door_pickupz] = CreateDynamicPickup(DoorInfo[doorid][door_pickup], 23, DoorInfo[doorid][door_ExPos][0],DoorInfo[doorid][door_ExPos][1],DoorInfo[doorid][door_ExPos][2]-0.3, .worldid = DoorInfo[doorid][door_ExVW], .interiorid = DoorInfo[doorid][door_ExInterior]);
 	return 1;
 }

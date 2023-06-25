@@ -3,7 +3,7 @@ func:NoticeTexture(playerid)
 	new Float:PlayerLoad[3];
 	GetPlayerPos(playerid,PlayerLoad[0],PlayerLoad[1],PlayerLoad[2]);
 
-	SetPlayerPos(playerid,PlayerLoad[0],PlayerLoad[1],PlayerLoad[2]+0.5);
+	SetPlayerPos(playerid,PlayerLoad[0],PlayerLoad[1],PlayerLoad[2]+1);
 
 	TogglePlayerControllable(playerid, 0);
 

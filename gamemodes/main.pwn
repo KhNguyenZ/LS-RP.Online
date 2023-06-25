@@ -69,12 +69,9 @@ main()
 // dynamic
 #include "./modules/dynamic/func_dynamic.pwn"
 
-#include "./modules/dynamic/Doors/build.pwn"
+#include "./modules/dynamic/Biz/build.pwn"
 
-#include "./modules/dynamic/Biz/var.pwn"
-#include "./modules/dynamic/Biz/func.pwn"
-#include "./modules/dynamic/Biz/callback.pwn"
-#include "./modules/dynamic/Biz/cmd.pwn"
+#include "./modules/dynamic/Doors/build.pwn"
 
 //map
 #include "./modules/Maps/NewbieSpawn.pwn"

@@ -13,7 +13,8 @@ enum Biz_Enum{
 	biz_ExVW,
 	biz_InVW,
 	biz_ExInterior,
-	biz_InInterior
+	biz_InInterior,
+	biz_PriceBiz
 }
 new BizInfo[MAX_DYNAMIC_BIZ][Biz_Enum];
 

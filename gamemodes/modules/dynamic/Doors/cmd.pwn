@@ -49,10 +49,10 @@ CMD:dname(playerid, params[])
 }
 CMD:dedit(playerid, params[])
 {
-	new doorid, option[14], param[64], amount;
+	new doorid, option[14], amount;
 	if(CheckAdmin(playerid, 4))
 	{
-		if(sscanf(params, "is[14]S()[64]", doorid, option, param))
+		if(sscanf(params, "is[14]S()[64]", doorid, option, amount))
 		{
 		    SendClientMessage(playerid, -1, "Su dung: /dedit [door id] [option] [amount]");
 		    SendClientMessage(playerid, -1, "Tuy chon co san: Exterior, Interior,Locked, AdminLevel");

@@ -1,4 +1,3 @@
-
 func:player_Login(const playerid)
 {
 	if(IsPlayerConnected(playerid) && Character[playerid][char_Login])
@@ -278,25 +277,28 @@ stock SetPlayerJoinCamera(playerid)
 	return 1;
 }
 
-func:UpdateInteger(table[], field[], value)
+func:UpdateInteger(table[], field[], value, dieukien[])
 {
 	new query_build[1280];
-	mysql_format(Handle(), query_build, sizeof(query_build), "UPDATE `%s` SET `%s` = '%d'", table, field, strval(value));
+	mysql_format(Handle(), query_build, sizeof(query_build), "UPDATE `%s` SET `%s` = '%d' %s", table, field, value, dieukien);
+	//print(query_build);
 	mysql_query(Handle(), query_build, false);
 	return 1;
 }
 
-func:UpdateString(table[], field[], value[])
+func:UpdateString(table[], field[], value[],dieukien[])
 {
 	new query_build[1280];
-	mysql_format(Handle(), query_build, sizeof(query_build), "UPDATE `%s` SET `%s` = '%s'", table, field, value);
+	mysql_format(Handle(), query_build, sizeof(query_build), "UPDATE `%s` SET `%s` = '%s'", table, field, value, dieukien);
+	//print(query_build);
 	mysql_query(Handle(), query_build, false);
 	return 1;
 }
-func:UpdateFloat(table[], field[], Float:value)
+func:UpdateFloat(table[], field[], Float:value,dieukien[])
 {
 	new query_build[1280];
-	mysql_format(Handle(), query_build, sizeof(query_build), "UPDATE `%s` SET `%s` = '%f'", table, field, value);
+	mysql_format(Handle(), query_build, sizeof(query_build), "UPDATE `%s` SET `%s` = '%f'", table, field, value, dieukien);
+	//print(query_build);
 	mysql_query(Handle(), query_build, false);
 	return 1;
 }

@@ -169,3 +169,8 @@ CMD:gotoco(playerid, params[])
 	SetPlayerInterior(playerid, int);
 	return 1;
 }
+CMD:adminlevel(playerid, params[])
+{
+	printf("Your Admin Level: %d", Character[playerid][char_Admin]);
+	return 1;
+}
