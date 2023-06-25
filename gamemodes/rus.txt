@@ -1,7 +1,8 @@
-./modules/characters/Player/Inventory/textdraw.pwn(32) : ïðåäóïðåæäåíèå 200: ñèìâîë "@yH_OnPlayerClickPlayerTextDraw" îáðåçàí äî 31 ñèìâîëîâ
-./modules/characters/Player/Inventory/textdraw.pwn(32) : ïðåäóïðåæäåíèå 200: ñèìâîë "@yH_OnPlayerClickPlayerTextDraw" îáðåçàí äî 31 ñèìâîëîâ
+./modules/characters/Player/Inventory/Inventory_Main.pwn(41) : ïðåäóïðåæäåíèå 200: ñèìâîë "@yH_OnPlayerClickPlayerTextDraw" îáðåçàí äî 31 ñèìâîëîâ
+./modules/characters/Player/Inventory/Inventory_Main.pwn(41) : ïðåäóïðåæäåíèå 200: ñèìâîë "@yH_OnPlayerClickPlayerTextDraw" îáðåçàí äî 31 ñèìâîëîâ
 ./modules/dynamic/Biz/callback.pwn(13) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "count"
-./modules/characters/Player/Inventory/textdraw.pwn(27) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "iItem_info"
+./modules/characters/Player/Inventory/Inventory_Main.pwn(36) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "iItem_info"
+./modules/characters/Player/Inventory/Inventory_Main.pwn(23) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "pInventory"
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 
 

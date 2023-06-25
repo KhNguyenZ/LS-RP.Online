@@ -11,24 +11,34 @@ enum Inv_Item{
 	item_id,
 	item_weight,
 	item_strtd[32],
-	item_name[64],
+	item_name[32],
+	item_detail[100],
 }
+enum enum_pInventory
+{
+    invSlot[MAX_INVENTORY_SLOT],
+    invSelectedSlot,
+    invSlotAmount[MAX_INVENTORY_SLOT]
+}
+new pInventory[MAX_PLAYERS][enum_pInventory];
 new iItem_info[][Inv_Item] = {
-	{0, 0,"mdl-2004:","Trong"},
-	{1, 0.8,"mdl-2004:item_9mm","Glock"},
-	{2, 1.0,"mdl-2004:item_9mm","Tec-9"},
-	{3, 1.1,"mdl-2004:item_9mm","Uzi"},
-	{4, 2.0,"mdl-2004:item_9mm","MP5"},
-	{5, 4.0,"mdl-2004:item_ak47","AK-47"},
-	{6, 3.5,"mdl-2004:item_ak47","M4A1"},
-	{7, 3.5,"mdl-2004:item_spas","Spas-12"},
-	{8, 3.0,"mdl-2004:item_spas","Rifle"},
-	{9, 4.0,"mdl-2004:item_spas","Sniper"}
+	{0, 0,"mdl-2004:","Trong", "N/A"},
+	{1, 0.8,"mdl-2004:item_9mm","Glock", "Sung ngan, su dung dan Pistol,su dung vu khi va sau do su dung hop dan."},
+	{2, 1.0,"mdl-2004:item_9mm","Tec-9", "Sung tieu lien nho, su dung dan SMG, su dung vu khi va sau do su dung hop dan."},
+	{3, 1.1,"mdl-2004:item_9mm","Uzi", "Sung tieu lien nho, su dung dan SMG, su dung vu khi va sau do su dung hop dan."},
+	{4, 2.0,"mdl-2004:item_9mm","MP5", "Sung tieu lien, su dung dan SMG, su dung vu khi va sau do su dung hop dan."},
+	{5, 4.0,"mdl-2004:item_ak47","AK-47", "Sung truong tu dong, su dung dan Rifle, su dung vu khi va sau do su dung hop dan."},
+	{6, 3.5,"mdl-2004:item_ak47","M4A1", "Sung truong, su dung dan Rifle, su dung vu khi va sau do su dung hop dan."},
+	{7, 3.5,"mdl-2004:item_spas","Shotgun", "Shotgun, su dung dan Shotgun, su dung vu khi va sau do su dung hop dan."},
+	{7, 3.5,"mdl-2004:item_spas","Spas-12", "Shotgun ban tu dong, su dung dan Shotgun, su dung vu khi va sau do su dung hop dan."},
+	{8, 3.0,"mdl-2004:item_spas","Rifle", "Sung truong ban tu dong, su dung dan Rifle, su dung vu khi va sau do su dung hop dan."},
+	{9, 4.0,"mdl-2004:item_spas","Sniper", "Sung ban tia, su dung dan Sniper, su dung vu khi va sau do su dung hop dan."}
 };
 /*func:add_item_player(playerid, itemid, amount)
 {
 
 }*/
+
 hook OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 {
 	if(GetPVarInt(playerid, #inventorystatus) == 1)
@@ -114,7 +124,7 @@ func:inventory_show(playerid)
 		}
 		if(i < 20)
 		{
-			PlayerTextDrawSetString(playerid, InvSlotPTD[playerid][i], stringCuozgFixHoDe);
+			PlayerTextDrawSetString(playerid, InvSlotPTD[playerid][i], Itens[pInventory[playerid][invSlot][slot]][item_strtd]);
 			PlayerTextDrawShow(playerid, InvSlotPTD[playerid][i]);
 		}
 	}
