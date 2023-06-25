@@ -5,14 +5,19 @@ func:add_item_player(playerid, itemid, amount)
 {
 	for(new i = 0; i < 20; i++)
 	{
-		if(pInventory[playerid][invSlot][i] == 0)
+		if((InvWeight[playerid]+(iItem_info[pInventory[playerid][invSlot][i]][item_weight]*amount)) < InvMaxWeight[playerid])
 		{
-			pInventory[playerid][invSlot][i] = itemid;
-			pInventory[playerid][invSlotAmount][i] = amount;
-			SendClientMessage(playerid, -1, "add item");
+			if(pInventory[playerid][invSlot][i] == 0)
+			{
+				pInventory[playerid][invSlotAmount][i] = amount;
+				pInventory[playerid][invSlot][i] = itemid;
+				InvWeight[playerid] += (iItem_info[pInventory[playerid][invSlot][i]][item_weight]*amount);
+				SendClientMessage(playerid, -1, "add item");
+			}
 			break;
-		}
+		}else return SendClientMessage(playerid, -1, "Max weight");
 	}
+	return 1;
 }
 
 
@@ -96,7 +101,7 @@ func:inventory_show(playerid)
 }
 func:inventory_hide(playerid)
 {
-	for(new i = 0; i++)
+	for(new i = 0; i < 20; i++)
 	{
 		if(i < 3)
 		{
@@ -158,14 +163,46 @@ func:inventory_slot_create_slot(playerid)
 	PlayerTextDrawSetSelectable(playerid, InvISlotPTD[playerid][0], 1);
 }
 
-CMD:invtest(playerid, params[])
+CMD:invtest1(playerid, params[])
 {
 	add_item_player(playerid, 1, 1);
-	add_item_player(playerid, 2, 1);
-	add_item_player(playerid, 4, 1);
-	add_item_player(playerid, 5, 1);
-	add_item_player(playerid, 7, 1);
 	inventory_show(playerid);
+
+	return 1;
+}
+CMD:invtest2(playerid, params[])
+{
+	add_item_player(playerid, 2, 1);
+	inventory_show(playerid);
+
+	return 1;
+}
+CMD:invtest3(playerid, params[])
+{
+	add_item_player(playerid, 3, 1);
+	inventory_show(playerid);
+
+	return 1;
+}
+CMD:invtest4(playerid, params[])
+{
+	add_item_player(playerid, 4, 1);
+	inventory_show(playerid);
+
+	return 1;
+}
+CMD:invtest5(playerid, params[])
+{
+	add_item_player(playerid, 5, 1);
+	inventory_show(playerid);
+
+	return 1;
+}
+CMD:invtest6(playerid, params[])
+{
+	add_item_player(playerid, 4, 2);
+	inventory_show(playerid);
+
 	return 1;
 }
 /* ON PLAYER CLICK

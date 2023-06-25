@@ -1,6 +1,5 @@
 #define MAX_INVENTORY_PAGE 1
 #define MAX_INVENTORY_SLOT 20
-
 enum 
 {
 	dialog_Login = 1,
@@ -73,6 +72,7 @@ enum enum_pInventory
     invSlotAmount[MAX_INVENTORY_SLOT]
 }
 new pInventory[MAX_PLAYERS][enum_pInventory];
+new Float:InvMaxWeight[MAX_PLAYERS] = 20.0, Float:InvWeight[MAX_PLAYERS] = 0.0;
 new iItem_info[][Inv_Item] = {
 	{0, 0,"","Trong", "N/A"},
 	{1, 0.8,"mdl-2004:item_9mm","Glock", "Sung ngan, su dung dan Pistol,su dung vu khi va sau do su dung hop dan.", 1},

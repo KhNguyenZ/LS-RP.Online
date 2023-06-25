@@ -1,3 +1,6 @@
+./modules/_core.pwn(51) : îøèáêà 021: èäåíòèôèêàòîð "SSCANF_OnGameModeInit" óæå îáúÿâëåí
 ./modules/dynamic/Biz/callback.pwn(13) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "count"
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 
+
+Îøèáîê:1.

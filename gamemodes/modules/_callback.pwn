@@ -39,7 +39,18 @@ public OnPlayerCommandText(playerid, cmdtext[]) {
 //     TogglePlayerSpectating(playerid, true);
 //     return 1;
 // }
-
+public OnPlayerClickTextDraw(playerid, Text:clickedid)
+{
+    if (clickedid == INVALID_TEXT_DRAW)
+    {
+    	if(GetPVarInt(playerid, #inventorystatus) == 1)
+    	{
+    		inventory_hide(playerid);
+    	}
+    	return 1;
+    }
+    return 0;
+}
 public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 {	
 	if(GetPVarInt(playerid, #inventorystatus) == 1)
