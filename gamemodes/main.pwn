@@ -62,6 +62,8 @@ main()
 #include "./modules/characters/Player/ServerTextAndTime/textdraw.pwn"
 #include "./modules/characters/Player/ServerTextAndTime/func.pwn"
 
+#include "./modules/characters/Inventory/Inventory_Main.pwn"
+
 // core login
 #include "./modules/multi-account/account.pwn"
 // core server

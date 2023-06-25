@@ -355,27 +355,27 @@ public OnPlayerLoad(playerid)
 		SendClientMessage(playerid, -1, msgzz);
 	}
 
-	if(isnull(Character[playerid][char_Note])){
-		SendClientMessage(playerid, -1, "[!] Ban chua cai dat mo ta nhan vat");
-		ShowPlayerMenuRegister(playerid);
-	}
+	// if(isnull(Character[playerid][char_Note])){
+	// 	SendClientMessage(playerid, -1, "[!] Ban chua cai dat mo ta nhan vat");
+	// 	ShowPlayerMenuRegister(playerid);
+	// }
 
-	if(Character[playerid][char_Birthday][0] <= 0 || Character[playerid][char_Birthday][1] <= 0 || Character[playerid][char_Birthday][2] <= 0) {
-		SendClientMessage(playerid, -1, "[!] Ban chua cai dat tuoi");
-		ShowPlayerMenuRegister(playerid);
-	}
-	if(Character[playerid][char_GioiTinh]!=1 && Character[playerid][char_GioiTinh]!=2 && Character[playerid][char_GioiTinh]!=3) {
-		SendClientMessage(playerid, -1, "[!] Ban chua cai dat gioi tinh");
-		ShowPlayerMenuRegister(playerid);
-	}
-	if(Character[playerid][char_Nation] != 1) {
-		SendClientMessage(playerid, -1, "[!] Ban chua cai dat quoc tich");
-		ShowPlayerMenuRegister(playerid);
-	}
-	if(Character[playerid][char_Skin] == 0) {
-		SendClientMessage(playerid, -1, "[!] Ban chua cai dat skin");
-		ShowPlayerMenuRegister(playerid);
-	}
+	// if(Character[playerid][char_Birthday][0] <= 0 || Character[playerid][char_Birthday][1] <= 0 || Character[playerid][char_Birthday][2] <= 0) {
+	// 	SendClientMessage(playerid, -1, "[!] Ban chua cai dat tuoi");
+	// 	ShowPlayerMenuRegister(playerid);
+	// }
+	// if(Character[playerid][char_GioiTinh]!=1 && Character[playerid][char_GioiTinh]!=2 && Character[playerid][char_GioiTinh]!=3) {
+	// 	SendClientMessage(playerid, -1, "[!] Ban chua cai dat gioi tinh");
+	// 	ShowPlayerMenuRegister(playerid);
+	// }
+	// if(Character[playerid][char_Nation] != 1) {
+	// 	SendClientMessage(playerid, -1, "[!] Ban chua cai dat quoc tich");
+	// 	ShowPlayerMenuRegister(playerid);
+	// }
+	// if(Character[playerid][char_Skin] == 0) {
+	// 	SendClientMessage(playerid, -1, "[!] Ban chua cai dat skin");
+	// 	ShowPlayerMenuRegister(playerid);
+	// }
 
 	return 1;
 }

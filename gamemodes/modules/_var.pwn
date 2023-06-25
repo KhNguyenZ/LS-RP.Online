@@ -30,6 +30,16 @@ enum character_Info
 	char_Note[1280],
 	char_Nation,
 	char_GioiTinh,
+	char_Phone,
+	char_DanhBa,
+	char_Dice,
+	char_Fuel,
+	char_DayThung,
+	char_XiGa,
+	char_Nuoc,
+	char_BinhSon,
+	char_Radio,
+	char_Mask
 }
 
 new Character[MAX_PLAYERS][character_Info];
@@ -52,3 +62,40 @@ new character_Name_data[MAX_PLAYERS][3][24];
 
 new CharSkinSelect[MAX_PLAYERS] = 1;
 
+#define MAX_INVENTORY_PAGE 1
+#define MAX_INVENTORY_SLOT 20
+
+new PlayerText: InvPTD[MAX_PLAYERS][5],
+	PlayerText: InvHSlotPTD[MAX_PLAYERS][3],
+	PlayerText: InvSlotPTD[MAX_PLAYERS][20],
+	PlayerText: InvISlotPTD[MAX_PLAYERS][1];
+
+enum Inv_Item{
+	item_id,
+	Float:item_weight,
+	item_strtd[32],
+	item_name[32],
+	item_detail[100],
+	item_maxamount
+}
+enum enum_pInventory
+{
+    invSlot[MAX_INVENTORY_SLOT],
+    invSelectedSlot,
+    invSlotAmount[MAX_INVENTORY_SLOT]
+}
+new pInventory[MAX_PLAYERS][enum_pInventory];
+new Float:InvMaxWeight[MAX_PLAYERS], Float:InvWeight[MAX_PLAYERS]=0;
+new iItem_info[][Inv_Item] = {
+	{0, 0,"","Trong", "N/A"},
+	{1, 0.8,"mdl-2004:9mm","Glock", "Sung ngan, su dung dan Pistol,su dung vu khi va sau do su dung hop dan.", 1},
+	{2, 1.0,"mdl-2004:tec9","Tec-9", "Sung tieu lien nho, su dung dan SMG, su dung vu khi va sau do su dung hop dan.", 1},
+	{3, 1.1,"mdl-2004:uzi","Uzi", "Sung tieu lien nho, su dung dan SMG, su dung vu khi va sau do su dung hop dan.", 1},
+	{4, 2.0,"mdl-2004:mp5","MP5", "Sung tieu lien, su dung dan SMG, su dung vu khi va sau do su dung hop dan.", 1},
+	{5, 4.0,"mdl-2004:ak47","AK-47", "Sung truong tu dong, su dung dan Rifle, su dung vu khi va sau do su dung hop dan.", 1},
+	{6, 3.5,"mdl-2004:m4","M4A1", "Sung truong, su dung dan Rifle, su dung vu khi va sau do su dung hop dan.", 1},
+	{7, 3.5,"mdl-2004:shotgun","Shotgun", "Shotgun, su dung dan Shotgun, su dung vu khi va sau do su dung hop dan.", 1},
+	{7, 3.5,"mdl-2004:spas12","Spas-12", "Shotgun ban tu dong, su dung dan Shotgun, su dung vu khi va sau do su dung hop dan.", 1},
+	{8, 3.0,"mdl-2004:rifle","Rifle", "Sung truong ban tu dong, su dung dan Rifle, su dung vu khi va sau do su dung hop dan.", 1},
+	{9, 4.0,"mdl-2004:sniper","Sniper", "Sung ban tia, su dung dan Sniper, su dung vu khi va sau do su dung hop dan.", 1}
+};

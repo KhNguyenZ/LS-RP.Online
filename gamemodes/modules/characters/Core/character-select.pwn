@@ -85,6 +85,12 @@ public OnCharacterLoad(const playerid)
 	cache_get_value_name_int(0, "AdminLevel", Character[playerid][char_Admin]);
 	cache_get_value_name_int(0, "Interior", Character[playerid][char_Interior]);
 	cache_get_value_name_int(0, "VW", Character[playerid][char_VW]);
+	cache_get_value_name_int(0, "Note", Character[playerid][char_Note]);
+	cache_get_value_name_int(0, "Gender", Character[playerid][char_GioiTinh]);
+	cache_get_value_name_int(0, "BirthDay", Character[playerid][char_Birthday][0]);
+	cache_get_value_name_int(0, "BirthMonth", Character[playerid][char_Birthday][0]);
+	cache_get_value_name_int(0, "BirthYear", Character[playerid][char_Birthday][0]);
+	cache_get_value_name_int(0, "QuocTich", Character[playerid][char_Nation][0]);
 
 	if(GetPVarInt(playerid, "SetupRegister_") == 0)
     {
