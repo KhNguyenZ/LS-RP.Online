@@ -3,31 +3,47 @@
 #include <YSI_Data\y_iterate>
 #define MAX_INVENTORY_PAGE 1
 #define MAX_INVENTORY_SLOT 20
-/*new PlayerText: InvPTD[MAX_PLAYERS][5],
+new PlayerText: InvPTD[MAX_PLAYERS][5],
 	PlayerText: InvHSlotPTD[MAX_PLAYERS][3],
 	PlayerText: InvSlotPTD[MAX_PLAYERS][20],
 	PlayerText: InvISlotPTD[MAX_PLAYERS][1];
 enum Inv_Item{
-	item_models,
+	item_id,
+	item_weight,
 	item_strtd[32],
 	item_name[64],
-}*/
+}
 new iItem_info[][Inv_Item] = {
-	{0,"mdl-2004:","Trong"},
-	{0.8,"mdl-2004:item_9mm","Glock"},
-	{1.0,"mdl-2004:item_9mm","Tec-9"},
-	{1.1,"mdl-2004:item_9mm","Uzi"},
-	{2.0,"mdl-2004:item_9mm","MP5"},
-	{4.0,"mdl-2004:item_ak47","AK-47"},
-	{3.5,"mdl-2004:item_ak47","M4A1"},
-	{3.5,"mdl-2004:item_spas","Spas-12"},
-	{3.0,"mdl-2004:item_spas","Rifle"},
-	{4.0,"mdl-2004:item_spas","Sniper"}
+	{0, 0,"mdl-2004:","Trong"},
+	{1, 0.8,"mdl-2004:item_9mm","Glock"},
+	{2, 1.0,"mdl-2004:item_9mm","Tec-9"},
+	{3, 1.1,"mdl-2004:item_9mm","Uzi"},
+	{4, 2.0,"mdl-2004:item_9mm","MP5"},
+	{5, 4.0,"mdl-2004:item_ak47","AK-47"},
+	{6, 3.5,"mdl-2004:item_ak47","M4A1"},
+	{7, 3.5,"mdl-2004:item_spas","Spas-12"},
+	{8, 3.0,"mdl-2004:item_spas","Rifle"},
+	{9, 4.0,"mdl-2004:item_spas","Sniper"}
 };
 /*func:add_item_player(playerid, itemid, amount)
 {
 
 }*/
+hook OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
+{
+	if(GetPVarInt(playerid, #inventorystatus) == 1)
+	{
+		for(new i = 0; i < 20; i++)
+		{
+			if(playertextid == InvSlotPTD[playerid][i])
+			{
+				new string[255];
+				format(string, sizeof(string), "Slot ID %d", i);
+				SendClientMessage(playerid, -1, string);
+			}
+		}
+	}
+}
 hook OnPlayerConnect(playerid)
 {
 	InvPTD[playerid][0] = CreatePlayerTextDraw(playerid, 324.000, 197.000, "mdl-2004:main");

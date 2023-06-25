@@ -51,12 +51,3 @@ new PlayerText:InfoCharPTD[MAX_PLAYERS][8];
 new character_Name_data[MAX_PLAYERS][3][24];
 
 new CharSkinSelect[MAX_PLAYERS] = 1;
-new PlayerText: InvPTD[MAX_PLAYERS][5],
-	PlayerText: InvHSlotPTD[MAX_PLAYERS][3],
-	PlayerText: InvSlotPTD[MAX_PLAYERS][20],
-	PlayerText: InvISlotPTD[MAX_PLAYERS][1];
-enum Inv_Item{
-	item_models,
-	item_strtd[32],
-	item_name[64],
-}
