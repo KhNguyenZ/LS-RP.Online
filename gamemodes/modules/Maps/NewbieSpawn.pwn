@@ -1,4 +1,4 @@
-#include <YSI\y_hooks>
+#include <YSI_Coding\y_hooks>
 
 hook OnPlayerConnect(playerid){
 	RemoveBuildingForPlayer(playerid, 955, 1729.789, -1943.046, 12.945, 0.250);
@@ -102,6 +102,6 @@ hook OnGameModeInit()
 	MapNewbieSpawn = CreateDynamicObject(-5000, 1742.701171, -1882.748291, 26.040140, 0.000000, 0.000000, 0.000000, -1, -1, -1, 1000.00, 1000.00);
 	MapNewbieSpawn = CreateDynamicObject(-5000, 1742.701171, -1882.748291, 26.040140, 0.000000, 0.000000, 0.000000, -1, -1, -1, 1000.00, 1000.00);
 	MapNewbieSpawn = CreateDynamicObject(-5000, 1742.701171, -1882.748291, 26.040140, 0.000000, 0.000000, 0.000000, -1, -1, -1, 1000.00, 1000.00);
-	LogConsole("Map", "[gnoust-map] Map Newbie spawn da load thanh cong");
+	LogConsole("Map Newbie spawn da load thanh cong", "Map");
 	return 1;
 }

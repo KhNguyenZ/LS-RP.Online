@@ -8,13 +8,16 @@ stock GetAdmin(playerid)
 	new name[1280];
 	switch(Character[playerid][char_Admin])
 	{
-		case 1: name = "{0000EE}Admin Thu Viec{FFFFFF}";
-		case 2: name = "{0000EE}Admin Chinh Thuc{FFFFFF}";
-		case 3: name = "{0000EE}Ban Dieu Hanh (Mod){FFFFFF}";
-		case 4: name = "{0000EE}Ban Dieu Hanh Tong{FFFFFF}";
-		case 5: name = "{FFFF66}Thanh Vien BQT Cap Cao";
-		case 6: name = "{FF0000}Porject Mangeer{FFFFFF}";
-		case 7: name = "{FF0000}Founder{FFFFFF}";
+		case 1: name = "{22A699}Game Support I{FFFFFF}";
+		case 2: name = "{22A699}Game Support II{FFFFFF}";
+		case 3: name = "{22A699}Game Support III{FFFFFF}";
+		case 4: name = "{F2BE22}Game Admin I{FFFFFF}";
+		case 5: name = "{F2BE22}Game Admin II";
+		case 6: name = "{F2BE22}Game Admin III {FFFFFF}";
+		case 7: name = "{F29727}Game Operator I{FFFFFF}";
+		case 8: name = "{F29727}Game Operator II{FFFFFF}";
+		case 9: name = "{9575DE}Game Leader{FFFFFF}";
+		case 10: name = "{F24C3D}Founder{FFFFFF}";
 	}
 	return name;
 }
@@ -38,9 +41,9 @@ stock SendAdminMessage(playerid, string[], level_admin)
 	return 1;
 }
 
-CMD:ac(playerid, params[])
+CMD:a(playerid, params[])
 {
-	if(isnull(params)) return SendClientMessage(playerid, -1, "SU DUNG: /ac [chat]");
+	if(isnull(params)) return SendClientMessage(playerid, -1, "SU DUNG: /a [chat]");
 
 	if(Character[playerid][char_Admin] > 0)
 	{
@@ -147,4 +150,27 @@ public Float:SetPlayerToFacePos(playerid, Float:X, Float:Y)
 	SetPlayerFacingAngle(playerid, ang);
 
  	return ang;
+}
+
+CMD:reloga(playerid, params[])
+{
+	ShowLoginPTD(playerid);
+	return 1;
+}
+
+CMD:gotoco(playerid, params[])
+{
+
+	new Float: pos[3], int;
+	if(sscanf(params, "fffd", pos[0], pos[1], pos[2], int)) return SendClientMessage(playerid, -1, "SU DUNG: /gotoco [x coordinate] [y coordinate] [z coordinate] [interior]");
+
+	HienTextdraw(playerid,"Ban da duoc dich chuyen den vi tri yeu cau.", 2000);
+	SetPlayerPos(playerid, pos[0], pos[1], pos[2]);
+	SetPlayerInterior(playerid, int);
+	return 1;
+}
+CMD:adminlevel(playerid, params[])
+{
+	printf("Your Admin Level: %d", Character[playerid][char_Admin]);
+	return 1;
 }
