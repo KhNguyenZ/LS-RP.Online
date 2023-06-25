@@ -1,6 +1,6 @@
 const MAX_PASSWORD_LEN = 32;
 
-#include <YSI\y_hooks>
+#include <YSI_Coding\y_hooks>
 hook OnGameModeInit()
 {
 	return 1;
@@ -43,7 +43,6 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				{
 					new 
 						query[320];
-					
 					mysql_format(Handle(), query, 320, "INSERT INTO `accounts` (Username, Password) VALUES ('%s', '%s')", player_get_name(playerid, false), inputtext);
 					mysql_tquery(Handle(), query, "OnAccountRegister", "i", playerid);
 					new queryzzz[1280], Cache:acc_cache;
@@ -102,7 +101,8 @@ public OnAccountCheck(const playerid)
 	}
 	else 
 	{
-		connectForm_Show(playerid, dialog_Register);
+		// connectForm_Show(playerid, dialog_Register);
+		ShowPlayerMainRegister(playerid);
 	}
 	return 1;
 }
