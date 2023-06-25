@@ -1,9 +1,8 @@
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Doors\cmd.pwn(117) : îøèáêà 020: íåâåðíîå íàçâàíèå èäåíòèôèêàòîðà ""
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Doors\cmd.pwn(117) -- (125) : îøèáêà 010: íåâåðíàÿ ôóíêöèÿ èëè îáúÿâëåíèå
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Doors\cmd.pwn(50) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "dedit"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Doors\cmd.pwn(33) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "dname"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Doors\cmd.pwn(72) : îøèáêà 020: íåâåðíîå íàçâàíèå èäåíòèôèêàòîðà ""
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Doors\cmd.pwn(72) -- (80) : îøèáêà 010: íåâåðíàÿ ôóíêöèÿ èëè îáúÿâëåíèå
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Doors\cmd.pwn(34) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "dedit"
 C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Doors\cmd.pwn(6) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "dnext"
-C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Doors\cmd.pwn(117) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "enter"
+C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Doors\cmd.pwn(72) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "enter"
 C:\Users\KhNguyenz\Desktop\base-ompvn\gamemodes\modules\dynamic\Doors\cmd.pwn(18) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "taodoor"
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 

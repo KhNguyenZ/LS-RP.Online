@@ -117,7 +117,7 @@ func:ShowLoginPTD(playerid)
 	SetPVarInt(playerid, "OpenLoginPTD_@", 1);
 	PlayerTextDrawSetString(playerid, LoginPTD[playerid][7],player_get_name(playerid, 1));
 	SelectTextDraw(playerid, 0x0d142b00);
-	for(new login_loop = 0 ; login_loop < sizeof(LoginPTD); login_loop++)
+	for(new login_loop = 0 ; login_loop < 10; login_loop++)
 	{
 		PlayerTextDrawShow(playerid,LoginPTD[playerid][login_loop]);
 	}
@@ -132,7 +132,7 @@ func:HideLoginPTD(playerid)
 {
 	CancelSelectTextDraw(playerid);
 	SetPVarInt(playerid, "OpenLoginPTD_@", 0);	
-	for(new login_loop = 0 ; login_loop < sizeof(LoginPTD); login_loop++)
+	for(new login_loop = 0 ; login_loop < 10; login_loop++)
 	{
 		PlayerTextDrawHide(playerid,LoginPTD[playerid][login_loop]);
 	}

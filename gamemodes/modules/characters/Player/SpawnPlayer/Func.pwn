@@ -6,7 +6,7 @@ func:ShowPlayerSpawnMenu(playerid)
 	{
 		PlayerTextDrawShow(playerid, SpawnLSRP[playerid][spawn_loop]);
 	}
-	SelectTextDraw(playerid, 0x0d142b00);
+	SelectTextDraw(playerid, 0x0d142bAA);
 	return 1;
 }
 func:IsOpenSpawnMenu(playerid)
@@ -21,14 +21,10 @@ func:HidePlayerSpawnMenu(playerid)
 	{
 		PlayerTextDrawHide(playerid, SpawnLSRP[playerid][spawn_loop]);
 	}
+	if(GetPVarInt(playerid, "SetupRegister_") == 1)
+	{
+		DeletePVar(playerid, "SetupRegister_");
+	}
 	return 1;
 }
 
-
-forward PlayerJoinGameReal(playerid);
-public PlayerJoinGameReal(playerid)
-{
-    SpawnPlayer(playerid);
-	FadeOutPlayerScreen(playerid);
-    return 1;
-}

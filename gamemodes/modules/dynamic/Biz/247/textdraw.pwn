@@ -1,5 +1,12 @@
 #include <YSI_Coding\y_hooks>
-
+hook OnGameModeInit()
+{
+	for(new i = 0 ; i < MAX_STORE_PAGE; i++)
+	{
+		StoreSlot[i] = 0;
+	}
+	return 1;
+}
 hook OnPlayerConnect(playerid)
 {
 	StorePTD[playerid][0] = CreatePlayerTextDraw(playerid, 109.000, 64.000, "mdl-2006:main");
@@ -112,4 +119,64 @@ hook OnPlayerConnect(playerid)
 	return 1;
 }
 
-func:CreateStoreItem(itemid)
+func:CreateStoreItem(page,itemid)
+{
+	if(INVALID_ITEM(itemid))
+	{
+		if(StoreSlot[page] < 12)
+		{
+			StoreItem[playerid][StoreSlot[page]] = CreatePlayerTextDraw(playerid, 292.000, 109.000+(StoreSlot[page]*21), StoreListItem[itemid][1]);
+			PlayerTextDrawLetterSize(playerid, StoreItem[playerid][1], 0.300, 1.500);
+			PlayerTextDrawTextSize(playerid, StoreItem[playerid][1], 11.000, 101.000);
+			PlayerTextDrawAlignment(playerid, StoreItem[playerid][1], 2);
+			PlayerTextDrawColor(playerid, StoreItem[playerid][1], -1);
+			PlayerTextDrawSetShadow(playerid, StoreItem[playerid][1], 1);
+			PlayerTextDrawSetOutline(playerid, StoreItem[playerid][1], 0);
+			PlayerTextDrawBackgroundColor(playerid, StoreItem[playerid][1], 150);
+			PlayerTextDrawFont(playerid, StoreItem[playerid][1], 1);
+			PlayerTextDrawSetProportional(playerid, StoreItem[playerid][1], 1);
+			PlayerTextDrawSetSelectable(playerid, StoreItem[playerid][1], 1);
+			StoreSlot[page]+=1;
+		}
+		else if(StoreSlot[page] < 24)
+		{
+			StoreItem[playerid][StoreSlot[page]] = CreatePlayerTextDraw(playerid, 175.000, 109.000+(StoreSlot[page]*21), "ITEM_1_MAX_10_ZAD");
+			PlayerTextDrawLetterSize(playerid, StoreItem[playerid][StoreSlot[page]], 0.300, 1.500);
+			PlayerTextDrawTextSize(playerid, StoreItem[playerid][StoreSlot[page]], 11.000, 101.000);
+			PlayerTextDrawAlignment(playerid, StoreItem[playerid][StoreSlot[page]], 2);
+			PlayerTextDrawColor(playerid, StoreItem[playerid][StoreSlot[page]], -1);
+			PlayerTextDrawSetShadow(playerid, StoreItem[playerid][StoreSlot[page]], 1);
+			PlayerTextDrawSetOutline(playerid, StoreItem[playerid][StoreSlot[page]], 0);
+			PlayerTextDrawBackgroundColor(playerid, StoreItem[playerid][StoreSlot[page]], 150);
+			PlayerTextDrawFont(playerid, StoreItem[playerid][StoreSlot[page]], 1);
+			PlayerTextDrawSetProportional(playerid, StoreItem[playerid][StoreSlot[page]], 1);
+			PlayerTextDrawSetSelectable(playerid, StoreItem[playerid][StoreSlot[page]], 1);
+			StoreSlot[page]+=1;
+		}
+		else SendClientMessage(playerid, -1, "Page da max item");
+		
+	}
+	else SendClientMessage(playerid, -1, "[!] Invaild item");
+	return 1;
+}
+
+func:BuyStoreItem(itemid)
+{
+	switch(itemid)
+	{
+		case 1: // Phone
+		{
+			
+		}
+		case 2: // Danh ba
+		case 3: // Dice
+		case 4: // Can xang
+		case 5: // Day thung
+		case 6: // Nuoc uong
+		case 7: // Xi ga
+		case 8: // Binh son
+		case 9: // Radio
+		case 10: // Mat na
+		default:
+	}
+}

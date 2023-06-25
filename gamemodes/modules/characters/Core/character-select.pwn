@@ -1,4 +1,3 @@
-static character_Name_data[MAX_PLAYERS][3][24];
 stock character_Select(const playerid) 
 {
 	Clear_Chat(playerid);
@@ -20,8 +19,8 @@ public character_List(const playerid)
 {
 	PlayerSetupping[playerid] = 1;
 	HienTextdraw(playerid, "Xin vui long chon nhan vat.", 5000);
-	new 
-		string[150] = EOS;
+	// new 
+	// 	string[150] = EOS;
 
 	if(cache_num_rows()) 
 	{
@@ -30,9 +29,40 @@ public character_List(const playerid)
 			new charname[1280];
 			format(charname, sizeof(charname), "CharName%d", i);
 			cache_get_value_name(0,charname, character_Name_data[playerid][i]);
-			format(string, 150, "%s\n%s", string, character_Name_data[playerid][i]);
+			// format(string, 150, "%s\n%s", string, character_Name_data[playerid][i]);
+			new query[240];
+			format(query, sizeof(query), "SELECT * FROM `players` WHERE `PlayerName` = '%s'", character_Name_data[playerid][i]);
+			mysql_tquery(Handle(), query, "OnCharacterSelectNews", "ii", playerid,i);
+			HienTextdraw(playerid, "Dang load du lieu , vui long doi trong giay lat", 2000);
+			SetTimerEx("ShowCharSelect_", 2000, 0, "i", playerid);
 		}
-		ShowPlayerDialog(playerid, dialog_charSelect, 2, "Chon nhan vat.", string, "Chon", "Huy");
+		// ShowCharacterSelect(playerid);
+		//ShowPlayerDialog(playerid, dialog_charSelect, 2, "Chon nhan vat.", string, "Chon", "Huy"); // code zin dialog
+	}
+	return 1;
+}
+forward ShowCharSelect_(playerid);
+public ShowCharSelect_(playerid)
+{
+	ShowCharacterSelect(playerid);
+	return 1;
+}
+forward OnCharacterSelectNews(playerid, slot_char);
+public OnCharacterSelectNews(playerid, slot_char)
+{
+	new char_load[1280];
+	if(cache_num_rows()) 
+	{
+		cache_get_value_name_int(0, "Skin", CharSelectInfo[playerid][cs_skin][slot_char]);
+		cache_get_value_name_int(0, "Gender", CharSelectInfo[playerid][cs_gender][slot_char]);
+		cache_get_value_name_int(0, "Level", CharSelectInfo[playerid][cs_level][slot_char]);
+		cache_get_value_name(0, "LastLogin", CharSelectInfo[playerid][cs_lastlogin][slot_char]);
+		format(char_load, sizeof(char_load), "Loaded_Char_%d", slot_char);
+		SetPVarInt(playerid,char_load,1);
+	}
+	else{
+		format(char_load, sizeof(char_load), "Loaded_Char_%d", slot_char);
+		SetPVarInt(playerid,char_load,0);
 	}
 	return 1;
 }
@@ -53,9 +83,14 @@ public OnCharacterLoad(const playerid)
 	cache_get_value_name_int(0, "TanSo", Character[playerid][char_tanso]);
 	cache_get_value_name_int(0, "Cash", Character[playerid][char_Cash]);
 	cache_get_value_name_int(0, "AdminLevel", Character[playerid][char_Admin]);
+	cache_get_value_name_int(0, "Interior", Character[playerid][char_Interior]);
+	cache_get_value_name_int(0, "VW", Character[playerid][char_VW]);
 
-	// printf("ID Account's %s:%d", player_get_name(playerid), Character[playerid][char_player_id]);
-    ShowPlayerSpawnMenu(playerid);
+	if(GetPVarInt(playerid, "SetupRegister_") == 0)
+    {
+    	ShowPlayerSpawnMenu(playerid);
+    }
+    return 1;
 }
 
 forward OnCharacterCreate(const playerid);
@@ -67,11 +102,13 @@ public OnCharacterCreate(const playerid)
 	mysql_format(Handle(), sdm, sizeof(sdm), "Name: %s", player_get_name(playerid));
 	SendClientMessage(playerid, -1, sdm);
 	
-	new query[240];
-	format(query, sizeof(query), "SELECT * FROM `players` WHERE `AccID` = '%s'", Character[playerid][char_account_id]);
-	mysql_tquery(Handle(), query, "OnCharacterLoad", "i", playerid);
 	PlayerSetupping[playerid] = 1;
-	ShowPlayerSpawnMenu(playerid);
+	ShowPlayerMenuRegister(playerid);
+	// ShowPlayerSpawnMenu(playerid);
+
+	new reg_log[1280];
+	format(reg_log, sizeof(reg_log), "Nguoi choi %s vua dang ky tai khoan", player_get_name(playerid, true));
+	LogConsole(reg_log, "Register");
 	return 1;
 }
 
@@ -148,7 +185,7 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				else
 				{
 					SetPlayerName(playerid, inputtext);
-					mysql_format(Handle(), _query, 200, "INSERT INTO `players` (`AccID`, `PlayerName`, `Skin`) VALUES ('%d', '%s', %d)", strval(Character[playerid][char_account_id]), inputtext, random(299) + 1);
+					mysql_format(Handle(), _query, 200, "INSERT INTO `players` (`AccID`, `PlayerName`) VALUES ('%d', '%s')", strval(Character[playerid][char_account_id]), inputtext);
 					mysql_tquery(Handle(), _query, "OnCharacterCreate", "i", playerid);
 				}
 				cache_delete(iCache);

@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\characters\Player\Inventory\Inventory_Main.pwn(43) : ïðåäóïðåæäåíèå 200: ñèìâîë "@yH_OnPlayerClickPlayerTextDraw" îáðåçàí äî 31 ñèìâîëîâ
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\characters\Player\Inventory\Inventory_Main.pwn(43) : ïðåäóïðåæäåíèå 200: ñèìâîë "@yH_OnPlayerClickPlayerTextDraw" îáðåçàí äî 31 ñèìâîëîâ
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\characters\Player\Inventory\Inventory_Main.pwn(59) : îøèáêà 021: èäåíòèôèêàòîð "@yH_OnPlayerConnect@003" óæå îáúÿâëåí
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\characters\Player\Inventory\Inventory_Main.pwn(37) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "iItem_info"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\characters\Player\Inventory\Inventory_Main.pwn(135) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "inventory_hide"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\characters\Player\Inventory\Inventory_Main.pwn(115) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "inventory_show"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\characters\Player\Inventory\Inventory_Main.pwn(155) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "inventory_slot_create_slot"
+C:\Users\Administrator\Desktop\LS-RP.Online\gamemodes\modules\characters\Player\Inventory\Inventory_Main.pwn(199) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "invtest"
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Îøèáîê:1.

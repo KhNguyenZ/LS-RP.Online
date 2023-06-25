@@ -200,7 +200,7 @@ func:IsOpenCharSelect(playerid) {
 func:ShowCharacterSelect(playerid)
 {
 	SetPVarInt(playerid, "Open_Char_Select_", 1);
-	SelectTextDraw(playerid, -1);
+	SelectTextDraw(playerid, 0x0d142bAA);
 	if(IsLoadChar(playerid, 0)) {
 		PlayerTextDrawSetPreviewModel(playerid, SelectCharPTD[playerid][1], CharSelectInfo[playerid][cs_skin][0]);
 	}

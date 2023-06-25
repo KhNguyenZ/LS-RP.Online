@@ -110,7 +110,6 @@ public OnAccountCheck(const playerid)
 forward OnAccountRegister(const playerid);
 public OnAccountRegister(const playerid) 
 {
-
 	character_Select(playerid);
 	HienTextdraw(playerid, "Dang ky tai khoan thanh cong.", 5000);
 	return 1;
