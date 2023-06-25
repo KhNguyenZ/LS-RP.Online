@@ -58,6 +58,7 @@ main()
 #include "./modules/characters/Player/SpawnPlayer/callback.pwn"
 #include "./modules/characters/Player/SpawnPlayer/func.pwn"
 #include "./modules/characters/Player/SpawnPlayer/textdraw.pwn"
+#include "./modules/characters/Player/Inventory/textdraw.pwn"
 // Text and time server
 #include "./modules/characters/Player/ServerTextAndTime/textdraw.pwn"
 #include "./modules/characters/Player/ServerTextAndTime/func.pwn"
