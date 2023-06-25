@@ -2771,3 +2771,86 @@
 [24/06/2023 12:38:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
 [24/06/2023 12:38:34 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
 [24/06/2023 12:39:15 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:03:39 AM] [WARNING] mysql_connect: no password specified
+[6/25/2023 10:03:41 AM] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[6/25/2023 10:03:43 AM] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[6/25/2023 10:10:28 AM] [WARNING] mysql_connect: no password specified
+[6/25/2023 10:10:28 AM] [ERROR] error #1146 while executing query "SELECT * FROM `biz`": Table 'lsrp.biz' doesn't exist
+[6/25/2023 10:10:28 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:10:28 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:10:28 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:10:28 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:10:28 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:10:28 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:18:44 AM] [WARNING] mysql_connect: no password specified
+[6/25/2023 10:18:44 AM] [ERROR] error #1146 while executing query "SELECT * FROM `biz`": Table 'lsrp.biz' doesn't exist
+[6/25/2023 10:18:44 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:18:44 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:18:44 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:18:44 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:18:44 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:18:44 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:21:29 AM] [WARNING] mysql_connect: no password specified
+[6/25/2023 10:21:29 AM] [ERROR] error #1146 while executing query "SELECT * FROM `biz`": Table 'lsrp.biz' doesn't exist
+[6/25/2023 10:21:29 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:21:29 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:21:29 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:21:29 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:21:29 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:21:29 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:32:54 AM] [WARNING] mysql_connect: no password specified
+[6/25/2023 10:32:54 AM] [ERROR] error #1146 while executing query "SELECT * FROM `biz`": Table 'lsrp.biz' doesn't exist
+[6/25/2023 10:32:54 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:32:54 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:32:54 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:32:54 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:32:54 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:32:54 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:38:27 AM] [WARNING] mysql_connect: no password specified
+[6/25/2023 10:38:27 AM] [ERROR] error #1146 while executing query "SELECT * FROM `biz`": Table 'lsrp.biz' doesn't exist
+[6/25/2023 10:38:27 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:38:27 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:38:27 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:38:27 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:38:27 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:38:27 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:40:33 AM] [WARNING] mysql_connect: no password specified
+[6/25/2023 10:40:33 AM] [ERROR] error #1146 while executing query "SELECT * FROM `biz`": Table 'lsrp.biz' doesn't exist
+[6/25/2023 10:40:33 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:40:33 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:40:33 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:40:33 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:40:33 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:40:33 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:40:42 AM] [WARNING] mysql_connect: no password specified
+[6/25/2023 10:40:42 AM] [ERROR] error #1146 while executing query "SELECT * FROM `biz`": Table 'lsrp.biz' doesn't exist
+[6/25/2023 10:40:42 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:40:42 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:40:42 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:40:42 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:40:42 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:40:42 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:43:37 AM] [WARNING] mysql_connect: no password specified
+[6/25/2023 10:43:37 AM] [ERROR] error #1146 while executing query "SELECT * FROM `biz`": Table 'lsrp.biz' doesn't exist
+[6/25/2023 10:43:37 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:43:37 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:43:37 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:43:37 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:43:37 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:43:37 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:50:48 AM] [WARNING] mysql_connect: no password specified
+[6/25/2023 10:50:48 AM] [ERROR] error #1146 while executing query "SELECT * FROM `biz`": Table 'lsrp.biz' doesn't exist
+[6/25/2023 10:50:48 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:50:48 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:50:48 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:50:48 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:50:48 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:50:48 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:55:17 AM] [WARNING] mysql_connect: no password specified
+[6/25/2023 10:55:17 AM] [ERROR] error #1146 while executing query "SELECT * FROM `biz`": Table 'lsrp.biz' doesn't exist
+[6/25/2023 10:55:17 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:55:17 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:55:17 AM] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[6/25/2023 10:55:17 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:55:17 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[6/25/2023 10:55:17 AM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number

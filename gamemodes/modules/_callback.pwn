@@ -42,6 +42,18 @@ public OnPlayerCommandText(playerid, cmdtext[]) {
 
 public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 {	
+	if(GetPVarInt(playerid, #inventorystatus) == 1)
+	{
+		for(new i = 0; i < 20; i++)
+		{
+			if(playertextid == InvSlotPTD[playerid][i])
+			{
+				new string[255];
+				format(string, sizeof(string), "%s %s", iItem_info[pInventory[playerid][invSlot][i]][item_name], iItem_info[pInventory[playerid][invSlot][i]][item_detail]);
+				SendClientMessage(playerid, -1, string);
+			}
+		}
+	}
 	if(playertextid == RegisterPTD[playerid][1]) // ngay sinh
 	{
 		new reg_day[1280], fm_reg[1280];

@@ -1,59 +1,21 @@
 #include <a_samp>
 #include <YSI\y_hooks>
-#include <YSI_Data\y_iterate>
-#define MAX_INVENTORY_PAGE 1
-#define MAX_INVENTORY_SLOT 20
-new PlayerText: InvPTD[MAX_PLAYERS][5],
-	PlayerText: InvHSlotPTD[MAX_PLAYERS][3],
-	PlayerText: InvSlotPTD[MAX_PLAYERS][20],
-	PlayerText: InvISlotPTD[MAX_PLAYERS][1];
-enum Inv_Item{
-	item_id,
-	item_weight,
-	item_strtd[32],
-	item_name[32],
-	item_detail[100],
-}
-enum enum_pInventory
-{
-    invSlot[MAX_INVENTORY_SLOT],
-    invSelectedSlot,
-    invSlotAmount[MAX_INVENTORY_SLOT]
-}
-new pInventory[MAX_PLAYERS][enum_pInventory];
-new iItem_info[][Inv_Item] = {
-	{0, 0,"","Trong", "N/A"},
-	{1, 0.8,"mdl-2004:item_9mm","Glock", "Sung ngan, su dung dan Pistol,su dung vu khi va sau do su dung hop dan."},
-	{2, 1.0,"mdl-2004:item_9mm","Tec-9", "Sung tieu lien nho, su dung dan SMG, su dung vu khi va sau do su dung hop dan."},
-	{3, 1.1,"mdl-2004:item_9mm","Uzi", "Sung tieu lien nho, su dung dan SMG, su dung vu khi va sau do su dung hop dan."},
-	{4, 2.0,"mdl-2004:item_9mm","MP5", "Sung tieu lien, su dung dan SMG, su dung vu khi va sau do su dung hop dan."},
-	{5, 4.0,"mdl-2004:item_ak47","AK-47", "Sung truong tu dong, su dung dan Rifle, su dung vu khi va sau do su dung hop dan."},
-	{6, 3.5,"mdl-2004:item_ak47","M4A1", "Sung truong, su dung dan Rifle, su dung vu khi va sau do su dung hop dan."},
-	{7, 3.5,"mdl-2004:item_spas","Shotgun", "Shotgun, su dung dan Shotgun, su dung vu khi va sau do su dung hop dan."},
-	{7, 3.5,"mdl-2004:item_spas","Spas-12", "Shotgun ban tu dong, su dung dan Shotgun, su dung vu khi va sau do su dung hop dan."},
-	{8, 3.0,"mdl-2004:item_spas","Rifle", "Sung truong ban tu dong, su dung dan Rifle, su dung vu khi va sau do su dung hop dan."},
-	{9, 4.0,"mdl-2004:item_spas","Sniper", "Sung ban tia, su dung dan Sniper, su dung vu khi va sau do su dung hop dan."}
-};
-/*func:add_item_player(playerid, itemid, amount)
-{
 
-}*/
-
-hook OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
+func:add_item_player(playerid, itemid, amount)
 {
-	if(GetPVarInt(playerid, #inventorystatus) == 1)
+	for(new i = 0; i < 20; i++)
 	{
-		for(new i = 0; i < 20; i++)
+		if(pInventory[playerid][invSlot][i] == 0)
 		{
-			if(playertextid == InvSlotPTD[playerid][i])
-			{
-				new string[255];
-				format(string, sizeof(string), "Slot ID %d", i);
-				SendClientMessage(playerid, -1, string);
-			}
+			pInventory[playerid][invSlot][i] = itemid;
+			pInventory[playerid][invSlotAmount][i] = amount;
+			SendClientMessage(playerid, -1, "add item");
+			break;
 		}
 	}
 }
+
+
 hook OnPlayerConnect(playerid)
 {
 	InvPTD[playerid][0] = CreatePlayerTextDraw(playerid, 324.000, 197.000, "mdl-2004:main");
@@ -106,13 +68,14 @@ hook OnPlayerConnect(playerid)
 	PlayerTextDrawFont(playerid, InvPTD[playerid][4], 1);
 	PlayerTextDrawSetProportional(playerid, InvPTD[playerid][4], 1);
 	PlayerTextDrawSetSelectable(playerid, InvPTD[playerid][4], 1);
+	inventory_slot_create_slot(playerid);
 	return 1;
 }
 
 
 func:inventory_show(playerid)
 {
-	for(new i = 0; i++)
+	for(new i = 0; i < 20; i++)
 	{
 		if(i < 3)
 		{
@@ -124,10 +87,11 @@ func:inventory_show(playerid)
 		}
 		if(i < 20)
 		{
-			PlayerTextDrawSetString(playerid, InvSlotPTD[playerid][i], Itens[pInventory[playerid][invSlot][slot]][item_strtd]);
+			PlayerTextDrawSetString(playerid, InvSlotPTD[playerid][i], iItem_info[pInventory[playerid][invSlot][i]][item_strtd]);
 			PlayerTextDrawShow(playerid, InvSlotPTD[playerid][i]);
 		}
 	}
+	SelectTextDraw(playerid, 0x0d142bAA);
 	SetPVarInt(playerid, #inventorystatus, 1);
 }
 func:inventory_hide(playerid)
@@ -147,6 +111,7 @@ func:inventory_hide(playerid)
 			PlayerTextDrawHide(playerid, InvSlotPTD[playerid][i]);
 		}
 	}
+	CancelSelectTextDraw(playerid);
 	SetPVarInt(playerid, #inventorystatus, 0);
 }
 // 5x4
@@ -191,12 +156,16 @@ func:inventory_slot_create_slot(playerid)
 	PlayerTextDrawFont(playerid, InvISlotPTD[playerid][0], 4);
 	PlayerTextDrawSetProportional(playerid, InvISlotPTD[playerid][0], 1);
 	PlayerTextDrawSetSelectable(playerid, InvISlotPTD[playerid][0], 1);
-	SelectTextDraw(playerid, 0x0d142bAA);
 }
 
 CMD:invtest(playerid, params[])
 {
-	inventory_slot_create_slot(playerid);
+	add_item_player(playerid, 1, 1);
+	add_item_player(playerid, 2, 1);
+	add_item_player(playerid, 4, 1);
+	add_item_player(playerid, 5, 1);
+	add_item_player(playerid, 7, 1);
+	inventory_show(playerid);
 	return 1;
 }
 /* ON PLAYER CLICK

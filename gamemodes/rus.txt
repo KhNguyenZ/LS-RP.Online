@@ -1,8 +1,3 @@
-./modules/characters/Player/Inventory/Inventory_Main.pwn(42) : ïðåäóïðåæäåíèå 200: ñèìâîë "@yH_OnPlayerClickPlayerTextDraw" îáðåçàí äî 31 ñèìâîëîâ
-./modules/characters/Player/Inventory/Inventory_Main.pwn(42) : ïðåäóïðåæäåíèå 200: ñèìâîë "@yH_OnPlayerClickPlayerTextDraw" îáðåçàí äî 31 ñèìâîëîâ
 ./modules/dynamic/Biz/callback.pwn(13) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "count"
-./modules/characters/Player/Inventory/Inventory_Main.pwn(36) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "iItem_info"
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 
-
-Ïðåäóïðåæäåíèé:2.
