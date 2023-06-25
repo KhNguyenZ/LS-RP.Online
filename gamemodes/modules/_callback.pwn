@@ -134,7 +134,7 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 					PlayerSelectSlot[playerid] = -1;
 					inventory_show(playerid);
 				}
-				else if(pInventory[playerid][invSlot][PlayerSelectSlot[playerid]] != pInventory[playerid][invSlot][i] && pInventory[playerid][invSlot][PlayerSelectSlot[playerid]] != 0; && GetPVarInt(playerid, #detailstatus) == 1)
+				else if(pInventory[playerid][invSlot][PlayerSelectSlot[playerid]] != pInventory[playerid][invSlot][i] && pInventory[playerid][invSlot][PlayerSelectSlot[playerid]] != 0 && GetPVarInt(playerid, #detailstatus) == 1)
 				{
 					if(	iItem_info[pInventory[playerid][invSlot][i]][item_id] != iItem_info[PlayerSelectSlot[playerid]][item_id])
 					{
