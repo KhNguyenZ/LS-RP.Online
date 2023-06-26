@@ -31,7 +31,7 @@ enum character_Info
 	char_Birthday[3],
 	char_Note[1280],
 	char_Nation,
-	char_GioiTinh,
+	char_GioiTinh,	
 }
 
 new Character[MAX_PLAYERS][character_Info];

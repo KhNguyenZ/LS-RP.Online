@@ -42991,3 +42991,19 @@ Parsing unknown legacy option usearwork
 [2023-06-26T18:31:59+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
 [2023-06-26T18:32:59+0700] [Info] Character Save: Bi Dev | AccountID: 0
 [2023-06-26T18:32:59+0700] [Info] [part] Bi_Dev has left the server (0:1)
+[2023-06-26T18:41:20+0700] [Info] [connection] incoming connection: 127.0.0.1:55784 id: 0
+[2023-06-26T18:41:20+0700] [Info] [join] Khoi_Nguyenz has joined the server (0:127.0.0.1)
+[2023-06-26T18:42:14+0700] [Info] ID:0 | Name: VIP | X:1155291264.000000 Y:-991111680.000000 Z:1096379008.000000 | VW: 0 | Inter:0 | PickupID: 19135
+[2023-06-26T19:17:51+0700] [Info] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[2023-06-26T19:17:51+0700] [Info] 
+
+[2023-06-26T19:17:51+0700] [Info]  ===============================
+
+[2023-06-26T19:17:51+0700] [Info]      sscanf plugin unloaded.    
+
+[2023-06-26T19:17:51+0700] [Info]  ===============================
+
+[2023-06-26T19:17:51+0700] [Info] plugin.mysql: Unloading plugin...
