@@ -1,4 +1,5 @@
 
+
 func:player_Login(const playerid)
 {
 	if(IsPlayerConnected(playerid) && Character[playerid][char_Login])
@@ -6,11 +7,6 @@ func:player_Login(const playerid)
 		return 1;
 	}
 	return 0;
-}
-func:RandomEx(min, max)
-{
-    new a = random(max - min) + min;
-    return a;
 }
 
 func:player_get_name(const playerid, bool:fix_ = true) 
@@ -198,6 +194,7 @@ public PlayerJoinGameReal(playerid)
 	FadeInPlayerScreen(playerid);
     return 1;
 }
+<<<<<<< HEAD
 
 stock SetPlayerJoinCamera(playerid)
 {
@@ -300,3 +297,5 @@ func:UpdateFloat(table[], field[], Float:value)
 	mysql_query(Handle(), query_build, false);
 	return 1;
 }
+=======
+>>>>>>> parent of 84df305 (Fix Register)
