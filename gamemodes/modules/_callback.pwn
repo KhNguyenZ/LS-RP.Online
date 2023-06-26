@@ -258,8 +258,6 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 		SetTimerEx("PlayerJoinGameReal", 1000, false, "i", playerid);
 		HidePlayerSpawnMenu(playerid);
 		PlayerSetupping[playerid] = 0;
-
-		OnPlayerLoad(playerid);
 	}
 	if(playertextid == SpawnLSRP[playerid][3]) // Newbie Spawn
 	{
@@ -268,7 +266,6 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
   		SetTimerEx("PlayerJoinGameReal", 1000, false, "i", playerid);
 		HidePlayerSpawnMenu(playerid);
 		PlayerSetupping[playerid] = 0;
-		OnPlayerLoad(playerid);
 	}
 	if(playertextid == LoginPTD[playerid][6])
 	{
@@ -298,8 +295,6 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid)
 			cache_delete(acc_cache);
 			character_Select(playerid);
 			HideLoginPTD(playerid);
-
-			Character[playerid][char_Login] = true;
 		}
 		else 
 		{
@@ -362,6 +357,7 @@ public OnPlayerSpawn(playerid)
 	SetPlayerInterior(playerid, Character[playerid][char_Interior]);
 	return 1;
 }
+<<<<<<< HEAD
 forward OnPlayerLoad(playerid);
 public OnPlayerLoad(playerid)
 {
@@ -399,3 +395,5 @@ public OnPlayerRequestClass(playerid, classid)
 	}
 	return 1;
 }
+=======
+>>>>>>> parent of 84df305 (Fix Register)

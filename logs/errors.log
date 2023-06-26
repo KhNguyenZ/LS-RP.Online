@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [6/25/2023 12:32:49 PM] [plugins/mysql] error #1146 while executing query "SELECT * FROM `biz`": Table 'lsrp.biz' doesn't exist
 [6/25/2023 12:32:49 PM] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
 [6/25/2023 12:32:49 PM] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
@@ -5,3 +6,35 @@
 [6/25/2023 12:32:49 PM] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
 [6/25/2023 12:32:49 PM] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
 [6/25/2023 12:32:49 PM] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+=======
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[24/06/2023 1:21:05 SA] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+>>>>>>> parent of 84df305 (Fix Register)

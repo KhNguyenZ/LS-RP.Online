@@ -35956,6 +35956,7 @@ Parsing unknown legacy option usearwork
 [2023-06-24T01:27:30+0700] [Info] ID:11 | Name: Hacker | X:1155320576.000000 Y:-991101120.000000 Z:1096376320.000000 | VW: 5 | Inter:0 | PickupID: 19135
 [2023-06-24T01:28:15+0700] [Info] Character Save: Jey BeeA | AccountID: 0
 [2023-06-24T01:28:15+0700] [Info] [part] Jey_BeeA has left the server (0:0)
+<<<<<<< HEAD
 Starting open.mp server (1.0.1.2409) from commit dcd0190a91e67c99217e8ed3254baeb86733a0e4
 Loading component Actors.dll
 	Successfully loaded component Actors (1.0.1.2409) with UID c81ca021eae2ad5c
@@ -40908,3 +40909,5 @@ Parsing unknown legacy option usearwork
 [2023-06-25T12:32:56+0700] [Info] [join] phatbentre has joined the server (0:127.0.0.1)
 [2023-06-25T12:36:01+0700] [Info] Character Save: Con Cua | AccountID: 31
 [2023-06-25T12:36:01+0700] [Info] [part] Con_Cua has left the server (0:1)
+=======
+>>>>>>> parent of 84df305 (Fix Register)
