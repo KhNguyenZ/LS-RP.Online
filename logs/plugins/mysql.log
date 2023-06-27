@@ -2978,3 +2978,726 @@
 [6/25/2023 12:32:49 PM] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
 =======
 >>>>>>> parent of 84df305 (Fix Register)
+[27/06/2023 11:18:20 SA] [WARNING] mysql_connect: no password specified
+[27/06/2023 11:18:21 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:18:21 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:18:21 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:18:21 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:18:21 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:18:21 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:18:21 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:18:21 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:18:21 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:18:21 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:18:21 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:18:21 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:20:15 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:20:25 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:20:25 SA] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 11:20:25 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:20:46 SA] [ERROR] error #1064 while executing query "INSERT INTO `biz` SET `id` = '2' `Name` = '86', `Type` = '1', `ExPosX` = '1780.827270', `ExPosY` = '-1894.709106', `ExPosZ` = '13.400671'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`Name` = '86', `Type` = '1', `ExPosX` = '1780.827270', `ExPosY` = '-1894.7091...' at line 1
+[27/06/2023 11:27:41 SA] [WARNING] mysql_connect: no password specified
+[27/06/2023 11:27:41 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:27:41 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:27:41 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:27:41 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:27:41 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:27:41 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:27:41 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:27:41 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:27:41 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:27:41 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:27:41 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:27:41 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:28:14 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:28:22 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:28:22 SA] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 11:28:22 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:28:44 SA] [ERROR] error #1064 while executing query "UPDATE `biz` SET `Name` = 'HI' `Type` = '0',`ExPosX` = '1781.794189',`ExPosY` = '-1894.227905',`ExPosZ` = '13.401380',`InPosX` = '0.000000',`InPosY` = '0.000000',`InPosZ` = '0.000000',`Locked` = '2',`OwnerName` = 'Khong co chu',`ExVW` = '0',`InVW` = '0',`ExInterior` = '0',`InInterior` = '0'WHERE `id` = '2'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`Type` = '0',`ExPosX` = '1781.794189',`ExPosY` = '-1894.227905',`ExPosZ` = '1...' at line 1
+[27/06/2023 11:29:28 SA] [ERROR] error #1064 while executing query "UPDATE `biz` SET `Name` = 'HI' `Type` = '0',`ExPosX` = '1782.037476',`ExPosY` = '-1893.239014',`ExPosZ` = '13.401559',`InPosX` = '0.000000',`InPosY` = '0.000000',`InPosZ` = '0.000000',`Locked` = '2',`OwnerName` = 'Khong co chu',`ExVW` = '0',`InVW` = '0',`ExInterior` = '0',`InInterior` = '0'WHERE `id` = '2'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`Type` = '0',`ExPosX` = '1782.037476',`ExPosY` = '-1893.239014',`ExPosZ` = '1...' at line 1
+[27/06/2023 11:29:47 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:29:47 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:29:47 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:29:47 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:29:47 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:29:47 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:29:47 SA] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1781.993774', PosY = '-1893.336792', PosZ = '13.401527', PosA = '64.503082', Health = '100.000000', Armour = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '10', Interior = '0', VW = '0', Phone = '0', DanhBa = '0', Dice = '0', CanXang = '0', DayThung = '0',": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[27/06/2023 11:31:18 SA] [WARNING] mysql_connect: no password specified
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:31:18 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:31:45 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:31:52 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:31:52 SA] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 11:31:52 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:36:15 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:36:15 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:36:15 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:36:15 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:36:15 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:36:15 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:36:15 SA] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1782.080444', PosY = '-1912.226563', PosZ = '13.401590', PosA = '196.856186', Health = '100.000000', Armour = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '10', Interior = '0', VW = '0', Phone = '0', DanhBa = '0', Dice = '0', CanXang = '0', DayThung = '0',": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[27/06/2023 11:38:24 SA] [WARNING] mysql_connect: no password specified
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:38:24 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:40:53 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:40:59 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:40:59 SA] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 11:40:59 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:41:15 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:41:15 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:41:15 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:41:15 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:41:15 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:41:15 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:41:15 SA] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1784.987305', PosY = '-1900.701660', PosZ = '13.403720', PosA = '265.100891', Health = '100.000000', Armour = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '10', Interior = '0', VW = '0', Phone = '0', DanhBa = '0', Dice = '0', CanXang = '0', DayThung = '0',": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[27/06/2023 11:44:42 SA] [WARNING] mysql_connect: no password specified
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:44:42 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:45:12 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:45:18 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:45:18 SA] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 11:45:18 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:48:20 SA] [WARNING] mysql_connect: no password specified
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:20 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:48:44 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:48:50 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:48:50 SA] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 11:48:50 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:53:43 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:53:43 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:53:43 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:53:43 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:53:43 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:53:43 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:53:43 SA] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1784.361206', PosY = '-1904.007568', PosZ = '13.403261', PosA = '309.448395', Health = '100.000000', Armour = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '10', Interior = '0', VW = '0', Phone = '0', DanhBa = '0', Dice = '0', CanXang = '0', DayThung = '0',": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[27/06/2023 11:57:29 SA] [WARNING] mysql_connect: no password specified
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:29 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:57:45 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:57:51 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:57:51 SA] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 11:57:51 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:58:13 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:58:13 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:58:13 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:58:13 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:58:13 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:58:13 SA] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 11:58:13 SA] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1775.625610', PosY = '-1896.101196', PosZ = '13.396861', PosA = '265.330658', Health = '100.000000', Armour = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '10', Interior = '0', VW = '0', Phone = '0', DanhBa = '0', Dice = '0', CanXang = '0', DayThung = '0',": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[27/06/2023 11:59:17 SA] [WARNING] mysql_connect: no password specified
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:17 SA] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 11:59:38 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:59:43 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 11:59:43 SA] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 11:59:43 SA] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:04:14 CH] [WARNING] mysql_connect: no password specified
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:04:37 CH] [ERROR] cache_get_value_name_int: value 'Hihi' is not a number
+[27/06/2023 12:04:37 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:04:52 CH] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 12:04:52 CH] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 12:04:52 CH] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 12:04:52 CH] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 12:04:52 CH] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 12:04:52 CH] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 12:04:52 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1778.981934', PosY = '-1896.771362', PosZ = '13.399321', PosA = '268.547577', Health = '100.000000', Armour = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '0', Interior = '-1', VW = '0', Phone = '0', DanhBa = '0', Dice = '0', CanXang = '0', DayThung = '0',": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[27/06/2023 12:06:39 CH] [WARNING] mysql_connect: no password specified
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:06:39 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:07:27 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:07:33 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:07:33 CH] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 12:07:33 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:09:45 CH] [WARNING] mysql_connect: no password specified
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:09:45 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:10:09 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:10:14 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:10:14 CH] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 12:10:14 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:17:14 CH] [WARNING] mysql_connect: no password specified
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:15 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:17:59 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:18:04 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:18:04 CH] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 12:18:04 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:19:05 CH] [WARNING] mysql_connect: no password specified
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:05 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:19:20 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:19:26 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:19:26 CH] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 12:19:26 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:19:46 CH] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 12:19:46 CH] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 12:19:46 CH] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 12:19:46 CH] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 12:19:46 CH] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 12:19:46 CH] [ERROR] mysql_format: destination size '300' is too small
+[27/06/2023 12:19:46 CH] [ERROR] error #1064 while executing query "UPDATE `players` SET PosX = '1796.296509', PosY = '-1898.590698', PosZ = '13.412004', PosA = '135.110565', Health = '100.000000', Armour = '0.000000', TanSo = '0', Cash = '1000', AdminLevel = '10', Interior = '0', VW = '0', Phone = '0', DanhBa = '0', Dice = '0', CanXang = '0', DayThung = '0',": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[27/06/2023 12:31:07 CH] [WARNING] mysql_connect: no password specified
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [ERROR] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:32 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:31:39 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:31:39 CH] [ERROR] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 12:31:39 CH] [ERROR] cache_get_value_name_int: value 'NULL' is not a number

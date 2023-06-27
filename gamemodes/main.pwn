@@ -77,6 +77,9 @@ main()
 #include "./modules/dynamic/Biz/callback.pwn"
 #include "./modules/dynamic/Biz/cmd.pwn"
 
+#include "./modules/dynamic/Biz/247/var.pwn"
+#include "./modules/dynamic/Biz/247/textdraw.pwn"
+#include "./modules/dynamic/Biz/247/func.pwn"
 //map
 #include "./modules/Maps/NewbieSpawn.pwn"
 #include "./modules/Maps/LSRPpark.pwn"

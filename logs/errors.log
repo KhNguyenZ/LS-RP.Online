@@ -1,0 +1,55 @@
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: value 'NULL' is not a number
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '2' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_float: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:07 CH] [plugins/mysql] cache_get_value_name_int: invalid row index '3' (number of rows: '0')
+[27/06/2023 12:31:32 CH] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:31:39 CH] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number
+[27/06/2023 12:31:39 CH] [plugins/mysql] cache_get_value_name_int: value 'c' is not a number
+[27/06/2023 12:31:39 CH] [plugins/mysql] cache_get_value_name_int: value 'NULL' is not a number

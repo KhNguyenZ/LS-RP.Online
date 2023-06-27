@@ -32,6 +32,18 @@ enum character_Info
 	char_Note[1280],
 	char_Nation,
 	char_GioiTinh,
+	char_Level,
+	
+	char_Phone,
+	char_DanhBa,
+	char_Dice,
+	char_CanXang,
+	char_DayThung,
+	char_XiGa,
+	char_Drink,
+	char_BinhSonXe,
+	char_Radio,
+	char_MatNa
 }
 
 new Character[MAX_PLAYERS][character_Info];

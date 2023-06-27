@@ -1,7 +1,7 @@
 hook OnGameModeInit(){
 	for(new i = 0 ; i < MAX_DYNAMIC_DOORS ; i++)
 	{
-		DoorInfo[i][door_id] = -1;
+		BizInfo[i][biz_id] = -1;
 	}
 	mysql_tquery(Handle(), "SELECT * FROM `biz`", "Biz_Load","");
 	return 1;
@@ -32,34 +32,9 @@ public Biz_Load()
 		cache_get_value_name_int(i, "ExInterior", BizInfo[i][biz_ExInterior]);
 		cache_get_value_name_int(i, "InInterior", BizInfo[i][biz_InInterior]);
 
-		if(BizInfo[i][biz_Type] == 1) // 24/7
-		{
-			new load_247[1290];
-			mysql_format(Handle(), load_247, sizeof(load_247), "SELECT * FROM `biz_247` WHERE `BizID` = '%d'", BizInfo[i][biz_id]);
-			mysql_tquery(Handle(), "Store_Load", "i", BizInfo[i][biz_id]);
-		}
+		SaveDynamicBiz(i);
+		ReloadBiz(i);
 	}
 	return 1;
-}
-
-forward Store_Load(storeid);
-public Store_Load(storeid)
-{
-	if(cache_num_rows())
-	{
-		cache_get_value_name_int(0, "id", StoreInfo[storeid][store_id]);
-		cache_get_value_name_int(0, "BizID", StoreInfo[storeid][store_BizID]);
-		cache_get_value_name_int(0, "Inventory", StoreInfo[storeid][store_inv]);
-		for(new i = 1 ; i < 51; i++){
-			new str_fm[128];
-			format(str_fm, sizeof(str_fm), "ItemSlot%d",i);
-			cache_get_value_name_int(0, str_fm, StoreInfo[storeid][store_ItemSlot][i]);
-		}
-		for(new z = 1 ; z < 51; z++){
-			new str_fm[128];
-			format(str_fm, sizeof(str_fm), "PriceItem%d",z);
-			cache_get_value_name_int(0, str_fm, StoreInfo[storeid][store_ItemSlot][z]);
-		}
-	}
 }
 

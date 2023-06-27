@@ -85,6 +85,27 @@ public OnCharacterLoad(const playerid)
 	cache_get_value_name_int(0, "AdminLevel", Character[playerid][char_Admin]);
 	cache_get_value_name_int(0, "Interior", Character[playerid][char_Interior]);
 	cache_get_value_name_int(0, "VW", Character[playerid][char_VW]);
+	cache_get_value_name_int(0, "Level", Character[playerid][char_Level]);
+	cache_get_value_name_int(0, "Gender", Character[playerid][char_GioiTinh]);
+	cache_get_value_name_int(0, "QuocTich", Character[playerid][char_Nation]);
+	cache_get_value_name_int(0, "Note", Character[playerid][char_Note]);
+
+	cache_get_value_name_int(0, "BirthDay", Character[playerid][char_Birthday][0]);
+	cache_get_value_name_int(0, "BirthMonth", Character[playerid][char_Birthday][1]);
+	cache_get_value_name_int(0, "BirthYear", Character[playerid][char_Birthday][2]);
+
+	// Phone, danh ba, xuc xac, can xang, day thung, xi ga, nc uong, bjnh son, dam radio, cam, ve so, key khoa xe, mask,
+
+	cache_get_value_name_int(0, "Phone", Character[playerid][char_Phone]);
+	cache_get_value_name_int(0, "DanhBa", Character[playerid][char_DanhBa]);
+	cache_get_value_name_int(0, "Dice", Character[playerid][char_Dice]);
+	cache_get_value_name_int(0, "CanXang", Character[playerid][char_CanXang]);
+	cache_get_value_name_int(0, "DayThung", Character[playerid][char_DayThung]);
+	cache_get_value_name_int(0, "XiGa", Character[playerid][char_XiGa]);
+	cache_get_value_name_int(0, "Drink", Character[playerid][char_Drink]);
+	cache_get_value_name_int(0, "BinhSonXe", Character[playerid][char_BinhSonXe]);
+	cache_get_value_name_int(0, "Radio", Character[playerid][char_Radio]);
+	cache_get_value_name_int(0, "MatNa", Character[playerid][char_MatNa]);
 
 	if(GetPVarInt(playerid, "SetupRegister_") == 0)
     {

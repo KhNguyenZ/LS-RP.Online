@@ -24,6 +24,18 @@ hook OnPlayerDisconnect(playerid, reason)
 		mysql_format(Handle(), query, sizeof(query), "%s AdminLevel = '%d',", query, Character[playerid][char_Admin]);
 		mysql_format(Handle(), query, sizeof(query), "%s Interior = '%d',", query, Character[playerid][char_Interior]);
 		mysql_format(Handle(), query, sizeof(query), "%s VW = '%d',", query, Character[playerid][char_VW]);
+		
+		mysql_format(Handle(), query, sizeof(query), "%s Phone = '%d',", query, Character[playerid][char_Phone]);
+		mysql_format(Handle(), query, sizeof(query), "%s DanhBa = '%d',", query, Character[playerid][char_DanhBa]);
+		mysql_format(Handle(), query, sizeof(query), "%s Dice = '%d',", query, Character[playerid][char_Dice]);
+		mysql_format(Handle(), query, sizeof(query), "%s CanXang = '%d',", query, Character[playerid][char_CanXang]);
+		mysql_format(Handle(), query, sizeof(query), "%s DayThung = '%d',", query, Character[playerid][char_DayThung]);
+		mysql_format(Handle(), query, sizeof(query), "%s XiGa = '%d',", query, Character[playerid][char_XiGa]);
+		mysql_format(Handle(), query, sizeof(query), "%s Drink = '%d',", query, Character[playerid][char_Drink]);
+		mysql_format(Handle(), query, sizeof(query), "%s BinhSonXe = '%d',", query, Character[playerid][char_BinhSonXe]);
+		mysql_format(Handle(), query, sizeof(query), "%s Radio = '%d',", query, Character[playerid][char_Radio]);
+		mysql_format(Handle(), query, sizeof(query), "%s MatNa = '%d',", query, Character[playerid][char_MatNa]);
+
 		mysql_format(Handle(), query, sizeof(query), "%s Skin = %d WHERE `id` = '%d' LIMIT 1", query, Character[playerid][char_Skin], Character[playerid][char_player_id]);
 		if(mysql_tquery(Handle(), query))
 		{
