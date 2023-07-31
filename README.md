@@ -5,7 +5,7 @@ Nhat Nam ( Designer & Devloper )
 
 
 - Master Account
-- Remake Any Mapping As ***PSA-RP***
+- Map remake same ***PSA-RP***
 - Biz System
 - Door System
 - 24/7 Store
